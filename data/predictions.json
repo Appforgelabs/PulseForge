@@ -1,0 +1,12 @@
+{
+  "last_updated": "2026-02-16T15:14:28.783962",
+  "predictions": [
+    {
+      "name": "Trend Regime",
+      "direction": "NEUTRAL",
+      "confidence": 45,
+      "horizon": "1-2 weeks",
+      "rationale": "SPY vs 20/50 SMA alignment. Price: $681.75, SMA20: $689.15, SMA50: $687.36"
+    }
+  ]
+}

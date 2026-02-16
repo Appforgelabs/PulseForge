@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseForge — Market Macro Intelligence</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>⚡ PulseForge</h1>
+            <span class="tagline">Market Macro Intelligence</span>
+        </div>
+        <div class="header-right">
+            <div class="pulse-score-container">
+                <div class="pulse-label">MARKET PULSE</div>
+                <div class="pulse-score" id="pulseScore">--</div>
+                <div class="pulse-regime" id="pulseRegime">Loading...</div>
+            </div>
+            <div class="last-updated" id="lastUpdated">--</div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Top Row: Key Metrics -->
+        <section class="metrics-grid" id="metricsGrid">
+            <div class="metric-card" id="metric-vix">
+                <div class="metric-header">VIX</div>
+                <div class="metric-value" id="vixValue">--</div>
+                <div class="metric-change" id="vixChange">--</div>
+                <div class="metric-spark" id="vixSpark"></div>
+            </div>
+            <div class="metric-card" id="metric-spy">
+                <div class="metric-header">S&P 500</div>
+                <div class="metric-value" id="spyValue">--</div>
+                <div class="metric-change" id="spyChange">--</div>
+                <div class="metric-spark" id="spySpark"></div>
+            </div>
+            <div class="metric-card" id="metric-dxy">
+                <div class="metric-header">US Dollar (DXY)</div>
+                <div class="metric-value" id="dxyValue">--</div>
+                <div class="metric-change" id="dxyChange">--</div>
+                <div class="metric-spark" id="dxySpark"></div>
+            </div>
+            <div class="metric-card" id="metric-tny">
+                <div class="metric-header">10Y Treasury</div>
+                <div class="metric-value" id="tnyValue">--</div>
+                <div class="metric-change" id="tnyChange">--</div>
+                <div class="metric-spark" id="tnySpark"></div>
+            </div>
+            <div class="metric-card" id="metric-btc">
+                <div class="metric-header">Bitcoin</div>
+                <div class="metric-value" id="btcValue">--</div>
+                <div class="metric-change" id="btcChange">--</div>
+                <div class="metric-spark" id="btcSpark"></div>
+            </div>
+            <div class="metric-card" id="metric-oil">
+                <div class="metric-header">Crude Oil</div>
+                <div class="metric-value" id="oilValue">--</div>
+                <div class="metric-change" id="oilChange">--</div>
+                <div class="metric-spark" id="oilSpark"></div>
+            </div>
+        </section>
+
+        <!-- Pulse Score Chart -->
+        <section class="chart-section">
+            <h2>📊 Market Pulse Score — Historical</h2>
+            <p class="chart-desc">ML-driven composite score (0-100). Below 30 = Fear, 30-70 = Neutral, Above 70 = Greed.</p>
+            <div class="chart-container" id="pulseChart"></div>
+        </section>
+
+        <!-- Sector Performance -->
+        <section class="chart-section">
+            <h2>🏭 Sector Performance</h2>
+            <p class="chart-desc">Relative sector rotation — where is the money flowing?</p>
+            <div class="chart-container" id="sectorChart"></div>
+        </section>
+
+        <!-- Watchlist -->
+        <section class="chart-section">
+            <h2>👁️ Watchlist Tracker</h2>
+            <p class="chart-desc">Key positions and targets.</p>
+            <div class="watchlist-table" id="watchlistTable"></div>
+        </section>
+
+        <!-- Volatility Surface -->
+        <section class="chart-section">
+            <h2>🌊 Volatility Regime</h2>
+            <p class="chart-desc">VIX term structure and regime classification.</p>
+            <div class="chart-container" id="volChart"></div>
+        </section>
+
+        <!-- Predictions -->
+        <section class="chart-section">
+            <h2>🤖 ML Predictions</h2>
+            <p class="chart-desc">Random Forest regime classifier + momentum signals.</p>
+            <div class="predictions-grid" id="predictionsGrid"></div>
+        </section>
+
+        <!-- Macro Calendar -->
+        <section class="chart-section">
+            <h2>📅 Macro Context</h2>
+            <div class="macro-notes" id="macroNotes">Loading macro context...</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>⚡ PulseForge by <a href="https://github.com/Appforgelabs">Appforgelabs</a> — Data updated daily via GitHub Actions</p>
+        <p class="disclaimer">Not financial advice. For educational and personal use only.</p>
+    </footer>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>

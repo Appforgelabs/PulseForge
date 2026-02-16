@@ -1,0 +1,36 @@
+name: PulseForge Daily Pipeline
+
+on:
+  schedule:
+    # Run at 6 PM ET (11 PM UTC) on weekdays
+    - cron: '0 23 * * 1-5'
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run data pipeline
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
+        run: python scripts/fetch_data.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "PulseForge Bot"
+          git config user.email "bot@pulseforge.dev"
+          git add data/
+          git diff --cached --quiet || git commit -m "📊 Daily data update $(date -u +%Y-%m-%d)"
+          git push
