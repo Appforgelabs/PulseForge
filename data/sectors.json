@@ -1,60 +1,60 @@
 {
-  "last_updated": "2026-02-16T15:29:41.965354",
+  "last_updated": "2026-02-16T18:00:14.981827",
   "sectors": {
     "Technology": {
       "symbol": "XLK",
-      "price": 139.57,
-      "change_pct": 0.2586
+      "price": 139.56,
+      "change_pct": 0.2514
     },
     "Financials": {
       "symbol": "XLF",
-      "price": 51.66,
-      "change_pct": -0.058
+      "price": 51.65,
+      "change_pct": -0.0774
     },
     "Energy": {
       "symbol": "XLE",
-      "price": 54.36,
-      "change_pct": 0.704
+      "price": 54.35,
+      "change_pct": 0.6854
     },
     "Healthcare": {
       "symbol": "XLV",
-      "price": 157.68,
-      "change_pct": 1.0769
+      "price": 157.67,
+      "change_pct": 1.0705
     },
     "Industrials": {
       "symbol": "XLI",
-      "price": 174.18,
-      "change_pct": 0.8278
+      "price": 174.17,
+      "change_pct": 0.822
     },
     "Cons. Disc.": {
       "symbol": "XLY",
-      "price": 116.19,
-      "change_pct": 0.0517
+      "price": 116.18,
+      "change_pct": 0.0431
     },
     "Cons. Staples": {
       "symbol": "XLP",
-      "price": 89.52,
-      "change_pct": 0.3475
+      "price": 89.51,
+      "change_pct": 0.3363
     },
     "Utilities": {
       "symbol": "XLU",
-      "price": 46.51,
-      "change_pct": 2.7845
+      "price": 46.5,
+      "change_pct": 2.7624
     },
     "Real Estate": {
       "symbol": "XLRE",
-      "price": 43.51,
-      "change_pct": 1.4929
+      "price": 43.5,
+      "change_pct": 1.4696
     },
     "Comms": {
       "symbol": "XLC",
-      "price": 114.59,
-      "change_pct": -0.0436
+      "price": 114.58,
+      "change_pct": -0.0523
     },
     "Materials": {
       "symbol": "XLB",
-      "price": 53.32,
-      "change_pct": 0.9275
+      "price": 53.31,
+      "change_pct": 0.9086
     }
   }
 }
