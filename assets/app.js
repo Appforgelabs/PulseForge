@@ -75,22 +75,22 @@ function renderMetrics(data) {
     if (!data) return;
 
     const metrics = [
-        { id: 'vix', key: 'VIX', color: '#ef4444', decimals: 2 },
-        { id: 'spy', key: 'SPY', color: '#3b82f6', decimals: 2 },
-        { id: 'dxy', key: 'DXY', color: '#8b5cf6', decimals: 2 },
-        { id: 'tny', key: 'TNX', color: '#f59e0b', decimals: 3 },
-        { id: 'btc', key: 'BTC', color: '#f97316', decimals: 0 },
-        { id: 'oil', key: 'CL', color: '#10b981', decimals: 2 }
+        { id: 'vix', key: 'VIX', color: '#ef4444', decimals: 2, prefix: '', suffix: '' },
+        { id: 'spy', key: 'SPY', color: '#3b82f6', decimals: 2, prefix: '$', suffix: '' },
+        { id: 'dxy', key: 'DXY', color: '#8b5cf6', decimals: 2, prefix: '', suffix: '' },
+        { id: 'tny', key: 'TNX', color: '#f59e0b', decimals: 2, prefix: '', suffix: '%' },
+        { id: 'btc', key: 'BTC', color: '#f97316', decimals: 0, prefix: '$', suffix: '' },
+        { id: 'oil', key: 'CL', color: '#10b981', decimals: 2, prefix: '$', suffix: '' }
     ];
 
-    metrics.forEach(({ id, key, color, decimals }) => {
+    metrics.forEach(({ id, key, color, decimals, prefix, suffix }) => {
         const series = data[key];
         if (!series) return;
         const values = series.values || [];
         const current = values[values.length - 1];
         const previous = values[values.length - 2];
 
-        document.getElementById(`${id}Value`).textContent = fmt(current, decimals);
+        document.getElementById(`${id}Value`).textContent = `${prefix}${fmt(current, decimals)}${suffix}`;
         const change = fmtChange(current, previous);
         const changeEl = document.getElementById(`${id}Change`);
         changeEl.textContent = change.text;
