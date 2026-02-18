@@ -38,30 +38,40 @@ SECTORS = {
 }
 
 # ── API Helpers ──
-def fetch_json(url, headers=None):
-    """Fetch JSON from URL with error handling."""
-    req = urllib.request.Request(url)
-    req.add_header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
-    if headers:
-        for k, v in headers.items():
-            req.add_header(k, v)
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            return json.loads(resp.read().decode())
-    except Exception as e:
-        print(f"  WARN: Failed to fetch {url}: {e}", file=sys.stderr)
-        return None
+def fetch_json(url, headers=None, retries=2):
+    """Fetch JSON from URL with error handling and retry logic."""
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(url)
+        req.add_header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
+        if headers:
+            for k, v in headers.items():
+                req.add_header(k, v)
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                return json.loads(resp.read().decode())
+        except Exception as e:
+            if attempt < retries:
+                wait = 2 ** attempt
+                print(f"  WARN: Attempt {attempt+1} failed for {url}: {e}. Retrying in {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+            else:
+                print(f"  WARN: Failed to fetch {url} after {retries+1} attempts: {e}", file=sys.stderr)
+                return None
 
-def fetch_text(url):
-    """Fetch raw text from URL."""
-    req = urllib.request.Request(url)
-    req.add_header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            return resp.read().decode()
-    except Exception as e:
-        print(f"  WARN: Failed to fetch text {url}: {e}", file=sys.stderr)
-        return None
+def fetch_text(url, retries=2):
+    """Fetch raw text from URL with retry logic."""
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(url)
+        req.add_header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                return resp.read().decode()
+        except Exception as e:
+            if attempt < retries:
+                time.sleep(2 ** attempt)
+            else:
+                print(f"  WARN: Failed to fetch text {url}: {e}", file=sys.stderr)
+                return None
 
 def finnhub_quote(symbol):
     """Get quote from Finnhub."""
