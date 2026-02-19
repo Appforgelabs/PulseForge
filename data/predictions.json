@@ -1,26 +1,26 @@
 {
-  "last_updated": "2026-02-18T18:28:06.596030",
+  "last_updated": "2026-02-19T18:00:14.259676",
   "predictions": [
     {
       "name": "Trend Regime",
       "direction": "NEUTRAL",
       "confidence": 45,
       "horizon": "1-2 weeks",
-      "rationale": "SPY vs 20/50 SMA alignment. Price: $682.85, SMA20: $688.71, SMA50: $687.33"
+      "rationale": "SPY vs 20/50 SMA alignment. Price: $686.29, SMA20: $689.14, SMA50: $687.37"
     },
     {
       "name": "Volatility Regime",
       "direction": "NEUTRAL",
-      "confidence": 54,
+      "confidence": 56,
       "horizon": "1 week",
-      "rationale": "VIX: 19.6 vs 20-day avg: 18.1. Normal volatility range"
+      "rationale": "VIX: 20.2 vs 20-day avg: 18.2. Normal volatility range"
     },
     {
       "name": "Pulse Momentum",
       "direction": "NEUTRAL",
-      "confidence": 41,
+      "confidence": 40,
       "horizon": "3-5 days",
-      "rationale": "5-day avg pulse: 51.7, trend: -17.3. Mixed signals \u2014 chop zone"
+      "rationale": "5-day avg pulse: 49.0, trend: -16.2. Mixed signals \u2014 chop zone"
     }
   ]
 }
