@@ -1,17 +1,12 @@
 {
-  "last_updated": "2026-02-19T18:00:14.259676",
+  "last_updated": "2026-02-19T23:06:27.227701",
   "notes": [
-    "VIX at 20.2 — elevated vs 20-day avg of 18.2, but within normal range",
-    "SPY at $686.29 — below both SMA20 ($689.14) and SMA50 ($687.37); bearish near-term structure",
-    "10Y Treasury Yield: 4.08% — moderately elevated, keeping rate pressure on growth stocks",
-    "US Dollar Index (DXY): 97.83 — notably weak dollar, historically supportive of commodities/international",
-    "WTI Crude Oil: $66.67 — soft oil prices; Energy sector bucking trend (+0.73%)",
-    "BTC: $66,428 — holding above key $65K level",
-    "Pulse Score: 45.0 (Feb 19) — in chop/neutral zone; 5-day avg 49.0 with -16.2 trend = deteriorating momentum",
-    "Sector rotation: Utilities (+1.10%), Energy (+0.73%), Industrials (+0.74%) outperforming; Financials (-0.84%), Cons. Disc. (-0.67%), Tech (-0.50%) lagging — defensive rotation underway",
-    "All 3 predictions NEUTRAL — trend regime, volatility regime, and pulse momentum all in chop zone",
-    "Macro summary (Feb 19 EOD): Market in indecisive phase. SPY trading below key moving averages with deteriorating pulse momentum. Defensive sectors (Utilities, Industrials) outperforming cyclicals — suggests risk-off rotation. Weak DXY could support commodities. No clear directional edge; reduce size, avoid chasing.",
-    "Pipeline v2 — data sources: Polygon.io, Yahoo Finance, Finnhub",
-    "Last run: 2026-02-19 06:00 PM ET"
+    "VIX at 20.2 \u2014 normal range",
+    "S&P 500 below 50-day MA ($687) \u2014 cautious positioning warranted",
+    "10Y Treasury Yield: 4.08%",
+    "US Dollar Index (DXY): 97.84",
+    "WTI Crude Oil: $66.67",
+    "Pipeline v2 \u2014 data sources: Polygon.io, Yahoo Finance, Finnhub",
+    "Last run: 2026-02-19 11:06 PM ET"
   ]
 }
