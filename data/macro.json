@@ -1,12 +1,13 @@
 {
   "last_updated": "2026-02-20T18:00:13.783168",
   "notes": [
-    "VIX at 19.1 \u2014 normal range",
-    "S&P 500 below 50-day MA ($687) \u2014 cautious positioning warranted",
+    "VIX at 19.1 — normal range",
+    "S&P 500 below 50-day MA ($687) — cautious positioning warranted",
     "10Y Treasury Yield: 4.09%",
     "US Dollar Index (DXY): 97.79",
     "WTI Crude Oil: $66.31",
-    "Pipeline v2 \u2014 data sources: Polygon.io, Yahoo Finance, Finnhub",
-    "Last run: 2026-02-20 06:00 PM ET"
+    "Pipeline v2 — data sources: Polygon.io, Yahoo Finance, Finnhub",
+    "Last run: 2026-02-20 06:00 PM ET",
+    "📊 [2026-02-20 EOD Summary] Pulse score closed the week at 46.1 — neutral/cautious territory. SPY ($684.48) remains below both its 20-day ($689.10) and 50-day ($687.35) SMAs, signaling near-term weakness. Pulse has trended down from 61.2 on Feb 13 to 46.1 today, a -15pt slide in a week. All 3 prediction models are NEUTRAL with low confidence (43-52%), indicating a chop zone — no strong directional edge. DXY notably soft at 97.79 (multi-month lows), supporting commodities and international exposure. BTC at $66,970 — holding but not breaking out. WTI oil weak at $66.31. Best performing sectors today: Comms (XLC +1.44%), Consumer Disc (XLY +1.04%), Financials (XLF +0.65%). Laggards: Energy (XLE -0.54%), Healthcare (XLV -0.28%). Bias: Neutral-to-cautious. Watch for SPY reclaim of $687-689 zone as bull/bear pivot next week."
   ]
 }
