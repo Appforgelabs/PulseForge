@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-19T23:06:27.227701",
+  "last_updated": "2026-02-20T09:33:04.911245",
   "notes": [
-    "VIX at 20.2 \u2014 normal range",
+    "VIX at 21.1 \u2014 normal range",
     "S&P 500 below 50-day MA ($687) \u2014 cautious positioning warranted",
-    "10Y Treasury Yield: 4.08%",
-    "US Dollar Index (DXY): 97.84",
-    "WTI Crude Oil: $66.67",
+    "10Y Treasury Yield: 4.07%",
+    "US Dollar Index (DXY): 97.92",
+    "WTI Crude Oil: $66.04",
     "Pipeline v2 \u2014 data sources: Polygon.io, Yahoo Finance, Finnhub",
-    "Last run: 2026-02-19 11:06 PM ET"
+    "Last run: 2026-02-20 09:33 AM ET"
   ]
 }
