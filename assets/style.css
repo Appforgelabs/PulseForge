@@ -1,4 +1,4 @@
-/* PulseForge — Dark Theme Dashboard */
+/* PulseForge — Dark Theme Dashboard — v2 (Tab Layout + LW Charts) */
 :root {
     --bg-primary: #0a0e17;
     --bg-secondary: #111827;
@@ -360,4 +360,233 @@ footer a {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+/* ── Tab Navigation ── */
+.tab-nav {
+    display: flex;
+    gap: 0;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    position: sticky;
+    top: 85px;
+    z-index: 90;
+}
+
+.tab-btn {
+    padding: 14px 24px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--text-muted);
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+
+.tab-btn:hover { color: var(--accent-blue); }
+.tab-btn.active {
+    color: var(--accent-blue);
+    border-bottom-color: var(--accent-blue);
+    font-weight: 700;
+}
+
+/* ── Tab Content ── */
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* ── Watchlist Manager ── */
+.watchlist-manager {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem 0.75rem;
+}
+
+.wm-header h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.wm-desc {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.wm-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.wm-tickers {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wm-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    padding: 4px 12px 4px 14px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--font-mono);
+    color: var(--accent-cyan);
+    transition: border-color 0.15s;
+}
+
+.wm-pill:hover { border-color: var(--accent-blue); }
+
+.wm-remove {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0 2px;
+    border-radius: 50%;
+    transition: color 0.15s;
+}
+
+.wm-remove:hover { color: var(--accent-red); }
+
+.wm-add {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.wm-add input {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    width: 140px;
+    outline: none;
+    text-transform: uppercase;
+    transition: border-color 0.15s;
+}
+
+.wm-add input:focus { border-color: var(--accent-blue); }
+.wm-add input::placeholder { text-transform: none; color: var(--text-muted); }
+
+.wm-add button {
+    background: var(--accent-blue);
+    border: none;
+    border-radius: 8px;
+    padding: 6px 14px;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.wm-add button:hover { opacity: 0.85; }
+
+/* ── Lightweight Charts Grid ── */
+.lw-charts-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0.75rem 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    gap: 1.25rem;
+}
+
+.lw-loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.lw-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+}
+
+.lw-card:hover { border-color: var(--accent-blue); }
+
+.lw-card-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 14px 16px 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.lw-ticker {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--accent-cyan);
+}
+
+.lw-price {
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.lw-change {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.lw-change.up { color: var(--accent-green); }
+.lw-change.down { color: var(--accent-red); }
+
+.lw-chart-wrap {
+    padding: 8px 12px 0;
+    width: 100%;
+}
+
+.lw-vol-wrap {
+    padding: 0 12px 8px;
+    width: 100%;
+}
+
+.lw-nodata {
+    padding: 32px 16px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.lw-nodata span {
+    font-size: 0.75rem;
+    opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+    .tab-nav { padding: 0 1rem; overflow-x: auto; top: 120px; }
+    .tab-btn { padding: 12px 16px; }
+    .watchlist-manager { padding: 1rem 1rem 0.5rem; }
+    .lw-charts-grid { padding: 0.5rem 1rem 1.5rem; grid-template-columns: 1fr; }
+    .wm-add { margin-left: 0; }
 }

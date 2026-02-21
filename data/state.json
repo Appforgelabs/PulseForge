@@ -1,6 +1,6 @@
 {
-  "last_pipeline_run": "2026-02-18T23:00:14Z",
-  "last_sync_to_github": "2026-02-16T23:00:14Z",
+  "last_pipeline_run": "2026-02-20T23:00:13Z",
+  "last_sync_to_github": "2026-02-20T23:00:13Z",
   "last_error": null,
   "pipeline_version": "1.0.0",
   "data_sources": {
@@ -15,11 +15,12 @@
       "rate_limit": "60/min"
     }
   },
-  "last_alert_check": "2026-02-17T14:00:00-05:00",
-  "last_run": "2026-02-16T18:00:14",
+  "last_alert_check": "2026-02-20T14:00:00-05:00",
+  "last_run": "2026-02-20T18:00:13",
   "status": "success_with_warnings",
   "warnings": [
-    "Polygon 429 rate-limit on CL=F and USO (oil futures) \u2014 non-critical",
-    "VIX quote unavailable via Finnhub (index not supported) \u2014 skipped"
+    "Polygon 403 on I:VIX index endpoint — non-critical, VIX sourced from Yahoo Finance instead",
+    "Polygon 429 rate-limit on CL=F and USO (oil futures) — non-critical",
+    "VIX quote unavailable via Finnhub (index not supported) — skipped"
   ]
 }
