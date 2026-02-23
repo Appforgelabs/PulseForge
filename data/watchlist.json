@@ -1,58 +1,58 @@
 {
-  "last_updated": "2026-02-20T23:05:10.505578",
+  "last_updated": "2026-02-23T10:34:20.627961",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 411.82,
-      "change_pct": 0.0267,
-      "volume": null,
-      "signal": "NEUTRAL",
-      "notes": ""
-    },
-    {
-      "ticker": "PLTR",
-      "price": 135.24,
-      "change_pct": 0.2595,
-      "volume": null,
-      "signal": "NEUTRAL",
-      "notes": ""
-    },
-    {
-      "ticker": "AMZN",
-      "price": 210.11,
-      "change_pct": 2.5627,
-      "volume": null,
-      "signal": "BULLISH",
-      "notes": ""
-    },
-    {
-      "ticker": "HOOD",
-      "price": 76.11,
-      "change_pct": 0.6081,
-      "volume": null,
-      "signal": "NEUTRAL",
-      "notes": ""
-    },
-    {
-      "ticker": "SOFI",
-      "price": 19.02,
-      "change_pct": -1.4508,
-      "volume": null,
-      "signal": "NEUTRAL",
-      "notes": ""
-    },
-    {
-      "ticker": "RIVN",
-      "price": 15.27,
-      "change_pct": -2.0526,
+      "price": 403.14,
+      "change_pct": -2.1077,
       "volume": null,
       "signal": "BEARISH",
       "notes": ""
     },
     {
+      "ticker": "PLTR",
+      "price": 129.25,
+      "change_pct": -4.4292,
+      "volume": null,
+      "signal": "BEARISH",
+      "notes": ""
+    },
+    {
+      "ticker": "AMZN",
+      "price": 204.76,
+      "change_pct": -2.5463,
+      "volume": null,
+      "signal": "BEARISH",
+      "notes": ""
+    },
+    {
+      "ticker": "HOOD",
+      "price": 72.67,
+      "change_pct": -4.5198,
+      "volume": null,
+      "signal": "BEARISH",
+      "notes": ""
+    },
+    {
+      "ticker": "SOFI",
+      "price": 18.05,
+      "change_pct": -5.0999,
+      "volume": null,
+      "signal": "BEARISH",
+      "notes": ""
+    },
+    {
+      "ticker": "RIVN",
+      "price": 15.14,
+      "change_pct": -0.8513,
+      "volume": null,
+      "signal": "NEUTRAL",
+      "notes": ""
+    },
+    {
       "ticker": "NIO",
-      "price": 5.07,
-      "change_pct": 2.8398,
+      "price": 5.39,
+      "change_pct": 6.3116,
       "volume": null,
       "signal": "BULLISH",
       "notes": ""
