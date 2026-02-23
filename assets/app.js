@@ -329,6 +329,9 @@ function renderMacroNotes(data) {
     document.getElementById('macroNotes').innerHTML = '<ul>' + data.notes.map(n => `<li>${n}</li>`).join('') + '</ul>';
 }
 
+// ── Live Price Cache (populated by init() from watchlist Sheets data) ──
+let livePrices = {}; // ticker -> { price, change_pct }
+
 // ── Lightweight Charts Tab ──
 let lwInstances = {}; // ticker -> chart instance (for cleanup)
 
@@ -383,15 +386,30 @@ async function renderSingleChart(ticker) {
     const last = candles[candles.length - 1];
     const prev = candles[candles.length - 2];
 
-    // Update price/change header
+    // Update price/change header — prefer live price from Sheets if available
     const priceEl = document.getElementById(`lwprice-${ticker}`);
-    const chgEl = document.getElementById(`lwchg-${ticker}`);
-    if (priceEl) priceEl.textContent = `$${last.c.toFixed(2)}`;
-    if (chgEl) {
-        const chgPct = prev ? ((last.c - prev.c) / prev.c * 100) : 0;
-        const sign = chgPct >= 0 ? '+' : '';
-        chgEl.textContent = `${sign}${chgPct.toFixed(2)}%`;
-        chgEl.className = `lw-change ${chgPct >= 0 ? 'up' : 'down'}`;
+    const chgEl   = document.getElementById(`lwchg-${ticker}`);
+    const live     = livePrices[ticker];
+
+    if (live && live.price != null) {
+        // Show live (intraday) price and today's % change vs last close
+        if (priceEl) priceEl.textContent = `$${Number(live.price).toFixed(2)}`;
+        if (chgEl) {
+            const pct  = live.change_pct != null ? Number(live.change_pct) :
+                         ((live.price - last.c) / last.c * 100);
+            const sign = pct >= 0 ? '+' : '';
+            chgEl.textContent  = `${sign}${pct.toFixed(2)}% today`;
+            chgEl.className    = `lw-change ${pct >= 0 ? 'up' : 'down'}`;
+        }
+    } else {
+        // Fallback: use last completed candle
+        if (priceEl) priceEl.textContent = `$${last.c.toFixed(2)}`;
+        if (chgEl) {
+            const chgPct = prev ? ((last.c - prev.c) / prev.c * 100) : 0;
+            const sign   = chgPct >= 0 ? '+' : '';
+            chgEl.textContent = `${sign}${chgPct.toFixed(2)}%`;
+            chgEl.className   = `lw-change ${chgPct >= 0 ? 'up' : 'down'}`;
+        }
     }
 
     // Main candlestick chart
@@ -419,6 +437,24 @@ async function renderSingleChart(ticker) {
     }));
     candleSeries.setData(ohlcData);
     chart.timeScale().fitContent();
+
+    // Live price line — dashed horizontal showing where price is RIGHT NOW
+    // (pipeline refreshes this every 15 min during market hours)
+    const liveNow = livePrices[ticker];
+    if (liveNow && liveNow.price != null) {
+        const liveP   = Number(liveNow.price);
+        const isUp    = liveP >= last.c;
+        const lineClr = isUp ? '#10b981' : '#ef4444';
+        candleSeries.createPriceLine({
+            price: liveP,
+            color: lineClr,
+            lineWidth: 1,
+            lineStyle: LightweightCharts.LineStyle.Dashed,
+            axisLabelVisible: true,
+            title: `live  $${liveP.toFixed(2)}`,
+        });
+    }
+
     lwInstances[ticker] = chart;
 
     // Volume chart
@@ -534,6 +570,16 @@ async function init() {
     renderVolChart(vol);
     renderPredictions(predictions);
     renderMacroNotes(macro);
+
+    // Cache live prices for chart overlays
+    if (watchlist?.stocks) {
+        watchlist.stocks.forEach(s => {
+            if (s.ticker) livePrices[s.ticker] = {
+                price: s.price,
+                change_pct: s.change_pct
+            };
+        });
+    }
 
     // Merge server watchlist with localStorage defaults if first visit
     if (!localStorage.getItem(LS_KEY) && watchlist?.stocks) {
