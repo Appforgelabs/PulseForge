@@ -115,8 +115,17 @@ async function loadFromSheets() {
         // metrics: not stored in Sheets — fall back to JSON file
         const metrics = await loadJSON('metrics.json');
 
-        console.log('[PulseForge] Sheets data loaded successfully');
-        return { metrics, pulse, sectors, watchlist, vol, predictions, macro };
+        // Extract the real pipeline push timestamp (stored in the Predictions timestamp column).
+        // This is when data was *written* to Sheets, not when the page fetched it.
+        let data_pushed_at = null;
+        if (d.predictions && d.predictions.length > 0 && d.predictions[0].timestamp) {
+            data_pushed_at = String(d.predictions[0].timestamp);
+        } else if (d.pulse && d.pulse.dates && d.pulse.dates.length > 0) {
+            data_pushed_at = d.pulse.dates[d.pulse.dates.length - 1]; // date-only fallback
+        }
+
+        console.log('[PulseForge] Sheets data loaded successfully. Push time:', data_pushed_at);
+        return { metrics, pulse, sectors, watchlist, vol, predictions, macro, data_pushed_at, source: 'sheets' };
     } catch (e) {
         console.warn('[PulseForge] Sheets load failed, falling back to JSON files:', e.message);
         return null;
@@ -452,17 +461,60 @@ async function renderSingleChart(ticker) {
     observer.observe(chartEl);
 }
 
+// ── Data Source Status ──
+function setDataStatus(connected, pushedAt) {
+    const dot   = document.getElementById('dsDot');
+    const label = document.getElementById('dsLabel');
+    const time  = document.getElementById('lastUpdated');
+    if (!dot) return;
+
+    if (connected) {
+        dot.className   = 'ds-dot connected';
+        label.className = 'ds-label connected';
+        label.textContent = 'Live';
+        if (pushedAt) {
+            try {
+                const d = new Date(pushedAt);
+                // If the value is date-only (no 'T'), just show the date
+                const isDateOnly = !pushedAt.includes('T');
+                if (isDateOnly) {
+                    time.textContent = `Pushed ${d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' })}`;
+                } else {
+                    time.textContent = `Pushed ${d.toLocaleString('en-US', {
+                        timeZone: 'America/New_York',
+                        month: 'short', day: 'numeric',
+                        hour: 'numeric', minute: '2-digit', hour12: true
+                    })} ET`;
+                }
+            } catch (e) {
+                time.textContent = `Pushed ${pushedAt}`;
+            }
+        } else {
+            time.textContent = 'Push time unavailable';
+        }
+    } else {
+        dot.className   = 'ds-dot offline';
+        label.className = 'ds-label offline';
+        label.textContent = 'Offline';
+        time.textContent = 'Using cached data';
+    }
+}
+
 // ── Main Init ──
 async function init() {
-    document.getElementById('lastUpdated').textContent = 'Loading data...';
+    const timeEl = document.getElementById('lastUpdated');
+    if (timeEl) timeEl.textContent = '–';
 
     let metrics, pulse, sectors, watchlist, vol, predictions, macro;
+    let sheetsOk = false;
+    let data_pushed_at = null;
 
     // Try Google Sheets first if configured, fallback to JSON files
     if (USE_SHEETS) {
         const sheetsData = await loadFromSheets();
         if (sheetsData) {
-            ({ metrics, pulse, sectors, watchlist, vol, predictions, macro } = sheetsData);
+            ({ metrics, pulse, sectors, watchlist, vol, predictions, macro, data_pushed_at } = sheetsData);
+            sheetsOk = true;
         }
     }
 
@@ -489,9 +541,8 @@ async function init() {
         saveWatchlist(tickers);
     }
 
-    const ts = pulse?.last_updated || metrics?.last_updated || new Date().toISOString();
-    document.getElementById('lastUpdated').textContent =
-        `Updated: ${new Date(ts).toLocaleString('en-US', { timeZone: 'America/New_York' })} ET`;
+    // Show data source status — green dot = Sheets connected, push time = when pipeline last wrote
+    setDataStatus(sheetsOk, data_pushed_at);
 }
 
 document.addEventListener('DOMContentLoaded', init);

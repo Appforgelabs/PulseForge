@@ -102,8 +102,51 @@ header {
 .pulse-regime.neutral { color: var(--accent-amber); }
 .pulse-regime.greed { color: var(--accent-green); }
 
-.last-updated {
-    font-size: 0.75rem;
+.data-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ds-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--text-muted);
+    flex-shrink: 0;
+    transition: background 0.4s, box-shadow 0.4s;
+}
+
+.ds-dot.connected {
+    background: #10b981;
+    box-shadow: 0 0 6px #10b98188;
+}
+
+.ds-dot.offline {
+    background: #ef4444;
+    box-shadow: 0 0 6px #ef444466;
+}
+
+.ds-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    line-height: 1.2;
+}
+
+.ds-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+}
+
+.ds-label.connected { color: #10b981; }
+.ds-label.offline   { color: #ef4444; }
+
+.ds-time {
+    font-size: 0.7rem;
     color: var(--text-muted);
     font-family: var(--font-mono);
 }
