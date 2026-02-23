@@ -1,18 +1,12 @@
 {
-  "last_updated": "2026-02-23T18:00:13.055134",
+  "last_updated": "2026-02-23T23:10:47.837660",
   "notes": [
-    "VIX at 21.0 — elevated vs 20-day avg (18.6), normal range but trending higher",
-    "S&P 500 (SPY $689.43) barely holding above SMA20 ($689.12) and SMA50 ($687.46) — bullish structure intact but thin margin",
-    "10Y Treasury Yield: 4.03% — steady, not spiking",
-    "US Dollar Index (DXY): 97.72 — relatively weak dollar, supportive for risk assets long-term",
-    "WTI Crude Oil: $66.29 — below $70 support, softness here signals demand concerns",
-    "BTC: $67,645 — holding mid-range",
-    "RISK-OFF SESSION: Clear defensive rotation — money fleeing Financials (-3.35%), Tech (-1.68%), Cons. Disc. (-2.09%) into Healthcare (+1.10%), Staples (+1.23%), Utilities (+0.76%)",
-    "Watchlist bloodbath: HOOD -5.69%, SOFI -4.21%, PLTR -3.43%, TSLA -2.91%, AMZN -2.30%, RIVN -2.03% — only NIO +4.34% green",
-    "Pulse score: 65.5 today — recovered from multi-month lows (~36) seen in early Feb, but 5-day avg still only 49.2 (chop zone)",
-    "Pulse Momentum signal: NEUTRAL (40% confidence) — choppy, no clean directional edge short-term",
-    "Key risk: Financials sector dump (-3.35%) is the loudest signal today — watch for follow-through vs. bounce tomorrow",
-    "Pipeline v2 — data sources: Polygon.io, Yahoo Finance, Finnhub",
-    "Last run: 2026-02-23 06:00 PM ET"
+    "VIX at 21.0 \u2014 normal range",
+    "S&P 500 trading above 50-day MA ($687) \u2014 bullish structure intact",
+    "10Y Treasury Yield: 4.03%",
+    "US Dollar Index (DXY): 97.72",
+    "WTI Crude Oil: $66.29",
+    "Pipeline v2 \u2014 data sources: Polygon.io, Yahoo Finance, Finnhub",
+    "Last run: 2026-02-23 11:10 PM ET"
   ]
 }
