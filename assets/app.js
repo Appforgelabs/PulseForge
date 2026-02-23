@@ -7,7 +7,7 @@
 //   1. Deploy PulseForge/appsscript/Code.gs as a Web App in Google Apps Script UI
 //   2. Copy the deployment URL and paste it below
 //   3. Set access to "Anyone" when deploying
-const APPS_SCRIPT_URL = ''; // TODO: paste deployment URL here, e.g. 'https://script.google.com/macros/s/ABC.../exec'
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyVGZRO4XVS0UPhzVRYJJH-_LrAHAAiBkiYo9Ko1qJk_JlaITcCyvITMDxzVEEKTzkd/exec';
 const USE_SHEETS = APPS_SCRIPT_URL !== '';
 
 const DATA_BASE = 'data';
