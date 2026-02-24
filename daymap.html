@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luka — Daily Operations Map</title>
+<style>
+  :root {
+    --bg: #0a0f1a;
+    --card: #111827;
+    --border: #1e293b;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --blue: #3b82f6;
+    --green: #10b981;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --purple: #8b5cf6;
+    --pink: #ec4899;
+    --font: 'Inter', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font); min-height: 100vh; }
+
+  header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+  }
+  header h1 { font-size: 1.8rem; font-weight: 800; letter-spacing: -0.02em; }
+  header h1 span { background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  header p { color: var(--muted); margin-top: 0.5rem; font-size: 0.9rem; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+
+  /* Timeline */
+  .timeline { position: relative; padding-left: 80px; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 52px;
+    top: 0; bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--blue), var(--purple), var(--pink));
+    opacity: 0.3;
+  }
+
+  .time-block { margin-bottom: 2rem; position: relative; }
+  .time-label {
+    position: absolute;
+    left: -80px;
+    top: 4px;
+    width: 68px;
+    text-align: right;
+    font-size: 0.72rem;
+    font-family: var(--mono);
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .time-dot {
+    position: absolute;
+    left: -32px;
+    top: 6px;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    border: 2px solid var(--bg);
+  }
+
+  .task-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.75rem; }
+
+  .task-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.875rem 1rem;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .task-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    border-radius: 10px 0 0 10px;
+  }
+  .task-card:hover { border-color: #334155; }
+
+  .task-card.blue::before { background: var(--blue); }
+  .task-card.green::before { background: var(--green); }
+  .task-card.amber::before { background: var(--amber); }
+  .task-card.red::before { background: var(--red); }
+  .task-card.purple::before { background: var(--purple); }
+  .task-card.pink::before { background: var(--pink); }
+
+  .task-name { font-weight: 600; font-size: 0.875rem; margin-bottom: 0.25rem; }
+  .task-desc { font-size: 0.78rem; color: var(--muted); line-height: 1.4; }
+  .task-dest {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 0.68rem; font-family: var(--mono);
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin-top: 0.4rem;
+    color: var(--muted);
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 2px 6px; border-radius: 4px;
+    margin-bottom: 0.35rem;
+  }
+  .badge.daily  { background: rgba(59,130,246,0.15); color: #93c5fd; }
+  .badge.market { background: rgba(16,185,129,0.15); color: #6ee7b7; }
+  .badge.weekly { background: rgba(245,158,11,0.15); color: #fcd34d; }
+  .badge.always { background: rgba(139,92,246,0.15); color: #c4b5fd; }
+
+  /* Section headers */
+  .section-header {
+    display: flex; align-items: center; gap: 0.75rem;
+    margin: 2.5rem 0 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-header h2 { font-size: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; }
+  .section-header .line { flex: 1; height: 1px; background: var(--border); }
+
+  /* Apps section */
+  .apps-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1rem; }
+  .app-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+  .app-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.25rem; }
+  .app-card .url { font-size: 0.75rem; font-family: var(--mono); color: var(--blue); text-decoration: none; }
+  .app-card .url:hover { text-decoration: underline; }
+  .app-card p { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; line-height: 1.5; }
+  .app-features { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .app-feat {
+    font-size: 0.68rem; padding: 3px 8px; border-radius: 20px;
+    background: rgba(255,255,255,0.05); color: var(--muted);
+    border: 1px solid var(--border);
+  }
+
+  /* Stats bar */
+  .stats-bar {
+    display: flex; flex-wrap: wrap; gap: 1rem;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .stat { flex: 1; min-width: 120px; text-align: center; }
+  .stat .n { font-size: 1.75rem; font-weight: 800; font-family: var(--mono); }
+  .stat .l { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
+  .stat .n.blue { color: var(--blue); }
+  .stat .n.green { color: var(--green); }
+  .stat .n.amber { color: var(--amber); }
+  .stat .n.purple { color: var(--purple); }
+
+  /* Heartbeat section */
+  .hb-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; }
+  .hb-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 0.875rem;
+    display: flex; align-items: flex-start; gap: 0.75rem;
+  }
+  .hb-icon { font-size: 1.4rem; flex-shrink: 0; }
+  .hb-name { font-size: 0.82rem; font-weight: 600; }
+  .hb-desc { font-size: 0.72rem; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--muted);
+    font-size: 0.75rem;
+    border-top: 1px solid var(--border);
+    margin-top: 3rem;
+  }
+
+  @media (max-width: 640px) {
+    .timeline { padding-left: 60px; }
+    .time-label { left: -60px; width: 50px; font-size: 0.65rem; }
+    .time-dot { left: -24px; }
+    header h1 { font-size: 1.3rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⚡ <span>Luka — Daily Operations Map</span></h1>
+  <p>Everything running for Jigar, 24 / 7 — automated pipelines, live dashboards, research, and monitoring</p>
+</header>
+
+<div class="container">
+
+  <!-- Stats -->
+  <div class="stats-bar" style="margin-top:1.5rem">
+    <div class="stat"><div class="n blue">20</div><div class="l">Cron Jobs</div></div>
+    <div class="stat"><div class="n green">3</div><div class="l">Macro Emails / Day</div></div>
+    <div class="stat"><div class="n amber">12</div><div class="l">Pipeline Runs / Day</div></div>
+    <div class="stat"><div class="n purple">2</div><div class="l">Live Dashboards</div></div>
+    <div class="stat"><div class="n" style="color:var(--pink)">1</div><div class="l">X Post / Day</div></div>
+    <div class="stat"><div class="n" style="color:#94a3b8">30m</div><div class="l">Heartbeat Interval</div></div>
+  </div>
+
+  <!-- Timeline -->
+  <div class="section-header">
+    <h2>⏰ Daily Schedule</h2>
+    <div class="line"></div>
+    <span style="font-size:0.72rem;color:var(--muted)">All times Eastern</span>
+  </div>
+
+  <div class="timeline">
+
+    <!-- 6 AM -->
+    <div class="time-block">
+      <div class="time-label">6:00 AM</div>
+      <div class="time-dot" style="background:var(--blue)"></div>
+      <div class="task-grid">
+        <div class="task-card blue">
+          <div class="badge daily">Daily · Weekdays</div>
+          <div class="task-name">🎲 X Post Randomizer</div>
+          <div class="task-desc">Picks a random post time between 8–11 AM ET, schedules the day's tweet from a 14-topic rotation using current news.</div>
+          <div class="task-dest">→ @jigaraero on X</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8 AM -->
+    <div class="time-block">
+      <div class="time-label">8:00 AM</div>
+      <div class="time-dot" style="background:var(--purple)"></div>
+      <div class="task-grid">
+        <div class="task-card purple">
+          <div class="badge daily">Daily</div>
+          <div class="task-name">🔫 Palmer Luckey Brief</div>
+          <div class="task-desc">Scrapes @PalmerLuckey's latest X posts. Defense tech, national security, Anduril news.</div>
+          <div class="task-dest">→ #palmer-luckey</div>
+        </div>
+        <div class="task-card purple">
+          <div class="badge daily">Daily</div>
+          <div class="task-name">📊 AJ Research Brief</div>
+          <div class="task-desc">Pulls @alojoh subscriber content. Equity research, trade ideas, market commentary.</div>
+          <div class="task-dest">→ #alojoh</div>
+        </div>
+        <div class="task-card purple">
+          <div class="badge daily">Weekdays</div>
+          <div class="task-name">🚗 Tesla News Brief</div>
+          <div class="task-desc">Daily Tesla-specific news digest — Optimus, Cybercab, earnings, Elon, production.</div>
+          <div class="task-dest">→ #tesla-news</div>
+        </div>
+        <div class="task-card amber">
+          <div class="badge always">Hourly · 8 AM–6 PM</div>
+          <div class="task-name">📡 @danbtc916 Monitor</div>
+          <div class="task-desc">Scans subscriber feed for urgent TSLA trade signals. Quiet to #danbtc916 except for time-sensitive market-hours calls.</div>
+          <div class="task-dest">→ #danbtc916 · DM if urgent</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9 AM -->
+    <div class="time-block">
+      <div class="time-label">9:00 AM</div>
+      <div class="time-dot" style="background:var(--green)"></div>
+      <div class="task-grid">
+        <div class="task-card green">
+          <div class="badge market">Weekdays</div>
+          <div class="task-name">🌅 Morning Pre-Market Report</div>
+          <div class="task-desc">Full HTML macro report: futures, Asia/Europe markets, economic calendar, Tom Lee + Mark Newton scorecards, composite signal, playbook.</div>
+          <div class="task-dest">→ Email to jigar.us.af@gmail.com</div>
+        </div>
+        <div class="task-card blue">
+          <div class="badge daily">Daily</div>
+          <div class="task-name">🌐 Forum News Posts</div>
+          <div class="task-desc">4–5 forum threads in #what-is-new-in-the-world covering AI, Tesla, NVDA, SpaceX, markets, 3D printing, fintech — with real current news.</div>
+          <div class="task-dest">→ #what-is-new-in-the-world</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9–11:45 AM -->
+    <div class="time-block">
+      <div class="time-label">9–11:45 AM</div>
+      <div class="time-dot" style="background:var(--green)"></div>
+      <div class="task-grid">
+        <div class="task-card green">
+          <div class="badge market">Every 15 min · Weekdays</div>
+          <div class="task-name">⚡ PulseForge Live Updates</div>
+          <div class="task-desc">Runs the market data pipeline every 15 min during the first 2 hours of trading — pulse score, quotes, sectors, VIX, predictions — pushed straight to Google Sheets so the dashboard updates in real time.</div>
+          <div class="task-dest">→ PulseForge Dashboard</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8–11 AM (X Post) -->
+    <div class="time-block">
+      <div class="time-label">8–11 AM</div>
+      <div class="time-dot" style="background:var(--blue)"></div>
+      <div class="task-grid">
+        <div class="task-card blue">
+          <div class="badge daily">Weekdays · Random Time</div>
+          <div class="task-name">🐦 Daily X Post</div>
+          <div class="task-desc">Posts 1 tweet in Luka's voice — dry, technical, witty. Topics rotate across AI, AGI, Tesla, PLTR, NVDA, SpaceX, humanoid robots, options, 3D printing, macro. Uses live web search for real news.</div>
+          <div class="task-dest">→ @jigaraero</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 10 AM -->
+    <div class="time-block">
+      <div class="time-label">10:00 AM</div>
+      <div class="time-dot" style="background:var(--amber)"></div>
+      <div class="task-grid">
+        <div class="task-card amber">
+          <div class="badge market">Weekdays</div>
+          <div class="task-name">🎯 Options Scan — Morning</div>
+          <div class="task-desc">Scans watchlist for covered call, LEAP, and put opportunities. Checks IV rank, upcoming catalysts, strike selection.</div>
+          <div class="task-dest">→ Discord DM</div>
+        </div>
+        <div class="task-card red">
+          <div class="badge market">Weekdays · 10/12/2/4 PM</div>
+          <div class="task-name">🚨 Market Alert Check</div>
+          <div class="task-desc">4× daily during market hours. Monitors watchlist for moves >2%, VIX spikes >30, unusual volume. Fires DM alert if triggered.</div>
+          <div class="task-dest">→ Discord DM if triggered</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 12:00 PM -->
+    <div class="time-block">
+      <div class="time-label">12:00 PM</div>
+      <div class="time-dot" style="background:var(--amber)"></div>
+      <div class="task-grid">
+        <div class="task-card amber">
+          <div class="badge market">Weekdays</div>
+          <div class="task-name">🎯 Options Scan — Midday</div>
+          <div class="task-desc">Midday options opportunity scan with updated pricing and IV.</div>
+          <div class="task-dest">→ Discord DM</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 12:30 PM -->
+    <div class="time-block">
+      <div class="time-label">12:30 PM</div>
+      <div class="time-dot" style="background:var(--green)"></div>
+      <div class="task-grid">
+        <div class="task-card green">
+          <div class="badge market">Weekdays</div>
+          <div class="task-name">☀️ Midday Macro Report</div>
+          <div class="task-desc">Full HTML macro report with morning session recap, current levels, sector rotation, key movers, and updated composite signal. Includes Tom Lee and Newton scorecards.</div>
+          <div class="task-dest">→ Email to jigar.us.af@gmail.com</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3:30 PM -->
+    <div class="time-block">
+      <div class="time-label">3:30 PM</div>
+      <div class="time-dot" style="background:var(--amber)"></div>
+      <div class="task-grid">
+        <div class="task-card amber">
+          <div class="badge market">Weekdays</div>
+          <div class="task-name">🎯 Options Scan — Close</div>
+          <div class="task-desc">End-of-day options scan — covers expiration risk, roll candidates, and next-day setups.</div>
+          <div class="task-dest">→ Discord DM</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4:00 PM -->
+    <div class="time-block">
+      <div class="time-label">4:00 PM</div>
+      <div class="time-dot" style="background:var(--green)"></div>
+      <div class="task-grid">
+        <div class="task-card green">
+          <div class="badge market">Weekdays</div>
+          <div class="task-name">🌆 Evening Close Report</div>
+          <div class="task-desc">Full HTML closing recap: final prices, day's narrative, breadth, sector heatmap, credit spreads, playbook for tomorrow. The most comprehensive of the three daily reports.</div>
+          <div class="task-dest">→ Email to jigar.us.af@gmail.com</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6:00 PM -->
+    <div class="time-block">
+      <div class="time-label">6:00 PM</div>
+      <div class="time-dot" style="background:var(--blue)"></div>
+      <div class="task-grid">
+        <div class="task-card blue">
+          <div class="badge market">Weekdays</div>
+          <div class="task-name">⚡ PulseForge EOD Pipeline</div>
+          <div class="task-desc">Full end-of-day run: fetches all market data + daily candles for 8 tickers (TSLA, PLTR, AMZN, HOOD, SOFI, RIVN, NIO, SPY), computes pulse score and ML predictions, pushes to Google Sheets + GitHub Pages.</div>
+          <div class="task-dest">→ PulseForge Dashboard · GitHub Pages</div>
+        </div>
+        <div class="task-card amber">
+          <div class="badge weekly">Fridays only</div>
+          <div class="task-name">📅 Weekly Earnings Scan</div>
+          <div class="task-desc">Pulls next week's earnings calendar from EarningsHub. Flags any watchlist stocks reporting, previews consensus estimates and key risk events.</div>
+          <div class="task-dest">→ #stock-market</div>
+        </div>
+        <div class="task-card amber">
+          <div class="badge weekly">Fridays only</div>
+          <div class="task-name">📈 Weekly Summary</div>
+          <div class="task-desc">Weekly P&L recap, strategy review, key events summary, and week-ahead positioning notes.</div>
+          <div class="task-dest">→ Discord DM</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 PM (work log) -->
+    <div class="time-block">
+      <div class="time-label">6:00 PM</div>
+      <div class="time-dot" style="background:var(--muted)"></div>
+      <div class="task-grid">
+        <div class="task-card" style="border-color:var(--border)">
+          <div class="badge daily">Daily</div>
+          <div class="task-name">📓 Daily Work Log Reminder</div>
+          <div class="task-desc">End-of-day reminder to log significant events to memory files.</div>
+          <div class="task-dest">→ Internal memory update</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8 PM -->
+    <div class="time-block">
+      <div class="time-label">8:00 PM</div>
+      <div class="time-dot" style="background:var(--pink)"></div>
+      <div class="task-grid">
+        <div class="task-card pink">
+          <div class="badge daily">Daily</div>
+          <div class="task-name">👧 KidWatch Daily Update</div>
+          <div class="task-desc">Scrapes daughter's YouTube watch history, runs autism-aware safety scoring (flags sensory overload risk, rapid pacing, quiz channels), pushes to Google Sheets + GitHub Pages, posts summary to Discord.</div>
+          <div class="task-dest">→ KidWatch Dashboard · Discord DM</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 11 PM -->
+    <div class="time-block">
+      <div class="time-label">11:00 PM</div>
+      <div class="time-dot" style="background:var(--muted)"></div>
+      <div class="task-grid">
+        <div class="task-card" style="border-color:var(--border)">
+          <div class="badge daily">Daily</div>
+          <div class="task-name">📊 Daily Analytics Report</div>
+          <div class="task-desc">End-of-day summary of all activity, pipeline health, errors, and notes for the next session.</div>
+          <div class="task-dest">→ Internal log</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /timeline -->
+
+  <!-- Live Dashboards -->
+  <div class="section-header">
+    <h2>📱 Live Dashboards</h2>
+    <div class="line"></div>
+  </div>
+  <div class="apps-grid">
+    <div class="app-card">
+      <h3>⚡ PulseForge</h3>
+      <a class="url" href="https://appforgelabs.github.io/PulseForge" target="_blank">appforgelabs.github.io/PulseForge</a>
+      <p>ML-driven macro intelligence dashboard. Live market pulse score (0–100), sector rotation heatmap, watchlist with live prices, daily candle charts with live price overlay, volatility tracker, ML predictions, macro notes, options plays.</p>
+      <div class="app-features">
+        <span class="app-feat">Google Sheets backend</span>
+        <span class="app-feat">15-min refresh (market hours)</span>
+        <span class="app-feat">Live price line overlay</span>
+        <span class="app-feat">8 tickers · daily candles</span>
+        <span class="app-feat">Polygon.io + Finnhub</span>
+      </div>
+    </div>
+    <div class="app-card">
+      <h3>👧 KidWatch</h3>
+      <a class="url" href="https://appforgelabs.github.io/KidWatch" target="_blank">appforgelabs.github.io/KidWatch</a>
+      <p>YouTube watch history tracker with autism-aware safety scoring. Flags sensory overload risk (quiz channels, sudden audio), rapid pacing (gameplay compilations), and highlights safe content (Daniel Tiger, PBS Kids, Sesame Street).</p>
+      <div class="app-features">
+        <span class="app-feat">Daily scrape at 8 PM</span>
+        <span class="app-feat">Autism safety scoring</span>
+        <span class="app-feat">Channel analytics</span>
+        <span class="app-feat">7-day history view</span>
+        <span class="app-feat">Google Sheets backend</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Heartbeat -->
+  <div class="section-header">
+    <h2>💓 Heartbeat Monitoring <span style="font-size:0.75rem;font-weight:400;color:var(--muted);margin-left:0.5rem">every 30 min</span></h2>
+    <div class="line"></div>
+  </div>
+  <div class="hb-grid">
+    <div class="hb-card">
+      <div class="hb-icon">📧</div>
+      <div><div class="hb-name">Email Monitoring</div><div class="hb-desc">Checks Gmail for urgent unread messages, Etsy order notifications, important alerts.</div></div>
+    </div>
+    <div class="hb-card">
+      <div class="hb-icon">🌨️</div>
+      <div><div class="hb-name">Weather Alerts</div><div class="hb-desc">Maynard, MA weather monitoring. Sends DM for severe conditions (blizzards, heavy snow, storms).</div></div>
+    </div>
+    <div class="hb-card">
+      <div class="hb-icon">📅</div>
+      <div><div class="hb-name">Calendar Check</div><div class="hb-desc">Upcoming events in next 24–48h. Alerts if something's coming up in &lt;2 hours.</div></div>
+    </div>
+    <div class="hb-card">
+      <div class="hb-icon">🛒</div>
+      <div><div class="hb-name">Etsy Orders</div><div class="hb-desc">Monitors for new orders and payout notifications from 3PrintDCo Etsy shop.</div></div>
+    </div>
+    <div class="hb-card">
+      <div class="hb-icon">⚙️</div>
+      <div><div class="hb-name">Pipeline Health</div><div class="hb-desc">Monitors cron job status, catches errors, fixes delivery issues before they silently fail.</div></div>
+    </div>
+    <div class="hb-card">
+      <div class="hb-icon">📰</div>
+      <div><div class="hb-name">Market News</div><div class="hb-desc">Passive monitoring of breaking market news — major macro events or watchlist-specific catalysts.</div></div>
+    </div>
+  </div>
+
+  <!-- On-Demand -->
+  <div class="section-header">
+    <h2>💬 On-Demand (just ask)</h2>
+    <div class="line"></div>
+  </div>
+  <div class="task-grid" style="margin-bottom:1rem">
+    <div class="task-card blue"><div class="task-name">📦 Shipping Labels</div><div class="task-desc">Rate comparison (USPS vs UPS) + purchase label + send to printer. Waiting on Etsy API approval.</div></div>
+    <div class="task-card blue"><div class="task-name">🔍 Market Research</div><div class="task-desc">Deep-dive on any stock, options play, or macro theme. Full analysis with thesis, setup, math.</div></div>
+    <div class="task-card blue"><div class="task-name">🖨️ 3D Print Ideas</div><div class="task-desc">Etsy product research, margin analysis, niche hunting. Full shop management (SEO, listings, pricing).</div></div>
+    <div class="task-card blue"><div class="task-name">💻 Build Anything</div><div class="task-desc">Apps, dashboards, scripts, automations. If it can be coded, it can be built same day.</div></div>
+    <div class="task-card blue"><div class="task-name">📊 Options Analysis</div><div class="task-desc">Strike selection, Greeks, roll analysis, assignment risk, covered call income optimization.</div></div>
+    <div class="task-card blue"><div class="task-name">🗓️ Calendar & Email</div><div class="task-desc">Read, search, send emails. Check calendar, add events. Full Google Workspace access.</div></div>
+  </div>
+
+</div>
+
+<footer>
+  Luka — "The Machinist's Market Maker" · Make it. Measure it. Monetize it. Hedge it.<br>
+  <span style="opacity:0.5">Last updated: auto-generated · All times America/New_York</span>
+</footer>
+
+</body>
+</html>
