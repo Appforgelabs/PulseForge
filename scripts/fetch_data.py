@@ -533,7 +533,7 @@ def main():
     # 6. Predictions
     print("\n🔮 Generating predictions...")
     preds = compute_predictions(spy_agg, vix_agg, pulse_scores)
-    write_json("predictions.json", {"last_updated": now, "predictions": preds})
+    write_json("predictions.json", {"last_updated": now, "timestamp": now, "predictions": preds})
 
     # 7. Macro context notes
     print("\n📅 Building macro context...")
