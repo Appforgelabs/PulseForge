@@ -1,5 +1,6 @@
 {
-  "last_updated": "2026-02-27T02:08:45.334132",
+  "last_updated": "2026-02-27T18:00:11.900594",
+  "timestamp": "2026-02-27T18:00:11.900594",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -11,9 +12,9 @@
     {
       "name": "Volatility Regime",
       "direction": "NEUTRAL",
-      "confidence": 51,
+      "confidence": 52,
       "horizon": "1 week",
-      "rationale": "VIX: 18.6 vs 20-day avg: 19.0. Normal volatility range"
+      "rationale": "VIX: 19.9 vs 20-day avg: 19.1. Normal volatility range"
     },
     {
       "name": "Pulse Momentum",
@@ -22,6 +23,5 @@
       "horizon": "3-5 days",
       "rationale": "5-day avg pulse: 58.7, trend: -3.2. Mixed signals \u2014 chop zone"
     }
-  ],
-  "timestamp": "2026-02-27T02:08:45.334132"
+  ]
 }
