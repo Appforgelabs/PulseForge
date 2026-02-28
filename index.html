@@ -1,149 +1,257 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PulseForge — Market Macro Intelligence</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    <title>PulseForge — Market Intelligence</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <script src="https://unpkg.com/lightweight-charts@5.0.0/dist/lightweight-charts.standalone.production.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
-        <div class="header-left">
-            <h1>⚡ PulseForge</h1>
-            <span class="tagline">Market Macro Intelligence</span>
-        </div>
-        <div class="header-right">
-            <div class="pulse-score-container">
-                <div class="pulse-label">MARKET PULSE</div>
-                <div class="pulse-score" id="pulseScore">--</div>
-                <div class="pulse-regime" id="pulseRegime">Loading...</div>
+
+    <!-- MASTHEAD -->
+    <header class="masthead">
+        <div class="masthead-top">
+            <div class="masthead-edition">
+                <span id="mastDate">Friday, February 28, 2026</span>
+                <span class="separator">|</span>
+                <span>Vol. 1, No. 1</span>
+                <span class="separator">|</span>
+                <span class="ds-status">
+                    <span class="ds-dot" id="dsDot"></span>
+                    <span id="dsLabel">Connecting...</span>
+                    <span id="lastUpdated"></span>
+                </span>
             </div>
-            <div class="data-status" id="dataStatus">
-                <span class="ds-dot" id="dsDot"></span>
-                <div class="ds-meta">
-                    <span class="ds-label" id="dsLabel">Connecting...</span>
-                    <span class="ds-time" id="lastUpdated">--</span>
-                </div>
+            <div class="masthead-price-strip" id="mastPriceStrip">
+                <span>SPY <span id="mastSPY" class="mono">--</span></span>
+                <span>QQQ <span id="mastQQQ" class="mono">--</span></span>
+                <span>VIX <span id="mastVIX" class="mono">--</span></span>
+                <span>BTC <span id="mastBTC" class="mono">--</span></span>
             </div>
         </div>
+        <div class="masthead-rule-thin"></div>
+        <div class="masthead-nameplate">
+            <h1 class="nameplate">PulseForge</h1>
+            <div class="nameplate-tagline">Market Intelligence — Powered by AI</div>
+        </div>
+        <div class="masthead-rule-thick"></div>
+        <div class="masthead-rule-thin" style="margin-top:2px;"></div>
+
+        <!-- BREAKING NEWS / PULSE BANNER -->
+        <div class="pulse-banner" id="pulseBanner">
+            <span class="banner-label">MARKET PULSE</span>
+            <span class="banner-score" id="pulseScore">--</span>
+            <span class="banner-regime" id="pulseRegime">Loading market intelligence...</span>
+        </div>
+        <div class="masthead-rule-thin"></div>
+
+        <!-- SECTION NAV -->
+        <nav class="section-nav">
+            <a href="#markets" class="section-nav-item active" onclick="switchTab('overview', this); return false;">MARKETS</a>
+            <a href="#charts" class="section-nav-item" onclick="switchTab('charts', this); return false;">CHARTS</a>
+        </nav>
     </header>
 
-    <!-- Tab Navigation -->
-    <nav class="tab-nav">
-        <button class="tab-btn active" onclick="switchTab('overview', this)">📊 Overview</button>
-        <button class="tab-btn" onclick="switchTab('charts', this)">📈 Charts</button>
-    </nav>
-
     <!-- OVERVIEW TAB -->
-    <main id="tab-overview" class="tab-content active">
-        <section class="metrics-grid" id="metricsGrid">
-            <div class="metric-card" id="metric-vix">
-                <div class="metric-header">VIX</div>
-                <div class="metric-value" id="vixValue">--</div>
-                <div class="metric-change" id="vixChange">--</div>
-                <div class="metric-spark" id="vixSpark"></div>
+    <main id="tab-overview" class="tab-content active newspaper-body">
+
+        <!-- ROW 1: Metrics -->
+        <section class="paper-section">
+            <div class="section-header">
+                <h2 class="section-title">MARKETS</h2>
+                <div class="section-rule"></div>
             </div>
-            <div class="metric-card" id="metric-spy">
-                <div class="metric-header">S&P 500</div>
-                <div class="metric-value" id="spyValue">--</div>
-                <div class="metric-change" id="spyChange">--</div>
-                <div class="metric-spark" id="spySpark"></div>
-            </div>
-            <div class="metric-card" id="metric-dxy">
-                <div class="metric-header">US Dollar (DXY)</div>
-                <div class="metric-value" id="dxyValue">--</div>
-                <div class="metric-change" id="dxyChange">--</div>
-                <div class="metric-spark" id="dxySpark"></div>
-            </div>
-            <div class="metric-card" id="metric-tny">
-                <div class="metric-header">10Y Treasury</div>
-                <div class="metric-value" id="tnyValue">--</div>
-                <div class="metric-change" id="tnyChange">--</div>
-                <div class="metric-spark" id="tnySpark"></div>
-            </div>
-            <div class="metric-card" id="metric-btc">
-                <div class="metric-header">Bitcoin</div>
-                <div class="metric-value" id="btcValue">--</div>
-                <div class="metric-change" id="btcChange">--</div>
-                <div class="metric-spark" id="btcSpark"></div>
-            </div>
-            <div class="metric-card" id="metric-oil">
-                <div class="metric-header">Crude Oil</div>
-                <div class="metric-value" id="oilValue">--</div>
-                <div class="metric-change" id="oilChange">--</div>
-                <div class="metric-spark" id="oilSpark"></div>
+            <div class="metrics-grid" id="metricsGrid">
+                <article class="metric-article" id="metric-spy">
+                    <div class="article-kicker">EQUITIES</div>
+                    <h3 class="article-headline">S&amp;P 500 (SPY)</h3>
+                    <div class="article-byline">By AI Markets Desk</div>
+                    <div class="article-lede">
+                        <span class="big-number" id="spyValue">--</span>
+                        <span class="change-badge" id="spyChange">--</span>
+                    </div>
+                    <div class="metric-spark" id="spySpark"></div>
+                </article>
+                <article class="metric-article" id="metric-vix">
+                    <div class="article-kicker">VOLATILITY</div>
+                    <h3 class="article-headline">CBOE Volatility Index (VIX)</h3>
+                    <div class="article-byline">By AI Markets Desk</div>
+                    <div class="article-lede">
+                        <span class="big-number" id="vixValue">--</span>
+                        <span class="change-badge" id="vixChange">--</span>
+                    </div>
+                    <div class="metric-spark" id="vixSpark"></div>
+                </article>
+                <article class="metric-article" id="metric-dxy">
+                    <div class="article-kicker">CURRENCIES</div>
+                    <h3 class="article-headline">U.S. Dollar Index (DXY)</h3>
+                    <div class="article-byline">By AI Markets Desk</div>
+                    <div class="article-lede">
+                        <span class="big-number" id="dxyValue">--</span>
+                        <span class="change-badge" id="dxyChange">--</span>
+                    </div>
+                    <div class="metric-spark" id="dxySpark"></div>
+                </article>
+                <article class="metric-article" id="metric-tny">
+                    <div class="article-kicker">FIXED INCOME</div>
+                    <h3 class="article-headline">10-Year Treasury Yield</h3>
+                    <div class="article-byline">By AI Markets Desk</div>
+                    <div class="article-lede">
+                        <span class="big-number" id="tnyValue">--</span>
+                        <span class="change-badge" id="tnyChange">--</span>
+                    </div>
+                    <div class="metric-spark" id="tnySpark"></div>
+                </article>
+                <article class="metric-article" id="metric-btc">
+                    <div class="article-kicker">DIGITAL ASSETS</div>
+                    <h3 class="article-headline">Bitcoin (BTC-USD)</h3>
+                    <div class="article-byline">By AI Markets Desk</div>
+                    <div class="article-lede">
+                        <span class="big-number" id="btcValue">--</span>
+                        <span class="change-badge" id="btcChange">--</span>
+                    </div>
+                    <div class="metric-spark" id="btcSpark"></div>
+                </article>
+                <article class="metric-article" id="metric-oil">
+                    <div class="article-kicker">COMMODITIES</div>
+                    <h3 class="article-headline">Crude Oil WTI (CL=F)</h3>
+                    <div class="article-byline">By AI Markets Desk</div>
+                    <div class="article-lede">
+                        <span class="big-number" id="oilValue">--</span>
+                        <span class="change-badge" id="oilChange">--</span>
+                    </div>
+                    <div class="metric-spark" id="oilSpark"></div>
+                </article>
             </div>
         </section>
 
-        <section class="chart-section">
-            <h2>📊 Market Pulse Score — Historical</h2>
-            <p class="chart-desc">ML-driven composite score (0-100). Below 30 = Fear, 30-70 = Neutral, Above 70 = Greed.</p>
-            <div class="chart-container" id="pulseChart"></div>
+        <div class="column-rule-h"></div>
+
+        <!-- ROW 2: Pulse Chart -->
+        <section class="paper-section">
+            <div class="section-header">
+                <h2 class="section-title">INTELLIGENCE</h2>
+                <div class="section-rule"></div>
+            </div>
+            <div class="two-col-layout">
+                <div class="col-main">
+                    <article class="chart-article">
+                        <div class="article-kicker">COMPOSITE INDICATOR</div>
+                        <h3 class="article-headline-lg">Market Pulse Score — Historical Regime Analysis</h3>
+                        <div class="article-byline">By AI Markets Desk · <em>Score range 0–100. Below 30: Fear zone. Above 70: Greed zone.</em></div>
+                        <div class="chart-container" id="pulseChart"></div>
+                    </article>
+                </div>
+                <div class="col-side">
+                    <article class="sidebar-article">
+                        <div class="article-kicker">ML PREDICTIONS</div>
+                        <h3 class="article-headline">Regime Forecasts</h3>
+                        <div class="predictions-list" id="predictionsGrid"></div>
+                    </article>
+                    <div class="column-rule-h"></div>
+                    <article class="sidebar-article">
+                        <div class="article-kicker">MACRO CONTEXT</div>
+                        <h3 class="article-headline">Economic Signals</h3>
+                        <div class="macro-notes" id="macroNotes">Loading...</div>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section class="chart-section">
-            <h2>🏭 Sector Performance</h2>
-            <p class="chart-desc">Relative sector rotation — where is the money flowing?</p>
-            <div class="chart-container" id="sectorChart"></div>
+        <div class="column-rule-h"></div>
+
+        <!-- ROW 3: Sectors -->
+        <section class="paper-section">
+            <div class="section-header">
+                <h2 class="section-title">SECTORS</h2>
+                <div class="section-rule"></div>
+            </div>
+            <article class="chart-article">
+                <div class="article-kicker">SECTOR ROTATION</div>
+                <h3 class="article-headline-lg">Relative Sector Performance — Where Is Capital Flowing?</h3>
+                <div class="article-byline">By AI Markets Desk · <em>Daily percentage change across 11 S&amp;P 500 sectors.</em></div>
+                <div class="chart-container" id="sectorChart"></div>
+            </article>
         </section>
 
-        <section class="chart-section">
-            <h2>👁️ Watchlist Tracker</h2>
-            <p class="chart-desc">Key positions and targets.</p>
-            <div class="watchlist-table" id="watchlistTable"></div>
+        <div class="column-rule-h"></div>
+
+        <!-- ROW 4: Watchlist -->
+        <section class="paper-section">
+            <div class="section-header">
+                <h2 class="section-title">WATCHLIST</h2>
+                <div class="section-rule"></div>
+            </div>
+            <article class="chart-article">
+                <div class="article-kicker">POSITION TRACKER</div>
+                <h3 class="article-headline-lg">Key Holdings &amp; Technical Signals</h3>
+                <div class="article-byline">By AI Markets Desk</div>
+                <div class="watchlist-table" id="watchlistTable"></div>
+            </article>
         </section>
 
-        <section class="chart-section">
-            <h2>🌊 Volatility Regime</h2>
-            <p class="chart-desc">VIX term structure and regime classification.</p>
-            <div class="chart-container" id="volChart"></div>
+        <div class="column-rule-h"></div>
+
+        <!-- ROW 5: Volatility -->
+        <section class="paper-section">
+            <div class="section-header">
+                <h2 class="section-title">VOLATILITY</h2>
+                <div class="section-rule"></div>
+            </div>
+            <article class="chart-article">
+                <div class="article-kicker">FEAR &amp; UNCERTAINTY</div>
+                <h3 class="article-headline-lg">VIX Term Structure &amp; Volatility Regime</h3>
+                <div class="article-byline">By AI Markets Desk · <em>VIX 20: elevated caution. VIX 30+: crisis territory.</em></div>
+                <div class="chart-container" id="volChart"></div>
+            </article>
         </section>
 
-        <section class="chart-section">
-            <h2>🤖 ML Predictions</h2>
-            <p class="chart-desc">Random Forest regime classifier + momentum signals.</p>
-            <div class="predictions-grid" id="predictionsGrid"></div>
-        </section>
-
-        <section class="chart-section">
-            <h2>📅 Macro Context</h2>
-            <div class="macro-notes" id="macroNotes">Loading macro context...</div>
-        </section>
     </main>
 
     <!-- CHARTS TAB -->
-    <main id="tab-charts" class="tab-content">
-        <!-- Watchlist Manager -->
-        <div class="watchlist-manager">
-            <div class="wm-header">
-                <h2>📈 Interactive Charts</h2>
-                <p class="wm-desc">Daily candlestick charts. Data updates each weekday evening.</p>
+    <main id="tab-charts" class="tab-content newspaper-body">
+        <section class="paper-section">
+            <div class="section-header">
+                <h2 class="section-title">CHARTS</h2>
+                <div class="section-rule"></div>
             </div>
-            <div class="wm-controls">
-                <div class="wm-tickers" id="wmTickers"></div>
-                <div class="wm-add">
-                    <input type="text" id="tickerInput" placeholder="Add ticker (e.g. NVDA)" maxlength="6"
-                           onkeydown="if(event.key==='Enter') addTicker()" />
-                    <button onclick="addTicker()">+ Add</button>
-                </div>
+            <div class="watchlist-manager">
+                <article class="chart-article">
+                    <div class="article-kicker">INTERACTIVE</div>
+                    <h3 class="article-headline-lg">Daily Candlestick Charts — Watchlist Holdings</h3>
+                    <div class="article-byline">By AI Markets Desk · <em>Data refreshes each weekday evening via pipeline.</em></div>
+                    <div class="wm-controls">
+                        <div class="wm-tickers" id="wmTickers"></div>
+                        <div class="wm-add">
+                            <input type="text" id="tickerInput" placeholder="Add ticker (e.g. NVDA)" maxlength="6"
+                                   onkeydown="if(event.key==='Enter') addTicker()" />
+                            <button onclick="addTicker()">+ Add</button>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </div>
-
-        <!-- Chart Grid -->
-        <div class="lw-charts-grid" id="lwChartsGrid">
-            <div class="lw-loading">Loading charts...</div>
-        </div>
+            <div class="lw-charts-grid" id="lwChartsGrid">
+                <div class="lw-loading">Loading charts...</div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>⚡ PulseForge by <a href="https://github.com/Appforgelabs">Appforgelabs</a> — Data updated daily via GitHub Actions</p>
-        <p class="disclaimer">Not financial advice. For educational and personal use only.</p>
+    <footer class="paper-footer">
+        <div class="footer-rule"></div>
+        <p>© PulseForge Intelligence Desk | Powered by Finnhub &amp; Polygon</p>
+        <p class="disclaimer">Not financial advice. For educational and personal research only. Data updated daily via GitHub Actions.</p>
     </footer>
 
     <script src="assets/app.js"></script>
+    <script>
+        // Set masthead date
+        document.getElementById('mastDate').textContent = new Date().toLocaleDateString('en-US', {
+            weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+        });
+    </script>
 </body>
 </html>

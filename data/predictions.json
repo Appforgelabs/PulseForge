@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-27T18:00:11.900594",
-  "timestamp": "2026-02-27T18:00:11.900594",
+  "last_updated": "2026-02-27T20:26:27.900947",
+  "timestamp": "2026-02-27T20:26:27.900947",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -19,9 +19,9 @@
     {
       "name": "Pulse Momentum",
       "direction": "NEUTRAL",
-      "confidence": 46,
+      "confidence": 45,
       "horizon": "3-5 days",
-      "rationale": "5-day avg pulse: 58.7, trend: -3.2. Mixed signals \u2014 chop zone"
+      "rationale": "5-day avg pulse: 56.7, trend: -3.7. Mixed signals \u2014 chop zone"
     }
   ]
 }

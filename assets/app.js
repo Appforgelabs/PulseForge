@@ -16,12 +16,12 @@ const DEFAULT_TICKERS = ['TSLA', 'PLTR', 'AMZN', 'HOOD', 'SOFI', 'RIVN', 'NIO'];
 
 const PLOTLY_DARK = {
     paper_bgcolor: 'rgba(0,0,0,0)',
-    plot_bgcolor: 'rgba(0,0,0,0)',
-    font: { family: 'Inter, sans-serif', color: '#94a3b8', size: 12 },
-    xaxis: { gridcolor: '#1e293b', linecolor: '#2a3a4e', zerolinecolor: '#2a3a4e' },
-    yaxis: { gridcolor: '#1e293b', linecolor: '#2a3a4e', zerolinecolor: '#2a3a4e' },
+    plot_bgcolor: '#ffffff',
+    font: { family: "'Source Serif 4', Georgia, serif", color: '#333333', size: 12 },
+    xaxis: { gridcolor: '#e5e5e5', linecolor: '#cccccc', zerolinecolor: '#cccccc' },
+    yaxis: { gridcolor: '#e5e5e5', linecolor: '#cccccc', zerolinecolor: '#cccccc' },
     margin: { l: 50, r: 20, t: 30, b: 40 },
-    hoverlabel: { bgcolor: '#1a2332', bordercolor: '#3b82f6', font: { color: '#e2e8f0' } }
+    hoverlabel: { bgcolor: '#000000', bordercolor: '#C41E3A', font: { color: '#ffffff' } }
 };
 const PLOTLY_CONFIG = { responsive: true, displayModeBar: false };
 
@@ -41,11 +41,11 @@ function fmtChange(current, previous) {
 }
 
 function regimeColor(score) {
-    if (score < 30) return { label: 'EXTREME FEAR', cls: 'fear', color: '#ef4444' };
-    if (score < 45) return { label: 'FEAR', cls: 'fear', color: '#f97316' };
-    if (score < 55) return { label: 'NEUTRAL', cls: 'neutral', color: '#f59e0b' };
-    if (score < 70) return { label: 'GREED', cls: 'neutral', color: '#84cc16' };
-    return { label: 'EXTREME GREED', cls: 'greed', color: '#10b981' };
+    if (score < 30) return { label: 'EXTREME FEAR — Markets in distress, capitulation risk elevated.', cls: 'fear', color: '#C41E3A' };
+    if (score < 45) return { label: 'FEAR — Risk-off sentiment prevailing, defensive positioning warranted.', cls: 'fear', color: '#C41E3A' };
+    if (score < 55) return { label: 'NEUTRAL — Mixed signals. No directional conviction.', cls: 'neutral', color: '#666666' };
+    if (score < 70) return { label: 'GREED — Momentum building. Risk appetite elevated.', cls: 'greed', color: '#1a6b1a' };
+    return { label: 'EXTREME GREED — Euphoria detected. Caution advised.', cls: 'greed', color: '#1a6b1a' };
 }
 
 async function loadJSON(filename) {
@@ -165,27 +165,27 @@ function removeTicker(ticker) {
 
 // ── Tab Switching ──
 function switchTab(name, btn) {
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.section-nav-item').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-    btn.classList.add('active');
+    if (btn) btn.classList.add('active');
     document.getElementById('tab-' + name).classList.add('active');
     if (name === 'charts') renderChartsTab();
 }
 
 // ── Sparkline ──
-function renderSparkline(elementId, values, color = '#3b82f6') {
+function renderSparkline(elementId, values, color = '#000000') {
     const el = document.getElementById(elementId);
     if (!el || !values || values.length < 2) return;
     Plotly.newPlot(el, [{
         y: values.slice(-30), type: 'scatter', mode: 'lines',
         line: { color, width: 1.5, shape: 'spline' },
         fill: 'tozeroy',
-        fillcolor: color.replace(')', ', 0.1)').replace('rgb', 'rgba'),
+        fillcolor: color === '#C41E3A' ? 'rgba(196,30,58,0.08)' : 'rgba(0,0,0,0.06)',
         hoverinfo: 'skip'
     }], {
         ...PLOTLY_DARK,
         margin: { l: 0, r: 0, t: 0, b: 0 },
-        xaxis: { visible: false }, yaxis: { visible: false }, height: 40
+        xaxis: { visible: false }, yaxis: { visible: false }, height: 36
     }, { ...PLOTLY_CONFIG, staticPlot: true });
 }
 
@@ -193,12 +193,12 @@ function renderSparkline(elementId, values, color = '#3b82f6') {
 function renderMetrics(data) {
     if (!data) return;
     const metrics = [
-        { id: 'vix', key: 'VIX', color: '#ef4444', decimals: 2, prefix: '', suffix: '' },
-        { id: 'spy', key: 'SPY', color: '#3b82f6', decimals: 2, prefix: '$', suffix: '' },
-        { id: 'dxy', key: 'DXY', color: '#8b5cf6', decimals: 2, prefix: '', suffix: '' },
-        { id: 'tny', key: 'TNX', color: '#f59e0b', decimals: 2, prefix: '', suffix: '%' },
-        { id: 'btc', key: 'BTC', color: '#f97316', decimals: 0, prefix: '$', suffix: '' },
-        { id: 'oil', key: 'CL', color: '#10b981', decimals: 2, prefix: '$', suffix: '' }
+        { id: 'vix', key: 'VIX', color: '#C41E3A', decimals: 2, prefix: '', suffix: '' },
+        { id: 'spy', key: 'SPY', color: '#000000', decimals: 2, prefix: '$', suffix: '' },
+        { id: 'dxy', key: 'DXY', color: '#333333', decimals: 2, prefix: '', suffix: '' },
+        { id: 'tny', key: 'TNX', color: '#333333', decimals: 2, prefix: '', suffix: '%' },
+        { id: 'btc', key: 'BTC', color: '#C41E3A', decimals: 0, prefix: '$', suffix: '' },
+        { id: 'oil', key: 'CL', color: '#333333', decimals: 2, prefix: '$', suffix: '' }
     ];
     metrics.forEach(({ id, key, color, decimals, prefix, suffix }) => {
         const series = data[key];
@@ -210,23 +210,27 @@ function renderMetrics(data) {
         const change = fmtChange(current, previous);
         const changeEl = document.getElementById(`${id}Change`);
         changeEl.textContent = change.text;
-        changeEl.className = `metric-change ${change.cls}`;
+        changeEl.className = `change-badge ${change.cls}`;
         renderSparkline(`${id}Spark`, values, color);
     });
+    // Update masthead price strip
+    const spy = data['SPY']?.values; if (spy) { const v = spy[spy.length-1]; const p = spy[spy.length-2]; const c = fmtChange(v,p); const el = document.getElementById('mastSPY'); if(el) el.textContent = `$${fmt(v,2)} ${c.text}`; el.className = `mono ${c.cls}`; }
+    const vix = data['VIX']?.values; if (vix) { const v = vix[vix.length-1]; const el = document.getElementById('mastVIX'); if(el) el.textContent = fmt(v,2); }
+    const btc = data['BTC']?.values; if (btc) { const v = btc[btc.length-1]; const el = document.getElementById('mastBTC'); if(el) el.textContent = `$${fmt(v,0)}`; }
 }
 
 function renderPulseChart(data) {
     if (!data || !data.dates || !data.scores) return;
-    const colors = data.scores.map(s => s < 30 ? '#ef4444' : s < 45 ? '#f97316' : s < 55 ? '#f59e0b' : s < 70 ? '#84cc16' : '#10b981');
+    const colors = data.scores.map(s => s < 45 ? '#C41E3A' : s < 55 ? '#888888' : '#1a6b1a');
     Plotly.newPlot('pulseChart', [
         { x: data.dates, y: data.scores, type: 'scatter', mode: 'lines+markers',
-          line: { color: '#3b82f6', width: 2, shape: 'spline' },
+          line: { color: '#000000', width: 2, shape: 'spline' },
           marker: { color: colors, size: 5 },
-          fill: 'tozeroy', fillcolor: 'rgba(59,130,246,0.08)', name: 'Pulse Score' },
+          fill: 'tozeroy', fillcolor: 'rgba(0,0,0,0.05)', name: 'Pulse Score' },
         { x: data.dates, y: Array(data.dates.length).fill(30), type: 'scatter', mode: 'lines',
-          line: { color: '#ef4444', width: 1, dash: 'dot' }, name: 'Fear Zone', hoverinfo: 'skip' },
+          line: { color: '#C41E3A', width: 1, dash: 'dot' }, name: 'Fear Zone', hoverinfo: 'skip' },
         { x: data.dates, y: Array(data.dates.length).fill(70), type: 'scatter', mode: 'lines',
-          line: { color: '#10b981', width: 1, dash: 'dot' }, name: 'Greed Zone', hoverinfo: 'skip' }
+          line: { color: '#1a6b1a', width: 1, dash: 'dot' }, name: 'Greed Zone', hoverinfo: 'skip' }
     ], {
         ...PLOTLY_DARK, showlegend: true,
         legend: { orientation: 'h', y: -0.15, font: { size: 11 } },
@@ -240,7 +244,6 @@ function renderPulseChart(data) {
         document.getElementById('pulseScore').style.color = regime.color;
         const regimeEl = document.getElementById('pulseRegime');
         regimeEl.textContent = regime.label;
-        regimeEl.className = `pulse-regime ${regime.cls}`;
     }
 }
 
@@ -249,17 +252,17 @@ function renderSectorChart(data) {
     const sectors = data.sectors;
     const names = Object.keys(sectors);
     const values = names.map(n => sectors[n].change_pct);
-    const colors = values.map(v => v >= 0 ? '#10b981' : '#ef4444');
+    const colors = values.map(v => v >= 0 ? '#1a6b1a' : '#C41E3A');
     Plotly.newPlot('sectorChart', [{
         x: names, y: values, type: 'bar',
-        marker: { color: colors, line: { color: colors.map(c => c === '#10b981' ? '#059669' : '#dc2626'), width: 1 } },
+        marker: { color: colors, line: { color: '#000000', width: 0.5 } },
         text: values.map(v => `${v >= 0 ? '+' : ''}${v.toFixed(2)}%`),
         textposition: 'outside',
-        textfont: { family: 'JetBrains Mono', size: 11, color: '#94a3b8' },
+        textfont: { family: 'IBM Plex Mono', size: 11, color: '#333333' },
         hovertemplate: '%{x}: %{y:.2f}%<extra></extra>'
     }], {
         ...PLOTLY_DARK,
-        yaxis: { ...PLOTLY_DARK.yaxis, title: 'Change %', zeroline: true, zerolinecolor: '#3b82f6', zerolinewidth: 2 },
+        yaxis: { ...PLOTLY_DARK.yaxis, title: 'Change %', zeroline: true, zerolinecolor: '#000000', zerolinewidth: 2 },
         height: 350
     }, PLOTLY_CONFIG);
 }
@@ -291,20 +294,20 @@ function renderVolChart(data) {
     const traces = [];
     if (data.vix_history) traces.push({
         x: data.vix_history.dates, y: data.vix_history.values, type: 'scatter', mode: 'lines',
-        name: 'VIX', line: { color: '#ef4444', width: 2 },
-        fill: 'tozeroy', fillcolor: 'rgba(239,68,68,0.08)'
+        name: 'VIX', line: { color: '#C41E3A', width: 2 },
+        fill: 'tozeroy', fillcolor: 'rgba(196,30,58,0.08)'
     });
     if (data.vix_sma) traces.push({
         x: data.vix_sma.dates, y: data.vix_sma.values, type: 'scatter', mode: 'lines',
-        name: 'VIX 20-SMA', line: { color: '#f59e0b', width: 1.5, dash: 'dash' }
+        name: 'VIX 20-SMA', line: { color: '#333333', width: 1.5, dash: 'dash' }
     });
     if (traces.length) Plotly.newPlot('volChart', traces, {
         ...PLOTLY_DARK, showlegend: true,
         legend: { orientation: 'h', y: -0.15 },
         yaxis: { ...PLOTLY_DARK.yaxis, title: 'VIX Level' },
         shapes: [
-            { type: 'line', y0: 20, y1: 20, x0: 0, x1: 1, xref: 'paper', line: { color: '#f59e0b', width: 1, dash: 'dot' } },
-            { type: 'line', y0: 30, y1: 30, x0: 0, x1: 1, xref: 'paper', line: { color: '#ef4444', width: 1, dash: 'dot' } }
+            { type: 'line', y0: 20, y1: 20, x0: 0, x1: 1, xref: 'paper', line: { color: '#666666', width: 1, dash: 'dot' } },
+            { type: 'line', y0: 30, y1: 30, x0: 0, x1: 1, xref: 'paper', line: { color: '#C41E3A', width: 1, dash: 'dot' } }
         ],
         height: 350
     }, PLOTLY_CONFIG);
@@ -315,11 +318,12 @@ function renderPredictions(data) {
     const grid = document.getElementById('predictionsGrid');
     grid.innerHTML = data.predictions.map(p => {
         const signalCls = p.direction === 'BULLISH' ? 'bullish' : p.direction === 'BEARISH' ? 'bearish' : 'neutral';
-        return `<div class="prediction-card">
-            <h3>${p.name}</h3>
-            <div class="signal ${signalCls}">${p.direction} ${p.direction === 'BULLISH' ? '↑' : p.direction === 'BEARISH' ? '↓' : '→'}</div>
-            <div class="confidence">Confidence: ${p.confidence}% · Horizon: ${p.horizon}</div>
-            <div style="margin-top:0.5rem;font-size:0.8rem;color:var(--text-muted);">${p.rationale || ''}</div>
+        const arrow = p.direction === 'BULLISH' ? '↑' : p.direction === 'BEARISH' ? '↓' : '→';
+        return `<div class="prediction-item">
+            <div class="prediction-name">${p.name}</div>
+            <span class="prediction-signal ${signalCls}">${p.direction} ${arrow}</span>
+            <div class="prediction-meta">Confidence: ${p.confidence}% · Horizon: ${p.horizon}</div>
+            <div class="prediction-rationale">${p.rationale || ''}</div>
         </div>`;
     }).join('');
 }
@@ -416,19 +420,19 @@ async function renderSingleChart(ticker) {
     const chart = LightweightCharts.createChart(chartEl, {
         width: chartEl.clientWidth || 480,
         height: 200,
-        layout: { background: { type: 'solid', color: 'transparent' }, textColor: '#94a3b8' },
-        grid: { vertLines: { color: '#1e293b' }, horzLines: { color: '#1e293b' } },
+        layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333333' },
+        grid: { vertLines: { color: '#f0f0f0' }, horzLines: { color: '#f0f0f0' } },
         crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
-        rightPriceScale: { borderColor: '#2a3a4e' },
-        timeScale: { borderColor: '#2a3a4e', timeVisible: true },
+        rightPriceScale: { borderColor: '#cccccc' },
+        timeScale: { borderColor: '#cccccc', timeVisible: true },
         handleScroll: true,
         handleScale: true,
     });
 
     const candleSeries = chart.addSeries(LightweightCharts.CandlestickSeries, {
-        upColor: '#10b981', downColor: '#ef4444',
-        borderUpColor: '#10b981', borderDownColor: '#ef4444',
-        wickUpColor: '#10b981', wickDownColor: '#ef4444',
+        upColor: '#1a6b1a', downColor: '#C41E3A',
+        borderUpColor: '#1a6b1a', borderDownColor: '#C41E3A',
+        wickUpColor: '#1a6b1a', wickDownColor: '#C41E3A',
     });
 
     const ohlcData = candles.map(c => ({
@@ -461,10 +465,10 @@ async function renderSingleChart(ticker) {
     const volChart = LightweightCharts.createChart(volEl, {
         width: volEl.clientWidth || 480,
         height: 55,
-        layout: { background: { type: 'solid', color: 'transparent' }, textColor: '#94a3b8' },
+        layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333333' },
         grid: { vertLines: { visible: false }, horzLines: { visible: false } },
-        rightPriceScale: { borderColor: '#2a3a4e', scaleMargins: { top: 0.1, bottom: 0 } },
-        timeScale: { borderColor: '#2a3a4e', visible: false },
+        rightPriceScale: { borderColor: '#cccccc', scaleMargins: { top: 0.1, bottom: 0 } },
+        timeScale: { borderColor: '#cccccc', visible: false },
         handleScroll: false, handleScale: false,
     });
 
@@ -476,7 +480,7 @@ async function renderSingleChart(ticker) {
     const volData = candles.map(c => ({
         time: Math.floor(c.t / 1000),
         value: c.v,
-        color: c.c >= c.o ? 'rgba(16,185,129,0.5)' : 'rgba(239,68,68,0.5)'
+        color: c.c >= c.o ? 'rgba(26,107,26,0.5)' : 'rgba(196,30,58,0.5)'
     }));
     volSeries.setData(volData);
     volChart.timeScale().fitContent();
@@ -506,33 +510,30 @@ function setDataStatus(connected, pushedAt) {
 
     if (connected) {
         dot.className   = 'ds-dot connected';
-        label.className = 'ds-label connected';
+        label.className = 'connected';
         label.textContent = 'Live';
         if (pushedAt) {
             try {
                 const d = new Date(pushedAt);
-                // If the value is date-only (no 'T'), just show the date
                 const isDateOnly = !pushedAt.includes('T');
                 if (isDateOnly) {
-                    time.textContent = `Pushed ${d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' })}`;
+                    time.textContent = ` · Pushed ${d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' })}`;
                 } else {
-                    time.textContent = `Pushed ${d.toLocaleString('en-US', {
+                    time.textContent = ` · Pushed ${d.toLocaleString('en-US', {
                         timeZone: 'America/New_York',
                         month: 'short', day: 'numeric',
                         hour: 'numeric', minute: '2-digit', hour12: true
                     })} ET`;
                 }
             } catch (e) {
-                time.textContent = `Pushed ${pushedAt}`;
+                time.textContent = ` · ${pushedAt}`;
             }
-        } else {
-            time.textContent = 'Push time unavailable';
         }
     } else {
         dot.className   = 'ds-dot offline';
-        label.className = 'ds-label offline';
+        label.className = 'offline';
         label.textContent = 'Offline';
-        time.textContent = 'Using cached data';
+        if (time) time.textContent = ' · Cached data';
     }
 }
 
