@@ -86,8 +86,122 @@ def finnhub_quote(symbol):
             "high": data["h"],
             "low": data["l"],
             "open": data["o"],
-            "prev_close": data["pc"]
+            "prev_close": data["pc"],
+            "source": "finnhub"
         }
+    return None
+
+# Exchange map for TradingView URL construction
+_TV_EXCHANGE_MAP = {
+    "TSLA": "NASDAQ", "PLTR": "NASDAQ", "AMZN": "NASDAQ",
+    "HOOD": "NASDAQ", "SOFI": "NASDAQ", "RIVN": "NASDAQ",
+    "NIO": "NYSE", "NVDA": "NASDAQ", "AAPL": "NASDAQ",
+    "MSFT": "NASDAQ", "META": "NASDAQ", "GOOG": "NASDAQ",
+    "GOOGL": "NASDAQ", "AVGO": "NASDAQ", "WMT": "NASDAQ",
+    "SPY": "AMEX", "QQQ": "NASDAQ", "IWM": "AMEX",
+    "XLK": "AMEX", "XLF": "AMEX", "XLE": "AMEX",
+    "XLV": "AMEX", "XLI": "AMEX", "XLY": "AMEX",
+    "XLP": "AMEX", "XLU": "AMEX", "XLRE": "AMEX",
+    "XLC": "AMEX", "XLB": "AMEX",
+}
+
+def tradingview_quote(symbol, exchange=None):
+    """
+    Get quote by scraping TradingView symbol page.
+    Used as fallback when Finnhub/Polygon/Yahoo fail.
+    Parses the page <title> which contains: SYMBOL PRICE USD CHANGE CHANGEPCT%
+    """
+    if exchange is None:
+        exchange = _TV_EXCHANGE_MAP.get(symbol.upper(), "NASDAQ")
+
+    url = f"https://www.tradingview.com/symbols/{exchange}-{symbol}/"
+    html = fetch_text(url)
+    if not html:
+        return None
+
+    try:
+        title_match = re.search(r'<title[^>]*>([^<]+)</title>', html)
+        if not title_match:
+            return None
+        title = title_match.group(1)
+        # Title format: "RIVN 14.79 USD −0.22 −1.47% ..."
+        # Unicode minus (−) must be normalized
+        title = title.replace('\u2212', '-')
+
+        # Extract all numeric tokens
+        tokens = title.split()
+        nums = []
+        for t in tokens:
+            clean = t.replace(',', '').replace('%', '').strip()
+            try:
+                nums.append((float(clean), '%' in t))
+            except ValueError:
+                pass
+
+        if len(nums) >= 2:
+            price = nums[0][0]
+            # Find change_pct (token with %)
+            change_pct = None
+            change = None
+            for val, is_pct in nums[1:]:
+                if is_pct and change_pct is None:
+                    change_pct = val
+                elif change is None and not is_pct:
+                    change = val
+
+            if price and price > 0:
+                print(f"    ✓ {symbol} from TradingView: ${price} ({change_pct}%)")
+                return {
+                    "price": price,
+                    "change": change or 0.0,
+                    "change_pct": change_pct or 0.0,
+                    "high": None,
+                    "low": None,
+                    "open": None,
+                    "prev_close": None,
+                    "source": "tradingview"
+                }
+    except Exception as e:
+        print(f"    WARN: TradingView parse error for {symbol}: {e}", file=sys.stderr)
+
+    return None
+
+def get_quote(symbol, exchange=None):
+    """
+    Unified quote fetcher with priority fallback chain:
+    1. Finnhub (primary — fast, reliable for equities)
+    2. Yahoo Finance (fallback — no key needed)
+    3. TradingView (last resort — web scrape)
+    """
+    # Try Finnhub
+    q = finnhub_quote(symbol)
+    if q:
+        return q
+
+    # Try Yahoo Finance
+    ydata = _yahoo_chart(symbol, days=2)
+    if ydata and ydata["values"]:
+        price = ydata["values"][-1]
+        prev = ydata["values"][-2] if len(ydata["values"]) >= 2 else price
+        chg = round(price - prev, 4)
+        chg_pct = round((chg / prev) * 100, 4) if prev else 0
+        print(f"    ⚠ {symbol} from Yahoo Finance fallback: ${price}")
+        return {
+            "price": price,
+            "change": chg,
+            "change_pct": chg_pct,
+            "high": None, "low": None, "open": None, "prev_close": prev,
+            "source": "yahoo"
+        }
+
+    # Try TradingView (scrape)
+    print(f"    ⚠ {symbol}: Finnhub + Yahoo failed, trying TradingView...")
+    time.sleep(1)  # polite delay before scraping
+    q = tradingview_quote(symbol, exchange)
+    if q:
+        return q
+
+    print(f"    ✗ {symbol}: all sources failed")
     return None
 
 def polygon_aggs(symbol, days=90):
@@ -472,12 +586,13 @@ def main():
     print("\n🏭 Fetching sector data...")
     sectors_data = {"last_updated": now, "sectors": {}}
     for symbol, name in SECTORS.items():
-        q = finnhub_quote(symbol)
+        q = get_quote(symbol)
         if q:
             sectors_data["sectors"][name] = {
                 "symbol": symbol,
                 "price": q["price"],
-                "change_pct": q["change_pct"]
+                "change_pct": q["change_pct"],
+                "source": q.get("source", "unknown")
             }
         time.sleep(0.15)  # Rate limit courtesy
     write_json("sectors.json", sectors_data)
@@ -486,7 +601,7 @@ def main():
     print("\n👁️ Fetching watchlist...")
     watchlist_data = {"last_updated": now, "stocks": []}
     for symbol in WATCHLIST:
-        q = finnhub_quote(symbol)
+        q = get_quote(symbol)
         if q:
             if q["change_pct"] and q["change_pct"] > 1.5:
                 signal = "BULLISH"
@@ -501,6 +616,7 @@ def main():
                 "change_pct": q["change_pct"],
                 "volume": None,
                 "signal": signal,
+                "source": q.get("source", "unknown"),
                 "notes": ""
             })
         time.sleep(0.15)
