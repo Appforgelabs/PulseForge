@@ -1,68 +1,68 @@
 {
-  "last_updated": "2026-03-03T09:49:00",
+  "last_updated": "2026-03-03T18:00:19.487178",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 391.75,
-      "change_pct": -2.87,
+      "price": 392.43,
+      "change_pct": -2.7001,
       "volume": null,
       "signal": "BEARISH",
-      "source": "tradingview",
+      "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 142.17,
-      "change_pct": -2.07,
+      "price": 147.22,
+      "change_pct": 1.4121,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "tradingview",
-      "notes": "RSI bullish divergence on daily — local bottom forming per community"
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 204.56,
-      "change_pct": -1.84,
+      "price": 208.73,
+      "change_pct": 0.1632,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "tradingview",
+      "signal": "NEUTRAL",
+      "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "HOOD",
-      "price": 74.76,
-      "change_pct": -5.10,
+      "price": 76.07,
+      "change_pct": -3.44,
       "volume": null,
       "signal": "BEARISH",
-      "source": "tradingview",
-      "notes": "-35% YTD, pre-market -5.8%, RSI bullish divergence noted at HTF WCL"
+      "source": "finnhub",
+      "notes": ""
     },
     {
       "ticker": "SOFI",
-      "price": 18.03,
-      "change_pct": -1.96,
+      "price": 18.61,
+      "change_pct": 1.1963,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "tradingview",
-      "notes": "Paper position avg $18.16, slightly underwater. Expanded Mastercard stablecoin partnership."
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 14.79,
-      "change_pct": -1.47,
+      "price": 15.1,
+      "change_pct": 0.5996,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "tradingview",
-      "notes": "-25% YTD, short thesis intact. Next earnings ~May 12."
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 4.51,
-      "change_pct": -4.56,
+      "price": 4.59,
+      "change_pct": -2.7542,
       "volume": null,
       "signal": "BEARISH",
-      "source": "tradingview",
-      "notes": "Death spiral on schedule."
+      "source": "finnhub",
+      "notes": ""
     }
   ]
 }
