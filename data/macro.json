@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-06T11:15:03.984730",
+  "last_updated": "2026-03-06T11:30:04.021034",
   "notes": [
-    "\u26a0\ufe0f VIX elevated at 25.9 \u2014 market pricing in uncertainty",
+    "\u26a0\ufe0f VIX elevated at 26.1 \u2014 market pricing in uncertainty",
     "S&P 500 below 50-day MA ($688) \u2014 cautious positioning warranted",
     "10Y Treasury Yield: 4.15%",
-    "US Dollar Index (DXY): 99.03",
-    "WTI Crude Oil: $88.94",
+    "US Dollar Index (DXY): 98.96",
+    "WTI Crude Oil: $88.29",
     "Pipeline v2 \u2014 data sources: Polygon.io, Yahoo Finance, Finnhub",
-    "Last run: 2026-03-06 11:15 AM ET"
+    "Last run: 2026-03-06 11:30 AM ET"
   ]
 }
