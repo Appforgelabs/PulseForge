@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-09T11:45:21.453857",
-  "timestamp": "2026-03-09T11:45:21.453857",
+  "last_updated": "2026-03-09T18:00:13.285915",
+  "timestamp": "2026-03-09T18:00:13.285915",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -12,9 +12,9 @@
     {
       "name": "Volatility Regime",
       "direction": "BEARISH",
-      "confidence": 70,
+      "confidence": 64,
       "horizon": "1 week",
-      "rationale": "VIX: 27.9 vs 20-day avg: 20.9. Elevated fear \u2014 potential capitulation or more downside"
+      "rationale": "VIX: 25.5 vs 20-day avg: 20.8. Elevated fear \u2014 potential capitulation or more downside"
     },
     {
       "name": "Pulse Momentum",
