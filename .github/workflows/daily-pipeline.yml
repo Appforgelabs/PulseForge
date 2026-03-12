@@ -25,7 +25,10 @@ jobs:
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
-        run: python scripts/fetch_data.py
+        run: |
+          python scripts/fetch_data.py
+          python scripts/fetch_insider.py
+          python scripts/fetch_congress.py
 
       - name: Commit and push data
         run: |

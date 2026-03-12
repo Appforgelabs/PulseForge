@@ -754,3 +754,427 @@ a:hover { color: var(--red); }
         padding: 8px 12px 0;
     }
 }
+
+/* ================================================================
+   PulseForge v2 — Ticker Tape, News, Heatmap, Insider, Congress
+   ================================================================ */
+
+/* ── Ticker Tape ── */
+.ticker-tape-wrap {
+    overflow: hidden;
+    background: var(--black);
+    color: var(--white);
+    padding: 6px 0;
+    margin: 0 -24px;
+    cursor: default;
+    user-select: none;
+}
+
+.ticker-inner {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ticker-track {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    animation: tickerScroll 50s linear infinite;
+    will-change: transform;
+}
+
+.ticker-track:hover { animation-play-state: paused; }
+
+@keyframes tickerScroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.ticker-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 12px;
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.01em;
+}
+
+.tk-sep {
+    color: rgba(255,255,255,0.2);
+    font-size: 0.65rem;
+}
+
+.tk-sym {
+    font-weight: 700;
+    color: #e5e7eb;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+}
+
+.tk-price {
+    color: #d1d5db;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+}
+
+.tk-chg { font-family: var(--font-mono); font-size: 0.7rem; }
+.tk-chg.up   { color: #4ade80; }
+.tk-chg.down { color: #f87171; }
+
+.ticker-loading {
+    padding: 0 16px;
+    color: rgba(255,255,255,0.4);
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+}
+
+/* ── Section Nav update (5 tabs) ── */
+.section-nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.section-nav::-webkit-scrollbar { display: none; }
+
+/* ── News ── */
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.news-list-full {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.news-item {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--rule-light);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.news-item:hover { background: var(--newsprint); }
+.news-item:last-child { border-bottom: none; }
+
+.news-compact {
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 0;
+}
+
+.news-img {
+    width: 72px;
+    height: 52px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid var(--rule-light);
+}
+
+.news-content { flex: 1; min-width: 0; }
+
+.news-meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.news-source {
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--red);
+}
+
+.news-ago {
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    color: var(--ink-muted);
+}
+
+.news-headline {
+    font-family: var(--font-head);
+    font-size: 0.88rem;
+    line-height: 1.35;
+    color: var(--ink);
+    font-weight: 600;
+}
+
+.news-compact .news-headline {
+    font-size: 0.82rem;
+    font-family: var(--font-body);
+    font-weight: 400;
+}
+
+.news-summary {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    color: var(--ink-muted);
+    line-height: 1.4;
+    margin-top: 3px;
+}
+
+.news-loading {
+    padding: 16px 0;
+    color: var(--ink-muted);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+/* ── Flow Controls (Insider/Congress filter buttons) ── */
+.flow-controls {
+    display: flex;
+    gap: 6px;
+    margin: 10px 0 12px;
+    flex-wrap: wrap;
+}
+
+.flow-btn {
+    padding: 4px 12px;
+    border: 1px solid var(--rule-light);
+    background: var(--white);
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--ink-muted);
+    transition: all 0.15s;
+}
+
+.flow-btn:hover { border-color: var(--black); color: var(--black); }
+.flow-btn.active {
+    background: var(--black);
+    color: var(--white);
+    border-color: var(--black);
+}
+
+/* ── Flow Table ── */
+.flow-table-wrap {
+    overflow-x: auto;
+    margin-top: 4px;
+}
+
+.flow-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+}
+
+.flow-table thead th {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    border-bottom: 2px solid var(--black);
+    padding: 6px 8px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.flow-table tbody tr { border-bottom: 1px solid #f0f0f0; }
+.flow-table tbody tr:hover { background: var(--newsprint); }
+.flow-table tbody td { padding: 6px 8px; vertical-align: middle; }
+
+.flow-date { color: var(--ink-muted); font-size: 0.75rem; white-space: nowrap; }
+.flow-name { color: var(--ink); max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.flow-ticker {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 700;
+    background: #f0f0f0;
+    padding: 1px 6px;
+    border-radius: 2px;
+}
+
+.flow-type-badge {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.flow-buy  { color: var(--up); }
+.flow-sell { color: var(--red); }
+
+.flow-type-badge.flow-buy  { background: rgba(26,107,26,0.1);  color: var(--up); }
+.flow-type-badge.flow-sell { background: rgba(196,30,58,0.1);  color: var(--red); }
+
+.text-right { text-align: right; }
+
+/* ── Insider Summary Sidebar ── */
+.flow-summary { margin-top: 4px; }
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.summary-stat {
+    text-align: center;
+    padding: 8px 4px;
+    border: 1px solid var(--rule-light);
+}
+
+.summary-num {
+    font-family: var(--font-head);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.summary-label {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    margin-top: 2px;
+}
+
+.summary-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    padding: 4px 0;
+    border-bottom: 1px dotted var(--rule-light);
+}
+
+.flow-summary-loading {
+    color: var(--ink-muted);
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 8px 0;
+}
+
+/* ── Big Moves ── */
+.big-moves-list { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+
+.big-move-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--rule-light);
+}
+
+.big-move-left { display: flex; align-items: center; gap: 8px; }
+.big-move-name { font-family: var(--font-sans); font-size: 0.75rem; color: var(--ink-muted); }
+.big-move-right { display: flex; align-items: center; gap: 8px; }
+.big-move-val { font-size: 0.8rem; }
+
+/* ── Insider Updated ── */
+.insider-updated {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    color: var(--ink-muted);
+}
+
+/* ── Congress ── */
+.congress-search-wrap { margin: 8px 0 4px; }
+.congress-search {
+    width: 100%;
+    max-width: 400px;
+    padding: 6px 10px;
+    border: 1px solid var(--rule-light);
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    color: var(--ink);
+    background: var(--white);
+    outline: none;
+}
+.congress-search:focus { border-color: var(--black); }
+
+.congress-badge {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.congress-house  { background: #dbeafe; color: #1d4ed8; }
+.congress-senate { background: #fce7f3; color: #9d174d; }
+
+/* ── Top Tickers Bar Chart ── */
+.top-tickers-list { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+
+.top-ticker-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.78rem;
+}
+
+.top-ticker-bar-wrap {
+    flex: 1;
+    height: 6px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.top-ticker-bar {
+    height: 100%;
+    background: var(--black);
+    border-radius: 3px;
+    transition: width 0.3s;
+}
+
+.top-ticker-count { color: var(--ink-muted); font-size: 0.72rem; }
+
+/* ── Insider Mini (Overview sidebar) ── */
+.insider-mini-list { display: flex; flex-direction: column; gap: 0; }
+
+.insider-mini-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0.78rem;
+}
+
+.insider-mini-name {
+    color: var(--ink-muted);
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100px;
+}
+
+@media (max-width: 600px) {
+    .ticker-tape-wrap { margin: 0 -12px; }
+    .flow-table { font-size: 0.72rem; }
+    .flow-table thead th, .flow-table tbody td { padding: 4px 5px; }
+    .summary-grid { grid-template-columns: 1fr 1fr 1fr; }
+    .summary-num { font-size: 1.2rem; }
+    .congress-search { max-width: 100%; }
+}
