@@ -1,8 +1,129 @@
 {
-  "last_updated": "2026-03-13T23:04:24.567142",
-  "from_date": "2026-02-11",
-  "to_date": "2026-03-13",
+  "last_updated": "2026-03-16T23:05:22.685361",
+  "from_date": "2026-02-14",
+  "to_date": "2026-03-16",
   "transactions": [
+    {
+      "ticker": "MSFT",
+      "name": "Walmsley Emma N",
+      "date": "2026-03-12",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1110,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Rainey John D",
+      "date": "2026-03-12",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 146,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "List Teri",
+      "date": "2026-03-12",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 23021,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Hoffman Reid",
+      "date": "2026-03-12",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 16699,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Macgregor Catherine",
+      "date": "2026-03-12",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1929,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Schuppenhauer Eric",
+      "date": "2026-03-11",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 103889,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Keough Kelli",
+      "date": "2026-03-11",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 90903,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Pinto Arun",
+      "date": "2026-03-11",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 155833,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Rishel Jeremy",
+      "date": "2026-03-11",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 181805,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Lapointe Christopher",
+      "date": "2026-03-11",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 233749,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Grasby Paul Darren",
+      "date": "2026-03-11",
+      "filing_date": "2026-03-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 129598,
+      "price": 204.87,
+      "value": 26550742.26
+    },
     {
       "ticker": "NVDA",
       "name": "Puri Ajay K",
@@ -123,17 +244,6 @@
       "shares": 18107,
       "price": 397.031,
       "value": 7189040.317
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Hogan Kathleen T",
-      "date": "2026-03-06",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 137933,
-      "price": 409.52,
-      "value": 56486322.16
     },
     {
       "ticker": "TSLA",
@@ -400,61 +510,6 @@
       "value": 106487984.25
     },
     {
-      "ticker": "SOFI",
-      "name": "Noto Anthony",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-02",
-      "type": "BUY",
-      "code": "Purchase",
-      "shares": 11675452,
-      "price": 17.8842,
-      "value": 208806118.6584
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Coleman Amy",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 48608,
-      "price": 392.74,
-      "value": 19090305.92
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Numoto Takeshi",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 54431,
-      "price": 392.74,
-      "value": 21377230.94
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Althoff Judson",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 125947,
-      "price": 392.74,
-      "value": 49464424.78
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Jolla Alice L.",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 71561,
-      "price": 392.74,
-      "value": 28104867.14
-    },
-    {
       "ticker": "NFLX",
       "name": "Hoag Jay C",
       "date": "2026-03-02",
@@ -541,17 +596,6 @@
       "shares": 104970,
       "price": 200.21,
       "value": 21016043.7
-    },
-    {
-      "ticker": "AMD",
-      "name": "Hu Jean X.",
-      "date": "2026-03-01",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 156890,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "AAPL",
@@ -675,17 +719,6 @@
       "value": 2447068.7382
     },
     {
-      "ticker": "SOFI",
-      "name": "Keough Kelli",
-      "date": "2026-02-20",
-      "filing_date": "2026-02-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 293725,
-      "price": 18.8742,
-      "value": 5543824.395
-    },
-    {
       "ticker": "JPM",
       "name": "Rohrbaugh Troy L",
       "date": "2026-02-19",
@@ -739,39 +772,6 @@
       "shares": 4253754,
       "price": 307.1926,
       "value": 1306721751.0204
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Schuppenhauer Eric",
-      "date": "2026-02-18",
-      "filing_date": "2026-02-19",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 261416,
-      "price": 19.622,
-      "value": 5129504.752
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Pinto Arun",
-      "date": "2026-02-18",
-      "filing_date": "2026-02-19",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 163230,
-      "price": 19.622,
-      "value": 3202899.06
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Schuppenhauer Eric",
-      "date": "2026-02-17",
-      "filing_date": "2026-02-19",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 557310,
-      "price": 0,
-      "value": 0
     }
   ]
 }
