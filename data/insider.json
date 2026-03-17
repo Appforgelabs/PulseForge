@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-03-16T23:05:22.685361",
-  "from_date": "2026-02-14",
-  "to_date": "2026-03-16",
+  "last_updated": "2026-03-17T23:07:13.388948",
+  "from_date": "2026-02-15",
+  "to_date": "2026-03-17",
   "transactions": [
+    {
+      "ticker": "MSFT",
+      "name": "Coleman Amy",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-16",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 48577,
+      "price": 395.55,
+      "value": 19214632.35
+    },
+    {
+      "ticker": "AMD",
+      "name": "Su Lisa T",
+      "date": "2026-03-15",
+      "filing_date": "2026-03-16",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 362906,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "MSFT",
       "name": "Walmsley Emma N",
@@ -48,15 +70,48 @@
       "value": 0
     },
     {
-      "ticker": "MSFT",
-      "name": "Macgregor Catherine",
+      "ticker": "AMD",
+      "name": "Su Lisa T",
       "date": "2026-03-12",
-      "filing_date": "2026-03-13",
+      "filing_date": "2026-03-16",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 1929,
-      "price": 0,
-      "value": 0
+      "code": "Sale",
+      "shares": 3146006,
+      "price": 203.15,
+      "value": 639111118.9
+    },
+    {
+      "ticker": "AMD",
+      "name": "Su Lisa T",
+      "date": "2026-03-12",
+      "filing_date": "2026-03-16",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3147506,
+      "price": 202.46,
+      "value": 637244064.76
+    },
+    {
+      "ticker": "AMD",
+      "name": "Su Lisa T",
+      "date": "2026-03-12",
+      "filing_date": "2026-03-16",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3150509,
+      "price": 201.13,
+      "value": 633661875.17
+    },
+    {
+      "ticker": "AMD",
+      "name": "Su Lisa T",
+      "date": "2026-03-12",
+      "filing_date": "2026-03-16",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3154609,
+      "price": 199.98,
+      "value": 630858707.8199999
     },
     {
       "ticker": "SOFI",
@@ -112,17 +167,6 @@
       "shares": 233749,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Grasby Paul Darren",
-      "date": "2026-03-11",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 129598,
-      "price": 204.87,
-      "value": 26550742.26
     },
     {
       "ticker": "NVDA",
@@ -433,17 +477,6 @@
       "value": 513644286.00000006
     },
     {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1297759,
-      "price": 200,
-      "value": 259551800
-    },
-    {
       "ticker": "PLTR",
       "name": "Thiel Peter",
       "date": "2026-03-02",
@@ -563,39 +596,6 @@
       "shares": 644,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Guido Philip",
-      "date": "2026-03-01",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 78498,
-      "price": 200.21,
-      "value": 15716084.58
-    },
-    {
-      "ticker": "AMD",
-      "name": "Guido Philip",
-      "date": "2026-03-01",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 95462,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Hu Jean X.",
-      "date": "2026-03-01",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 104970,
-      "price": 200.21,
-      "value": 21016043.7
     },
     {
       "ticker": "AAPL",
