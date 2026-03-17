@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-17T16:04:00.813959",
+  "last_updated": "2026-03-17T18:00:07.727324",
   "sectors": {
     "Technology": {
       "symbol": "XLK",
-      "price": 139.53,
-      "change_pct": 0.5404,
+      "price": 139.54,
+      "change_pct": 0.5476,
       "source": "finnhub"
     },
     "Financials": {
@@ -15,8 +15,8 @@
     },
     "Energy": {
       "symbol": "XLE",
-      "price": 58.5,
-      "change_pct": 1.0363,
+      "price": 58.51,
+      "change_pct": 1.0535,
       "source": "finnhub"
     },
     "Healthcare": {
