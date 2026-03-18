@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-03-17T23:07:13.388948",
-  "from_date": "2026-02-15",
-  "to_date": "2026-03-17",
+  "last_updated": "2026-03-18T23:06:08.201210",
+  "from_date": "2026-02-16",
+  "to_date": "2026-03-18",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Noto Anthony",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-17",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 11704352,
+      "price": 17.3189,
+      "value": 202706501.85279998
+    },
     {
       "ticker": "MSFT",
       "name": "Coleman Amy",
@@ -15,6 +26,39 @@
       "value": 19214632.35
     },
     {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-03-15",
+      "filing_date": "2026-03-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 240832,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-03-15",
+      "filing_date": "2026-03-17",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 27680,
+      "price": 250.12,
+      "value": 6923321.600000001
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-03-15",
+      "filing_date": "2026-03-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 60208,
+      "price": 0,
+      "value": 0
+    },
+    {
       "ticker": "AMD",
       "name": "Su Lisa T",
       "date": "2026-03-15",
@@ -24,6 +68,17 @@
       "shares": 362906,
       "price": 0,
       "value": 0
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Dabiri John",
+      "date": "2026-03-13",
+      "filing_date": "2026-03-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 14788,
+      "price": 184.9,
+      "value": 2734301.2
     },
     {
       "ticker": "MSFT",
@@ -158,17 +213,6 @@
       "value": 0
     },
     {
-      "ticker": "SOFI",
-      "name": "Lapointe Christopher",
-      "date": "2026-03-11",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 233749,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "NVDA",
       "name": "Puri Ajay K",
       "date": "2026-03-10",
@@ -209,17 +253,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 1000572,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Puri Ajay K",
-      "date": "2026-03-09",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 706777,
       "price": 0,
       "value": 0
     },
@@ -649,39 +682,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 1139,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Gorsky Alex",
-      "date": "2026-02-24",
-      "filing_date": "2026-02-26",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1139,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Sugar Ronald D",
-      "date": "2026-02-24",
-      "filing_date": "2026-02-26",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1139,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Levinson Arthur D",
-      "date": "2026-02-24",
-      "filing_date": "2026-02-26",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1011,
       "price": 0,
       "value": 0
     },
