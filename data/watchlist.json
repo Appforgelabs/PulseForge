@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-19T16:04:16.818439",
+  "last_updated": "2026-03-19T18:00:05.975764",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 380.244,
-      "change_pct": -3.1916,
+      "price": 380.3,
+      "change_pct": -3.1774,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
@@ -21,8 +21,8 @@
     },
     {
       "ticker": "AMZN",
-      "price": 208.77,
-      "change_pct": -0.5241,
+      "price": 208.76,
+      "change_pct": -0.5289,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",

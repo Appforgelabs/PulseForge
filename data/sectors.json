@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-19T16:04:16.818439",
+  "last_updated": "2026-03-19T18:00:05.975764",
   "sectors": {
     "Technology": {
       "symbol": "XLK",
-      "price": 138.42,
-      "change_pct": 0.3334,
+      "price": 138.43,
+      "change_pct": 0.3407,
       "source": "finnhub"
     },
     "Financials": {
@@ -21,8 +21,8 @@
     },
     "Healthcare": {
       "symbol": "XLV",
-      "price": 146.62,
-      "change_pct": -0.3534,
+      "price": 146.61,
+      "change_pct": -0.3602,
       "source": "finnhub"
     },
     "Industrials": {
@@ -39,8 +39,8 @@
     },
     "Cons. Staples": {
       "symbol": "XLP",
-      "price": 81.99,
-      "change_pct": -0.7865,
+      "price": 81.97,
+      "change_pct": -0.8107,
       "source": "finnhub"
     },
     "Utilities": {
