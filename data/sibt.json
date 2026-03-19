@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-19T08:08:49.225645",
-  "mqs": 27.5,
+  "generated": "2026-03-19T09:04:33.656185",
+  "mqs": 27.8,
   "mqs_verdict": "NO",
-  "ews": 45,
+  "ews": 30,
   "fomc_alert": {
     "active": true,
     "text": "\u26a0\ufe0f FOMC MEETING TODAY \u2014 ELEVATED VOLATILITY \u2014 REDUCE POSITION SIZING",
@@ -10,20 +10,20 @@
   },
   "scores": {
     "volatility": {
-      "score": 45,
+      "score": 36,
       "status": "CAUTION",
-      "vix": 25.09,
-      "vix_trend": -2.2,
-      "vix_percentile": 93
+      "vix": 26.9,
+      "vix_trend": -0.29,
+      "vix_percentile": 95
     },
     "trend": {
-      "score": 5,
+      "score": 10,
       "status": "RISK-OFF",
-      "spy": 670.79,
-      "sma20": 680.19,
+      "spy": 661.43,
+      "sma20": 678.95,
       "sma50": null,
       "sma200": null,
-      "rsi": 31.8,
+      "rsi": 29.2,
       "above_sma20": false,
       "above_sma50": false,
       "above_sma200": null,
@@ -45,12 +45,12 @@
       "xlk_leading": false
     },
     "macro": {
-      "score": 30,
-      "status": "RISK-OFF",
-      "tnx": 4.259,
-      "dxy": 108.78,
+      "score": 45,
+      "status": "CAUTION",
+      "tnx": 4.306,
+      "dxy": 99.977,
       "fed_stance": "NEUTRAL",
-      "dxy_trend": "STRONG \u2191",
+      "dxy_trend": "WEAK \u2193",
       "fomc_days": 0
     }
   },
@@ -137,8 +137,8 @@
   "ticker": [
     {
       "sym": "SPY",
-      "price": 670.79,
-      "change_pct": 0.26
+      "price": 661.43,
+      "change_pct": -1.4
     },
     {
       "sym": "QQQ",
@@ -147,17 +147,17 @@
     },
     {
       "sym": "VIX",
-      "price": 25.09,
+      "price": 26.9,
       "change_pct": null
     },
     {
       "sym": "TNX",
-      "price": 4.259,
+      "price": 4.306,
       "change_pct": null
     },
     {
       "sym": "DXY",
-      "price": 108.78,
+      "price": 99.977,
       "change_pct": null
     },
     {
@@ -216,7 +216,7 @@
       "change_pct": -2.4321
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [08:08]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 25.09 \u2014 caution. CHOP.\n> Breadth narrow: 0/11 above 50d. FOMC in 0d \u2014 reduced position sizing. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 27.5% | EWS: 45%",
+  "terminal_text": "> TERMINAL ANALYSIS [09:04]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 26.9 \u2014 caution. CHOP.\n> Breadth narrow: 0/11 above 50d. FOMC in 0d \u2014 reduced position sizing. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 27.8% | EWS: 30%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
