@@ -1,18 +1,205 @@
 {
-  "last_updated": "2026-03-18T23:06:08.201210",
-  "from_date": "2026-02-16",
-  "to_date": "2026-03-18",
+  "last_updated": "2026-03-19T23:05:30.585724",
+  "from_date": "2026-02-17",
+  "to_date": "2026-03-19",
   "transactions": [
     {
       "ticker": "SOFI",
-      "name": "Noto Anthony",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-17",
+      "name": "Rishel Jeremy",
+      "date": "2026-03-18",
+      "filing_date": "2026-03-18",
       "type": "BUY",
-      "code": "Purchase",
-      "shares": 11704352,
-      "price": 17.3189,
-      "value": 202706501.85279998
+      "code": "Sale",
+      "shares": 839640,
+      "price": 17.43,
+      "value": 14634925.2
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Pichai Sundar",
+      "date": "2026-03-18",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1642060,
+      "price": 310.18,
+      "value": 509334170.8
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Pichai Sundar",
+      "date": "2026-03-18",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1643675,
+      "price": 309,
+      "value": 507895575
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Pichai Sundar",
+      "date": "2026-03-18",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1653644,
+      "price": 308.18,
+      "value": 509620007.92
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Pichai Sundar",
+      "date": "2026-03-18",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1660265,
+      "price": 307.11,
+      "value": 509883984.15000004
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Pichai Sundar",
+      "date": "2026-03-18",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1668367,
+      "price": 306.21,
+      "value": 510870659.07
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Keough Kelli",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 352768,
+      "price": 17.617,
+      "value": 6214713.856000001
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Pinto Arun",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 168289,
+      "price": 17.617,
+      "value": 2964747.313
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Rishel Jeremy",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 934598,
+      "price": 17.617,
+      "value": 16464812.966
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Lavet Robert S",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 61293,
+      "price": 17.617,
+      "value": 1079798.781
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1156978,
+      "price": 153.5133,
+      "value": 177611510.8074
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1157278,
+      "price": 152.7181,
+      "value": 176737297.33179998
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1165933,
+      "price": 151.9934,
+      "value": 177214120.8422
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 88453,
+      "price": 632.02,
+      "value": 55904065.059999995
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 8212,
+      "price": 632.02,
+      "value": 5190148.24
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2714,
+      "price": 632.02,
+      "value": 1715302.28
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 8212,
+      "price": 632.02,
+      "value": 5190148.24
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 14261,
+      "price": 632.02,
+      "value": 9013237.22
     },
     {
       "ticker": "MSFT",
@@ -24,6 +211,17 @@
       "shares": 48577,
       "price": 395.55,
       "value": 19214632.35
+    },
+    {
+      "ticker": "AMD",
+      "name": "Vanderslice Elizabeth W",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "J",
+      "shares": 34115,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "AAPL",
@@ -158,61 +356,6 @@
       "value": 633661875.17
     },
     {
-      "ticker": "AMD",
-      "name": "Su Lisa T",
-      "date": "2026-03-12",
-      "filing_date": "2026-03-16",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3154609,
-      "price": 199.98,
-      "value": 630858707.8199999
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Schuppenhauer Eric",
-      "date": "2026-03-11",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 103889,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Keough Kelli",
-      "date": "2026-03-11",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 90903,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Pinto Arun",
-      "date": "2026-03-11",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 155833,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Rishel Jeremy",
-      "date": "2026-03-11",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 181805,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "NVDA",
       "name": "Puri Ajay K",
       "date": "2026-03-10",
@@ -255,61 +398,6 @@
       "shares": 1000572,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-09",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 88861,
-      "price": 634.94,
-      "value": 56421403.34
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-09",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 8294,
-      "price": 634.94,
-      "value": 5266192.36
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-09",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2771,
-      "price": 634.94,
-      "value": 1759418.7400000002
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-09",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 8294,
-      "price": 634.94,
-      "value": 5266192.36
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-09",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 15187,
-      "price": 634.94,
-      "value": 9642833.780000001
     },
     {
       "ticker": "TSLA",
@@ -455,61 +543,6 @@
       "value": 10462155.799999999
     },
     {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-06",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 265001,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1674560,
-      "price": 305.14,
-      "value": 510975238.4
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1674960,
-      "price": 304.37,
-      "value": 509807575.2
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1681333,
-      "price": 303.47,
-      "value": 510234125.51000005
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1697100,
-      "price": 302.66,
-      "value": 513644286.00000006
-    },
-    {
       "ticker": "PLTR",
       "name": "Thiel Peter",
       "date": "2026-03-02",
@@ -530,39 +563,6 @@
       "shares": 13785008,
       "price": 146.1385,
       "value": 2014520391.6079998
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Thiel Peter",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 14273791,
-      "price": 145.1654,
-      "value": 2072060580.0314
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Thiel Peter",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 14994927,
-      "price": 144.1774,
-      "value": 2161929588.0498
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Thiel Peter",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 15414040,
-      "price": 143.2751,
-      "value": 2208448122.4040003
     },
     {
       "ticker": "AMZN",
