@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-19T09:04:33.656185",
-  "mqs": 27.8,
+  "generated": "2026-03-19T09:15:41.113867",
+  "mqs": 27.2,
   "mqs_verdict": "NO",
   "ews": 30,
   "fomc_alert": {
@@ -10,10 +10,10 @@
   },
   "scores": {
     "volatility": {
-      "score": 36,
-      "status": "CAUTION",
-      "vix": 26.9,
-      "vix_trend": -0.29,
+      "score": 34,
+      "status": "RISK-OFF",
+      "vix": 27.12,
+      "vix_trend": -0.07,
       "vix_percentile": 95
     },
     "trend": {
@@ -47,8 +47,8 @@
     "macro": {
       "score": 45,
       "status": "CAUTION",
-      "tnx": 4.306,
-      "dxy": 99.977,
+      "tnx": 4.302,
+      "dxy": 99.932,
       "fed_stance": "NEUTRAL",
       "dxy_trend": "WEAK \u2193",
       "fomc_days": 0
@@ -147,17 +147,17 @@
     },
     {
       "sym": "VIX",
-      "price": 26.9,
+      "price": 27.12,
       "change_pct": null
     },
     {
       "sym": "TNX",
-      "price": 4.306,
+      "price": 4.302,
       "change_pct": null
     },
     {
       "sym": "DXY",
-      "price": 99.977,
+      "price": 99.932,
       "change_pct": null
     },
     {
@@ -216,7 +216,7 @@
       "change_pct": -2.4321
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [09:04]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 26.9 \u2014 caution. CHOP.\n> Breadth narrow: 0/11 above 50d. FOMC in 0d \u2014 reduced position sizing. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 27.8% | EWS: 30%",
+  "terminal_text": "> TERMINAL ANALYSIS [09:15]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 27.12 \u2014 risk-off. CHOP.\n> Breadth narrow: 0/11 above 50d. FOMC in 0d \u2014 reduced position sizing. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 27.2% | EWS: 30%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
