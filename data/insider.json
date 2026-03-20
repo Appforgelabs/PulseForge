@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-19T23:05:30.585724",
-  "from_date": "2026-02-17",
-  "to_date": "2026-03-19",
+  "last_updated": "2026-03-20T23:05:18.273225",
+  "from_date": "2026-02-18",
+  "to_date": "2026-03-20",
   "transactions": [
     {
       "ticker": "SOFI",
@@ -112,6 +112,83 @@
       "shares": 61293,
       "price": 17.617,
       "value": 1079798.781
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Scaringe Robert J",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1042848,
+      "price": 15.6006,
+      "value": 16269054.5088
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Seawell A Brooke",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-19",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 6607,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Rohrbaugh Troy L",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-19",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 72965,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Barnum Jeremy",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-19",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 38629,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Piepszak Jennifer",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-19",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 57515,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Leopold Robin",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-19",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 24895,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Friedman Stacey",
+      "date": "2026-03-17",
+      "filing_date": "2026-03-19",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 48929,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "PLTR",
@@ -389,17 +466,6 @@
       "value": 0
     },
     {
-      "ticker": "NVDA",
-      "name": "Kress Colette",
-      "date": "2026-03-09",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1000572,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "TSLA",
       "name": "Taneja Vaibhav",
       "date": "2026-03-06",
@@ -530,17 +596,6 @@
       "shares": 1094500,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Mcdonough Claire",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-05",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 692858,
-      "price": 15.1,
-      "value": 10462155.799999999
     },
     {
       "ticker": "PLTR",
@@ -717,61 +772,6 @@
       "shares": 11878,
       "price": 206.0169,
       "value": 2447068.7382
-    },
-    {
-      "ticker": "JPM",
-      "name": "Rohrbaugh Troy L",
-      "date": "2026-02-19",
-      "filing_date": "2026-02-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 111279,
-      "price": 307.1134,
-      "value": 34175272.0386
-    },
-    {
-      "ticker": "JPM",
-      "name": "Leopold Robin",
-      "date": "2026-02-19",
-      "filing_date": "2026-02-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 65353,
-      "price": 307.1394,
-      "value": 20072481.2082
-    },
-    {
-      "ticker": "JPM",
-      "name": "Dimon James",
-      "date": "2026-02-19",
-      "filing_date": "2026-02-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 4209284,
-      "price": 307.1924,
-      "value": 1293060054.2416
-    },
-    {
-      "ticker": "JPM",
-      "name": "Dimon James",
-      "date": "2026-02-19",
-      "filing_date": "2026-02-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 4231519,
-      "price": 307.1925,
-      "value": 1299890900.4075
-    },
-    {
-      "ticker": "JPM",
-      "name": "Dimon James",
-      "date": "2026-02-19",
-      "filing_date": "2026-02-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 4253754,
-      "price": 307.1926,
-      "value": 1306721751.0204
     }
   ]
 }
