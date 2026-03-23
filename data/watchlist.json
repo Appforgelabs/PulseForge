@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-23T09:45:04.289057",
+  "last_updated": "2026-03-23T10:09:47.482629",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 380.27,
-      "change_pct": 3.3455,
+      "price": 381.65,
+      "change_pct": 3.7205,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -12,8 +12,8 @@
     },
     {
       "ticker": "PLTR",
-      "price": 159.3,
-      "change_pct": 5.7207,
+      "price": 158.81,
+      "change_pct": 5.3955,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -21,8 +21,8 @@
     },
     {
       "ticker": "AMZN",
-      "price": 211.15,
-      "change_pct": 2.8144,
+      "price": 211.91,
+      "change_pct": 3.1845,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -30,26 +30,26 @@
     },
     {
       "ticker": "HOOD",
-      "price": 71.85,
-      "change_pct": 1.3542,
+      "price": 72.62,
+      "change_pct": 2.4404,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "SOFI",
-      "price": 17.15,
-      "change_pct": 1.4793,
+      "price": 17.16,
+      "change_pct": 1.5385,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 15.65,
-      "change_pct": 4.9631,
+      "price": 16.15,
+      "change_pct": 8.3166,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -57,8 +57,8 @@
     },
     {
       "ticker": "NIO",
-      "price": 5.67,
-      "change_pct": 4.4199,
+      "price": 5.71,
+      "change_pct": 5.1565,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
