@@ -1,8 +1,74 @@
 {
-  "last_updated": "2026-03-20T23:05:18.273225",
-  "from_date": "2026-02-18",
-  "to_date": "2026-03-20",
+  "last_updated": "2026-03-23T23:06:43.908377",
+  "from_date": "2026-02-21",
+  "to_date": "2026-03-23",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Keough Kelli",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 343026,
+      "price": 16.9438,
+      "value": 5812163.9388
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Kress Colette",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 712934,
+      "price": 177.5122,
+      "value": 126554482.7948
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Kress Colette",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 713405,
+      "price": 176.8288,
+      "value": 126150550.064
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Kress Colette",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 714439,
+      "price": 175.8248,
+      "value": 125616094.2872
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Kress Colette",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 718315,
+      "price": 174.7468,
+      "value": 125523247.642
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Kress Colette",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 719631,
+      "price": 173.6275,
+      "value": 124947731.4525
+    },
     {
       "ticker": "SOFI",
       "name": "Rishel Jeremy",
@@ -103,17 +169,6 @@
       "value": 16464812.966
     },
     {
-      "ticker": "SOFI",
-      "name": "Lavet Robert S",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 61293,
-      "price": 17.617,
-      "value": 1079798.781
-    },
-    {
       "ticker": "RIVN",
       "name": "Scaringe Robert J",
       "date": "2026-03-17",
@@ -123,17 +178,6 @@
       "shares": 1042848,
       "price": 15.6006,
       "value": 16269054.5088
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Seawell A Brooke",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-19",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 6607,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "JPM",
@@ -222,6 +266,28 @@
       "shares": 1165933,
       "price": 151.9934,
       "value": 177214120.8422
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 58183,
+      "price": 75.4187,
+      "value": 4388086.2221
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-03-16",
+      "filing_date": "2026-03-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 59455,
+      "price": 74.8734,
+      "value": 4451597.997
     },
     {
       "ticker": "META",
@@ -345,17 +411,6 @@
       "value": 0
     },
     {
-      "ticker": "NVDA",
-      "name": "Dabiri John",
-      "date": "2026-03-13",
-      "filing_date": "2026-03-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 14788,
-      "price": 184.9,
-      "value": 2734301.2
-    },
-    {
       "ticker": "MSFT",
       "name": "Walmsley Emma N",
       "date": "2026-03-12",
@@ -433,39 +488,6 @@
       "value": 633661875.17
     },
     {
-      "ticker": "NVDA",
-      "name": "Puri Ajay K",
-      "date": "2026-03-10",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3318547,
-      "price": 183.114,
-      "value": 607672415.358
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Puri Ajay K",
-      "date": "2026-03-10",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3343487,
-      "price": 182.4663,
-      "value": 610073701.9880999
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Teter Timothy S.",
-      "date": "2026-03-09",
-      "filing_date": "2026-03-11",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 524795,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "TSLA",
       "name": "Taneja Vaibhav",
       "date": "2026-03-06",
@@ -530,28 +552,6 @@
       "shares": 30876,
       "price": 81.2775,
       "value": 2509524.0900000003
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-05",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 31276,
-      "price": 80.1599,
-      "value": 2507081.0324
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-05",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 33112,
-      "price": 79.27,
-      "value": 2624788.2399999998
     },
     {
       "ticker": "RIVN",
