@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-03-23T23:06:43.908377",
-  "from_date": "2026-02-21",
-  "to_date": "2026-03-23",
+  "last_updated": "2026-03-24T23:06:21.754484",
+  "from_date": "2026-02-22",
+  "to_date": "2026-03-24",
   "transactions": [
+    {
+      "ticker": "JPM",
+      "name": "Leopold Robin",
+      "date": "2026-03-23",
+      "filing_date": "2026-03-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 64920,
+      "price": 295.06,
+      "value": 19155295.2
+    },
     {
       "ticker": "SOFI",
       "name": "Keough Kelli",
@@ -68,6 +79,50 @@
       "shares": 719631,
       "price": 173.6275,
       "value": 124947731.4525
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-03-19",
+      "filing_date": "2026-03-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 236308,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-03-19",
+      "filing_date": "2026-03-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 98462,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-03-19",
+      "filing_date": "2026-03-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 131282,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Quirk Steven M.",
+      "date": "2026-03-19",
+      "filing_date": "2026-03-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 157539,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "SOFI",
@@ -224,17 +279,6 @@
       "value": 0
     },
     {
-      "ticker": "JPM",
-      "name": "Friedman Stacey",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-19",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 48929,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "PLTR",
       "name": "Moore Alexander D.",
       "date": "2026-03-16",
@@ -277,17 +321,6 @@
       "shares": 58183,
       "price": 75.4187,
       "value": 4388086.2221
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 59455,
-      "price": 74.8734,
-      "value": 4451597.997
     },
     {
       "ticker": "META",
@@ -519,39 +552,6 @@
       "shares": 20371,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-05",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 29676,
-      "price": 83.675,
-      "value": 2483139.3
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-05",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 30476,
-      "price": 82.3725,
-      "value": 2510384.31
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-05",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 30876,
-      "price": 81.2775,
-      "value": 2509524.0900000003
     },
     {
       "ticker": "RIVN",
