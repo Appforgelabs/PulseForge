@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-24T09:30:05.968220",
+  "last_updated": "2026-03-24T09:45:05.253941",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 376.38,
-      "change_pct": -1.1737,
+      "price": 383.89,
+      "change_pct": 0.7982,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -12,17 +12,17 @@
     },
     {
       "ticker": "PLTR",
-      "price": 160.2,
-      "change_pct": -0.3979,
+      "price": 155.75,
+      "change_pct": -3.1646,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 207.84,
-      "change_pct": -1.0945,
+      "price": 207.09,
+      "change_pct": -1.4514,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -30,35 +30,35 @@
     },
     {
       "ticker": "HOOD",
-      "price": 71.52,
-      "change_pct": -1.3381,
-      "volume": null,
-      "signal": "NEUTRAL",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "SOFI",
-      "price": 17,
-      "change_pct": -0.8746,
-      "volume": null,
-      "signal": "NEUTRAL",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "RIVN",
-      "price": 15.48,
-      "change_pct": -1.8389,
+      "price": 70.85,
+      "change_pct": -2.2624,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
+      "ticker": "SOFI",
+      "price": 16.77,
+      "change_pct": -2.2157,
+      "volume": null,
+      "signal": "BEARISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "RIVN",
+      "price": 15.85,
+      "change_pct": 0.5073,
+      "volume": null,
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
       "ticker": "NIO",
-      "price": 5.74,
-      "change_pct": -1.3746,
+      "price": 5.9,
+      "change_pct": 1.3746,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
