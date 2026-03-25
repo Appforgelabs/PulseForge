@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-03-25T11:00:04.069095",
+  "last_updated": "2026-03-25T18:00:09.416444",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 393.39,
-      "change_pct": 2.7047,
+      "price": 385.95,
+      "change_pct": 0.7623,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 159.18,
-      "change_pct": 2.8427,
+      "price": 154.96,
+      "change_pct": 0.1163,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 212.42,
-      "change_pct": 2.4995,
+      "price": 211.71,
+      "change_pct": 2.1569,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -30,8 +30,8 @@
     },
     {
       "ticker": "HOOD",
-      "price": 74.31,
-      "change_pct": 7.5709,
+      "price": 72.54,
+      "change_pct": 5.0087,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -39,28 +39,28 @@
     },
     {
       "ticker": "SOFI",
-      "price": 17.14,
-      "change_pct": 2.6347,
-      "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "RIVN",
-      "price": 15.88,
-      "change_pct": -1.3665,
+      "price": 16.56,
+      "change_pct": -0.8383,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "NIO",
-      "price": 5.87,
-      "change_pct": 2.4433,
+      "ticker": "RIVN",
+      "price": 15.62,
+      "change_pct": -2.9814,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "BEARISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "NIO",
+      "price": 5.78,
+      "change_pct": 0.8726,
+      "volume": null,
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     }
