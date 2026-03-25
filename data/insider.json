@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-24T23:06:21.754484",
-  "from_date": "2026-02-22",
-  "to_date": "2026-03-24",
+  "last_updated": "2026-03-25T23:08:31.915487",
+  "from_date": "2026-02-23",
+  "to_date": "2026-03-25",
   "transactions": [
     {
       "ticker": "JPM",
@@ -15,6 +15,61 @@
       "value": 19155295.2
     },
     {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 23841,
+      "price": 73.28,
+      "value": 1747068.48
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 23941,
+      "price": 72.3621,
+      "value": 1732421.0361
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 25341,
+      "price": 71.5642,
+      "value": 1813508.3922
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 27241,
+      "price": 70.5483,
+      "value": 1921806.2403
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "C",
+      "shares": 47131060,
+      "price": 0,
+      "value": 0
+    },
+    {
       "ticker": "SOFI",
       "name": "Keough Kelli",
       "date": "2026-03-20",
@@ -24,6 +79,83 @@
       "shares": 343026,
       "price": 16.9438,
       "value": 5812163.9388
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Venkataratnam Sreela",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 599626,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Mcdonough Claire",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 528402,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Mcdonough Claire",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 957059,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Callahan Michael John",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 528402,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Callahan Michael John",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1114258,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Stevens Mark A",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7399771,
+      "price": 174.5685,
+      "value": 1291766923.8135
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Stevens Mark A",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7521453,
+      "price": 172.6068,
+      "value": 1298253933.6804
     },
     {
       "ticker": "NVDA",
@@ -59,68 +191,57 @@
       "value": 125616094.2872
     },
     {
-      "ticker": "NVDA",
-      "name": "Kress Colette",
+      "ticker": "META",
+      "name": "Anderson Aaron",
       "date": "2026-03-20",
-      "filing_date": "2026-03-20",
+      "filing_date": "2026-03-24",
       "type": "BUY",
-      "code": "Sale",
-      "shares": 718315,
-      "price": 174.7468,
-      "value": 125523247.642
+      "code": "Grant",
+      "shares": 5364,
+      "price": 0,
+      "value": 0
     },
     {
-      "ticker": "NVDA",
-      "name": "Kress Colette",
+      "ticker": "META",
+      "name": "Li Susan J",
       "date": "2026-03-20",
-      "filing_date": "2026-03-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 719631,
-      "price": 173.6275,
-      "value": 124947731.4525
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-03-19",
-      "filing_date": "2026-03-23",
+      "filing_date": "2026-03-24",
       "type": "BUY",
       "code": "Grant",
-      "shares": 236308,
+      "shares": 91239,
       "price": 0,
       "value": 0
     },
     {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-19",
-      "filing_date": "2026-03-23",
+      "ticker": "META",
+      "name": "Li Susan J",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
       "type": "BUY",
       "code": "Grant",
-      "shares": 98462,
+      "shares": 249382,
       "price": 0,
       "value": 0
     },
     {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-03-19",
-      "filing_date": "2026-03-23",
+      "ticker": "META",
+      "name": "Li Susan J",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
       "type": "BUY",
       "code": "Grant",
-      "shares": 131282,
+      "shares": 155491,
       "price": 0,
       "value": 0
     },
     {
-      "ticker": "HOOD",
-      "name": "Quirk Steven M.",
-      "date": "2026-03-19",
-      "filing_date": "2026-03-23",
+      "ticker": "META",
+      "name": "Li Susan J",
+      "date": "2026-03-20",
+      "filing_date": "2026-03-24",
       "type": "BUY",
       "code": "Grant",
-      "shares": 157539,
+      "shares": 97541,
       "price": 0,
       "value": 0
     },
@@ -224,17 +345,6 @@
       "value": 16464812.966
     },
     {
-      "ticker": "RIVN",
-      "name": "Scaringe Robert J",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1042848,
-      "price": 15.6006,
-      "value": 16269054.5088
-    },
-    {
       "ticker": "JPM",
       "name": "Rohrbaugh Troy L",
       "date": "2026-03-17",
@@ -310,72 +420,6 @@
       "shares": 1165933,
       "price": 151.9934,
       "value": 177214120.8422
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 58183,
-      "price": 75.4187,
-      "value": 4388086.2221
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 88453,
-      "price": 632.02,
-      "value": 55904065.059999995
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 8212,
-      "price": 632.02,
-      "value": 5190148.24
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2714,
-      "price": 632.02,
-      "value": 1715302.28
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 8212,
-      "price": 632.02,
-      "value": 5190148.24
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 14261,
-      "price": 632.02,
-      "value": 9013237.22
     },
     {
       "ticker": "MSFT",
@@ -550,50 +594,6 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 20371,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Venkataratnam Sreela",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-05",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 484038,
-      "price": 15.1,
-      "value": 7308973.8
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Venkataratnam Sreela",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-05",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 487573,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Scaringe Robert J",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-05",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 1060298,
-      "price": 15.1,
-      "value": 16010499.799999999
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Scaringe Robert J",
-      "date": "2026-03-04",
-      "filing_date": "2026-03-05",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1094500,
       "price": 0,
       "value": 0
     },
