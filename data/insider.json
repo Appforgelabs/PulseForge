@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-03-25T23:08:31.915487",
-  "from_date": "2026-02-23",
-  "to_date": "2026-03-25",
+  "last_updated": "2026-03-26T23:08:23.952066",
+  "from_date": "2026-02-24",
+  "to_date": "2026-03-26",
   "transactions": [
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-23",
+      "filing_date": "2026-03-25",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 88045,
+      "price": 605.38,
+      "value": 53300682.1
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-23",
+      "filing_date": "2026-03-25",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 8130,
+      "price": 605.38,
+      "value": 4921739.4
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-23",
+      "filing_date": "2026-03-25",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2657,
+      "price": 605.38,
+      "value": 1608494.66
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-23",
+      "filing_date": "2026-03-25",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 8130,
+      "price": 605.38,
+      "value": 4921739.4
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-03-23",
+      "filing_date": "2026-03-25",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 13335,
+      "price": 605.38,
+      "value": 8072742.3
+    },
     {
       "ticker": "JPM",
       "name": "Leopold Robin",
@@ -189,61 +244,6 @@
       "shares": 714439,
       "price": 175.8248,
       "value": 125616094.2872
-    },
-    {
-      "ticker": "META",
-      "name": "Anderson Aaron",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 5364,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Li Susan J",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 91239,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Li Susan J",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 249382,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Li Susan J",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 155491,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Li Susan J",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 97541,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "SOFI",
@@ -739,39 +739,6 @@
       "shares": 1139,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-02-23",
-      "filing_date": "2026-02-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 9405,
-      "price": 208.054,
-      "value": 1956747.87
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-02-23",
-      "filing_date": "2026-02-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 10010,
-      "price": 207.0637,
-      "value": 2072707.637
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-02-23",
-      "filing_date": "2026-02-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 11878,
-      "price": 206.0169,
-      "value": 2447068.7382
     }
   ]
 }

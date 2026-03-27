@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T09:03:44.694987",
+  "last_updated": "2026-03-27T09:04:17.407590",
   "stocks": [
     {
       "ticker": "TSLA",
@@ -7,7 +7,7 @@
       "change_pct": -3.586,
       "volume": null,
       "signal": "BEARISH",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
@@ -16,7 +16,7 @@
       "change_pct": -4.7754,
       "volume": null,
       "signal": "BEARISH",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
@@ -25,7 +25,7 @@
       "change_pct": -1.9697,
       "volume": null,
       "signal": "BEARISH",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
@@ -34,7 +34,7 @@
       "change_pct": -3.019,
       "volume": null,
       "signal": "BEARISH",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
@@ -43,7 +43,7 @@
       "change_pct": -4.1667,
       "volume": null,
       "signal": "BEARISH",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
@@ -52,7 +52,7 @@
       "change_pct": -2.6248,
       "volume": null,
       "signal": "BEARISH",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
@@ -61,7 +61,7 @@
       "change_pct": -3.8062,
       "volume": null,
       "signal": "BEARISH",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     }
   ]
