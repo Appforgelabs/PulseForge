@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-27T09:04:17.407590",
-  "timestamp": "2026-03-27T09:04:17.407590",
+  "last_updated": "2026-03-27T09:15:04.236689",
+  "timestamp": "2026-03-27T09:15:04.236689",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -19,9 +19,9 @@
     {
       "name": "Pulse Momentum",
       "direction": "BEARISH",
-      "confidence": 58,
+      "confidence": 56,
       "horizon": "3-5 days",
-      "rationale": "5-day avg pulse: 26.4, trend: -8.8. Momentum deteriorating into fear zone"
+      "rationale": "5-day avg pulse: 29.5, trend: -3.6. Momentum deteriorating into fear zone"
     }
   ]
 }
