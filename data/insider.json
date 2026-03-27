@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-26T23:08:23.952066",
-  "from_date": "2026-02-24",
-  "to_date": "2026-03-26",
+  "last_updated": "2026-03-27T23:07:19.793534",
+  "from_date": "2026-02-25",
+  "to_date": "2026-03-27",
   "transactions": [
     {
       "ticker": "META",
@@ -717,28 +717,6 @@
       "shares": 19669,
       "price": 418.888,
       "value": 8239108.072
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Zapolsky David",
-      "date": "2026-02-24",
-      "filing_date": "2026-02-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 41190,
-      "price": 205.43,
-      "value": 8461661.700000001
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Austin Wanda M",
-      "date": "2026-02-24",
-      "filing_date": "2026-02-26",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1139,
-      "price": 0,
-      "value": 0
     }
   ]
 }
