@@ -1,8 +1,118 @@
 {
-  "last_updated": "2026-03-27T23:07:19.793534",
-  "from_date": "2026-02-25",
-  "to_date": "2026-03-27",
+  "last_updated": "2026-03-30T23:08:47.740404",
+  "from_date": "2026-02-28",
+  "to_date": "2026-03-30",
   "transactions": [
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 118015,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 59820,
+      "price": 289.2,
+      "value": 17299944.0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 63621,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 24869,
+      "price": 289.2,
+      "value": 7192114.8
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 29032,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Rohrbaugh Troy L",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 143895,
+      "price": 295.04,
+      "value": 42454780.800000004
+    },
+    {
+      "ticker": "JPM",
+      "name": "Rohrbaugh Troy L",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 184244,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Barnum Jeremy",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 41071,
+      "price": 295.04,
+      "value": 12117587.840000002
+    },
+    {
+      "ticker": "JPM",
+      "name": "Barnum Jeremy",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 62433,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Piepszak Jennifer",
+      "date": "2026-03-25",
+      "filing_date": "2026-03-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 99137,
+      "price": 295.04,
+      "value": 29249380.48
+    },
     {
       "ticker": "META",
       "name": "Olivan Javier",
@@ -57,17 +167,6 @@
       "shares": 13335,
       "price": 605.38,
       "value": 8072742.3
-    },
-    {
-      "ticker": "JPM",
-      "name": "Leopold Robin",
-      "date": "2026-03-23",
-      "filing_date": "2026-03-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 64920,
-      "price": 295.06,
-      "value": 19155295.2
     },
     {
       "ticker": "HOOD",
@@ -257,61 +356,6 @@
       "value": 14634925.2
     },
     {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-18",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1642060,
-      "price": 310.18,
-      "value": 509334170.8
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-18",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1643675,
-      "price": 309,
-      "value": 507895575
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-18",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1653644,
-      "price": 308.18,
-      "value": 509620007.92
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-18",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1660265,
-      "price": 307.11,
-      "value": 509883984.15000004
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Pichai Sundar",
-      "date": "2026-03-18",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1668367,
-      "price": 306.21,
-      "value": 510870659.07
-    },
-    {
       "ticker": "SOFI",
       "name": "Keough Kelli",
       "date": "2026-03-17",
@@ -343,50 +387,6 @@
       "shares": 934598,
       "price": 17.617,
       "value": 16464812.966
-    },
-    {
-      "ticker": "JPM",
-      "name": "Rohrbaugh Troy L",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-19",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 72965,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Barnum Jeremy",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-19",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 38629,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Piepszak Jennifer",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-19",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 57515,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Leopold Robin",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-19",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 24895,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "PLTR",
@@ -684,39 +684,6 @@
       "shares": 644,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Levinson Arthur D",
-      "date": "2026-02-26",
-      "filing_date": "2026-02-26",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 4069576,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-02-25",
-      "filing_date": "2026-02-27",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 80948,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-02-25",
-      "filing_date": "2026-02-27",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 19669,
-      "price": 418.888,
-      "value": 8239108.072
     }
   ]
 }
