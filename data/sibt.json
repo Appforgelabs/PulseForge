@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-30T09:05:35.565397",
+  "generated": "2026-03-30T09:15:34.583497",
   "mqs": 34.0,
   "mqs_verdict": "NO",
   "ews": 20,
@@ -12,8 +12,8 @@
     "volatility": {
       "score": 15,
       "status": "RISK-OFF",
-      "vix": 29.95,
-      "vix_trend": 3.0,
+      "vix": 29.91,
+      "vix_trend": 2.96,
       "vix_percentile": 98
     },
     "trend": {
@@ -47,7 +47,7 @@
     "macro": {
       "score": 48,
       "status": "CAUTION",
-      "tnx": 4.37,
+      "tnx": 4.364,
       "dxy": 100.315,
       "fed_stance": "NEUTRAL",
       "dxy_trend": "NEUTRAL \u2192",
@@ -147,12 +147,12 @@
     },
     {
       "sym": "VIX",
-      "price": 29.95,
+      "price": 29.91,
       "change_pct": null
     },
     {
       "sym": "TNX",
-      "price": 4.37,
+      "price": 4.364,
       "change_pct": null
     },
     {
@@ -216,7 +216,7 @@
       "change_pct": -2.8944
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [09:05]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 29.95 \u2014 risk-off. CHOP.\n> Breadth narrow: 3/11 above 50d. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 34.0% | EWS: 20%",
+  "terminal_text": "> TERMINAL ANALYSIS [09:15]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 29.91 \u2014 risk-off. CHOP.\n> Breadth narrow: 3/11 above 50d. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 34.0% | EWS: 20%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
