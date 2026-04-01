@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T11:00:04.515343",
+  "last_updated": "2026-04-01T11:15:06.697980",
   "sectors": {
     "Technology": {
       "symbol": "XLK",
@@ -9,62 +9,62 @@
     },
     "Financials": {
       "symbol": "XLF",
-      "price": 49.66,
-      "change_pct": 0.5874,
+      "price": 49.71,
+      "change_pct": 0.6887,
       "source": "finnhub"
     },
     "Energy": {
       "symbol": "XLE",
-      "price": 58.91,
-      "change_pct": -3.8361,
+      "price": 58.83,
+      "change_pct": -3.9667,
       "source": "finnhub"
     },
     "Healthcare": {
       "symbol": "XLV",
-      "price": 147.62,
-      "change_pct": 0.6889,
+      "price": 147.71,
+      "change_pct": 0.7503,
       "source": "finnhub"
     },
     "Industrials": {
       "symbol": "XLI",
-      "price": 165.14,
-      "change_pct": 2.1085,
+      "price": 165.02,
+      "change_pct": 2.0343,
       "source": "finnhub"
     },
     "Cons. Disc.": {
       "symbol": "XLY",
-      "price": 110.26,
-      "change_pct": 1.1745,
+      "price": 110.28,
+      "change_pct": 1.1929,
       "source": "finnhub"
     },
     "Cons. Staples": {
       "symbol": "XLP",
-      "price": 81.63,
-      "change_pct": -0.4269,
+      "price": 81.55,
+      "change_pct": -0.5245,
       "source": "finnhub"
     },
     "Utilities": {
       "symbol": "XLU",
-      "price": 45.94,
-      "change_pct": 0.109,
+      "price": 45.91,
+      "change_pct": 0.0436,
       "source": "finnhub"
     },
     "Real Estate": {
       "symbol": "XLRE",
-      "price": 40.94,
-      "change_pct": 0.2694,
+      "price": 40.91,
+      "change_pct": 0.1959,
       "source": "finnhub"
     },
     "Comms": {
       "symbol": "XLC",
-      "price": 111.1,
-      "change_pct": 0.2165,
+      "price": 111.21,
+      "change_pct": 0.3157,
       "source": "finnhub"
     },
     "Materials": {
       "symbol": "XLB",
-      "price": 50.56,
-      "change_pct": 1.1807,
+      "price": 50.54,
+      "change_pct": 1.1407,
       "source": "finnhub"
     }
   }
