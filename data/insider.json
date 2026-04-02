@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-01T23:09:49.571434",
-  "from_date": "2026-03-02",
-  "to_date": "2026-04-01",
+  "last_updated": "2026-04-02T23:07:09.647323",
+  "from_date": "2026-03-03",
+  "to_date": "2026-04-02",
   "transactions": [
     {
       "ticker": "GOOGL",
@@ -24,6 +24,105 @@
       "shares": 23508,
       "price": 0,
       "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Rometty Virginia M",
+      "date": "2026-03-31",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 14836,
+      "price": 294.16,
+      "value": 4364157.760000001
+    },
+    {
+      "ticker": "JPM",
+      "name": "Novakovic Phebe N",
+      "date": "2026-03-31",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 13395,
+      "price": 294.16,
+      "value": 3940273.2
+    },
+    {
+      "ticker": "JPM",
+      "name": "Burke Stephen B",
+      "date": "2026-03-31",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 207343,
+      "price": 294.16,
+      "value": 60992016.88
+    },
+    {
+      "ticker": "JPM",
+      "name": "Hobson Mellody L",
+      "date": "2026-03-31",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 29705,
+      "price": 294.16,
+      "value": 8738022.8
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-03-30",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 40948,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-03-30",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 33860,
+      "price": 366.855,
+      "value": 12421710.3
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-03-30",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 33940,
+      "price": 365.897,
+      "value": 12418544.18
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-03-30",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 34060,
+      "price": 364.888,
+      "value": 12428085.28
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-03-30",
+      "filing_date": "2026-04-01",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 34620,
+      "price": 363.947,
+      "value": 12599845.14
     },
     {
       "ticker": "GOOGL",
@@ -68,50 +167,6 @@
       "shares": 143895,
       "price": 295.04,
       "value": 42454780.800000004
-    },
-    {
-      "ticker": "JPM",
-      "name": "Rohrbaugh Troy L",
-      "date": "2026-03-25",
-      "filing_date": "2026-03-27",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 184244,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Barnum Jeremy",
-      "date": "2026-03-25",
-      "filing_date": "2026-03-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 41071,
-      "price": 295.04,
-      "value": 12117587.840000002
-    },
-    {
-      "ticker": "JPM",
-      "name": "Barnum Jeremy",
-      "date": "2026-03-25",
-      "filing_date": "2026-03-27",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 62433,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Piepszak Jennifer",
-      "date": "2026-03-25",
-      "filing_date": "2026-03-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 99137,
-      "price": 295.04,
-      "value": 29249380.48
     },
     {
       "ticker": "META",
@@ -563,127 +618,6 @@
       "shares": 3150509,
       "price": 201.13,
       "value": 633661875.17
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-03-06",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 18107,
-      "price": 397.031,
-      "value": 7189040.317
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-03-05",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 65382,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-03-05",
-      "filing_date": "2026-03-09",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 20371,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Thiel Peter",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 13733625,
-      "price": 146.8003,
-      "value": 2016100270.0874999
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Thiel Peter",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 13785008,
-      "price": 146.1385,
-      "value": 2014520391.6079998
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 521361,
-      "price": 204.25,
-      "value": 106487984.25
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hoag Jay C",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 644,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Mertz Elinor",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 644,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Rice Susan E",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 644,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Mather Ann",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 644,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-03-02",
-      "filing_date": "2026-03-03",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 644,
-      "price": 0,
-      "value": 0
     }
   ]
 }
