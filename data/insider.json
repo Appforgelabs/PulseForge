@@ -1,8 +1,162 @@
 {
-  "last_updated": "2026-04-02T23:07:09.647323",
-  "from_date": "2026-03-03",
-  "to_date": "2026-04-02",
+  "last_updated": "2026-04-03T23:07:09.180169",
+  "from_date": "2026-03-04",
+  "to_date": "2026-04-03",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 801,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 2778,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Loop Paula",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 801,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Loop Paula",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 71209,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Treseder Oluwadara Johnson",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 801,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hoag Jay C",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 654,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Kilgore Leslie J",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 654,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Masiyiwa Strive",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 654,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Sweeney Anne M",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 654,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Mather Ann",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 654,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Zhu Xiaotong",
+      "date": "2026-03-31",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 260650,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Zhu Xiaotong",
+      "date": "2026-03-31",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 20000,
+      "price": 20.57,
+      "value": 411400.0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Borden William A.",
+      "date": "2026-03-31",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1191,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Scaringe Robert J",
+      "date": "2026-03-31",
+      "filing_date": "2026-04-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1022584,
+      "price": 15,
+      "value": 15338760
+    },
     {
       "ticker": "GOOGL",
       "name": "Walker John Kent",
@@ -101,28 +255,6 @@
       "shares": 33940,
       "price": 365.897,
       "value": 12418544.18
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-03-30",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 34060,
-      "price": 364.888,
-      "value": 12428085.28
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-03-30",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 34620,
-      "price": 363.947,
-      "value": 12599845.14
     },
     {
       "ticker": "GOOGL",
@@ -224,61 +356,6 @@
       "value": 8072742.3
     },
     {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 23841,
-      "price": 73.28,
-      "value": 1747068.48
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 23941,
-      "price": 72.3621,
-      "value": 1732421.0361
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 25341,
-      "price": 71.5642,
-      "value": 1813508.3922
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 27241,
-      "price": 70.5483,
-      "value": 1921806.2403
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "C",
-      "shares": 47131060,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "SOFI",
       "name": "Keough Kelli",
       "date": "2026-03-20",
@@ -330,17 +407,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 528402,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Callahan Michael John",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1114258,
       "price": 0,
       "value": 0
     },
@@ -431,17 +497,6 @@
       "shares": 168289,
       "price": 17.617,
       "value": 2964747.313
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Rishel Jeremy",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 934598,
-      "price": 17.617,
-      "value": 16464812.966
     },
     {
       "ticker": "PLTR",
