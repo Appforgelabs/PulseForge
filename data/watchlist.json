@@ -1,67 +1,67 @@
 {
-  "last_updated": "2026-04-06T10:15:17.201756",
+  "last_updated": "2026-04-06T10:15:23.254829",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 358.68,
-      "change_pct": -0.5297,
+      "price": 359.148,
+      "change_pct": 0.0,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 149.19,
-      "change_pct": 0.4917,
+      "price": 149.29,
+      "change_pct": 0.0,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 212.27,
-      "change_pct": 1.1918,
+      "price": 212.25,
+      "change_pct": 0.0,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "HOOD",
-      "price": 70.01,
-      "change_pct": 1.611,
+      "price": 70.2301,
+      "change_pct": 0.0,
       "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "SOFI",
-      "price": 16.21,
-      "change_pct": 2.2713,
+      "price": 16.235,
+      "change_pct": 0.0,
       "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 15.36,
-      "change_pct": -0.2597,
+      "price": 15.355,
+      "change_pct": 0.0,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 6.42,
-      "change_pct": 1.9048,
+      "price": 6.405,
+      "change_pct": 0.0,
       "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     }
   ]
