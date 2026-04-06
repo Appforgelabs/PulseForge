@@ -1,8 +1,8 @@
 {
-  "generated": "2026-04-03T11:45:24.689852",
-  "mqs": 48.5,
+  "generated": "2026-04-06T09:03:14.316220",
+  "mqs": 32.5,
   "mqs_verdict": "NO",
-  "ews": 70,
+  "ews": 77,
   "fomc_alert": {
     "active": false,
     "text": "",
@@ -10,11 +10,11 @@
   },
   "scores": {
     "volatility": {
-      "score": 52,
+      "score": 46,
       "status": "CAUTION",
-      "vix": 23.87,
-      "vix_trend": -7.18,
-      "vix_percentile": 78
+      "vix": 24.87,
+      "vix_trend": -5.74,
+      "vix_percentile": 81
     },
     "trend": {
       "score": 15,
@@ -30,109 +30,31 @@
       "regime": "CHOP"
     },
     "breadth": {
-      "score": 70,
-      "status": "NEUTRAL",
-      "above_50d": 7,
-      "total": 11
+      "score": 0,
+      "status": "RISK-OFF",
+      "above_50d": 0,
+      "total": 0
     },
     "momentum": {
-      "score": 55,
+      "score": 50,
       "status": "NEUTRAL",
-      "top_sector": "XLRE",
-      "top_pct": 1.64,
-      "weak_sector": "XLY",
-      "weak_pct": -1.48,
-      "xlk_leading": true
+      "top_sector": null,
+      "top_pct": null,
+      "weak_sector": null,
+      "weak_pct": null,
+      "xlk_leading": false
     },
     "macro": {
-      "score": 48,
-      "status": "CAUTION",
-      "tnx": 4.313,
-      "dxy": 100.143,
+      "score": 55,
+      "status": "NEUTRAL",
+      "tnx": 4.337,
+      "dxy": 99.885,
       "fed_stance": "NEUTRAL",
-      "dxy_trend": "NEUTRAL \u2192",
+      "dxy_trend": "WEAK \u2193",
       "fomc_days": null
     }
   },
-  "sectors": [
-    {
-      "sym": "XLRE",
-      "name": "Real Estate",
-      "price": 41.62,
-      "change_pct": 1.6361,
-      "above_50d": true
-    },
-    {
-      "sym": "XLK",
-      "name": "Technology",
-      "price": 136.01,
-      "change_pct": 0.8154,
-      "above_50d": true
-    },
-    {
-      "sym": "XLP",
-      "name": "Cons. Staples",
-      "price": 81.91,
-      "change_pct": 0.5524,
-      "above_50d": true
-    },
-    {
-      "sym": "XLU",
-      "name": "Utilities",
-      "price": 46.35,
-      "change_pct": 0.5205,
-      "above_50d": true
-    },
-    {
-      "sym": "XLE",
-      "name": "Energy",
-      "price": 59.27,
-      "change_pct": 0.5087,
-      "above_50d": true
-    },
-    {
-      "sym": "XLC",
-      "name": "Comms",
-      "price": 111.72,
-      "change_pct": 0.4315,
-      "above_50d": true
-    },
-    {
-      "sym": "XLF",
-      "name": "Financials",
-      "price": 49.54,
-      "change_pct": 0.2023,
-      "above_50d": true
-    },
-    {
-      "sym": "XLB",
-      "name": "Materials",
-      "price": 50.43,
-      "change_pct": -0.0595,
-      "above_50d": false
-    },
-    {
-      "sym": "XLI",
-      "name": "Industrials",
-      "price": 163.79,
-      "change_pct": -0.3892,
-      "above_50d": false
-    },
-    {
-      "sym": "XLV",
-      "name": "Healthcare",
-      "price": 146.83,
-      "change_pct": -0.6092,
-      "above_50d": false
-    },
-    {
-      "sym": "XLY",
-      "name": "Cons. Disc.",
-      "price": 108.17,
-      "change_pct": -1.4845,
-      "above_50d": false
-    }
-  ],
+  "sectors": [],
   "watchlist": [],
   "ticker": [
     {
@@ -147,76 +69,21 @@
     },
     {
       "sym": "VIX",
-      "price": 23.87,
+      "price": 24.87,
       "change_pct": null
     },
     {
       "sym": "TNX",
-      "price": 4.313,
+      "price": 4.337,
       "change_pct": null
     },
     {
       "sym": "DXY",
-      "price": 100.143,
+      "price": 99.885,
       "change_pct": null
-    },
-    {
-      "sym": "XLRE",
-      "price": 41.62,
-      "change_pct": 1.6361
-    },
-    {
-      "sym": "XLK",
-      "price": 136.01,
-      "change_pct": 0.8154
-    },
-    {
-      "sym": "XLP",
-      "price": 81.91,
-      "change_pct": 0.5524
-    },
-    {
-      "sym": "XLU",
-      "price": 46.35,
-      "change_pct": 0.5205
-    },
-    {
-      "sym": "XLE",
-      "price": 59.27,
-      "change_pct": 0.5087
-    },
-    {
-      "sym": "XLC",
-      "price": 111.72,
-      "change_pct": 0.4315
-    },
-    {
-      "sym": "XLF",
-      "price": 49.54,
-      "change_pct": 0.2023
-    },
-    {
-      "sym": "XLB",
-      "price": 50.43,
-      "change_pct": -0.0595
-    },
-    {
-      "sym": "XLI",
-      "price": 163.79,
-      "change_pct": -0.3892
-    },
-    {
-      "sym": "XLV",
-      "price": 146.83,
-      "change_pct": -0.6092
-    },
-    {
-      "sym": "XLY",
-      "price": 108.17,
-      "change_pct": -1.4845
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [11:45]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 23.87 \u2014 caution. CHOP.\n> Breadth narrow: 7/11 above 50d. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 48.5% | EWS: 70%",
+  "terminal_text": "> TERMINAL ANALYSIS [09:03]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 24.87 \u2014 caution. CHOP.\n> Breadth narrow: 0/0 above 50d. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 32.5% | EWS: 77%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
