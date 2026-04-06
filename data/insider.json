@@ -1,8 +1,118 @@
 {
-  "last_updated": "2026-04-03T23:07:09.180169",
-  "from_date": "2026-03-04",
-  "to_date": "2026-04-03",
+  "last_updated": "2026-04-06T23:09:06.179916",
+  "from_date": "2026-03-07",
+  "to_date": "2026-04-06",
   "transactions": [
+    {
+      "ticker": "AAPL",
+      "name": "O'Brien Deirdre",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 136810,
+      "price": 255.82,
+      "value": 34998734.199999996
+    },
+    {
+      "ticker": "AAPL",
+      "name": "O'Brien Deirdre",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 146474,
+      "price": 255.12,
+      "value": 37368446.88
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Cook Timothy D",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3280418,
+      "price": 256,
+      "value": 839787008
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Cook Timothy D",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3284984,
+      "price": 255.17,
+      "value": 838229367.28
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Cook Timothy D",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3313172,
+      "price": 254.37,
+      "value": 842771561.64
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Neumann Spencer Adam",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 10610,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Neumann Spencer Adam",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 73787,
+      "price": 98,
+      "value": 7231126
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Neumann Spencer Adam",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 102417,
+      "price": 36.408,
+      "value": 3728798.136
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Neumann Spencer Adam",
+      "date": "2026-04-02",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 81557,
+      "price": 38.105,
+      "value": 3107729.485
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 520361,
+      "price": 210.5,
+      "value": 109535990.5
+    },
     {
       "ticker": "HOOD",
       "name": "Bhatt Baiju",
@@ -59,52 +169,19 @@
       "value": 0
     },
     {
+      "ticker": "GOOGL",
+      "name": "O'Toole Amie Thuener",
+      "date": "2026-04-01",
+      "filing_date": "2026-04-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 10093,
+      "price": 289.63,
+      "value": 2923235.59
+    },
+    {
       "ticker": "NFLX",
       "name": "Hoag Jay C",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 654,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Kilgore Leslie J",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 654,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Masiyiwa Strive",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 654,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Sweeney Anne M",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 654,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Mather Ann",
       "date": "2026-04-01",
       "filing_date": "2026-04-02",
       "type": "BUY",
@@ -277,17 +354,6 @@
       "shares": 51808,
       "price": 278.3,
       "value": 14418166.4
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-03-27",
-      "filing_date": "2026-03-31",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 53108,
-      "price": 277.42,
-      "value": 14733221.360000001
     },
     {
       "ticker": "JPM",
@@ -550,39 +616,6 @@
       "type": "BUY",
       "code": "J",
       "shares": 34115,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-03-15",
-      "filing_date": "2026-03-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 240832,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-03-15",
-      "filing_date": "2026-03-17",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 27680,
-      "price": 250.12,
-      "value": 6923321.600000001
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-03-15",
-      "filing_date": "2026-03-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 60208,
       "price": 0,
       "value": 0
     },
