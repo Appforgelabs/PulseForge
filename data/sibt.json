@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-06T09:03:14.316220",
-  "mqs": 32.5,
+  "generated": "2026-04-06T09:16:17.489496",
+  "mqs": 32.2,
   "mqs_verdict": "NO",
   "ews": 77,
   "fomc_alert": {
@@ -10,11 +10,11 @@
   },
   "scores": {
     "volatility": {
-      "score": 46,
+      "score": 45,
       "status": "CAUTION",
-      "vix": 24.87,
-      "vix_trend": -5.74,
-      "vix_percentile": 81
+      "vix": 25.02,
+      "vix_trend": -5.59,
+      "vix_percentile": 83
     },
     "trend": {
       "score": 15,
@@ -47,8 +47,8 @@
     "macro": {
       "score": 55,
       "status": "NEUTRAL",
-      "tnx": 4.337,
-      "dxy": 99.885,
+      "tnx": 4.329,
+      "dxy": 99.9,
       "fed_stance": "NEUTRAL",
       "dxy_trend": "WEAK \u2193",
       "fomc_days": null
@@ -69,21 +69,21 @@
     },
     {
       "sym": "VIX",
-      "price": 24.87,
+      "price": 25.02,
       "change_pct": null
     },
     {
       "sym": "TNX",
-      "price": 4.337,
+      "price": 4.329,
       "change_pct": null
     },
     {
       "sym": "DXY",
-      "price": 99.885,
+      "price": 99.9,
       "change_pct": null
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [09:03]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 24.87 \u2014 caution. CHOP.\n> Breadth narrow: 0/0 above 50d. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 32.5% | EWS: 77%",
+  "terminal_text": "> TERMINAL ANALYSIS [09:16]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 25.02 \u2014 caution. CHOP.\n> Breadth narrow: 0/0 above 50d. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 32.2% | EWS: 77%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
