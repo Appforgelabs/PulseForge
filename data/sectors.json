@@ -1,71 +1,71 @@
 {
-  "last_updated": "2026-04-07T11:15:23.707704",
+  "last_updated": "2026-04-07T11:30:51.449432",
   "sectors": {
     "Technology": {
       "symbol": "XLK",
-      "price": 134.63,
-      "change_pct": -1.5719,
-      "source": "yahoo"
+      "price": 135.2,
+      "change_pct": -1.1551,
+      "source": "finnhub"
     },
     "Financials": {
       "symbol": "XLF",
-      "price": 49.64,
-      "change_pct": -0.4812,
-      "source": "yahoo"
+      "price": 49.73,
+      "change_pct": -0.3007,
+      "source": "finnhub"
     },
     "Energy": {
       "symbol": "XLE",
-      "price": 60.495,
-      "change_pct": 1.3656,
-      "source": "yahoo"
+      "price": 60.49,
+      "change_pct": 1.3572,
+      "source": "finnhub"
     },
     "Healthcare": {
       "symbol": "XLV",
-      "price": 145.45,
-      "change_pct": -0.5674,
-      "source": "yahoo"
+      "price": 145.5,
+      "change_pct": -0.5332,
+      "source": "finnhub"
     },
     "Industrials": {
       "symbol": "XLI",
-      "price": 163.05,
-      "change_pct": -0.9477,
-      "source": "yahoo"
+      "price": 163.38,
+      "change_pct": -0.7472,
+      "source": "finnhub"
     },
     "Cons. Disc.": {
       "symbol": "XLY",
-      "price": 106.5,
-      "change_pct": -2.3294,
-      "source": "yahoo"
+      "price": 106.84,
+      "change_pct": -2.0176,
+      "source": "finnhub"
     },
     "Cons. Staples": {
       "symbol": "XLP",
-      "price": 81.585,
-      "change_pct": -1.3005,
-      "source": "yahoo"
+      "price": 81.58,
+      "change_pct": -1.3066,
+      "source": "finnhub"
     },
     "Utilities": {
       "symbol": "XLU",
-      "price": 46.315,
-      "change_pct": 0.3141,
-      "source": "yahoo"
+      "price": 46.34,
+      "change_pct": 0.3682,
+      "source": "finnhub"
     },
     "Real Estate": {
       "symbol": "XLRE",
-      "price": 41.545,
-      "change_pct": -0.5148,
-      "source": "yahoo"
+      "price": 41.54,
+      "change_pct": -0.5268,
+      "source": "finnhub"
     },
     "Comms": {
       "symbol": "XLC",
-      "price": 111.2,
-      "change_pct": -0.5011,
-      "source": "yahoo"
+      "price": 111.38,
+      "change_pct": -0.34,
+      "source": "finnhub"
     },
     "Materials": {
       "symbol": "XLB",
-      "price": 49.95,
-      "change_pct": -0.5376,
-      "source": "yahoo"
+      "price": 50,
+      "change_pct": -0.4381,
+      "source": "finnhub"
     }
   }
 }
