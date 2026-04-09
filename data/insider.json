@@ -1,8 +1,74 @@
 {
-  "last_updated": "2026-04-08T23:11:42.199342",
-  "from_date": "2026-03-09",
-  "to_date": "2026-04-08",
+  "last_updated": "2026-04-09T23:13:12.519206",
+  "from_date": "2026-03-10",
+  "to_date": "2026-04-09",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-04-06",
+      "filing_date": "2026-04-08",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 18006,
+      "price": 70.1786,
+      "value": 1263635.8716
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-04-06",
+      "filing_date": "2026-04-08",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 20806,
+      "price": 69.5468,
+      "value": 1446990.7208
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-04-06",
+      "filing_date": "2026-04-08",
+      "type": "BUY",
+      "code": "C",
+      "shares": 48669572,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-04-06",
+      "filing_date": "2026-04-08",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 192333,
+      "price": 69.5343,
+      "value": 13373740.5219
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-04-06",
+      "filing_date": "2026-04-08",
+      "type": "BUY",
+      "code": "C",
+      "shares": 375000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-04-06",
+      "filing_date": "2026-04-08",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1294466,
+      "price": 225,
+      "value": 291254850
+    },
     {
       "ticker": "AAPL",
       "name": "O'Brien Deirdre",
@@ -112,61 +178,6 @@
       "shares": 520361,
       "price": 210.5,
       "value": 109535990.5
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 801,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 2778,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Loop Paula",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 801,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Loop Paula",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 71209,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Treseder Oluwadara Johnson",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 801,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "GOOGL",
@@ -695,17 +706,6 @@
       "shares": 3147506,
       "price": 202.46,
       "value": 637244064.76
-    },
-    {
-      "ticker": "AMD",
-      "name": "Su Lisa T",
-      "date": "2026-03-12",
-      "filing_date": "2026-03-16",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3150509,
-      "price": 201.13,
-      "value": 633661875.17
     }
   ]
 }
