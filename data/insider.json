@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-04-09T23:13:12.519206",
-  "from_date": "2026-03-10",
-  "to_date": "2026-04-09",
+  "last_updated": "2026-04-10T23:08:50.162120",
+  "from_date": "2026-03-11",
+  "to_date": "2026-04-10",
   "transactions": [
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 218535,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 174741,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Olsavsky Brian T",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 106374,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Zapolsky David",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 106374,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Reynolds Shelley",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 20309,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "HOOD",
       "name": "Pinner Jeffrey Tsvi",
@@ -167,17 +222,6 @@
       "shares": 81557,
       "price": 38.105,
       "value": 3107729.485
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 520361,
-      "price": 210.5,
-      "value": 109535990.5
     },
     {
       "ticker": "GOOGL",
