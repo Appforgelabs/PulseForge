@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-13T10:30:18.325599",
-  "timestamp": "2026-04-13T10:30:18.325599",
+  "last_updated": "2026-04-13T10:45:17.633494",
+  "timestamp": "2026-04-13T10:45:17.633494",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -12,9 +12,9 @@
     {
       "name": "Volatility Regime",
       "direction": "NEUTRAL",
-      "confidence": 63,
+      "confidence": 64,
       "horizon": "1 week",
-      "rationale": "VIX: 20.1 vs 20-day avg: 24.6. Normal volatility range"
+      "rationale": "VIX: 19.9 vs 20-day avg: 24.6. Normal volatility range"
     },
     {
       "name": "Pulse Momentum",
