@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-10T23:08:50.162120",
-  "from_date": "2026-03-11",
-  "to_date": "2026-04-10",
+  "last_updated": "2026-04-13T23:13:50.793887",
+  "from_date": "2026-03-14",
+  "to_date": "2026-04-13",
   "transactions": [
     {
       "ticker": "AMZN",
@@ -55,6 +55,50 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 20309,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Schindler Philipp",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-10",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 106272,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-10",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 87255,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Porat Ruth",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-10",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 83899,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Walker John Kent",
+      "date": "2026-04-08",
+      "filing_date": "2026-04-10",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 83899,
       "price": 0,
       "value": 0
     },
@@ -290,28 +334,6 @@
       "value": 15338760
     },
     {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-03-31",
-      "filing_date": "2026-03-31",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 60801,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-03-31",
-      "filing_date": "2026-03-31",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 23508,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "JPM",
       "name": "Rometty Virginia M",
       "date": "2026-03-31",
@@ -387,28 +409,6 @@
       "shares": 33940,
       "price": 365.897,
       "value": 12418544.18
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-03-30",
-      "filing_date": "2026-03-31",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 18316,
-      "price": 275.19,
-      "value": 5040380.04
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-03-27",
-      "filing_date": "2026-03-31",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 51808,
-      "price": 278.3,
-      "value": 14418166.4
     },
     {
       "ticker": "JPM",
@@ -684,72 +684,6 @@
       "shares": 362906,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Walmsley Emma N",
-      "date": "2026-03-12",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1110,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Rainey John D",
-      "date": "2026-03-12",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 146,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "List Teri",
-      "date": "2026-03-12",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 23021,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Hoffman Reid",
-      "date": "2026-03-12",
-      "filing_date": "2026-03-13",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 16699,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Su Lisa T",
-      "date": "2026-03-12",
-      "filing_date": "2026-03-16",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3146006,
-      "price": 203.15,
-      "value": 639111118.9
-    },
-    {
-      "ticker": "AMD",
-      "name": "Su Lisa T",
-      "date": "2026-03-12",
-      "filing_date": "2026-03-16",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3147506,
-      "price": 202.46,
-      "value": 637244064.76
     }
   ]
 }
