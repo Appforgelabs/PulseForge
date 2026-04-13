@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-13T11:16:49.603627",
-  "mqs": 52.9,
+  "generated": "2026-04-13T11:30:51.396126",
+  "mqs": 53.6,
   "mqs_verdict": "NO",
   "ews": 70,
   "fomc_alert": {
@@ -12,8 +12,8 @@
     "volatility": {
       "score": 76,
       "status": "HEALTHY",
-      "vix": 19.76,
-      "vix_trend": -6.02,
+      "vix": 19.86,
+      "vix_trend": -5.92,
       "vix_percentile": 54
     },
     "trend": {
@@ -36,19 +36,19 @@
       "total": 11
     },
     "momentum": {
-      "score": 51,
+      "score": 54,
       "status": "CAUTION",
       "top_sector": "XLK",
       "top_pct": 0.9,
       "weak_sector": "XLP",
-      "weak_pct": -1.13,
+      "weak_pct": -1.46,
       "xlk_leading": true
     },
     "macro": {
       "score": 55,
       "status": "NEUTRAL",
-      "tnx": 4.325,
-      "dxy": 98.764,
+      "tnx": 4.327,
+      "dxy": 98.795,
       "fed_stance": "NEUTRAL",
       "dxy_trend": "WEAK \u2193",
       "fomc_days": null
@@ -65,71 +65,71 @@
     {
       "sym": "XLE",
       "name": "Energy",
-      "price": 57.34,
-      "change_pct": 0.7025,
+      "price": 57.32,
+      "change_pct": 0.6674,
       "above_50d": true
     },
     {
       "sym": "XLF",
       "name": "Financials",
-      "price": 50.92,
-      "change_pct": 0.2955,
+      "price": 50.89,
+      "change_pct": 0.2364,
       "above_50d": true
     },
     {
       "sym": "XLC",
       "name": "Comms",
-      "price": 114.22,
-      "change_pct": 0.2369,
+      "price": 114.13,
+      "change_pct": 0.158,
       "above_50d": true
     },
     {
       "sym": "XLY",
       "name": "Cons. Disc.",
-      "price": 112.67,
-      "change_pct": -0.1949,
+      "price": 112.68,
+      "change_pct": -0.186,
       "above_50d": false
     },
     {
       "sym": "XLI",
       "name": "Industrials",
-      "price": 171.12,
-      "change_pct": -0.2332,
-      "above_50d": false
-    },
-    {
-      "sym": "XLRE",
-      "name": "Real Estate",
-      "price": 42.68,
-      "change_pct": -0.327,
+      "price": 170.77,
+      "change_pct": -0.4373,
       "above_50d": false
     },
     {
       "sym": "XLB",
       "name": "Materials",
-      "price": 51.76,
-      "change_pct": -0.3849,
+      "price": 51.71,
+      "change_pct": -0.4811,
+      "above_50d": false
+    },
+    {
+      "sym": "XLRE",
+      "name": "Real Estate",
+      "price": 42.6,
+      "change_pct": -0.5138,
       "above_50d": false
     },
     {
       "sym": "XLV",
       "name": "Healthcare",
-      "price": 146.64,
-      "change_pct": -0.4548,
+      "price": 146.4,
+      "change_pct": -0.6177,
       "above_50d": false
     },
     {
       "sym": "XLU",
       "name": "Utilities",
-      "price": 46.52,
-      "change_pct": -0.937,
+      "price": 46.37,
+      "change_pct": -1.2564,
       "above_50d": false
     },
     {
       "sym": "XLP",
       "name": "Cons. Staples",
-      "price": 81.44,
-      "change_pct": -1.1291,
+      "price": 81.17,
+      "change_pct": -1.4568,
       "above_50d": false
     }
   ],
@@ -147,17 +147,17 @@
     },
     {
       "sym": "VIX",
-      "price": 19.76,
+      "price": 19.86,
       "change_pct": null
     },
     {
       "sym": "TNX",
-      "price": 4.325,
+      "price": 4.327,
       "change_pct": null
     },
     {
       "sym": "DXY",
-      "price": 98.764,
+      "price": 98.795,
       "change_pct": null
     },
     {
@@ -167,56 +167,56 @@
     },
     {
       "sym": "XLE",
-      "price": 57.34,
-      "change_pct": 0.7025
+      "price": 57.32,
+      "change_pct": 0.6674
     },
     {
       "sym": "XLF",
-      "price": 50.92,
-      "change_pct": 0.2955
+      "price": 50.89,
+      "change_pct": 0.2364
     },
     {
       "sym": "XLC",
-      "price": 114.22,
-      "change_pct": 0.2369
+      "price": 114.13,
+      "change_pct": 0.158
     },
     {
       "sym": "XLY",
-      "price": 112.67,
-      "change_pct": -0.1949
+      "price": 112.68,
+      "change_pct": -0.186
     },
     {
       "sym": "XLI",
-      "price": 171.12,
-      "change_pct": -0.2332
-    },
-    {
-      "sym": "XLRE",
-      "price": 42.68,
-      "change_pct": -0.327
+      "price": 170.77,
+      "change_pct": -0.4373
     },
     {
       "sym": "XLB",
-      "price": 51.76,
-      "change_pct": -0.3849
+      "price": 51.71,
+      "change_pct": -0.4811
+    },
+    {
+      "sym": "XLRE",
+      "price": 42.6,
+      "change_pct": -0.5138
     },
     {
       "sym": "XLV",
-      "price": 146.64,
-      "change_pct": -0.4548
+      "price": 146.4,
+      "change_pct": -0.6177
     },
     {
       "sym": "XLU",
-      "price": 46.52,
-      "change_pct": -0.937
+      "price": 46.37,
+      "change_pct": -1.2564
     },
     {
       "sym": "XLP",
-      "price": 81.44,
-      "change_pct": -1.1291
+      "price": 81.17,
+      "change_pct": -1.4568
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [11:16]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 19.76 \u2014 healthy. CHOP.\n> Breadth narrow: 4/11 above 50d. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 52.9% | EWS: 70%",
+  "terminal_text": "> TERMINAL ANALYSIS [11:30]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 19.86 \u2014 healthy. CHOP.\n> Breadth narrow: 4/11 above 50d. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 53.6% | EWS: 70%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
