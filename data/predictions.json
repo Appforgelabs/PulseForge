@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T19:57:58.038851",
-  "timestamp": "2026-04-12T19:57:58.038851",
+  "last_updated": "2026-04-13T09:07:51.913921",
+  "timestamp": "2026-04-13T09:07:51.913921",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -12,16 +12,16 @@
     {
       "name": "Volatility Regime",
       "direction": "NEUTRAL",
-      "confidence": 67,
+      "confidence": 60,
       "horizon": "1 week",
-      "rationale": "VIX: 19.2 vs 20-day avg: 25.0. Normal volatility range"
+      "rationale": "VIX: 21.0 vs 20-day avg: 24.7. Normal volatility range"
     },
     {
       "name": "Pulse Momentum",
       "direction": "BULLISH",
       "confidence": 55,
       "horizon": "3-5 days",
-      "rationale": "5-day avg pulse: 68.9, trend: +24.5. Momentum accelerating into greed zone"
+      "rationale": "5-day avg pulse: 68.9, trend: +24.6. Momentum accelerating into greed zone"
     }
   ]
 }
