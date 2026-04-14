@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-14T09:12:25.170316",
-  "mqs": 66.0,
+  "generated": "2026-04-14T09:20:28.658242",
+  "mqs": 67.0,
   "mqs_verdict": "CAUTION",
   "ews": 70,
   "fomc_alert": {
@@ -10,20 +10,20 @@
   },
   "scores": {
     "volatility": {
-      "score": 78,
+      "score": 82,
       "status": "HEALTHY",
-      "vix": 19.23,
-      "vix_trend": -4.94,
-      "vix_percentile": 50
+      "vix": 18.34,
+      "vix_trend": -2.7,
+      "vix_percentile": 45
     },
     "trend": {
       "score": 40,
       "status": "CAUTION",
-      "spy": 679.46,
-      "sma20": 658.17,
+      "spy": 686.1,
+      "sma20": 659.36,
       "sma50": null,
       "sma200": null,
-      "rsi": 68.0,
+      "rsi": 67.9,
       "above_sma20": true,
       "above_sma50": false,
       "above_sma200": null,
@@ -47,8 +47,8 @@
     "macro": {
       "score": 55,
       "status": "NEUTRAL",
-      "tnx": 4.297,
-      "dxy": 98.65,
+      "tnx": 4.293,
+      "dxy": 97.986,
       "fed_stance": "NEUTRAL",
       "dxy_trend": "WEAK \u2193",
       "fomc_days": null
@@ -137,8 +137,8 @@
   "ticker": [
     {
       "sym": "SPY",
-      "price": 679.46,
-      "change_pct": -0.07
+      "price": 686.1,
+      "change_pct": 0.98
     },
     {
       "sym": "QQQ",
@@ -147,17 +147,17 @@
     },
     {
       "sym": "VIX",
-      "price": 19.23,
+      "price": 18.34,
       "change_pct": null
     },
     {
       "sym": "TNX",
-      "price": 4.297,
+      "price": 4.293,
       "change_pct": null
     },
     {
       "sym": "DXY",
-      "price": 98.65,
+      "price": 97.986,
       "change_pct": null
     },
     {
@@ -216,7 +216,7 @@
       "change_pct": -1.2138
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [09:12]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Mixed conditions. CHOP. VIX 19.23 \u2014 healthy volatility.\n> Breadth 9/11 above 50d. Top sector: XLK. \n> VERDICT: 50% position sizing. A+ setups only. EWS: 70%.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 66.0% | EWS: 70%",
+  "terminal_text": "> TERMINAL ANALYSIS [09:20]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Mixed conditions. CHOP. VIX 18.34 \u2014 healthy volatility.\n> Breadth 9/11 above 50d. Top sector: XLK. \n> VERDICT: 50% position sizing. A+ setups only. EWS: 70%.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 67.0% | EWS: 70%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
