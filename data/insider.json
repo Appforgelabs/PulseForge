@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-14T23:14:18.403324",
-  "from_date": "2026-03-15",
-  "to_date": "2026-04-14",
+  "last_updated": "2026-04-15T23:13:29.942102",
+  "from_date": "2026-03-16",
+  "to_date": "2026-04-15",
   "transactions": [
     {
       "ticker": "AMZN",
@@ -671,17 +671,6 @@
       "type": "BUY",
       "code": "J",
       "shares": 34115,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Su Lisa T",
-      "date": "2026-03-15",
-      "filing_date": "2026-03-16",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 362906,
       "price": 0,
       "value": 0
     }
