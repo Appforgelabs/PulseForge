@@ -1,8 +1,129 @@
 {
-  "last_updated": "2026-04-15T23:13:29.942102",
-  "from_date": "2026-03-16",
-  "to_date": "2026-04-15",
+  "last_updated": "2026-04-16T23:12:50.555650",
+  "from_date": "2026-03-17",
+  "to_date": "2026-04-16",
   "transactions": [
+    {
+      "ticker": "MSFT",
+      "name": "Coleman Amy",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 47266,
+      "price": 393.11,
+      "value": 18580737.26
+    },
+    {
+      "ticker": "JPM",
+      "name": "Barnum Jeremy",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 35460,
+      "price": 306.5522,
+      "value": 10870341.012
+    },
+    {
+      "ticker": "JPM",
+      "name": "Piepszak Jennifer",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 90001,
+      "price": 306.5579,
+      "value": 27590517.5579
+    },
+    {
+      "ticker": "JPM",
+      "name": "Bacon Ashley",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 252855,
+      "price": 306.5535,
+      "value": 77513585.24249999
+    },
+    {
+      "ticker": "JPM",
+      "name": "Lake Marianne",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 130872,
+      "price": 306.5666,
+      "value": 40120984.0752
+    },
+    {
+      "ticker": "JPM",
+      "name": "Petno Douglas B",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 381807,
+      "price": 306.5758,
+      "value": 117052786.47060001
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-13",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 86821,
+      "price": 634.5661,
+      "value": 55093663.3681
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-13",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 86910,
+      "price": 633.29,
+      "value": 55039233.9
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-13",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 86970,
+      "price": 632.424,
+      "value": 55001915.28
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-13",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 87120,
+      "price": 630.9149,
+      "value": 54965306.088
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-13",
+      "filing_date": "2026-04-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 87242,
+      "price": 629.8729,
+      "value": 54951371.5418
+    },
     {
       "ticker": "AMZN",
       "name": "Garman Matthew S",
@@ -334,50 +455,6 @@
       "value": 15338760
     },
     {
-      "ticker": "JPM",
-      "name": "Rometty Virginia M",
-      "date": "2026-03-31",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 14836,
-      "price": 294.16,
-      "value": 4364157.760000001
-    },
-    {
-      "ticker": "JPM",
-      "name": "Novakovic Phebe N",
-      "date": "2026-03-31",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 13395,
-      "price": 294.16,
-      "value": 3940273.2
-    },
-    {
-      "ticker": "JPM",
-      "name": "Burke Stephen B",
-      "date": "2026-03-31",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 207343,
-      "price": 294.16,
-      "value": 60992016.88
-    },
-    {
-      "ticker": "JPM",
-      "name": "Hobson Mellody L",
-      "date": "2026-03-31",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 29705,
-      "price": 294.16,
-      "value": 8738022.8
-    },
-    {
       "ticker": "TSLA",
       "name": "Wilson-Thompson Kathleen",
       "date": "2026-03-30",
@@ -409,72 +486,6 @@
       "shares": 33940,
       "price": 365.897,
       "value": 12418544.18
-    },
-    {
-      "ticker": "JPM",
-      "name": "Rohrbaugh Troy L",
-      "date": "2026-03-25",
-      "filing_date": "2026-03-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 143895,
-      "price": 295.04,
-      "value": 42454780.800000004
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-23",
-      "filing_date": "2026-03-25",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 88045,
-      "price": 605.38,
-      "value": 53300682.1
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-23",
-      "filing_date": "2026-03-25",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 8130,
-      "price": 605.38,
-      "value": 4921739.4
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-23",
-      "filing_date": "2026-03-25",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2657,
-      "price": 605.38,
-      "value": 1608494.66
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-23",
-      "filing_date": "2026-03-25",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 8130,
-      "price": 605.38,
-      "value": 4921739.4
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-03-23",
-      "filing_date": "2026-03-25",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 13335,
-      "price": 605.38,
-      "value": 8072742.3
     },
     {
       "ticker": "SOFI",
@@ -618,61 +629,6 @@
       "shares": 168289,
       "price": 17.617,
       "value": 2964747.313
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1156978,
-      "price": 153.5133,
-      "value": 177611510.8074
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1157278,
-      "price": 152.7181,
-      "value": 176737297.33179998
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1165933,
-      "price": 151.9934,
-      "value": 177214120.8422
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Coleman Amy",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-16",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 48577,
-      "price": 395.55,
-      "value": 19214632.35
-    },
-    {
-      "ticker": "AMD",
-      "name": "Vanderslice Elizabeth W",
-      "date": "2026-03-16",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "J",
-      "shares": 34115,
-      "price": 0,
-      "value": 0
     }
   ]
 }
