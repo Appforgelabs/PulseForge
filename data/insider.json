@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-16T23:12:50.555650",
-  "from_date": "2026-03-17",
-  "to_date": "2026-04-16",
+  "last_updated": "2026-04-17T23:11:49.952071",
+  "from_date": "2026-03-18",
+  "to_date": "2026-04-17",
   "transactions": [
     {
       "ticker": "MSFT",
@@ -68,6 +68,28 @@
       "shares": 381807,
       "price": 306.5758,
       "value": 117052786.47060001
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
+      "date": "2026-04-14",
+      "filing_date": "2026-04-16",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 499861,
+      "price": 245,
+      "value": 122465945
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Scaringe Robert J",
+      "date": "2026-04-14",
+      "filing_date": "2026-04-16",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1001138,
+      "price": 16.17,
+      "value": 16188401.46
     },
     {
       "ticker": "META",
@@ -165,17 +187,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 106374,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Reynolds Shelley",
-      "date": "2026-04-08",
-      "filing_date": "2026-04-09",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 20309,
       "price": 0,
       "value": 0
     },
@@ -532,17 +543,6 @@
       "value": 0
     },
     {
-      "ticker": "RIVN",
-      "name": "Callahan Michael John",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 528402,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "NVDA",
       "name": "Stevens Mark A",
       "date": "2026-03-20",
@@ -607,28 +607,6 @@
       "shares": 839640,
       "price": 17.43,
       "value": 14634925.2
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Keough Kelli",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 352768,
-      "price": 17.617,
-      "value": 6214713.856000001
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Pinto Arun",
-      "date": "2026-03-17",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 168289,
-      "price": 17.617,
-      "value": 2964747.313
     }
   ]
 }
