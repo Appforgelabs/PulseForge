@@ -1,67 +1,67 @@
 {
-  "last_updated": "2026-04-20T11:47:25.059671",
+  "last_updated": "2026-04-20T18:02:44.456559",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 390.91,
-      "change_pct": -2.4237,
+      "price": 392.5,
+      "change_pct": 0.0,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 144.44,
-      "change_pct": -1.3321,
+      "price": 145.89,
+      "change_pct": 0.0,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 246.52,
-      "change_pct": -1.6124,
+      "price": 248.28,
+      "change_pct": 0.0,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "HOOD",
-      "price": 90.41,
-      "change_pct": -0.3747,
+      "price": 91.275,
+      "change_pct": 0.0,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "SOFI",
-      "price": 19.39,
-      "change_pct": -0.2059,
+      "price": 19.5,
+      "change_pct": 0.0,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 17.03,
-      "change_pct": -1.1608,
+      "price": 16.92,
+      "change_pct": 0.0,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 6.71,
-      "change_pct": -1.757,
+      "price": 6.66,
+      "change_pct": 0.0,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     }
   ]
