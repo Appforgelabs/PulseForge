@@ -1,8 +1,140 @@
 {
-  "last_updated": "2026-04-17T23:11:49.952071",
-  "from_date": "2026-03-18",
-  "to_date": "2026-04-17",
+  "last_updated": "2026-04-20T23:13:30.254302",
+  "from_date": "2026-03-21",
+  "to_date": "2026-04-20",
   "transactions": [
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-04-16",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1267357,
+      "price": 275,
+      "value": 348523175
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1140978,
+      "price": 142.414,
+      "value": 162491240.892
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1141194,
+      "price": 142.0014,
+      "value": 162051145.67159998
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1144536,
+      "price": 140.4554,
+      "value": 160756261.69439998
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1146132,
+      "price": 139.732,
+      "value": 160151316.624
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1149485,
+      "price": 138.734,
+      "value": 159472651.99
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 52747,
+      "price": 87.3632,
+      "value": 4608146.7104
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 53212,
+      "price": 86.7662,
+      "value": 4617003.0344
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 55312,
+      "price": 85.6497,
+      "value": 4737456.2064
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 56883,
+      "price": 84.6686,
+      "value": 4816203.9738
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 57583,
+      "price": 83.4333,
+      "value": 4804339.7139
+    },
+    {
+      "ticker": "META",
+      "name": "Kimmitt Robert M",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3847,
+      "price": 667,
+      "value": 2565949
+    },
     {
       "ticker": "MSFT",
       "name": "Coleman Amy",
@@ -13,6 +145,116 @@
       "shares": 47266,
       "price": 393.11,
       "value": 18580737.26
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Borders Ben",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 2312,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Borders Ben",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 1852,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Borders Ben",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 1423,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Borders Ben",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 540,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Borders Ben",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 39987,
+      "price": 266.43,
+      "value": 10653736.41
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Hennessy John L.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3581,
+      "price": 332.81,
+      "value": 1191792.61
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Hennessy John L.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3676,
+      "price": 331.84,
+      "value": 1219843.8399999999
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Hennessy John L.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3740,
+      "price": 330.67,
+      "value": 1236705.8
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Hennessy John L.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3882,
+      "price": 329.78,
+      "value": 1280205.96
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Hennessy John L.",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3950,
+      "price": 332.92,
+      "value": 1315034.0
     },
     {
       "ticker": "JPM",
@@ -68,6 +310,39 @@
       "shares": 381807,
       "price": 306.5758,
       "value": 117052786.47060001
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 25369,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1294466,
+      "price": 255.54,
+      "value": 330787841.64
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-04-15",
+      "filing_date": "2026-04-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 1300466,
+      "price": 84.85,
+      "value": 110344540.1
     },
     {
       "ticker": "AMZN",
@@ -136,17 +411,6 @@
       "value": 54965306.088
     },
     {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-13",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 87242,
-      "price": 629.8729,
-      "value": 54951371.5418
-    },
-    {
       "ticker": "AMZN",
       "name": "Garman Matthew S",
       "date": "2026-04-08",
@@ -191,105 +455,6 @@
       "value": 0
     },
     {
-      "ticker": "GOOGL",
-      "name": "Schindler Philipp",
-      "date": "2026-04-08",
-      "filing_date": "2026-04-10",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 106272,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Ashkenazi Anat",
-      "date": "2026-04-08",
-      "filing_date": "2026-04-10",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 87255,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Porat Ruth",
-      "date": "2026-04-08",
-      "filing_date": "2026-04-10",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 83899,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-04-08",
-      "filing_date": "2026-04-10",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 83899,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-04-06",
-      "filing_date": "2026-04-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 18006,
-      "price": 70.1786,
-      "value": 1263635.8716
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Pinner Jeffrey Tsvi",
-      "date": "2026-04-06",
-      "filing_date": "2026-04-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 20806,
-      "price": 69.5468,
-      "value": 1446990.7208
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-04-06",
-      "filing_date": "2026-04-08",
-      "type": "BUY",
-      "code": "C",
-      "shares": 48669572,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-04-06",
-      "filing_date": "2026-04-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 192333,
-      "price": 69.5343,
-      "value": 13373740.5219
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-04-06",
-      "filing_date": "2026-04-08",
-      "type": "BUY",
-      "code": "C",
-      "shares": 375000,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "AMD",
       "name": "Papermaster Mark D",
       "date": "2026-04-06",
@@ -299,61 +464,6 @@
       "shares": 1294466,
       "price": 225,
       "value": 291254850
-    },
-    {
-      "ticker": "AAPL",
-      "name": "O'Brien Deirdre",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 136810,
-      "price": 255.82,
-      "value": 34998734.199999996
-    },
-    {
-      "ticker": "AAPL",
-      "name": "O'Brien Deirdre",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 146474,
-      "price": 255.12,
-      "value": 37368446.88
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Cook Timothy D",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3280418,
-      "price": 256,
-      "value": 839787008
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Cook Timothy D",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3284984,
-      "price": 255.17,
-      "value": 838229367.28
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Cook Timothy D",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3313172,
-      "price": 254.37,
-      "value": 842771561.64
     },
     {
       "ticker": "NFLX",
@@ -398,17 +508,6 @@
       "shares": 81557,
       "price": 38.105,
       "value": 3107729.485
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "O'Toole Amie Thuener",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 10093,
-      "price": 289.63,
-      "value": 2923235.59
     },
     {
       "ticker": "NFLX",
@@ -497,116 +596,6 @@
       "shares": 33940,
       "price": 365.897,
       "value": 12418544.18
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Keough Kelli",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 343026,
-      "price": 16.9438,
-      "value": 5812163.9388
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Venkataratnam Sreela",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 599626,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Mcdonough Claire",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 528402,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Mcdonough Claire",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 957059,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7399771,
-      "price": 174.5685,
-      "value": 1291766923.8135
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7521453,
-      "price": 172.6068,
-      "value": 1298253933.6804
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Kress Colette",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 712934,
-      "price": 177.5122,
-      "value": 126554482.7948
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Kress Colette",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 713405,
-      "price": 176.8288,
-      "value": 126150550.064
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Kress Colette",
-      "date": "2026-03-20",
-      "filing_date": "2026-03-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 714439,
-      "price": 175.8248,
-      "value": 125616094.2872
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Rishel Jeremy",
-      "date": "2026-03-18",
-      "filing_date": "2026-03-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 839640,
-      "price": 17.43,
-      "value": 14634925.2
     }
   ]
 }
