@@ -1,70 +1,70 @@
 {
-  "last_updated": "2026-04-21T11:46:02.175961",
+  "last_updated": "2026-04-21T18:00:10.475901",
   "sectors": {
     "Technology": {
       "symbol": "XLK",
-      "price": 155.1,
-      "change_pct": 0.3494,
+      "price": 154.69,
+      "change_pct": 0.0841,
       "source": "finnhub"
     },
     "Financials": {
       "symbol": "XLF",
-      "price": 52.56,
-      "change_pct": -0.133,
+      "price": 52.3,
+      "change_pct": -0.627,
       "source": "finnhub"
     },
     "Energy": {
       "symbol": "XLE",
-      "price": 55.31,
-      "change_pct": 0.4358,
+      "price": 55.87,
+      "change_pct": 1.4527,
       "source": "finnhub"
     },
     "Healthcare": {
       "symbol": "XLV",
-      "price": 146.34,
-      "change_pct": -0.7326,
+      "price": 145.92,
+      "change_pct": -1.0175,
       "source": "finnhub"
     },
     "Industrials": {
       "symbol": "XLI",
-      "price": 171.93,
-      "change_pct": -1.1328,
+      "price": 171.44,
+      "change_pct": -1.4146,
       "source": "finnhub"
     },
     "Cons. Disc.": {
       "symbol": "XLY",
-      "price": 119.91,
-      "change_pct": 0.0334,
+      "price": 118.97,
+      "change_pct": -0.7508,
       "source": "finnhub"
     },
     "Cons. Staples": {
       "symbol": "XLP",
-      "price": 82.03,
-      "change_pct": -0.4369,
+      "price": 81.84,
+      "change_pct": -0.6676,
       "source": "finnhub"
     },
     "Utilities": {
       "symbol": "XLU",
-      "price": 45.15,
-      "change_pct": -1.3115,
+      "price": 44.95,
+      "change_pct": -1.7486,
       "source": "finnhub"
     },
     "Real Estate": {
       "symbol": "XLRE",
-      "price": 44,
-      "change_pct": -1.4337,
+      "price": 43.78,
+      "change_pct": -1.9265,
       "source": "finnhub"
     },
     "Comms": {
       "symbol": "XLC",
-      "price": 118.47,
-      "change_pct": -0.2358,
+      "price": 117.16,
+      "change_pct": -1.3389,
       "source": "finnhub"
     },
     "Materials": {
       "symbol": "XLB",
-      "price": 51.85,
-      "change_pct": -0.7276,
+      "price": 51.77,
+      "change_pct": -0.8807,
       "source": "finnhub"
     }
   }
