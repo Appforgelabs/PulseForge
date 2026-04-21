@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-04-20T23:13:30.254302",
-  "from_date": "2026-03-21",
-  "to_date": "2026-04-20",
+  "last_updated": "2026-04-21T23:11:22.527970",
+  "from_date": "2026-03-22",
+  "to_date": "2026-04-21",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-04-16",
+      "filing_date": "2026-04-20",
+      "type": "BUY",
+      "code": "C",
+      "shares": 47073799,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-04-16",
+      "filing_date": "2026-04-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1500,
+      "price": 87.4843,
+      "value": 131226.45
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-04-16",
+      "filing_date": "2026-04-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 11500,
+      "price": 86.5934,
+      "value": 995824.1
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-04-16",
+      "filing_date": "2026-04-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 39461,
+      "price": 85.6176,
+      "value": 3378556.1136
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-04-16",
+      "filing_date": "2026-04-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 50861,
+      "price": 84.593,
+      "value": 4302484.573
+    },
     {
       "ticker": "AMD",
       "name": "Papermaster Mark D",
@@ -68,61 +123,6 @@
       "shares": 1149485,
       "price": 138.734,
       "value": 159472651.99
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 52747,
-      "price": 87.3632,
-      "value": 4608146.7104
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 53212,
-      "price": 86.7662,
-      "value": 4617003.0344
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 55312,
-      "price": 85.6497,
-      "value": 4737456.2064
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 56883,
-      "price": 84.6686,
-      "value": 4816203.9738
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 57583,
-      "price": 83.4333,
-      "value": 4804339.7139
     },
     {
       "ticker": "META",
