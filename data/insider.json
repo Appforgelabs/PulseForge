@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-04-21T23:11:22.527970",
-  "from_date": "2026-03-22",
-  "to_date": "2026-04-21",
+  "last_updated": "2026-04-22T23:14:56.238090",
+  "from_date": "2026-03-23",
+  "to_date": "2026-04-22",
   "transactions": [
+    {
+      "ticker": "AMZN",
+      "name": "Jassy Andrew R",
+      "date": "2026-04-17",
+      "filing_date": "2026-04-21",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2207118,
+      "price": 255,
+      "value": 562815090
+    },
     {
       "ticker": "HOOD",
       "name": "Bhatt Baiju",
@@ -435,17 +446,6 @@
     {
       "ticker": "AMZN",
       "name": "Olsavsky Brian T",
-      "date": "2026-04-08",
-      "filing_date": "2026-04-09",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 106374,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Zapolsky David",
       "date": "2026-04-08",
       "filing_date": "2026-04-09",
       "type": "BUY",
