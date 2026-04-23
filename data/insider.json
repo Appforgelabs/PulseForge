@@ -1,8 +1,118 @@
 {
-  "last_updated": "2026-04-22T23:14:56.238090",
-  "from_date": "2026-03-23",
-  "to_date": "2026-04-22",
+  "last_updated": "2026-04-23T23:14:15.946214",
+  "from_date": "2026-03-24",
+  "to_date": "2026-04-23",
   "transactions": [
+    {
+      "ticker": "RIVN",
+      "name": "Gomez Aidan N.",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 39984,
+      "price": 17.23,
+      "value": 688924.3200000001
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Gomez Aidan N.",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 40390,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Schwartz Sanford Harold",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 194365,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Krawiec Peter",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 9229,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Krafcik John",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 60756,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 86413,
+      "price": 680.09,
+      "value": 58768617.17
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7802,
+      "price": 680.09,
+      "value": 5306062.180000001
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2429,
+      "price": 680.09,
+      "value": 1651938.61
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7802,
+      "price": 680.09,
+      "value": 5306062.180000001
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-20",
+      "filing_date": "2026-04-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 9631,
+      "price": 680.09,
+      "value": 6549946.79
+    },
     {
       "ticker": "AMZN",
       "name": "Jassy Andrew R",
@@ -134,17 +244,6 @@
       "shares": 1149485,
       "price": 138.734,
       "value": 159472651.99
-    },
-    {
-      "ticker": "META",
-      "name": "Kimmitt Robert M",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3847,
-      "price": 667,
-      "value": 2565949
     },
     {
       "ticker": "MSFT",
@@ -367,61 +466,6 @@
       "value": 122465945
     },
     {
-      "ticker": "RIVN",
-      "name": "Scaringe Robert J",
-      "date": "2026-04-14",
-      "filing_date": "2026-04-16",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1001138,
-      "price": 16.17,
-      "value": 16188401.46
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-13",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 86821,
-      "price": 634.5661,
-      "value": 55093663.3681
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-13",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 86910,
-      "price": 633.29,
-      "value": 55039233.9
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-13",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 86970,
-      "price": 632.424,
-      "value": 55001915.28
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-13",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 87120,
-      "price": 630.9149,
-      "value": 54965306.088
-    },
-    {
       "ticker": "AMZN",
       "name": "Garman Matthew S",
       "date": "2026-04-08",
@@ -552,17 +596,6 @@
       "shares": 1191,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Scaringe Robert J",
-      "date": "2026-03-31",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1022584,
-      "price": 15,
-      "value": 15338760
     },
     {
       "ticker": "TSLA",
