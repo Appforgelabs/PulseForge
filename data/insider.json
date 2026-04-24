@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-04-23T23:14:15.946214",
-  "from_date": "2026-03-24",
-  "to_date": "2026-04-23",
+  "last_updated": "2026-04-24T23:11:51.832285",
+  "from_date": "2026-03-25",
+  "to_date": "2026-04-24",
   "transactions": [
+    {
+      "ticker": "TSLA",
+      "name": "Musk Elon",
+      "date": "2026-04-21",
+      "filing_date": "2026-04-23",
+      "type": "BUY",
+      "code": "Disposition",
+      "shares": 423743904,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Keough Kelli",
+      "date": "2026-04-21",
+      "filing_date": "2026-04-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 333284,
+      "price": 19.2518,
+      "value": 6416316.9112
+    },
     {
       "ticker": "RIVN",
       "name": "Gomez Aidan N.",
@@ -618,17 +640,6 @@
       "shares": 33860,
       "price": 366.855,
       "value": 12421710.3
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-03-30",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 33940,
-      "price": 365.897,
-      "value": 12418544.18
     }
   ]
 }
