@@ -1,64 +1,64 @@
 {
-  "last_updated": "2026-04-24T09:15:51.940981",
+  "last_updated": "2026-04-24T09:31:00.303892",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 373.72,
-      "change_pct": -3.5586,
-      "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "PLTR",
-      "price": 141.57,
-      "change_pct": -7.2402,
-      "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "AMZN",
-      "price": 255.08,
-      "change_pct": -0.1096,
+      "price": 373.43,
+      "change_pct": -0.0776,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "HOOD",
-      "price": 83.54,
-      "change_pct": -5.5298,
+      "ticker": "PLTR",
+      "price": 142.7,
+      "change_pct": 0.7982,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "AMZN",
+      "price": 259.66,
+      "change_pct": 1.7955,
+      "volume": null,
+      "signal": "BULLISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "HOOD",
+      "price": 84.89,
+      "change_pct": 1.616,
+      "volume": null,
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "SOFI",
-      "price": 18.32,
-      "change_pct": -3.8825,
+      "price": 18.43,
+      "change_pct": 0.6004,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "RIVN",
       "price": 16.95,
-      "change_pct": -4.4532,
+      "change_pct": 0,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 6.28,
-      "change_pct": -3.0864,
+      "price": 6.29,
+      "change_pct": -2.9321,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
