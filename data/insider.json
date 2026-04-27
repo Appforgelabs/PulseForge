@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-04-24T23:11:51.832285",
-  "from_date": "2026-03-25",
-  "to_date": "2026-04-24",
+  "last_updated": "2026-04-27T23:16:19.425242",
+  "from_date": "2026-03-28",
+  "to_date": "2026-04-27",
   "transactions": [
+    {
+      "ticker": "RIVN",
+      "name": "Mcdonough Claire",
+      "date": "2026-04-22",
+      "filing_date": "2026-04-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 946814,
+      "price": 18,
+      "value": 17042652
+    },
     {
       "ticker": "TSLA",
       "name": "Musk Elon",
@@ -66,17 +77,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 9229,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Krafcik John",
-      "date": "2026-04-20",
-      "filing_date": "2026-04-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 60756,
       "price": 0,
       "value": 0
     },
