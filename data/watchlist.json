@@ -1,67 +1,67 @@
 {
-  "last_updated": "2026-04-28T09:45:50.915058",
+  "last_updated": "2026-04-28T10:03:45.193818",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 378.47,
-      "change_pct": -0.0528,
+      "price": 380.32,
+      "change_pct": 0.4357,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "yahoo",
+      "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 143.665,
-      "change_pct": 0.3948,
+      "price": 142.81,
+      "change_pct": -0.2027,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "yahoo",
+      "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 259.3,
-      "change_pct": -0.697,
+      "price": 259.84,
+      "change_pct": -0.4902,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "yahoo",
+      "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "HOOD",
-      "price": 83.105,
-      "change_pct": -1.0066,
+      "price": 82.23,
+      "change_pct": -2.0488,
       "volume": null,
-      "signal": "NEUTRAL",
-      "source": "yahoo",
+      "signal": "BEARISH",
+      "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "SOFI",
-      "price": 18.84,
-      "change_pct": 0.4264,
+      "price": 18.59,
+      "change_pct": -0.9062,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "yahoo",
+      "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 16.45,
-      "change_pct": -1.6148,
+      "price": 16.26,
+      "change_pct": -2.7512,
       "volume": null,
       "signal": "BEARISH",
-      "source": "yahoo",
+      "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 6.165,
-      "change_pct": -1.0433,
+      "price": 6.3,
+      "change_pct": 1.1236,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "yahoo",
+      "source": "finnhub",
       "notes": ""
     }
   ]
