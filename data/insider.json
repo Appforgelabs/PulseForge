@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-04-27T23:16:19.425242",
-  "from_date": "2026-03-28",
-  "to_date": "2026-04-27",
+  "last_updated": "2026-04-28T23:16:08.720645",
+  "from_date": "2026-03-29",
+  "to_date": "2026-04-28",
   "transactions": [
+    {
+      "ticker": "AAPL",
+      "name": "Parekh Kevan",
+      "date": "2026-04-23",
+      "filing_date": "2026-04-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 13366,
+      "price": 275,
+      "value": 3675650
+    },
     {
       "ticker": "RIVN",
       "name": "Mcdonough Claire",
@@ -321,17 +332,6 @@
       "shares": 540,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Borders Ben",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 39987,
-      "price": 266.43,
-      "value": 10653736.41
     },
     {
       "ticker": "GOOGL",
