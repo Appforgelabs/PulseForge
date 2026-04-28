@@ -1,67 +1,67 @@
 {
-  "last_updated": "2026-04-28T09:31:22.949179",
+  "last_updated": "2026-04-28T09:45:50.915058",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 375.91,
-      "change_pct": -0.7289,
+      "price": 378.47,
+      "change_pct": -0.0528,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 140.89,
-      "change_pct": -1.5444,
+      "price": 143.665,
+      "change_pct": 0.3948,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 257.46,
-      "change_pct": -1.4017,
+      "price": 259.3,
+      "change_pct": -0.697,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "HOOD",
-      "price": 80.99,
-      "change_pct": -3.5259,
+      "price": 83.105,
+      "change_pct": -1.0066,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "SOFI",
-      "price": 18.61,
-      "change_pct": -0.7996,
+      "price": 18.84,
+      "change_pct": 0.4264,
       "volume": null,
       "signal": "NEUTRAL",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 16.36,
-      "change_pct": -2.1531,
+      "price": 16.45,
+      "change_pct": -1.6148,
       "volume": null,
       "signal": "BEARISH",
-      "source": "finnhub",
+      "source": "yahoo",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 6.12,
-      "change_pct": -1.7657,
+      "price": 6.165,
+      "change_pct": -1.0433,
       "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
+      "signal": "NEUTRAL",
+      "source": "yahoo",
       "notes": ""
     }
   ]
