@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T09:45:45.266567",
+  "last_updated": "2026-04-29T10:03:09.771684",
   "sectors": {
     "Technology": {
       "symbol": "XLK",
@@ -9,62 +9,62 @@
     },
     "Financials": {
       "symbol": "XLF",
-      "price": 51.88,
-      "change_pct": 0.0579,
+      "price": 51.91,
+      "change_pct": 0.1157,
       "source": "finnhub"
     },
     "Energy": {
       "symbol": "XLE",
-      "price": 58.24,
-      "change_pct": 0.9184,
+      "price": 58.47,
+      "change_pct": 1.3169,
       "source": "finnhub"
     },
     "Healthcare": {
       "symbol": "XLV",
-      "price": 142.45,
-      "change_pct": -0.9664,
+      "price": 142.54,
+      "change_pct": -0.9038,
       "source": "finnhub"
     },
     "Industrials": {
       "symbol": "XLI",
-      "price": 171.2,
-      "change_pct": 0.1287,
+      "price": 170.53,
+      "change_pct": -0.2632,
       "source": "finnhub"
     },
     "Cons. Disc.": {
       "symbol": "XLY",
-      "price": 116.34,
-      "change_pct": -0.5726,
+      "price": 116.52,
+      "change_pct": -0.4188,
       "source": "finnhub"
     },
     "Cons. Staples": {
       "symbol": "XLP",
-      "price": 82.84,
-      "change_pct": -0.2889,
+      "price": 82.87,
+      "change_pct": -0.2528,
       "source": "finnhub"
     },
     "Utilities": {
       "symbol": "XLU",
-      "price": 46.13,
-      "change_pct": -0.2595,
+      "price": 46.12,
+      "change_pct": -0.2811,
       "source": "finnhub"
     },
     "Real Estate": {
       "symbol": "XLRE",
-      "price": 43.81,
-      "change_pct": -0.2277,
+      "price": 43.7,
+      "change_pct": -0.4783,
       "source": "finnhub"
     },
     "Comms": {
       "symbol": "XLC",
-      "price": 115.27,
-      "change_pct": -0.4147,
+      "price": 115.63,
+      "change_pct": -0.1037,
       "source": "finnhub"
     },
     "Materials": {
       "symbol": "XLB",
-      "price": 51.25,
-      "change_pct": -0.2918,
+      "price": 51.1,
+      "change_pct": -0.5837,
       "source": "finnhub"
     }
   }
