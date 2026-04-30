@@ -1,8 +1,96 @@
 {
-  "last_updated": "2026-04-29T23:16:41.703229",
-  "from_date": "2026-03-30",
-  "to_date": "2026-04-29",
+  "last_updated": "2026-04-30T23:16:25.861884",
+  "from_date": "2026-03-31",
+  "to_date": "2026-04-30",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-04-27",
+      "filing_date": "2026-04-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 12171,
+      "price": 85.49,
+      "value": 1040498.7899999999
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-04-27",
+      "filing_date": "2026-04-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 12371,
+      "price": 84.4392,
+      "value": 1044597.3432
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Pinner Jeffrey Tsvi",
+      "date": "2026-04-27",
+      "filing_date": "2026-04-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 13571,
+      "price": 83.7118,
+      "value": 1136052.8377999999
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-27",
+      "filing_date": "2026-04-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 86005,
+      "price": 670.84,
+      "value": 57695594.2
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-27",
+      "filing_date": "2026-04-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7720,
+      "price": 670.84,
+      "value": 5178884.8
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-27",
+      "filing_date": "2026-04-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2372,
+      "price": 670.84,
+      "value": 1591232.48
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-27",
+      "filing_date": "2026-04-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7720,
+      "price": 670.84,
+      "value": 5178884.8
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-04-27",
+      "filing_date": "2026-04-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 8705,
+      "price": 670.84,
+      "value": 5839662.2
+    },
     {
       "ticker": "PLTR",
       "name": "Buckley Jeffrey",
@@ -16,58 +104,58 @@
     },
     {
       "ticker": "GOOGL",
-      "name": "Ashkenazi Anat",
+      "name": "Schindler Philipp",
       "date": "2026-04-25",
-      "filing_date": "2026-04-28",
+      "filing_date": "2026-04-29",
       "type": "BUY",
       "code": "Tax Withholding",
-      "shares": 73086,
-      "price": 0,
-      "value": 0
+      "shares": 90238,
+      "price": 342.32,
+      "value": 30890272.16
     },
     {
       "ticker": "GOOGL",
-      "name": "Ashkenazi Anat",
+      "name": "Schindler Philipp",
       "date": "2026-04-25",
-      "filing_date": "2026-04-28",
+      "filing_date": "2026-04-29",
       "type": "BUY",
       "code": "C",
-      "shares": 80203,
+      "shares": 98292,
       "price": 0,
       "value": 0
     },
     {
       "ticker": "GOOGL",
-      "name": "Ashkenazi Anat",
+      "name": "Schindler Philipp",
       "date": "2026-04-25",
-      "filing_date": "2026-04-28",
+      "filing_date": "2026-04-29",
       "type": "BUY",
       "code": "C",
-      "shares": 125067,
+      "shares": 906349,
       "price": 0,
       "value": 0
     },
     {
       "ticker": "GOOGL",
-      "name": "Pichai Sundar",
+      "name": "Porat Ruth",
       "date": "2026-04-25",
-      "filing_date": "2026-04-28",
+      "filing_date": "2026-04-29",
       "type": "BUY",
       "code": "C",
-      "shares": 1656724,
+      "shares": 900940,
       "price": 0,
       "value": 0
     },
     {
       "ticker": "GOOGL",
-      "name": "Pichai Sundar",
+      "name": "Porat Ruth",
       "date": "2026-04-25",
-      "filing_date": "2026-04-28",
+      "filing_date": "2026-04-29",
       "type": "BUY",
       "code": "Tax Withholding",
-      "shares": 235719,
-      "price": 0,
-      "value": 0
+      "shares": 70849,
+      "price": 342.32,
+      "value": 24253029.68
     },
     {
       "ticker": "AMZN",
@@ -180,61 +268,6 @@
       "value": 0
     },
     {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-20",
-      "filing_date": "2026-04-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 86413,
-      "price": 680.09,
-      "value": 58768617.17
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-20",
-      "filing_date": "2026-04-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7802,
-      "price": 680.09,
-      "value": 5306062.180000001
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-20",
-      "filing_date": "2026-04-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2429,
-      "price": 680.09,
-      "value": 1651938.61
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-20",
-      "filing_date": "2026-04-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7802,
-      "price": 680.09,
-      "value": 5306062.180000001
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-20",
-      "filing_date": "2026-04-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 9631,
-      "price": 680.09,
-      "value": 6549946.79
-    },
-    {
       "ticker": "AMZN",
       "name": "Jassy Andrew R",
       "date": "2026-04-17",
@@ -266,39 +299,6 @@
       "shares": 1500,
       "price": 87.4843,
       "value": 131226.45
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-04-16",
-      "filing_date": "2026-04-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 11500,
-      "price": 86.5934,
-      "value": 995824.1
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-04-16",
-      "filing_date": "2026-04-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 39461,
-      "price": 85.6176,
-      "value": 3378556.1136
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-04-16",
-      "filing_date": "2026-04-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 50861,
-      "price": 84.593,
-      "value": 4302484.573
     },
     {
       "ticker": "AMD",
@@ -618,28 +618,6 @@
       "shares": 1191,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-03-30",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 40948,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-03-30",
-      "filing_date": "2026-04-01",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 33860,
-      "price": 366.855,
-      "value": 12421710.3
     }
   ]
 }
