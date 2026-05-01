@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-30T23:16:25.861884",
-  "from_date": "2026-03-31",
-  "to_date": "2026-04-30",
+  "last_updated": "2026-05-01T23:15:14.651900",
+  "from_date": "2026-04-01",
+  "to_date": "2026-05-01",
   "transactions": [
     {
       "ticker": "HOOD",
@@ -583,39 +583,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 654,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Zhu Xiaotong",
-      "date": "2026-03-31",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 260650,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Zhu Xiaotong",
-      "date": "2026-03-31",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 20000,
-      "price": 20.57,
-      "value": 411400.0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Borden William A.",
-      "date": "2026-03-31",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1191,
       "price": 0,
       "value": 0
     }
