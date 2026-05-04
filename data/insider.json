@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-05-01T23:15:14.651900",
-  "from_date": "2026-04-01",
-  "to_date": "2026-05-01",
+  "last_updated": "2026-05-04T23:16:06.362555",
+  "from_date": "2026-04-04",
+  "to_date": "2026-05-04",
   "transactions": [
+    {
+      "ticker": "GOOGL",
+      "name": "Arnold Frances",
+      "date": "2026-04-30",
+      "filing_date": "2026-05-01",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 18621,
+      "price": 371,
+      "value": 6908391
+    },
     {
       "ticker": "HOOD",
       "name": "Pinner Jeffrey Tsvi",
@@ -145,17 +156,6 @@
       "shares": 900940,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Porat Ruth",
-      "date": "2026-04-25",
-      "filing_date": "2026-04-29",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 70849,
-      "price": 342.32,
-      "value": 24253029.68
     },
     {
       "ticker": "AMZN",
@@ -528,61 +528,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 174741,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Neumann Spencer Adam",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 10610,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Neumann Spencer Adam",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 73787,
-      "price": 98,
-      "value": 7231126
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Neumann Spencer Adam",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 102417,
-      "price": 36.408,
-      "value": 3728798.136
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Neumann Spencer Adam",
-      "date": "2026-04-02",
-      "filing_date": "2026-04-03",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 81557,
-      "price": 38.105,
-      "value": 3107729.485
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hoag Jay C",
-      "date": "2026-04-01",
-      "filing_date": "2026-04-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 654,
       "price": 0,
       "value": 0
     }
