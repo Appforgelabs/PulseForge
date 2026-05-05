@@ -1,8 +1,140 @@
 {
-  "last_updated": "2026-05-04T23:16:06.362555",
-  "from_date": "2026-04-04",
-  "to_date": "2026-05-04",
+  "last_updated": "2026-05-05T23:16:28.342725",
+  "from_date": "2026-04-05",
+  "to_date": "2026-05-05",
   "transactions": [
+    {
+      "ticker": "NFLX",
+      "name": "Hoag Jay C",
+      "date": "2026-05-01",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 679,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Barton Richard N",
+      "date": "2026-05-01",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 679,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Rice Susan E",
+      "date": "2026-05-01",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 679,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Mertz Elinor",
+      "date": "2026-05-01",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 679,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Dopfner Mathias",
+      "date": "2026-05-01",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 679,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-04-30",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 48399,
+      "price": 384.284,
+      "value": 18598961.316
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-04-30",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 48839,
+      "price": 383.612,
+      "value": 18735226.468000002
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-04-30",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 50079,
+      "price": 382.414,
+      "value": 19150910.706
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-04-30",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 50759,
+      "price": 381.607,
+      "value": 19369989.713000003
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Wilson-Thompson Kathleen",
+      "date": "2026-04-30",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 57655,
+      "price": 380.756,
+      "value": 21952487.18
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Rubinstein Jonathan",
+      "date": "2026-04-30",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 74948,
+      "price": 273.02,
+      "value": 20462302.959999997
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Volkswagen Ag",
+      "date": "2026-04-30",
+      "filing_date": "2026-05-04",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 209769645,
+      "price": 15.9,
+      "value": 3335337355.5
+    },
     {
       "ticker": "GOOGL",
       "name": "Arnold Frances",
@@ -202,17 +334,6 @@
       "value": 17042652
     },
     {
-      "ticker": "TSLA",
-      "name": "Musk Elon",
-      "date": "2026-04-21",
-      "filing_date": "2026-04-23",
-      "type": "BUY",
-      "code": "Disposition",
-      "shares": 423743904,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "SOFI",
       "name": "Keough Kelli",
       "date": "2026-04-21",
@@ -253,17 +374,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 194365,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Krawiec Peter",
-      "date": "2026-04-20",
-      "filing_date": "2026-04-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 9229,
       "price": 0,
       "value": 0
     },
@@ -517,17 +627,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 218535,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-04-08",
-      "filing_date": "2026-04-09",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 174741,
       "price": 0,
       "value": 0
     }
