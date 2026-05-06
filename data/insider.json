@@ -1,62 +1,150 @@
 {
-  "last_updated": "2026-05-05T23:16:28.342725",
-  "from_date": "2026-04-05",
-  "to_date": "2026-05-05",
+  "last_updated": "2026-05-06T23:15:07.028404",
+  "from_date": "2026-04-06",
+  "to_date": "2026-05-06",
   "transactions": [
     {
-      "ticker": "NFLX",
-      "name": "Hoag Jay C",
-      "date": "2026-05-01",
-      "filing_date": "2026-05-04",
+      "ticker": "JPM",
+      "name": "Piepszak Jennifer",
+      "date": "2026-05-05",
+      "filing_date": "2026-05-05",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 679,
+      "code": "Sale",
+      "shares": 85082,
+      "price": 309.4201,
+      "value": 26326080.9482
+    },
+    {
+      "ticker": "JPM",
+      "name": "Bacon Ashley",
+      "date": "2026-05-05",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 248785,
+      "price": 309.4242,
+      "value": 76980099.597
+    },
+    {
+      "ticker": "JPM",
+      "name": "Barnum Jeremy",
+      "date": "2026-05-05",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 32438,
+      "price": 309.4082,
+      "value": 10036583.1916
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Sarandos Theodore A",
+      "date": "2026-05-05",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 284804,
+      "price": 87.9754,
+      "value": 25055745.821599998
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Sarandos Theodore A",
+      "date": "2026-05-05",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 291843,
+      "price": 87.9738,
+      "value": 25674537.7134
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Sarandos Theodore A",
+      "date": "2026-05-05",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 299099,
+      "price": 87.9642,
+      "value": 26310004.2558
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hyman David A",
+      "date": "2026-05-05",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 316100,
+      "price": 88.0847,
+      "value": 27843573.669999998
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
+      "date": "2026-05-04",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 471361,
+      "price": 275,
+      "value": 129624275
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Bezos Jeffrey P",
+      "date": "2026-05-04",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 880948653,
       "price": 0,
       "value": 0
     },
     {
       "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-05-01",
-      "filing_date": "2026-05-04",
+      "name": "Neumann Spencer Adam",
+      "date": "2026-05-04",
+      "filing_date": "2026-05-05",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 679,
+      "code": "Option Exercise",
+      "shares": 47481,
       "price": 0,
       "value": 0
     },
     {
-      "ticker": "NFLX",
-      "name": "Rice Susan E",
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
       "date": "2026-05-01",
-      "filing_date": "2026-05-04",
+      "filing_date": "2026-05-05",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 679,
+      "code": "Sale",
+      "shares": 498861,
+      "price": 265.65,
+      "value": 132522424.64999999
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Bezos Jeffrey P",
+      "date": "2026-05-01",
+      "filing_date": "2026-05-05",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 881168853,
       "price": 0,
       "value": 0
     },
     {
-      "ticker": "NFLX",
-      "name": "Mertz Elinor",
+      "ticker": "META",
+      "name": "Alford Peggy",
       "date": "2026-05-01",
-      "filing_date": "2026-05-04",
+      "filing_date": "2026-05-05",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 679,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Dopfner Mathias",
-      "date": "2026-05-01",
-      "filing_date": "2026-05-04",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 679,
-      "price": 0,
-      "value": 0
+      "code": "Sale",
+      "shares": 2704,
+      "price": 614.53,
+      "value": 1661689.1199999999
     },
     {
       "ticker": "TSLA",
@@ -224,17 +312,6 @@
       "value": 5178884.8
     },
     {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-04-27",
-      "filing_date": "2026-04-29",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 8705,
-      "price": 670.84,
-      "value": 5839662.2
-    },
-    {
       "ticker": "PLTR",
       "name": "Buckley Jeffrey",
       "date": "2026-04-26",
@@ -288,17 +365,6 @@
       "shares": 900940,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Rubinstein Jonathan",
-      "date": "2026-04-24",
-      "filing_date": "2026-04-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 78654,
-      "price": 260,
-      "value": 20450040
     },
     {
       "ticker": "AMD",
@@ -376,17 +442,6 @@
       "shares": 194365,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Jassy Andrew R",
-      "date": "2026-04-17",
-      "filing_date": "2026-04-21",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2207118,
-      "price": 255,
-      "value": 562815090
     },
     {
       "ticker": "HOOD",
@@ -543,39 +598,6 @@
       "value": 27590517.5579
     },
     {
-      "ticker": "JPM",
-      "name": "Bacon Ashley",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 252855,
-      "price": 306.5535,
-      "value": 77513585.24249999
-    },
-    {
-      "ticker": "JPM",
-      "name": "Lake Marianne",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 130872,
-      "price": 306.5666,
-      "value": 40120984.0752
-    },
-    {
-      "ticker": "JPM",
-      "name": "Petno Douglas B",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 381807,
-      "price": 306.5758,
-      "value": 117052786.47060001
-    },
-    {
       "ticker": "AMD",
       "name": "Papermaster Mark D",
       "date": "2026-04-15",
@@ -607,28 +629,6 @@
       "shares": 1300466,
       "price": 84.85,
       "value": 110344540.1
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-04-14",
-      "filing_date": "2026-04-16",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 499861,
-      "price": 245,
-      "value": 122465945
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-04-08",
-      "filing_date": "2026-04-09",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 218535,
-      "price": 0,
-      "value": 0
     }
   ]
 }
