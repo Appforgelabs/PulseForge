@@ -1,8 +1,41 @@
 {
-  "last_updated": "2026-05-07T23:16:26.594376",
-  "from_date": "2026-04-07",
-  "to_date": "2026-05-07",
+  "last_updated": "2026-05-08T23:16:58.456539",
+  "from_date": "2026-04-08",
+  "to_date": "2026-05-08",
   "transactions": [
+    {
+      "ticker": "NFLX",
+      "name": "Peters Gregory K",
+      "date": "2026-05-07",
+      "filing_date": "2026-05-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 120931,
+      "price": 88.6944,
+      "value": 10725902.4864
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Neumann Spencer Adam",
+      "date": "2026-05-07",
+      "filing_date": "2026-05-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 73787,
+      "price": 88.9522,
+      "value": 6563515.9814
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Peters Gregory K",
+      "date": "2026-05-06",
+      "filing_date": "2026-05-07",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 148243,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "JPM",
       "name": "Piepszak Jennifer",
@@ -57,28 +90,6 @@
       "shares": 291843,
       "price": 87.9738,
       "value": 25674537.7134
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Sarandos Theodore A",
-      "date": "2026-05-05",
-      "filing_date": "2026-05-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 299099,
-      "price": 87.9642,
-      "value": 26310004.2558
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hyman David A",
-      "date": "2026-05-05",
-      "filing_date": "2026-05-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 316100,
-      "price": 88.0847,
-      "value": 27843573.669999998
     },
     {
       "ticker": "AMZN",
@@ -211,17 +222,6 @@
       "shares": 7779,
       "price": 607.74,
       "value": 4727609.46
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Neumann Spencer Adam",
-      "date": "2026-05-04",
-      "filing_date": "2026-05-05",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 47481,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "AMZN",
