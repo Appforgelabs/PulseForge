@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-05-08T23:16:58.456539",
-  "from_date": "2026-04-08",
-  "to_date": "2026-05-08",
+  "last_updated": "2026-05-11T23:17:28.382086",
+  "from_date": "2026-04-11",
+  "to_date": "2026-05-11",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Noto Anthony",
+      "date": "2026-05-08",
+      "filing_date": "2026-05-08",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 11931074,
+      "price": 15.7305,
+      "value": 187681759.55699998
+    },
     {
       "ticker": "NFLX",
       "name": "Peters Gregory K",
@@ -24,6 +35,39 @@
       "shares": 73787,
       "price": 88.9522,
       "value": 6563515.9814
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Levinson Arthur D",
+      "date": "2026-05-06",
+      "filing_date": "2026-05-08",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 3814576,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Levinson Arthur D",
+      "date": "2026-05-06",
+      "filing_date": "2026-05-08",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3819576,
+      "price": 285.04,
+      "value": 1088731943.04
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Levinson Arthur D",
+      "date": "2026-05-06",
+      "filing_date": "2026-05-08",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3920049,
+      "price": 284.57,
+      "value": 1115528343.93
     },
     {
       "ticker": "NFLX",
@@ -539,39 +583,6 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 2312,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Borders Ben",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 1852,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Borders Ben",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 1423,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Borders Ben",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 540,
       "price": 0,
       "value": 0
     },
