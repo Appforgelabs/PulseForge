@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-05-11T23:17:28.382086",
-  "from_date": "2026-04-11",
-  "to_date": "2026-05-11",
+  "last_updated": "2026-05-12T23:20:39.043216",
+  "from_date": "2026-04-12",
+  "to_date": "2026-05-12",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Noto Anthony",
+      "date": "2026-05-11",
+      "filing_date": "2026-05-11",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 11946619,
+      "price": 16.0039,
+      "value": 191192495.81410003
+    },
     {
       "ticker": "SOFI",
       "name": "Noto Anthony",
@@ -13,6 +24,28 @@
       "shares": 11931074,
       "price": 15.7305,
       "value": 187681759.55699998
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-05-07",
+      "filing_date": "2026-05-11",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 8663023,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-05-07",
+      "filing_date": "2026-05-11",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 8663023,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "NFLX",
@@ -244,28 +277,6 @@
       "shares": 2315,
       "price": 607.74,
       "value": 1406918.1
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-04",
-      "filing_date": "2026-05-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7638,
-      "price": 607.74,
-      "value": 4641918.12
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-04",
-      "filing_date": "2026-05-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7779,
-      "price": 607.74,
-      "value": 4727609.46
     },
     {
       "ticker": "AMZN",
