@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-12T23:20:39.043216",
-  "from_date": "2026-04-12",
-  "to_date": "2026-05-12",
+  "last_updated": "2026-05-13T23:21:47.963344",
+  "from_date": "2026-04-13",
+  "to_date": "2026-05-13",
   "transactions": [
     {
       "ticker": "SOFI",
@@ -24,6 +24,28 @@
       "shares": 11931074,
       "price": 15.7305,
       "value": 187681759.55699998
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Borders Ben",
+      "date": "2026-05-08",
+      "filing_date": "2026-05-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 38713,
+      "price": 290,
+      "value": 11226770
+    },
+    {
+      "ticker": "AMD",
+      "name": "Grasby Paul Darren",
+      "date": "2026-05-08",
+      "filing_date": "2026-05-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 105222,
+      "price": 444.39,
+      "value": 46759604.58
     },
     {
       "ticker": "META",
@@ -587,17 +609,6 @@
       "value": 18580737.26
     },
     {
-      "ticker": "AAPL",
-      "name": "Borders Ben",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 2312,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "JPM",
       "name": "Barnum Jeremy",
       "date": "2026-04-15",
@@ -640,17 +651,6 @@
       "shares": 1294466,
       "price": 255.54,
       "value": 330787841.64
-    },
-    {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 1300466,
-      "price": 84.85,
-      "value": 110344540.1
     }
   ]
 }
