@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-13T23:21:47.963344",
-  "from_date": "2026-04-13",
-  "to_date": "2026-05-13",
+  "last_updated": "2026-05-14T23:16:13.277846",
+  "from_date": "2026-04-14",
+  "to_date": "2026-05-14",
   "transactions": [
     {
       "ticker": "SOFI",
@@ -13,6 +13,72 @@
       "shares": 11946619,
       "price": 16.0039,
       "value": 191192495.81410003
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-11",
+      "filing_date": "2026-05-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 85189,
+      "price": 604.57,
+      "value": 51502713.730000004
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-11",
+      "filing_date": "2026-05-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7556,
+      "price": 604.57,
+      "value": 4568130.92
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-11",
+      "filing_date": "2026-05-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2258,
+      "price": 604.57,
+      "value": 1365119.06
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-11",
+      "filing_date": "2026-05-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7556,
+      "price": 604.57,
+      "value": 4568130.92
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-11",
+      "filing_date": "2026-05-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 6853,
+      "price": 604.57,
+      "value": 4143118.2100000004
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-05-11",
+      "filing_date": "2026-05-13",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 1233687,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "SOFI",
@@ -46,28 +112,6 @@
       "shares": 105222,
       "price": 444.39,
       "value": 46759604.58
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-05-07",
-      "filing_date": "2026-05-11",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 8663023,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-05-07",
-      "filing_date": "2026-05-11",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 8663023,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "NFLX",
@@ -266,39 +310,6 @@
       "shares": 442649,
       "price": 75.265,
       "value": 33315976.985
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-04",
-      "filing_date": "2026-05-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 85597,
-      "price": 607.74,
-      "value": 52020720.78
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-04",
-      "filing_date": "2026-05-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7638,
-      "price": 607.74,
-      "value": 4641918.12
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-04",
-      "filing_date": "2026-05-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2315,
-      "price": 607.74,
-      "value": 1406918.1
     },
     {
       "ticker": "AMZN",
@@ -640,17 +651,6 @@
       "shares": 25369,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1294466,
-      "price": 255.54,
-      "value": 330787841.64
     }
   ]
 }
