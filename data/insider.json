@@ -1,8 +1,173 @@
 {
-  "last_updated": "2026-05-15T23:17:24.499822",
-  "from_date": "2026-04-15",
-  "to_date": "2026-05-15",
+  "last_updated": "2026-05-18T23:21:08.754540",
+  "from_date": "2026-04-18",
+  "to_date": "2026-05-18",
   "transactions": [
+    {
+      "ticker": "JPM",
+      "name": "Lake Marianne",
+      "date": "2026-05-15",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 76402,
+      "price": 298.3555,
+      "value": 22794956.911000002
+    },
+    {
+      "ticker": "JPM",
+      "name": "Petno Douglas B",
+      "date": "2026-05-15",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 224619,
+      "price": 300.05,
+      "value": 67396930.95
+    },
+    {
+      "ticker": "JPM",
+      "name": "Erdoes Mary E.",
+      "date": "2026-05-15",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 632399,
+      "price": 298.3644,
+      "value": 188685348.1956
+    },
+    {
+      "ticker": "JPM",
+      "name": "Beer Lori A",
+      "date": "2026-05-15",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 66783,
+      "price": 300.05,
+      "value": 20038239.150000002
+    },
+    {
+      "ticker": "JPM",
+      "name": "Petno Douglas B",
+      "date": "2026-05-14",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 135027,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Denzel Nora",
+      "date": "2026-05-14",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 97620,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Householder Joseph A",
+      "date": "2026-05-14",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 9066,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Vanderslice Elizabeth W",
+      "date": "2026-05-14",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 36728,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Taneja Vaibhav",
+      "date": "2026-05-13",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 711920,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Taneja Vaibhav",
+      "date": "2026-05-13",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 2390,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Taneja Vaibhav",
+      "date": "2026-05-13",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 18107,
+      "price": 450,
+      "value": 8148150
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Taneja Vaibhav",
+      "date": "2026-05-13",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 21107,
+      "price": 18.22,
+      "value": 384569.54
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Taneja Vaibhav",
+      "date": "2026-05-13",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 19107,
+      "price": 18.44,
+      "value": 352333.08
+    },
+    {
+      "ticker": "AMD",
+      "name": "Denzel Nora",
+      "date": "2026-05-13",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 872,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Mcclure Kathleen R",
+      "date": "2026-05-13",
+      "filing_date": "2026-05-15",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 363,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "SOFI",
       "name": "Noto Anthony",
@@ -70,17 +235,6 @@
       "value": 4143118.2100000004
     },
     {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-05-11",
-      "filing_date": "2026-05-13",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 1233687,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "SOFI",
       "name": "Noto Anthony",
       "date": "2026-05-08",
@@ -101,17 +255,6 @@
       "shares": 38713,
       "price": 290,
       "value": 11226770
-    },
-    {
-      "ticker": "AMD",
-      "name": "Grasby Paul Darren",
-      "date": "2026-05-08",
-      "filing_date": "2026-05-12",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 105222,
-      "price": 444.39,
-      "value": 46759604.58
     },
     {
       "ticker": "NFLX",
@@ -178,39 +321,6 @@
       "shares": 148243,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Piepszak Jennifer",
-      "date": "2026-05-05",
-      "filing_date": "2026-05-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 85082,
-      "price": 309.4201,
-      "value": 26326080.9482
-    },
-    {
-      "ticker": "JPM",
-      "name": "Bacon Ashley",
-      "date": "2026-05-05",
-      "filing_date": "2026-05-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 248785,
-      "price": 309.4242,
-      "value": 76980099.597
-    },
-    {
-      "ticker": "JPM",
-      "name": "Barnum Jeremy",
-      "date": "2026-05-05",
-      "filing_date": "2026-05-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 32438,
-      "price": 309.4082,
-      "value": 10036583.1916
     },
     {
       "ticker": "NFLX",
@@ -334,61 +444,6 @@
       "value": 0
     },
     {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-04-30",
-      "filing_date": "2026-05-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 48399,
-      "price": 384.284,
-      "value": 18598961.316
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-04-30",
-      "filing_date": "2026-05-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 48839,
-      "price": 383.612,
-      "value": 18735226.468000002
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-04-30",
-      "filing_date": "2026-05-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 50079,
-      "price": 382.414,
-      "value": 19150910.706
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-04-30",
-      "filing_date": "2026-05-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 50759,
-      "price": 381.607,
-      "value": 19369989.713000003
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Wilson-Thompson Kathleen",
-      "date": "2026-04-30",
-      "filing_date": "2026-05-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 57655,
-      "price": 380.756,
-      "value": 21952487.18
-    },
-    {
       "ticker": "RIVN",
       "name": "Volkswagen Ag",
       "date": "2026-04-30",
@@ -477,17 +532,6 @@
       "value": 0
     },
     {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-04-24",
-      "filing_date": "2026-04-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1236037,
-      "price": 350,
-      "value": 432612950
-    },
-    {
       "ticker": "AAPL",
       "name": "Parekh Kevan",
       "date": "2026-04-23",
@@ -550,105 +594,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 194365,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-04-16",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1267357,
-      "price": 275,
-      "value": 348523175
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1140978,
-      "price": 142.414,
-      "value": 162491240.892
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1141194,
-      "price": 142.0014,
-      "value": 162051145.67159998
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1144536,
-      "price": 140.4554,
-      "value": 160756261.69439998
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1146132,
-      "price": 139.732,
-      "value": 160151316.624
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Coleman Amy",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 47266,
-      "price": 393.11,
-      "value": 18580737.26
-    },
-    {
-      "ticker": "JPM",
-      "name": "Barnum Jeremy",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 35460,
-      "price": 306.5522,
-      "value": 10870341.012
-    },
-    {
-      "ticker": "JPM",
-      "name": "Piepszak Jennifer",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 90001,
-      "price": 306.5579,
-      "value": 27590517.5579
-    },
-    {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-04-15",
-      "filing_date": "2026-04-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 25369,
       "price": 0,
       "value": 0
     }
