@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-20T10:05:48.197379",
+  "last_updated": "2026-05-20T11:07:52.712045",
   "notes": [
     "VIX at 17.8 \u2014 normal range",
     "S&P 500 trading above 50-day MA ($692) \u2014 bullish structure intact",
-    "10Y Treasury Yield: 4.65%",
-    "US Dollar Index (DXY): 99.41",
-    "WTI Crude Oil: $102.06",
+    "10Y Treasury Yield: 4.61%",
+    "US Dollar Index (DXY): 99.14",
+    "WTI Crude Oil: $100.36",
     "Pipeline v2 \u2014 data sources: Polygon.io, Yahoo Finance, Finnhub",
-    "Last run: 2026-05-20 10:05 AM ET"
+    "Last run: 2026-05-20 11:08 AM ET"
   ]
 }
