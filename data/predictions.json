@@ -1,27 +1,27 @@
 {
-  "last_updated": "2026-05-20T18:00:06.791322",
-  "timestamp": "2026-05-20T18:00:06.791322",
+  "last_updated": "2026-05-21T09:01:35.080029",
+  "timestamp": "2026-05-21T09:01:35.080029",
   "predictions": [
     {
       "name": "Trend Regime",
       "direction": "BULLISH",
-      "confidence": 64,
+      "confidence": 68,
       "horizon": "1-2 weeks",
-      "rationale": "SPY vs 20/50 SMA alignment. Price: $733.73, SMA20: $726.78, SMA50: $692.47"
+      "rationale": "SPY vs 20/50 SMA alignment. Price: $741.25, SMA20: $728.29, SMA50: $693.76"
     },
     {
       "name": "Volatility Regime",
       "direction": "NEUTRAL",
-      "confidence": 51,
+      "confidence": 50,
       "horizon": "1 week",
-      "rationale": "VIX: 17.4 vs 20-day avg: 17.9. Normal volatility range"
+      "rationale": "VIX: 17.7 vs 20-day avg: 17.8. Normal volatility range"
     },
     {
       "name": "Pulse Momentum",
       "direction": "BULLISH",
       "confidence": 52,
       "horizon": "3-5 days",
-      "rationale": "5-day avg pulse: 66.2, trend: -8.8. Positive pulse but watch for exhaustion"
+      "rationale": "5-day avg pulse: 65.3, trend: -7.3. Positive pulse but watch for exhaustion"
     }
   ]
 }
