@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-25T11:15:19.177016",
-  "mqs": 63.0,
+  "generated": "2026-05-25T11:30:20.606285",
+  "mqs": 63.2,
   "mqs_verdict": "CAUTION",
   "ews": 60,
   "fomc_alert": {
@@ -10,10 +10,10 @@
   },
   "scores": {
     "volatility": {
-      "score": 88,
+      "score": 89,
       "status": "HEALTHY",
-      "vix": 16.69,
-      "vix_trend": -1.37,
+      "vix": 16.59,
+      "vix_trend": -1.47,
       "vix_percentile": 5
     },
     "trend": {
@@ -48,7 +48,7 @@
       "score": 45,
       "status": "CAUTION",
       "tnx": 4.558,
-      "dxy": 99.0,
+      "dxy": 98.963,
       "fed_stance": "HAWKISH",
       "dxy_trend": "WEAK \u2193",
       "fomc_days": null
@@ -147,7 +147,7 @@
     },
     {
       "sym": "VIX",
-      "price": 16.69,
+      "price": 16.59,
       "change_pct": null
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "sym": "DXY",
-      "price": 99.0,
+      "price": 98.963,
       "change_pct": null
     },
     {
@@ -216,7 +216,7 @@
       "change_pct": -0.534
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [11:15]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Mixed conditions. CHOP. VIX 16.69 \u2014 healthy volatility.\n> Breadth 10/11 above 50d. Top sector: XLV. \n> VERDICT: 50% position sizing. A+ setups only. EWS: 60%.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 63.0% | EWS: 60%",
+  "terminal_text": "> TERMINAL ANALYSIS [11:30]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Mixed conditions. CHOP. VIX 16.59 \u2014 healthy volatility.\n> Breadth 10/11 above 50d. Top sector: XLV. \n> VERDICT: 50% position sizing. A+ setups only. EWS: 60%.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 63.2% | EWS: 60%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
