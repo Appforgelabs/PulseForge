@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-26T23:23:09.189726",
-  "from_date": "2026-04-26",
-  "to_date": "2026-05-26",
+  "last_updated": "2026-05-27T23:26:21.630543",
+  "from_date": "2026-04-27",
+  "to_date": "2026-05-27",
   "transactions": [
     {
       "ticker": "PLTR",
@@ -13,6 +13,61 @@
       "shares": 61707,
       "price": 137.41,
       "value": 8479158.87
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Zapolsky David",
+      "date": "2026-05-22",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 41190,
+      "price": 268.53,
+      "value": 11060750.7
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-05-21",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 142313,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-05-21",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 12000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-05-21",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 36300,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-05-21",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 14580,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "RIVN",
@@ -319,61 +374,6 @@
       "type": "BUY",
       "code": "Gift",
       "shares": 905898,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 13500,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 11430,
-      "price": 263.5705,
-      "value": 3012610.815
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 13365,
-      "price": 262.8454,
-      "value": 3512928.7709999997
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 19516,
-      "price": 261.7887,
-      "value": 5109068.2692
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 22905,
       "price": 0,
       "value": 0
     },
