@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-05-28T09:15:05.851607",
+  "last_updated": "2026-05-28T09:30:09.014929",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 440.36,
-      "change_pct": 1.5614,
+      "price": 438.68,
+      "change_pct": -0.3815,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 132.51,
-      "change_pct": -2.9941,
+      "price": 133.11,
+      "change_pct": 0.4528,
+      "volume": null,
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "AMZN",
+      "price": 272.16,
+      "change_pct": 0.114,
+      "volume": null,
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "HOOD",
+      "price": 74.51,
+      "change_pct": -2.2563,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "AMZN",
-      "price": 271.85,
-      "change_pct": 2.4728,
-      "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "HOOD",
-      "price": 76.23,
-      "change_pct": 2.8884,
-      "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
       "ticker": "SOFI",
-      "price": 16.17,
-      "change_pct": 1.189,
+      "price": 16.02,
+      "change_pct": -0.9276,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -48,19 +48,19 @@
     },
     {
       "ticker": "RIVN",
-      "price": 14.7,
-      "change_pct": 2.1543,
+      "price": 14.62,
+      "change_pct": -0.5442,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 5.75,
-      "change_pct": 9.3156,
+      "price": 5.65,
+      "change_pct": -1.7391,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     }
