@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-05-28T23:26:58.700868",
-  "from_date": "2026-04-28",
-  "to_date": "2026-05-28",
+  "last_updated": "2026-05-29T23:26:29.916684",
+  "from_date": "2026-04-29",
+  "to_date": "2026-05-29",
   "transactions": [
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-26",
+      "filing_date": "2026-05-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 84373,
+      "price": 608.98,
+      "value": 51381469.54
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-26",
+      "filing_date": "2026-05-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7392,
+      "price": 608.98,
+      "value": 4501580.16
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-26",
+      "filing_date": "2026-05-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2144,
+      "price": 608.98,
+      "value": 1305653.12
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-26",
+      "filing_date": "2026-05-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7392,
+      "price": 608.98,
+      "value": 4501580.16
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-05-26",
+      "filing_date": "2026-05-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 13823,
+      "price": 608.98,
+      "value": 8417930.540000001
+    },
     {
       "ticker": "GOOGL",
       "name": "Schindler Philipp",
@@ -343,61 +398,6 @@
       "shares": 902630,
       "price": 13.4346,
       "value": 12126472.998
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 84781,
-      "price": 609.35,
-      "value": 51661302.35
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7474,
-      "price": 609.35,
-      "value": 4554281.9
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2201,
-      "price": 609.35,
-      "value": 1341179.35
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7474,
-      "price": 609.35,
-      "value": 4554281.9
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 14660,
-      "price": 609.35,
-      "value": 8933071.0
     },
     {
       "ticker": "SOFI",
