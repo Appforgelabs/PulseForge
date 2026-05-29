@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-05-26T23:23:09.189726",
-  "from_date": "2026-04-26",
-  "to_date": "2026-05-26",
+  "last_updated": "2026-05-28T23:26:58.700868",
+  "from_date": "2026-04-28",
+  "to_date": "2026-05-28",
   "transactions": [
+    {
+      "ticker": "GOOGL",
+      "name": "Schindler Philipp",
+      "date": "2026-05-25",
+      "filing_date": "2026-05-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 907893,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Schindler Philipp",
+      "date": "2026-05-25",
+      "filing_date": "2026-05-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 86230,
+      "price": 379.38,
+      "value": 32713937.4
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Schindler Philipp",
+      "date": "2026-05-25",
+      "filing_date": "2026-05-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 88243,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-05-25",
+      "filing_date": "2026-05-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 126830,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-05-25",
+      "filing_date": "2026-05-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 69543,
+      "price": 379.38,
+      "value": 26383223.34
+    },
     {
       "ticker": "PLTR",
       "name": "Buckley Jeffrey",
@@ -13,6 +68,94 @@
       "shares": 61707,
       "price": 137.41,
       "value": 8479158.87
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Zapolsky David",
+      "date": "2026-05-22",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 41190,
+      "price": 268.53,
+      "value": 11060750.7
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Malka Meyer",
+      "date": "2026-05-22",
+      "filing_date": "2026-05-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 30000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Malka Meyer",
+      "date": "2026-05-22",
+      "filing_date": "2026-05-27",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 30000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Malka Meyer",
+      "date": "2026-05-22",
+      "filing_date": "2026-05-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 30000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-05-21",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 142313,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-05-21",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 12000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-05-21",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 36300,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-05-21",
+      "filing_date": "2026-05-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 14580,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "RIVN",
@@ -90,28 +233,6 @@
       "shares": 11267,
       "price": 75.5493,
       "value": 851213.9631
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 54222,
-      "price": 74.2775,
-      "value": 4027474.605
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "C",
-      "shares": 67422,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "SOFI",
@@ -213,17 +334,6 @@
       "value": 142646547.72
     },
     {
-      "ticker": "GOOGL",
-      "name": "Schindler Philipp",
-      "date": "2026-05-19",
-      "filing_date": "2026-05-20",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 23,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "RIVN",
       "name": "Mcdonough Claire",
       "date": "2026-05-18",
@@ -290,105 +400,6 @@
       "value": 8933071.0
     },
     {
-      "ticker": "GOOGL",
-      "name": "Schindler Philipp",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-20",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 202,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Schindler Philipp",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-20",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 452,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Schindler Philipp",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-20",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 905898,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 13500,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 11430,
-      "price": 263.5705,
-      "value": 3012610.815
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 13365,
-      "price": 262.8454,
-      "value": 3512928.7709999997
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 19516,
-      "price": 261.7887,
-      "value": 5109068.2692
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 22905,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 47311,
-      "price": 77.85,
-      "value": 3683161.3499999996
-    },
-    {
       "ticker": "SOFI",
       "name": "Schuppenhauer Eric",
       "date": "2026-05-15",
@@ -431,17 +442,6 @@
       "shares": 45915,
       "price": 409.43,
       "value": 18798978.45
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Hennessy John L.",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2531,
-      "price": 395.42,
-      "value": 1000808.02
     },
     {
       "ticker": "JPM",
