@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-02T10:45:09.682794",
-  "timestamp": "2026-06-02T10:45:09.682794",
+  "last_updated": "2026-06-02T11:00:12.546809",
+  "timestamp": "2026-06-02T11:00:12.546809",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -12,7 +12,7 @@
     {
       "name": "Volatility Regime",
       "direction": "NEUTRAL",
-      "confidence": 52,
+      "confidence": 53,
       "horizon": "1 week",
       "rationale": "VIX: 16.1 vs 20-day avg: 17.1. Normal volatility range"
     },
