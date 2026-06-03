@@ -1,8 +1,206 @@
 {
-  "last_updated": "2026-05-29T23:26:29.916684",
-  "from_date": "2026-04-29",
-  "to_date": "2026-05-29",
+  "last_updated": "2026-06-02T23:30:53.235942",
+  "from_date": "2026-05-03",
+  "to_date": "2026-06-02",
   "transactions": [
+    {
+      "ticker": "NIO",
+      "name": "Qin Lihong",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 319662,
+      "price": 5.6,
+      "value": 1790107.2
+    },
+    {
+      "ticker": "NIO",
+      "name": "Qin Lihong",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 469662,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NIO",
+      "name": "Zhou Xin",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 316167,
+      "price": 5.6,
+      "value": 1770535.2
+    },
+    {
+      "ticker": "NIO",
+      "name": "Zhou Xin",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 416167,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NIO",
+      "name": "Qu Yu",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 315088,
+      "price": 5.6,
+      "value": 1764492.7999999998
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Coleman Amy",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 45481,
+      "price": 450.24,
+      "value": 20477365.44
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Jolla Alice L.",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 71149,
+      "price": 450.24,
+      "value": 32034125.76
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Arnold Frances",
+      "date": "2026-05-29",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 18721,
+      "price": 381,
+      "value": 7132701
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-05-29",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 486222,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-05-29",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 412348,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-05-29",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 576971,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-05-29",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 412348,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Malka Meyer",
+      "date": "2026-05-28",
+      "filing_date": "2026-06-01",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 3493427,
+      "price": 80.3944,
+      "value": 280851967.6088
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Scaringe Robert J",
+      "date": "2026-05-28",
+      "filing_date": "2026-05-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 922286,
+      "price": 15,
+      "value": 13834290
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Dabiri John",
+      "date": "2026-05-27",
+      "filing_date": "2026-05-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 14163,
+      "price": 214,
+      "value": 3030882
+    },
+    {
+      "ticker": "META",
+      "name": "Mahoney Curtis J.",
+      "date": "2026-05-27",
+      "filing_date": "2026-05-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1118,
+      "price": 609.92,
+      "value": 681890.5599999999
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Levinson Arthur D",
+      "date": "2026-05-27",
+      "filing_date": "2026-05-29",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 3699576,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Levinson Arthur D",
+      "date": "2026-05-27",
+      "filing_date": "2026-05-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3764576,
+      "price": 311.02,
+      "value": 1170858427.52
+    },
     {
       "ticker": "META",
       "name": "Olivan Javier",
@@ -46,72 +244,6 @@
       "shares": 7392,
       "price": 608.98,
       "value": 4501580.16
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-26",
-      "filing_date": "2026-05-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 13823,
-      "price": 608.98,
-      "value": 8417930.540000001
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Schindler Philipp",
-      "date": "2026-05-25",
-      "filing_date": "2026-05-27",
-      "type": "BUY",
-      "code": "C",
-      "shares": 907893,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Schindler Philipp",
-      "date": "2026-05-25",
-      "filing_date": "2026-05-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 86230,
-      "price": 379.38,
-      "value": 32713937.4
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Schindler Philipp",
-      "date": "2026-05-25",
-      "filing_date": "2026-05-27",
-      "type": "BUY",
-      "code": "C",
-      "shares": 88243,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Ashkenazi Anat",
-      "date": "2026-05-25",
-      "filing_date": "2026-05-27",
-      "type": "BUY",
-      "code": "C",
-      "shares": 126830,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Ashkenazi Anat",
-      "date": "2026-05-25",
-      "filing_date": "2026-05-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 69543,
-      "price": 379.38,
-      "value": 26383223.34
     },
     {
       "ticker": "PLTR",
@@ -279,17 +411,6 @@
       "value": 0
     },
     {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 11267,
-      "price": 75.5493,
-      "value": 851213.9631
-    },
-    {
       "ticker": "SOFI",
       "name": "Keough Kelli",
       "date": "2026-05-20",
@@ -420,17 +541,6 @@
       "shares": 188872,
       "price": 15.493,
       "value": 2926193.896
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Gomez Aidan N.",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 54232,
-      "price": 14.52,
-      "value": 787448.64
     },
     {
       "ticker": "MSFT",
@@ -629,17 +739,6 @@
       "shares": 3819576,
       "price": 285.04,
       "value": 1088731943.04
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Levinson Arthur D",
-      "date": "2026-05-06",
-      "filing_date": "2026-05-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3920049,
-      "price": 284.57,
-      "value": 1115528343.93
     },
     {
       "ticker": "NFLX",
