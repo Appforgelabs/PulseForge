@@ -1,52 +1,52 @@
 {
-  "last_updated": "2026-06-03T09:45:27.857160",
+  "last_updated": "2026-06-03T10:15:09.328486",
   "sectors": {
     "Technology": {
       "symbol": "XLK",
-      "price": 195.96,
-      "change_pct": -1.1352,
+      "price": 196.66,
+      "change_pct": -0.782,
       "source": "finnhub"
     },
     "Financials": {
       "symbol": "XLF",
-      "price": 51.01,
-      "change_pct": -0.8745,
+      "price": 50.67,
+      "change_pct": -1.5352,
       "source": "finnhub"
     },
     "Energy": {
       "symbol": "XLE",
-      "price": 58.3,
-      "change_pct": 0.5866,
+      "price": 58.7,
+      "change_pct": 1.2767,
       "source": "finnhub"
     },
     "Healthcare": {
       "symbol": "XLV",
-      "price": 147.18,
-      "change_pct": 0.5328,
+      "price": 147.31,
+      "change_pct": 0.6216,
       "source": "finnhub"
     },
     "Industrials": {
       "symbol": "XLI",
-      "price": 174.13,
-      "change_pct": -0.0344,
+      "price": 174.87,
+      "change_pct": 0.3904,
       "source": "finnhub"
     },
     "Cons. Disc.": {
       "symbol": "XLY",
-      "price": 117.42,
-      "change_pct": -0.1446,
+      "price": 117.37,
+      "change_pct": -0.1871,
       "source": "finnhub"
     },
     "Cons. Staples": {
       "symbol": "XLP",
-      "price": 82.46,
-      "change_pct": 0.7699,
+      "price": 82.3,
+      "change_pct": 0.5744,
       "source": "finnhub"
     },
     "Utilities": {
       "symbol": "XLU",
-      "price": 44.42,
-      "change_pct": 1.1845,
+      "price": 44.25,
+      "change_pct": 0.7973,
       "source": "finnhub"
     },
     "Real Estate": {
@@ -57,14 +57,14 @@
     },
     "Comms": {
       "symbol": "XLC",
-      "price": 113.23,
-      "change_pct": -0.2994,
+      "price": 113.1,
+      "change_pct": -0.4138,
       "source": "finnhub"
     },
     "Materials": {
       "symbol": "XLB",
-      "price": 51.59,
-      "change_pct": 0.1359,
+      "price": 51.77,
+      "change_pct": 0.4852,
       "source": "finnhub"
     }
   }
