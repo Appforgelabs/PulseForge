@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-04T10:00:04.098167",
+  "last_updated": "2026-06-04T10:15:03.565880",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 422.13,
-      "change_pct": -0.3705,
+      "price": 424.5,
+      "change_pct": 0.1888,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -12,35 +12,35 @@
     },
     {
       "ticker": "PLTR",
-      "price": 145.32,
-      "change_pct": 2.1941,
-      "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "AMZN",
-      "price": 254.69,
-      "change_pct": 1.8679,
-      "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "HOOD",
-      "price": 83.54,
-      "change_pct": 0.8328,
+      "price": 143.88,
+      "change_pct": 1.1814,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
+      "ticker": "AMZN",
+      "price": 253.25,
+      "change_pct": 1.2919,
+      "volume": null,
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "HOOD",
+      "price": 84.64,
+      "change_pct": 2.1605,
+      "volume": null,
+      "signal": "BULLISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
       "ticker": "SOFI",
-      "price": 17.05,
-      "change_pct": 2.2182,
+      "price": 17.16,
+      "change_pct": 2.8777,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -48,8 +48,8 @@
     },
     {
       "ticker": "RIVN",
-      "price": 18.21,
-      "change_pct": -0.3284,
+      "price": 18.33,
+      "change_pct": 0.3284,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -57,8 +57,8 @@
     },
     {
       "ticker": "NIO",
-      "price": 5.82,
-      "change_pct": 1.2174,
+      "price": 5.79,
+      "change_pct": 0.6957,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
