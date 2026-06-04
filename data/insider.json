@@ -1,8 +1,96 @@
 {
-  "last_updated": "2026-06-02T23:30:53.235942",
-  "from_date": "2026-05-03",
-  "to_date": "2026-06-02",
+  "last_updated": "2026-06-04T23:23:35.249095",
+  "from_date": "2026-05-05",
+  "to_date": "2026-06-04",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Malka Meyer",
+      "date": "2026-06-03",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 3674427,
+      "price": 83.4467,
+      "value": 306618807.54090005
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Hegeman John William",
+      "date": "2026-06-02",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 3289,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-06-02",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 3289,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Loop Paula",
+      "date": "2026-06-02",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 3289,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Treseder Oluwadara Johnson",
+      "date": "2026-06-02",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 3289,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Denzel Nora",
+      "date": "2026-06-02",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 87173,
+      "price": 522,
+      "value": 45504306
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Stat Lauren Elaina Friedman",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 55022,
+      "price": 160,
+      "value": 8803520
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 485527,
+      "price": 266.19,
+      "value": 129242432.13
+    },
     {
       "ticker": "NIO",
       "name": "Qin Lihong",
@@ -59,6 +147,72 @@
       "value": 1764492.7999999998
     },
     {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 83965,
+      "price": 629.29,
+      "value": 52838334.849999994
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7310,
+      "price": 629.29,
+      "value": 4600109.899999999
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2087,
+      "price": 629.29,
+      "value": 1313328.23
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7310,
+      "price": 629.29,
+      "value": 4600109.899999999
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-03",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 12986,
+      "price": 629.29,
+      "value": 8171959.9399999995
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Althoff Judson",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 110477,
+      "price": 460.988,
+      "value": 50928571.276
+    },
+    {
       "ticker": "MSFT",
       "name": "Coleman Amy",
       "date": "2026-06-01",
@@ -79,6 +233,83 @@
       "shares": 71149,
       "price": 450.24,
       "value": 32034125.76
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hoag Jay C",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 728,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Sweeney Anne M",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 728,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Smith Bradford L",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 728,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Rice Susan E",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 728,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Mertz Elinor",
+      "date": "2026-06-01",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 728,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Stat Lauren Elaina Friedman",
+      "date": "2026-05-29",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 56620,
+      "price": 150,
+      "value": 8493000
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Mcdonough Claire",
+      "date": "2026-05-29",
+      "filing_date": "2026-06-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 887007,
+      "price": 16,
+      "value": 14192112
     },
     {
       "ticker": "GOOGL",
@@ -136,15 +367,15 @@
       "value": 0
     },
     {
-      "ticker": "HOOD",
-      "name": "Malka Meyer",
-      "date": "2026-05-28",
-      "filing_date": "2026-06-01",
+      "ticker": "AMD",
+      "name": "Denzel Nora",
+      "date": "2026-05-29",
+      "filing_date": "2026-06-02",
       "type": "BUY",
-      "code": "Purchase",
-      "shares": 3493427,
-      "price": 80.3944,
-      "value": 280851967.6088
+      "code": "Sale",
+      "shares": 95799,
+      "price": 522,
+      "value": 50007078
     },
     {
       "ticker": "RIVN",
@@ -169,17 +400,6 @@
       "value": 3030882
     },
     {
-      "ticker": "META",
-      "name": "Mahoney Curtis J.",
-      "date": "2026-05-27",
-      "filing_date": "2026-05-29",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1118,
-      "price": 609.92,
-      "value": 681890.5599999999
-    },
-    {
       "ticker": "AAPL",
       "name": "Levinson Arthur D",
       "date": "2026-05-27",
@@ -202,50 +422,6 @@
       "value": 1170858427.52
     },
     {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-26",
-      "filing_date": "2026-05-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 84373,
-      "price": 608.98,
-      "value": 51381469.54
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-26",
-      "filing_date": "2026-05-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7392,
-      "price": 608.98,
-      "value": 4501580.16
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-26",
-      "filing_date": "2026-05-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2144,
-      "price": 608.98,
-      "value": 1305653.12
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-05-26",
-      "filing_date": "2026-05-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7392,
-      "price": 608.98,
-      "value": 4501580.16
-    },
-    {
       "ticker": "PLTR",
       "name": "Buckley Jeffrey",
       "date": "2026-05-22",
@@ -266,39 +442,6 @@
       "shares": 41190,
       "price": 268.53,
       "value": 11060750.7
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Malka Meyer",
-      "date": "2026-05-22",
-      "filing_date": "2026-05-27",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 30000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Malka Meyer",
-      "date": "2026-05-22",
-      "filing_date": "2026-05-27",
-      "type": "BUY",
-      "code": "Purchase",
-      "shares": 30000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Malka Meyer",
-      "date": "2026-05-22",
-      "filing_date": "2026-05-27",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 30000,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "AMZN",
@@ -334,17 +477,6 @@
       "value": 0
     },
     {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-21",
-      "filing_date": "2026-05-26",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 14580,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "RIVN",
       "name": "Mcdonough Claire",
       "date": "2026-05-21",
@@ -374,39 +506,6 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 3864112,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 642786,
-      "price": 136.6143,
-      "value": 87813759.4398
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 693635,
-      "price": 136.0811,
-      "value": 94390613.7985
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "C",
-      "shares": 47006377,
       "price": 0,
       "value": 0
     },
@@ -486,39 +585,6 @@
       "shares": 326979,
       "price": 433.75,
       "value": 141827141.25
-    },
-    {
-      "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 328263,
-      "price": 432.78,
-      "value": 142065661.14
-    },
-    {
-      "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 330537,
-      "price": 431.56,
-      "value": 142646547.72
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Mcdonough Claire",
-      "date": "2026-05-18",
-      "filing_date": "2026-05-19",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 902630,
-      "price": 13.4346,
-      "value": 12126472.998
     },
     {
       "ticker": "SOFI",
@@ -697,28 +763,6 @@
       "value": 11226770
     },
     {
-      "ticker": "NFLX",
-      "name": "Peters Gregory K",
-      "date": "2026-05-07",
-      "filing_date": "2026-05-07",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 120931,
-      "price": 88.6944,
-      "value": 10725902.4864
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Neumann Spencer Adam",
-      "date": "2026-05-07",
-      "filing_date": "2026-05-07",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 73787,
-      "price": 88.9522,
-      "value": 6563515.9814
-    },
-    {
       "ticker": "AAPL",
       "name": "Levinson Arthur D",
       "date": "2026-05-06",
@@ -739,39 +783,6 @@
       "shares": 3819576,
       "price": 285.04,
       "value": 1088731943.04
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Peters Gregory K",
-      "date": "2026-05-06",
-      "filing_date": "2026-05-07",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 148243,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Sarandos Theodore A",
-      "date": "2026-05-05",
-      "filing_date": "2026-05-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 284804,
-      "price": 87.9754,
-      "value": 25055745.821599998
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Sarandos Theodore A",
-      "date": "2026-05-05",
-      "filing_date": "2026-05-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 291843,
-      "price": 87.9738,
-      "value": 25674537.7134
     }
   ]
 }
