@@ -1,8 +1,41 @@
 {
-  "last_updated": "2026-06-04T23:23:35.249095",
-  "from_date": "2026-05-05",
-  "to_date": "2026-06-04",
+  "last_updated": "2026-06-05T23:24:32.261712",
+  "from_date": "2026-05-06",
+  "to_date": "2026-06-05",
   "transactions": [
+    {
+      "ticker": "NVDA",
+      "name": "Stevens Mark A",
+      "date": "2026-06-04",
+      "filing_date": "2026-06-04",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 6092271,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Stevens Mark A",
+      "date": "2026-06-04",
+      "filing_date": "2026-06-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 6399771,
+      "price": 220.371,
+      "value": 1410323935.0410001
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Stevens Mark A",
+      "date": "2026-06-04",
+      "filing_date": "2026-06-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 6799771,
+      "price": 217.655,
+      "value": 1480004157.005
+    },
     {
       "ticker": "HOOD",
       "name": "Malka Meyer",
@@ -57,6 +90,17 @@
       "shares": 3289,
       "price": 0,
       "value": 0
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Stevens Mark A",
+      "date": "2026-06-02",
+      "filing_date": "2026-06-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 6899771,
+      "price": 222.3774,
+      "value": 1534353135.5753999
     },
     {
       "ticker": "AMD",
