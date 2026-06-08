@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-05T23:24:32.261712",
-  "from_date": "2026-05-06",
-  "to_date": "2026-06-05",
+  "last_updated": "2026-06-08T23:24:02.302306",
+  "from_date": "2026-05-09",
+  "to_date": "2026-06-08",
   "transactions": [
     {
       "ticker": "NVDA",
@@ -38,58 +38,80 @@
     },
     {
       "ticker": "HOOD",
-      "name": "Malka Meyer",
+      "name": "Gallagher Daniel Martin Jr",
       "date": "2026-06-03",
-      "filing_date": "2026-06-03",
+      "filing_date": "2026-06-05",
       "type": "BUY",
-      "code": "Purchase",
-      "shares": 3674427,
-      "price": 83.4467,
-      "value": 306618807.54090005
+      "code": "Sale",
+      "shares": 481396,
+      "price": 85.775,
+      "value": 41291741.900000006
     },
     {
       "ticker": "HOOD",
-      "name": "Hegeman John William",
-      "date": "2026-06-02",
-      "filing_date": "2026-06-03",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-06-03",
+      "filing_date": "2026-06-05",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 3289,
-      "price": 0,
-      "value": 0
+      "code": "Sale",
+      "shares": 481596,
+      "price": 84.7025,
+      "value": 40792385.19
     },
     {
       "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-06-02",
-      "filing_date": "2026-06-03",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-06-03",
+      "filing_date": "2026-06-05",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 3289,
-      "price": 0,
-      "value": 0
+      "code": "Sale",
+      "shares": 482396,
+      "price": 84.0648,
+      "value": 40552523.260800004
     },
     {
       "ticker": "HOOD",
-      "name": "Loop Paula",
-      "date": "2026-06-02",
-      "filing_date": "2026-06-03",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-06-03",
+      "filing_date": "2026-06-05",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 3289,
-      "price": 0,
-      "value": 0
+      "code": "Sale",
+      "shares": 486596,
+      "price": 83.0796,
+      "value": 40426201.0416
     },
     {
       "ticker": "HOOD",
-      "name": "Treseder Oluwadara Johnson",
-      "date": "2026-06-02",
-      "filing_date": "2026-06-03",
+      "name": "Quirk Steven M.",
+      "date": "2026-06-03",
+      "filing_date": "2026-06-05",
       "type": "BUY",
-      "code": "Grant",
-      "shares": 3289,
-      "price": 0,
-      "value": 0
+      "code": "Sale",
+      "shares": 81989,
+      "price": 86.42,
+      "value": 7085489.38
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Mcdonough Claire",
+      "date": "2026-06-03",
+      "filing_date": "2026-06-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 878985,
+      "price": 18,
+      "value": 15821730
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Neal Stephen C",
+      "date": "2026-06-03",
+      "filing_date": "2026-06-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 116135,
+      "price": 215.7331,
+      "value": 25054163.5685
     },
     {
       "ticker": "NVDA",
@@ -433,17 +455,6 @@
       "value": 13834290
     },
     {
-      "ticker": "NVDA",
-      "name": "Dabiri John",
-      "date": "2026-05-27",
-      "filing_date": "2026-05-29",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 14163,
-      "price": 214,
-      "value": 3030882
-    },
-    {
       "ticker": "AAPL",
       "name": "Levinson Arthur D",
       "date": "2026-05-27",
@@ -574,17 +585,6 @@
       "shares": 584896,
       "price": 11.6705,
       "value": 6826028.768
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Callahan Michael John",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1073858,
-      "price": 11.6705,
-      "value": 12532459.789
     },
     {
       "ticker": "JPM",
@@ -794,39 +794,6 @@
       "shares": 19107,
       "price": 18.44,
       "value": 352333.08
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Borders Ben",
-      "date": "2026-05-08",
-      "filing_date": "2026-05-12",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 38713,
-      "price": 290,
-      "value": 11226770
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Levinson Arthur D",
-      "date": "2026-05-06",
-      "filing_date": "2026-05-08",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 3814576,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Levinson Arthur D",
-      "date": "2026-05-06",
-      "filing_date": "2026-05-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3819576,
-      "price": 285.04,
-      "value": 1088731943.04
     }
   ]
 }
