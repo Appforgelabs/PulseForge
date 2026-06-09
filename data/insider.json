@@ -1,8 +1,52 @@
 {
-  "last_updated": "2026-06-08T23:24:02.302306",
-  "from_date": "2026-05-09",
-  "to_date": "2026-06-08",
+  "last_updated": "2026-06-09T23:26:31.046263",
+  "from_date": "2026-05-10",
+  "to_date": "2026-06-09",
   "transactions": [
+    {
+      "ticker": "PLTR",
+      "name": "Woersching Eric H.",
+      "date": "2026-06-04",
+      "filing_date": "2026-06-08",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 4466,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Stat Lauren Elaina Friedman",
+      "date": "2026-06-04",
+      "filing_date": "2026-06-08",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 57140,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-06-04",
+      "filing_date": "2026-06-08",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1127096,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Schiff Alexandra W.",
+      "date": "2026-06-04",
+      "filing_date": "2026-06-08",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 189083,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "NVDA",
       "name": "Stevens Mark A",
@@ -356,17 +400,6 @@
       "value": 0
     },
     {
-      "ticker": "PLTR",
-      "name": "Stat Lauren Elaina Friedman",
-      "date": "2026-05-29",
-      "filing_date": "2026-06-02",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 56620,
-      "price": 150,
-      "value": 8493000
-    },
-    {
       "ticker": "RIVN",
       "name": "Mcdonough Claire",
       "date": "2026-05-29",
@@ -477,17 +510,6 @@
       "value": 1170858427.52
     },
     {
-      "ticker": "PLTR",
-      "name": "Buckley Jeffrey",
-      "date": "2026-05-22",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 61707,
-      "price": 137.41,
-      "value": 8479158.87
-    },
-    {
       "ticker": "AMZN",
       "name": "Zapolsky David",
       "date": "2026-05-22",
@@ -541,28 +563,6 @@
       "shares": 895030,
       "price": 14,
       "value": 12530420
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "C",
-      "shares": 3698598,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 3864112,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "SOFI",
