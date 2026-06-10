@@ -1,8 +1,107 @@
 {
-  "last_updated": "2026-06-09T23:26:31.046263",
-  "from_date": "2026-05-10",
-  "to_date": "2026-06-09",
+  "last_updated": "2026-06-10T23:29:01.224170",
+  "from_date": "2026-05-11",
+  "to_date": "2026-06-10",
   "transactions": [
+    {
+      "ticker": "TSLA",
+      "name": "Taneja Vaibhav",
+      "date": "2026-06-08",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 22039,
+      "price": 402.197,
+      "value": 8864019.683
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Taneja Vaibhav",
+      "date": "2026-06-05",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 58844,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Taneja Vaibhav",
+      "date": "2026-06-05",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 24645,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Malka Meyer",
+      "date": "2026-06-05",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 3924427,
+      "price": 80.7368,
+      "value": 316845677.8136
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Stanton John W",
+      "date": "2026-06-05",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 84054,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Di Sibio Carmine",
+      "date": "2026-06-05",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 13,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Di Sibio Carmine",
+      "date": "2026-06-05",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 360,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Walmsley Emma N",
+      "date": "2026-06-05",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1260,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Rainey John D",
+      "date": "2026-06-05",
+      "filing_date": "2026-06-09",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 296,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "PLTR",
       "name": "Woersching Eric H.",
@@ -123,17 +222,6 @@
       "shares": 486596,
       "price": 83.0796,
       "value": 40426201.0416
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Quirk Steven M.",
-      "date": "2026-06-03",
-      "filing_date": "2026-06-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 81989,
-      "price": 86.42,
-      "value": 7085489.38
     },
     {
       "ticker": "RIVN",
@@ -310,39 +398,6 @@
       "shares": 12986,
       "price": 629.29,
       "value": 8171959.9399999995
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Althoff Judson",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-02",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 110477,
-      "price": 460.988,
-      "value": 50928571.276
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Coleman Amy",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-01",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 45481,
-      "price": 450.24,
-      "value": 20477365.44
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Jolla Alice L.",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-01",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 71149,
-      "price": 450.24,
-      "value": 32034125.76
     },
     {
       "ticker": "NFLX",
@@ -653,17 +708,6 @@
       "value": 2926193.896
     },
     {
-      "ticker": "MSFT",
-      "name": "Coleman Amy",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-18",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 45915,
-      "price": 409.43,
-      "value": 18798978.45
-    },
-    {
       "ticker": "JPM",
       "name": "Lake Marianne",
       "date": "2026-05-15",
@@ -730,17 +774,6 @@
       "value": 0
     },
     {
-      "ticker": "MSFT",
-      "name": "Coleman Amy",
-      "date": "2026-05-14",
-      "filing_date": "2026-05-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 46003,
-      "price": 411.342,
-      "value": 18922966.026
-    },
-    {
       "ticker": "TSLA",
       "name": "Taneja Vaibhav",
       "date": "2026-05-13",
@@ -761,39 +794,6 @@
       "shares": 2390,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-05-13",
-      "filing_date": "2026-05-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 18107,
-      "price": 450,
-      "value": 8148150
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-05-13",
-      "filing_date": "2026-05-15",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 21107,
-      "price": 18.22,
-      "value": 384569.54
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-05-13",
-      "filing_date": "2026-05-15",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 19107,
-      "price": 18.44,
-      "value": 352333.08
     }
   ]
 }
