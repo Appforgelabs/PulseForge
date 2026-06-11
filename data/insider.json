@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-10T23:29:01.224170",
-  "from_date": "2026-05-11",
-  "to_date": "2026-06-10",
+  "last_updated": "2026-06-11T23:28:36.238506",
+  "from_date": "2026-05-12",
+  "to_date": "2026-06-11",
   "transactions": [
     {
       "ticker": "TSLA",
@@ -13,6 +13,39 @@
       "shares": 22039,
       "price": 402.197,
       "value": 8864019.683
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Gawel Scott",
+      "date": "2026-06-08",
+      "filing_date": "2026-06-10",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 59509,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Gawel Scott",
+      "date": "2026-06-08",
+      "filing_date": "2026-06-10",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 45643,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Numoto Takeshi",
+      "date": "2026-06-08",
+      "filing_date": "2026-06-10",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 51968,
+      "price": 412.45,
+      "value": 21434201.599999998
     },
     {
       "ticker": "TSLA",
@@ -88,17 +121,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 1260,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Rainey John D",
-      "date": "2026-06-05",
-      "filing_date": "2026-06-09",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 296,
       "price": 0,
       "value": 0
     },
@@ -233,28 +255,6 @@
       "shares": 878985,
       "price": 18,
       "value": 15821730
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Neal Stephen C",
-      "date": "2026-06-03",
-      "filing_date": "2026-06-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 116135,
-      "price": 215.7331,
-      "value": 25054163.5685
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-06-02",
-      "filing_date": "2026-06-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6899771,
-      "price": 222.3774,
-      "value": 1534353135.5753999
     },
     {
       "ticker": "AMD",
