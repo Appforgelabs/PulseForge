@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-06-11T23:28:36.238506",
-  "from_date": "2026-05-12",
-  "to_date": "2026-06-11",
+  "last_updated": "2026-06-12T23:27:37.773952",
+  "from_date": "2026-05-13",
+  "to_date": "2026-06-12",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Lavet Robert S",
+      "date": "2026-06-10",
+      "filing_date": "2026-06-11",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 65422,
+      "price": 16.059,
+      "value": 1050611.898
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Meltzer Gary",
+      "date": "2026-06-09",
+      "filing_date": "2026-06-11",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 68458,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Meltzer Gary",
+      "date": "2026-06-09",
+      "filing_date": "2026-06-11",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 50070,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Ruzwana Bashir",
+      "date": "2026-06-09",
+      "filing_date": "2026-06-11",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 79359,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Liang Clara",
+      "date": "2026-06-09",
+      "filing_date": "2026-06-11",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 115645,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "TSLA",
       "name": "Taneja Vaibhav",
@@ -620,17 +675,6 @@
       "value": 12530420
     },
     {
-      "ticker": "SOFI",
-      "name": "Keough Kelli",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 323247,
-      "price": 15.5346,
-      "value": 5021512.8462
-    },
-    {
       "ticker": "RIVN",
       "name": "Venkataratnam Sreela",
       "date": "2026-05-20",
@@ -686,28 +730,6 @@
       "value": 141827141.25
     },
     {
-      "ticker": "SOFI",
-      "name": "Schuppenhauer Eric",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-18",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 294605,
-      "price": 15.493,
-      "value": 4564315.265
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Pinto Arun",
-      "date": "2026-05-15",
-      "filing_date": "2026-05-18",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 188872,
-      "price": 15.493,
-      "value": 2926193.896
-    },
-    {
       "ticker": "JPM",
       "name": "Lake Marianne",
       "date": "2026-05-15",
@@ -750,28 +772,6 @@
       "shares": 66783,
       "price": 300.05,
       "value": 20038239.150000002
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Schuppenhauer Eric",
-      "date": "2026-05-14",
-      "filing_date": "2026-05-18",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 501579,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Schuppenhauer Eric",
-      "date": "2026-05-14",
-      "filing_date": "2026-05-18",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 317147,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "TSLA",
