@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T09:00:33.793471",
+  "generated": "2026-06-15T09:15:22.920025",
   "mqs": 59.5,
   "mqs_verdict": "NO",
   "ews": 70,
@@ -12,8 +12,8 @@
     "volatility": {
       "score": 89,
       "status": "HEALTHY",
-      "vix": 16.55,
-      "vix_trend": -3.32,
+      "vix": 16.42,
+      "vix_trend": -3.45,
       "vix_percentile": 8
     },
     "trend": {
@@ -48,7 +48,7 @@
       "score": 45,
       "status": "CAUTION",
       "tnx": 4.453,
-      "dxy": 99.489,
+      "dxy": 99.485,
       "fed_stance": "NEUTRAL",
       "dxy_trend": "WEAK \u2193",
       "fomc_days": 2
@@ -147,7 +147,7 @@
     },
     {
       "sym": "VIX",
-      "price": 16.55,
+      "price": 16.42,
       "change_pct": null
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "sym": "DXY",
-      "price": 99.489,
+      "price": 99.485,
       "change_pct": null
     },
     {
@@ -216,7 +216,7 @@
       "change_pct": -0.4192
     }
   ],
-  "terminal_text": "> TERMINAL ANALYSIS [09:00]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 16.55 \u2014 healthy. CHOP.\n> Breadth narrow: 9/11 above 50d. FOMC in 2d \u2014 reduced position sizing. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 59.5% | EWS: 70%",
+  "terminal_text": "> TERMINAL ANALYSIS [09:15]\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> Elevated risk. VIX 16.42 \u2014 healthy. CHOP.\n> Breadth narrow: 9/11 above 50d. FOMC in 2d \u2014 reduced position sizing. \n> VERDICT: Capital preservation. No new swing entries. Wait for regime reset.\n> \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n> MQS: 59.5% | EWS: 70%",
   "fomc_dates": [
     "2026-01-28",
     "2026-01-29",
