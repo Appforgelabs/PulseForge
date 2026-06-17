@@ -1,18 +1,117 @@
 {
-  "last_updated": "2026-06-16T23:28:41.709065",
-  "from_date": "2026-05-17",
-  "to_date": "2026-06-16",
+  "last_updated": "2026-06-17T23:29:25.157573",
+  "from_date": "2026-05-18",
+  "to_date": "2026-06-17",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Noto Anthony",
+      "date": "2026-06-16",
+      "filing_date": "2026-06-16",
+      "type": "BUY",
+      "code": "Purchase",
+      "shares": 11960507,
+      "price": 18.0578,
+      "value": 215980443.3046
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-06-15",
+      "filing_date": "2026-06-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 59927,
+      "price": 98.84,
+      "value": 5923184.680000001
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Jolla Alice L.",
+      "date": "2026-06-15",
+      "filing_date": "2026-06-16",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 76153,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Coleman Amy",
+      "date": "2026-06-15",
+      "filing_date": "2026-06-15",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 45445,
+      "price": 390.74,
+      "value": 17757179.3
+    },
     {
       "ticker": "AMD",
       "name": "Su Lisa T",
       "date": "2026-06-12",
       "filing_date": "2026-06-12",
       "type": "BUY",
-      "code": "",
+      "code": "Gift",
       "shares": 2866899,
       "price": 0,
       "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Buckley Jeffrey",
+      "date": "2026-06-11",
+      "filing_date": "2026-06-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 60226,
+      "price": 128.8,
+      "value": 7757108.800000001
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-06-11",
+      "filing_date": "2026-06-15",
+      "type": "BUY",
+      "code": "C",
+      "shares": 46948479,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-06-11",
+      "filing_date": "2026-06-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2414,
+      "price": 92.5225,
+      "value": 223349.31499999997
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-06-11",
+      "filing_date": "2026-06-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 12806,
+      "price": 91.5854,
+      "value": 1172842.6324
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-06-11",
+      "filing_date": "2026-06-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 19254,
+      "price": 90.4176,
+      "value": 1740900.4703999998
     },
     {
       "ticker": "MSFT",
@@ -20,7 +119,7 @@
       "date": "2026-06-11",
       "filing_date": "2026-06-12",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 13,
       "price": 0,
       "value": 0
@@ -31,7 +130,7 @@
       "date": "2026-06-11",
       "filing_date": "2026-06-12",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 1263,
       "price": 0,
       "value": 0
@@ -42,30 +141,8 @@
       "date": "2026-06-11",
       "filing_date": "2026-06-12",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 296,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "List Teri",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-12",
-      "type": "BUY",
-      "code": "",
-      "shares": 23075,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Hoffman Reid",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-12",
-      "type": "BUY",
-      "code": "",
-      "shares": 16963,
       "price": 0,
       "value": 0
     },
@@ -75,7 +152,7 @@
       "date": "2026-06-10",
       "filing_date": "2026-06-11",
       "type": "BUY",
-      "code": "",
+      "code": "Tax Withholding",
       "shares": 65422,
       "price": 16.059,
       "value": 1050611.898
@@ -86,7 +163,7 @@
       "date": "2026-06-10",
       "filing_date": "2026-06-12",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 2896899,
       "price": 476.43,
       "value": 1380169590.57
@@ -97,7 +174,7 @@
       "date": "2026-06-10",
       "filing_date": "2026-06-12",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 2897399,
       "price": 475.48,
       "value": 1377655276.52
@@ -108,7 +185,7 @@
       "date": "2026-06-10",
       "filing_date": "2026-06-12",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 2898699,
       "price": 474.53,
       "value": 1375519636.47
@@ -119,7 +196,7 @@
       "date": "2026-06-10",
       "filing_date": "2026-06-12",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 2902554,
       "price": 473.61,
       "value": 1374678599.94
@@ -130,7 +207,7 @@
       "date": "2026-06-09",
       "filing_date": "2026-06-11",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 68458,
       "price": 0,
       "value": 0
@@ -141,7 +218,7 @@
       "date": "2026-06-09",
       "filing_date": "2026-06-11",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 50070,
       "price": 0,
       "value": 0
@@ -152,19 +229,8 @@
       "date": "2026-06-09",
       "filing_date": "2026-06-11",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 79359,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Liang Clara",
-      "date": "2026-06-09",
-      "filing_date": "2026-06-11",
-      "type": "BUY",
-      "code": "",
-      "shares": 115645,
       "price": 0,
       "value": 0
     },
@@ -174,7 +240,7 @@
       "date": "2026-06-08",
       "filing_date": "2026-06-09",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 22039,
       "price": 402.197,
       "value": 8864019.683
@@ -185,7 +251,7 @@
       "date": "2026-06-08",
       "filing_date": "2026-06-10",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 59509,
       "price": 0,
       "value": 0
@@ -196,7 +262,7 @@
       "date": "2026-06-08",
       "filing_date": "2026-06-10",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 45643,
       "price": 0,
       "value": 0
@@ -207,7 +273,7 @@
       "date": "2026-06-05",
       "filing_date": "2026-06-09",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 58844,
       "price": 0,
       "value": 0
@@ -218,21 +284,10 @@
       "date": "2026-06-05",
       "filing_date": "2026-06-09",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 24645,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Malka Meyer",
-      "date": "2026-06-05",
-      "filing_date": "2026-06-09",
-      "type": "BUY",
-      "code": "",
-      "shares": 3924427,
-      "price": 80.7368,
-      "value": 316845677.8136
     },
     {
       "ticker": "PLTR",
@@ -240,7 +295,7 @@
       "date": "2026-06-04",
       "filing_date": "2026-06-08",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 4466,
       "price": 0,
       "value": 0
@@ -251,7 +306,7 @@
       "date": "2026-06-04",
       "filing_date": "2026-06-08",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 57140,
       "price": 0,
       "value": 0
@@ -262,7 +317,7 @@
       "date": "2026-06-04",
       "filing_date": "2026-06-08",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 1127096,
       "price": 0,
       "value": 0
@@ -273,7 +328,7 @@
       "date": "2026-06-04",
       "filing_date": "2026-06-08",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 189083,
       "price": 0,
       "value": 0
@@ -284,7 +339,7 @@
       "date": "2026-06-04",
       "filing_date": "2026-06-04",
       "type": "BUY",
-      "code": "",
+      "code": "Gift",
       "shares": 6092271,
       "price": 0,
       "value": 0
@@ -295,7 +350,7 @@
       "date": "2026-06-04",
       "filing_date": "2026-06-04",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 6399771,
       "price": 220.371,
       "value": 1410323935.0410001
@@ -306,54 +361,10 @@
       "date": "2026-06-04",
       "filing_date": "2026-06-04",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 6799771,
       "price": 217.655,
       "value": 1480004157.005
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-06-03",
-      "filing_date": "2026-06-05",
-      "type": "BUY",
-      "code": "",
-      "shares": 481396,
-      "price": 85.775,
-      "value": 41291741.900000006
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-06-03",
-      "filing_date": "2026-06-05",
-      "type": "BUY",
-      "code": "",
-      "shares": 481596,
-      "price": 84.7025,
-      "value": 40792385.19
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-06-03",
-      "filing_date": "2026-06-05",
-      "type": "BUY",
-      "code": "",
-      "shares": 482396,
-      "price": 84.0648,
-      "value": 40552523.260800004
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-06-03",
-      "filing_date": "2026-06-05",
-      "type": "BUY",
-      "code": "",
-      "shares": 486596,
-      "price": 83.0796,
-      "value": 40426201.0416
     },
     {
       "ticker": "RIVN",
@@ -361,21 +372,10 @@
       "date": "2026-06-03",
       "filing_date": "2026-06-05",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 878985,
       "price": 18,
       "value": 15821730
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Stat Lauren Elaina Friedman",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-02",
-      "type": "BUY",
-      "code": "",
-      "shares": 55022,
-      "price": 160,
-      "value": 8803520
     },
     {
       "ticker": "AMZN",
@@ -383,7 +383,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-03",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 485527,
       "price": 266.19,
       "value": 129242432.13
@@ -394,7 +394,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Tax Withholding",
       "shares": 319662,
       "price": 5.6,
       "value": 1790107.2
@@ -405,7 +405,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 469662,
       "price": 0,
       "value": 0
@@ -416,7 +416,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Tax Withholding",
       "shares": 316167,
       "price": 5.6,
       "value": 1770535.2
@@ -427,7 +427,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 416167,
       "price": 0,
       "value": 0
@@ -438,7 +438,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Tax Withholding",
       "shares": 315088,
       "price": 5.6,
       "value": 1764492.7999999998
@@ -449,7 +449,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-03",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 83965,
       "price": 629.29,
       "value": 52838334.849999994
@@ -460,7 +460,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-03",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 7310,
       "price": 629.29,
       "value": 4600109.899999999
@@ -471,7 +471,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-03",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 2087,
       "price": 629.29,
       "value": 1313328.23
@@ -482,7 +482,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-03",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 7310,
       "price": 629.29,
       "value": 4600109.899999999
@@ -493,7 +493,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-03",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 12986,
       "price": 629.29,
       "value": 8171959.9399999995
@@ -504,7 +504,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-02",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 728,
       "price": 0,
       "value": 0
@@ -515,7 +515,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-02",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 728,
       "price": 0,
       "value": 0
@@ -526,7 +526,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-02",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 728,
       "price": 0,
       "value": 0
@@ -537,7 +537,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-02",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 728,
       "price": 0,
       "value": 0
@@ -548,7 +548,7 @@
       "date": "2026-06-01",
       "filing_date": "2026-06-02",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 728,
       "price": 0,
       "value": 0
@@ -559,7 +559,7 @@
       "date": "2026-05-29",
       "filing_date": "2026-06-02",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 887007,
       "price": 16,
       "value": 14192112
@@ -570,7 +570,7 @@
       "date": "2026-05-29",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 18721,
       "price": 381,
       "value": 7132701
@@ -581,7 +581,7 @@
       "date": "2026-05-29",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Gift",
       "shares": 486222,
       "price": 0,
       "value": 0
@@ -592,7 +592,7 @@
       "date": "2026-05-29",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Gift",
       "shares": 412348,
       "price": 0,
       "value": 0
@@ -603,7 +603,7 @@
       "date": "2026-05-29",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Gift",
       "shares": 576971,
       "price": 0,
       "value": 0
@@ -614,7 +614,7 @@
       "date": "2026-05-29",
       "filing_date": "2026-06-01",
       "type": "BUY",
-      "code": "",
+      "code": "Gift",
       "shares": 412348,
       "price": 0,
       "value": 0
@@ -625,7 +625,7 @@
       "date": "2026-05-28",
       "filing_date": "2026-05-29",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 922286,
       "price": 15,
       "value": 13834290
@@ -636,7 +636,7 @@
       "date": "2026-05-27",
       "filing_date": "2026-05-29",
       "type": "BUY",
-      "code": "",
+      "code": "Gift",
       "shares": 3699576,
       "price": 0,
       "value": 0
@@ -647,7 +647,7 @@
       "date": "2026-05-27",
       "filing_date": "2026-05-29",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 3764576,
       "price": 311.02,
       "value": 1170858427.52
@@ -658,7 +658,7 @@
       "date": "2026-05-22",
       "filing_date": "2026-05-26",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 41190,
       "price": 268.53,
       "value": 11060750.7
@@ -669,7 +669,7 @@
       "date": "2026-05-21",
       "filing_date": "2026-05-26",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 142313,
       "price": 0,
       "value": 0
@@ -680,7 +680,7 @@
       "date": "2026-05-21",
       "filing_date": "2026-05-26",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 12000,
       "price": 0,
       "value": 0
@@ -691,7 +691,7 @@
       "date": "2026-05-21",
       "filing_date": "2026-05-26",
       "type": "BUY",
-      "code": "",
+      "code": "Option Exercise",
       "shares": 36300,
       "price": 0,
       "value": 0
@@ -702,7 +702,7 @@
       "date": "2026-05-21",
       "filing_date": "2026-05-22",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 895030,
       "price": 14,
       "value": 12530420
@@ -713,7 +713,7 @@
       "date": "2026-05-20",
       "filing_date": "2026-05-22",
       "type": "BUY",
-      "code": "",
+      "code": "Grant",
       "shares": 584896,
       "price": 11.6705,
       "value": 6826028.768
@@ -724,7 +724,7 @@
       "date": "2026-05-20",
       "filing_date": "2026-05-20",
       "type": "BUY",
-      "code": "",
+      "code": "Sale",
       "shares": 46428,
       "price": 300.2662,
       "value": 13940759.1336
