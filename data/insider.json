@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-19T23:19:04.572381",
-  "from_date": "2026-05-20",
-  "to_date": "2026-06-19",
+  "last_updated": "2026-06-22T23:27:47.925326",
+  "from_date": "2026-05-23",
+  "to_date": "2026-06-22",
   "transactions": [
     {
       "ticker": "SOFI",
@@ -651,83 +651,6 @@
       "shares": 3764576,
       "price": 311.02,
       "value": 1170858427.52
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Zapolsky David",
-      "date": "2026-05-22",
-      "filing_date": "2026-05-26",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 41190,
-      "price": 268.53,
-      "value": 11060750.7
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-21",
-      "filing_date": "2026-05-26",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 142313,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-21",
-      "filing_date": "2026-05-26",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 12000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-05-21",
-      "filing_date": "2026-05-26",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 36300,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Mcdonough Claire",
-      "date": "2026-05-21",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 895030,
-      "price": 14,
-      "value": 12530420
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Venkataratnam Sreela",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 584896,
-      "price": 11.6705,
-      "value": 6826028.768
-    },
-    {
-      "ticker": "JPM",
-      "name": "Friedman Stacey",
-      "date": "2026-05-20",
-      "filing_date": "2026-05-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 46428,
-      "price": 300.2662,
-      "value": 13940759.1336
     }
   ]
 }
