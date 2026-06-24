@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-24T09:30:42.509571",
+  "last_updated": "2026-06-24T09:45:07.413329",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 379.24,
-      "change_pct": -0.6211,
+      "price": 382.89,
+      "change_pct": 0.3354,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -12,44 +12,44 @@
     },
     {
       "ticker": "PLTR",
-      "price": 114.46,
-      "change_pct": -1.9195,
+      "price": 117.38,
+      "change_pct": 0.5827,
+      "volume": null,
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "AMZN",
+      "price": 238.08,
+      "change_pct": 1.6958,
+      "volume": null,
+      "signal": "BULLISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "HOOD",
+      "price": 98.55,
+      "change_pct": -4.5521,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "AMZN",
-      "price": 233.56,
-      "change_pct": -0.2349,
-      "volume": null,
-      "signal": "NEUTRAL",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "HOOD",
-      "price": 102.37,
-      "change_pct": -0.8523,
-      "volume": null,
-      "signal": "NEUTRAL",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
       "ticker": "SOFI",
-      "price": 17.22,
-      "change_pct": -0.4049,
+      "price": 17.86,
+      "change_pct": 3.2967,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 14.85,
-      "change_pct": -0.2686,
+      "price": 15.11,
+      "change_pct": 1.4775,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -57,8 +57,8 @@
     },
     {
       "ticker": "NIO",
-      "price": 4.97,
-      "change_pct": -2.3576,
+      "price": 5.01,
+      "change_pct": -1.5717,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
