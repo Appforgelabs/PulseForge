@@ -1,8 +1,52 @@
 {
-  "last_updated": "2026-06-23T23:22:10.576710",
-  "from_date": "2026-05-24",
-  "to_date": "2026-06-23",
+  "last_updated": "2026-06-24T23:22:32.290683",
+  "from_date": "2026-05-25",
+  "to_date": "2026-06-24",
   "transactions": [
+    {
+      "ticker": "JPM",
+      "name": "Friedman Stacey",
+      "date": "2026-06-22",
+      "filing_date": "2026-06-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 40961,
+      "price": 330.7337,
+      "value": 13547183.0857
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Lavet Robert S",
+      "date": "2026-06-18",
+      "filing_date": "2026-06-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 88200,
+      "price": 17.546,
+      "value": 1547557.2
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Meltzer Gary",
+      "date": "2026-06-17",
+      "filing_date": "2026-06-22",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 71281,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Lavet Robert S",
+      "date": "2026-06-17",
+      "filing_date": "2026-06-22",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 89388,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "SOFI",
       "name": "Noto Anthony",
@@ -200,39 +244,6 @@
       "shares": 2902554,
       "price": 473.61,
       "value": 1374678599.94
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Meltzer Gary",
-      "date": "2026-06-09",
-      "filing_date": "2026-06-11",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 68458,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Meltzer Gary",
-      "date": "2026-06-09",
-      "filing_date": "2026-06-11",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 50070,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Ruzwana Bashir",
-      "date": "2026-06-09",
-      "filing_date": "2026-06-11",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 79359,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "TSLA",
