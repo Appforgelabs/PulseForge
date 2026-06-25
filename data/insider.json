@@ -1,8 +1,74 @@
 {
-  "last_updated": "2026-06-24T23:22:32.290683",
-  "from_date": "2026-05-25",
-  "to_date": "2026-06-24",
+  "last_updated": "2026-06-25T23:26:51.330082",
+  "from_date": "2026-05-26",
+  "to_date": "2026-06-25",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Keough Kelli",
+      "date": "2026-06-22",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 378682,
+      "price": 17.3506,
+      "value": 6570359.9092
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Gomez Aidan N.",
+      "date": "2026-06-22",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 62751,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Schwartz Sanford Harold",
+      "date": "2026-06-22",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 211810,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Krawiec Peter",
+      "date": "2026-06-22",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 26674,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Krafcik John",
+      "date": "2026-06-22",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 78201,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Boone Karen",
+      "date": "2026-06-22",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 115794,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "JPM",
       "name": "Friedman Stacey",
@@ -26,6 +92,28 @@
       "value": 1547557.2
     },
     {
+      "ticker": "NVDA",
+      "name": "Stevens Mark A",
+      "date": "2026-06-18",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5207271,
+      "price": 210.4372,
+      "value": 1095803528.8811998
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Stevens Mark A",
+      "date": "2026-06-18",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5772886,
+      "price": 209.6952,
+      "value": 1210546484.3472
+    },
+    {
       "ticker": "SOFI",
       "name": "Meltzer Gary",
       "date": "2026-06-17",
@@ -46,6 +134,39 @@
       "shares": 89388,
       "price": 0,
       "value": 0
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Teter Timothy S.",
+      "date": "2026-06-17",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 334436,
+      "price": 207.41,
+      "value": 69365370.76
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Kress Colette",
+      "date": "2026-06-17",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 840641,
+      "price": 207.41,
+      "value": 174357349.81
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Puri Ajay K",
+      "date": "2026-06-17",
+      "filing_date": "2026-06-23",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 600321,
+      "price": 207.41,
+      "value": 124512578.61
     },
     {
       "ticker": "SOFI",
@@ -191,17 +312,6 @@
       "value": 0
     },
     {
-      "ticker": "SOFI",
-      "name": "Lavet Robert S",
-      "date": "2026-06-10",
-      "filing_date": "2026-06-11",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 65422,
-      "price": 16.059,
-      "value": 1050611.898
-    },
-    {
       "ticker": "AMD",
       "name": "Su Lisa T",
       "date": "2026-06-10",
@@ -255,28 +365,6 @@
       "shares": 22039,
       "price": 402.197,
       "value": 8864019.683
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Gawel Scott",
-      "date": "2026-06-08",
-      "filing_date": "2026-06-10",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 59509,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Gawel Scott",
-      "date": "2026-06-08",
-      "filing_date": "2026-06-10",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 45643,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "TSLA",
@@ -343,50 +431,6 @@
       "shares": 189083,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-06-04",
-      "filing_date": "2026-06-04",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 6092271,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-06-04",
-      "filing_date": "2026-06-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6399771,
-      "price": 220.371,
-      "value": 1410323935.0410001
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-06-04",
-      "filing_date": "2026-06-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6799771,
-      "price": 217.655,
-      "value": 1480004157.005
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Mcdonough Claire",
-      "date": "2026-06-03",
-      "filing_date": "2026-06-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 878985,
-      "price": 18,
-      "value": 15821730
     },
     {
       "ticker": "AMZN",
@@ -565,17 +609,6 @@
       "value": 0
     },
     {
-      "ticker": "RIVN",
-      "name": "Mcdonough Claire",
-      "date": "2026-05-29",
-      "filing_date": "2026-06-02",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 887007,
-      "price": 16,
-      "value": 14192112
-    },
-    {
       "ticker": "GOOGL",
       "name": "Arnold Frances",
       "date": "2026-05-29",
@@ -629,17 +662,6 @@
       "shares": 412348,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Scaringe Robert J",
-      "date": "2026-05-28",
-      "filing_date": "2026-05-29",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 922286,
-      "price": 15,
-      "value": 13834290
     },
     {
       "ticker": "AAPL",
