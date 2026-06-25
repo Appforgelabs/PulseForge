@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-06-25T09:30:08.594929",
+  "last_updated": "2026-06-25T09:45:09.919520",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 375.57,
-      "change_pct": -1.5828,
+      "price": 374.24,
+      "change_pct": -0.3435,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 113.53,
-      "change_pct": -2.7164,
+      "price": 108.52,
+      "change_pct": -4.3877,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
@@ -21,17 +21,17 @@
     },
     {
       "ticker": "AMZN",
-      "price": 234.31,
-      "change_pct": 0.0854,
+      "price": 227.55,
+      "change_pct": -2.8685,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "HOOD",
-      "price": 97.21,
-      "change_pct": -5.8499,
+      "price": 94.42,
+      "change_pct": -2.8501,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
@@ -39,28 +39,28 @@
     },
     {
       "ticker": "SOFI",
-      "price": 17.33,
-      "change_pct": 0.2313,
+      "price": 17.02,
+      "change_pct": -1.6753,
+      "volume": null,
+      "signal": "BEARISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "RIVN",
+      "price": 14.54,
+      "change_pct": -0.6831,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "RIVN",
-      "price": 14.66,
-      "change_pct": -1.5447,
-      "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
       "ticker": "NIO",
-      "price": 4.91,
-      "change_pct": -3.5363,
+      "price": 4.83,
+      "change_pct": -1.4286,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     }
