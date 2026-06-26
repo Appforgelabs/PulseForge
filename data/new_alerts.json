@@ -1,0 +1,65 @@
+[
+  {
+    "ticker": "PLTR",
+    "type": "big_move",
+    "direction": "down",
+    "change_pct": -5.383,
+    "price": 107.39,
+    "triggered_at": "2026-06-25T15:55:00-04:00",
+    "note": "PLTR down 5.4% — watchlist mover (3:55 PM check)"
+  },
+  {
+    "ticker": "AMZN",
+    "type": "big_move",
+    "direction": "down",
+    "change_pct": -3.44,
+    "price": 226.21,
+    "triggered_at": "2026-06-25T15:55:00-04:00",
+    "note": "AMZN down 3.4% — watchlist mover (3:55 PM check)"
+  },
+  {
+    "ticker": "HOOD",
+    "type": "big_move",
+    "direction": "down",
+    "change_pct": -4.157,
+    "price": 93.15,
+    "triggered_at": "2026-06-25T15:55:00-04:00",
+    "note": "HOOD down 4.2% — watchlist mover (3:55 PM check)"
+  },
+  {
+    "ticker": "COIN",
+    "type": "big_move",
+    "direction": "down",
+    "change_pct": -5.343,
+    "price": 142.09,
+    "triggered_at": "2026-06-25T15:55:00-04:00",
+    "note": "COIN down 5.3% — watchlist mover (3:55 PM check)"
+  },
+  {
+    "ticker": "MSTR",
+    "type": "big_move",
+    "direction": "down",
+    "change_pct": -8.796,
+    "price": 85.85,
+    "triggered_at": "2026-06-25T15:55:00-04:00",
+    "note": "MSTR down 8.8% — watchlist mover (3:55 PM check)"
+  },
+  {
+    "ticker": "RKLB",
+    "type": "big_move",
+    "direction": "down",
+    "change_pct": -5.772,
+    "price": 80.48,
+    "triggered_at": "2026-06-25T15:55:00-04:00",
+    "note": "RKLB down 5.8% — watchlist mover (3:55 PM check)"
+  },
+  {
+    "ticker": "ARM",
+    "type": "big_move",
+    "direction": "down",
+    "change_pct": -3.467,
+    "price": 346.63,
+    "triggered_at": "2026-06-25T15:55:00-04:00",
+    "note": "ARM down 3.5% — watchlist mover (3:55 PM check)"
+  }
+]

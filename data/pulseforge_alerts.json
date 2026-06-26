@@ -1,0 +1,34 @@
+{
+  "last_updated": "2026-02-17T12:10:00-05:00",
+  "active_rules": [
+    {
+      "id": "vix_high",
+      "condition": "VIX > 30",
+      "severity": "critical"
+    },
+    {
+      "id": "vix_low",
+      "condition": "VIX < 14",
+      "severity": "info"
+    },
+    {
+      "id": "watchlist_move",
+      "condition": "any watchlist ticker moves > 5%",
+      "severity": "warn"
+    },
+    {
+      "id": "spy_drop",
+      "condition": "SPY drops > 2% intraday",
+      "severity": "critical"
+    }
+  ],
+  "triggered": [
+    {
+      "id": "watchlist_move",
+      "ticker": "SOFI",
+      "timestamp": "2026-02-17T12:10:00-05:00",
+      "detail": "SOFI down -5.70% ($16.72, prev close $17.73)",
+      "severity": "warn"
+    }
+  ]
+}
