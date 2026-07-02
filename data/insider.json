@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-01T23:26:30.673852",
-  "from_date": "2026-06-01",
-  "to_date": "2026-07-01",
+  "last_updated": "2026-07-02T23:54:04.595548",
+  "from_date": "2026-06-02",
+  "to_date": "2026-07-02",
   "transactions": [
     {
       "ticker": "JPM",
@@ -662,72 +662,6 @@
       "shares": 24645,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 485527,
-      "price": 266.19,
-      "value": 129242432.13
-    },
-    {
-      "ticker": "NIO",
-      "name": "Qin Lihong",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-01",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 319662,
-      "price": 5.6,
-      "value": 1790107.2
-    },
-    {
-      "ticker": "NIO",
-      "name": "Qin Lihong",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-01",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 469662,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NIO",
-      "name": "Zhou Xin",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-01",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 316167,
-      "price": 5.6,
-      "value": 1770535.2
-    },
-    {
-      "ticker": "NIO",
-      "name": "Zhou Xin",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-01",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 416167,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NIO",
-      "name": "Qu Yu",
-      "date": "2026-06-01",
-      "filing_date": "2026-06-01",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 315088,
-      "price": 5.6,
-      "value": 1764492.7999999998
     }
   ]
 }
