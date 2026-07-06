@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-03T23:54:46.449407",
-  "from_date": "2026-06-03",
-  "to_date": "2026-07-03",
+  "last_updated": "2026-07-06T23:56:32.909336",
+  "from_date": "2026-06-06",
+  "to_date": "2026-07-06",
   "transactions": [
     {
       "ticker": "JPM",
@@ -640,28 +640,6 @@
       "shares": 22039,
       "price": 402.197,
       "value": 8864019.683
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-06-05",
-      "filing_date": "2026-06-09",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 58844,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-06-05",
-      "filing_date": "2026-06-09",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 24645,
-      "price": 0,
-      "value": 0
     }
   ]
 }
