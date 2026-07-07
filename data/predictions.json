@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-07T08:28:16.954300",
-  "timestamp": "2026-07-07T08:28:16.954300",
+  "last_updated": "2026-07-07T23:43:42.850341",
+  "timestamp": "2026-07-07T23:43:42.850341",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -14,14 +14,14 @@
       "direction": "NEUTRAL",
       "confidence": 55,
       "horizon": "1 week",
-      "rationale": "VIX: 15.8 vs 20-day avg: 17.8. Normal volatility range"
+      "rationale": "VIX: 16.1 vs 20-day avg: 17.8. Normal volatility range"
     },
     {
       "name": "Pulse Momentum",
       "direction": "BULLISH",
-      "confidence": 48,
+      "confidence": 51,
       "horizon": "3-5 days",
-      "rationale": "5-day avg pulse: 61.1, trend: +22.1. Positive pulse but watch for exhaustion"
+      "rationale": "5-day avg pulse: 64.7, trend: +16.0. Positive pulse but watch for exhaustion"
     }
   ]
 }
