@@ -1,8 +1,294 @@
 {
-  "last_updated": "2026-07-08T23:58:22.269228",
-  "from_date": "2026-06-08",
-  "to_date": "2026-07-08",
+  "last_updated": "2026-07-09T23:56:38.922886",
+  "from_date": "2026-06-09",
+  "to_date": "2026-07-09",
   "transactions": [
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-07-02",
+      "filing_date": "2026-07-07",
+      "type": "BUY",
+      "code": "C",
+      "shares": 3663598,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-07-02",
+      "filing_date": "2026-07-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 599899,
+      "price": 130,
+      "value": 77986870
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-07-02",
+      "filing_date": "2026-07-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 642786,
+      "price": 130,
+      "value": 83562180
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-07-02",
+      "filing_date": "2026-07-07",
+      "type": "BUY",
+      "code": "C",
+      "shares": 677786,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Loop Paula",
+      "date": "2026-07-02",
+      "filing_date": "2026-07-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 63674,
+      "price": 120,
+      "value": 7640880
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Treseder Oluwadara Johnson",
+      "date": "2026-07-02",
+      "filing_date": "2026-07-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 72442,
+      "price": 120,
+      "value": 8693040
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Treseder Oluwadara Johnson",
+      "date": "2026-07-02",
+      "filing_date": "2026-07-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 74317,
+      "price": 115,
+      "value": 8546455
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Quirk Steven M.",
+      "date": "2026-07-02",
+      "filing_date": "2026-07-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 62612,
+      "price": 119.96,
+      "value": 7510935.52
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 484527,
+      "price": 239.77,
+      "value": 116175038.79
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Coxe Tench",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-06",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 25171360,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Kimmitt Robert M",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-06",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3443,
+      "price": 607.75,
+      "value": 2092483.25
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Arnold Frances",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-06",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 980,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ferguson Roger W. Jr.",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-06",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 980,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Washington Robin L",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-06",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 980,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-06",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 980,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Walker John Kent",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-01",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 8143,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hoag Jay C",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 842,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Rice Susan E",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 842,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Karbowski Jeffrey William",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 983,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Sweeney Anne M",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 842,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Smith Bradford L",
+      "date": "2026-07-01",
+      "filing_date": "2026-07-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 842,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Hegeman John William",
+      "date": "2026-06-30",
+      "filing_date": "2026-07-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 162,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Rometty Virginia M",
+      "date": "2026-06-30",
+      "filing_date": "2026-07-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 15032,
+      "price": 327.33,
+      "value": 4920424.56
+    },
+    {
+      "ticker": "JPM",
+      "name": "Novakovic Phebe N",
+      "date": "2026-06-30",
+      "filing_date": "2026-07-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 13583,
+      "price": 327.33,
+      "value": 4446123.39
+    },
+    {
+      "ticker": "JPM",
+      "name": "Burke Stephen B",
+      "date": "2026-06-30",
+      "filing_date": "2026-07-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 208303,
+      "price": 327.33,
+      "value": 68183820.99
+    },
+    {
+      "ticker": "JPM",
+      "name": "Hobson Mellody L",
+      "date": "2026-06-30",
+      "filing_date": "2026-07-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 29966,
+      "price": 327.33,
+      "value": 9808770.78
+    },
     {
       "ticker": "JPM",
       "name": "Rohrbaugh Troy L",
@@ -11,39 +297,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 90321,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Piepszak Jennifer",
-      "date": "2026-06-24",
-      "filing_date": "2026-06-26",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 60214,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Petno Douglas B",
-      "date": "2026-06-24",
-      "filing_date": "2026-06-26",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 90321,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Erdoes Mary E.",
-      "date": "2026-06-24",
-      "filing_date": "2026-06-26",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 60214,
       "price": 0,
       "value": 0
     },
@@ -112,17 +365,6 @@
       "shares": 115794,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Friedman Stacey",
-      "date": "2026-06-22",
-      "filing_date": "2026-06-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 40961,
-      "price": 330.7337,
-      "value": 13547183.0857
     },
     {
       "ticker": "SOFI",
@@ -202,72 +444,6 @@
       "value": 174357349.81
     },
     {
-      "ticker": "NVDA",
-      "name": "Puri Ajay K",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-23",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 600321,
-      "price": 207.41,
-      "value": 124512578.61
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 79690,
-      "price": 78.0097,
-      "value": 6216592.993
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 93490,
-      "price": 77.2089,
-      "value": 7218260.061
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 115680,
-      "price": 11.722,
-      "value": 1356000.96
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 110350,
-      "price": 12.33,
-      "value": 1360615.5
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 105280,
-      "price": 10.263,
-      "value": 1080488.64
-    },
-    {
       "ticker": "TSLA",
       "name": "Musk Elon",
       "date": "2026-06-16",
@@ -310,61 +486,6 @@
       "shares": 1111095,
       "price": 134.4404,
       "value": 149376056.238
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1118095,
-      "price": 133.8146,
-      "value": 149617435.187
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1122095,
-      "price": 132.548,
-      "value": 148731448.06
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1122595,
-      "price": 131.5443,
-      "value": 147670973.4585
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1126195,
-      "price": 130.4783,
-      "value": 146944009.06849998
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 59927,
-      "price": 98.84,
-      "value": 5923184.680000001
     },
     {
       "ticker": "META",
@@ -411,17 +532,6 @@
       "value": 0
     },
     {
-      "ticker": "META",
-      "name": "Houston Andrew",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-17",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 612,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "MSFT",
       "name": "Jolla Alice L.",
       "date": "2026-06-15",
@@ -442,61 +552,6 @@
       "shares": 45445,
       "price": 390.74,
       "value": 17757179.3
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 67627,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 59856,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 28595,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Porat Ruth",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 67627,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Porat Ruth",
-      "date": "2026-06-15",
-      "filing_date": "2026-06-18",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 59856,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "AMD",
@@ -543,50 +598,6 @@
       "value": 0
     },
     {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-15",
-      "type": "BUY",
-      "code": "C",
-      "shares": 46948479,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2414,
-      "price": 92.5225,
-      "value": 223349.31499999997
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 12806,
-      "price": 91.5854,
-      "value": 1172842.6324
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 19254,
-      "price": 90.4176,
-      "value": 1740900.4703999998
-    },
-    {
       "ticker": "MSFT",
       "name": "Di Sibio Carmine",
       "date": "2026-06-11",
@@ -629,17 +640,6 @@
       "shares": 2896899,
       "price": 476.43,
       "value": 1380169590.57
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-06-08",
-      "filing_date": "2026-06-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 22039,
-      "price": 402.197,
-      "value": 8864019.683
     }
   ]
 }
