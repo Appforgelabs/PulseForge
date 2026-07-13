@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-10T23:45:42.800026",
-  "from_date": "2026-06-10",
-  "to_date": "2026-07-10",
+  "last_updated": "2026-07-13T23:41:10.081648",
+  "from_date": "2026-06-13",
+  "to_date": "2026-07-13",
   "transactions": [
     {
       "ticker": "PLTR",
@@ -585,61 +585,6 @@
       "shares": 1239687,
       "price": 84.85,
       "value": 105187441.94999999
-    },
-    {
-      "ticker": "AMD",
-      "name": "Su Lisa T",
-      "date": "2026-06-12",
-      "filing_date": "2026-06-12",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 2866899,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Di Sibio Carmine",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-12",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 13,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Walmsley Emma N",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-12",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1263,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Rainey John D",
-      "date": "2026-06-11",
-      "filing_date": "2026-06-12",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 296,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Su Lisa T",
-      "date": "2026-06-10",
-      "filing_date": "2026-06-12",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2896899,
-      "price": 476.43,
-      "value": 1380169590.57
     }
   ]
 }
