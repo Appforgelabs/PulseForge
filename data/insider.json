@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-16T23:46:17.989001",
-  "from_date": "2026-06-16",
-  "to_date": "2026-07-16",
+  "last_updated": "2026-07-17T23:40:45.831377",
+  "from_date": "2026-06-17",
+  "to_date": "2026-07-17",
   "transactions": [
     {
       "ticker": "HOOD",
@@ -486,39 +486,6 @@
       "shares": 840641,
       "price": 207.41,
       "value": 174357349.81
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Musk Elon",
-      "date": "2026-06-16",
-      "filing_date": "2026-06-17",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 710172677,
-      "price": 404.66,
-      "value": 287378475474.82
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Musk Elon",
-      "date": "2026-06-16",
-      "filing_date": "2026-06-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 727704534,
-      "price": 23.34,
-      "value": 16984623823.56
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Lavet Robert S",
-      "date": "2026-06-16",
-      "filing_date": "2026-06-17",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 86565,
-      "price": 17.606,
-      "value": 1524063.3900000001
     }
   ]
 }
