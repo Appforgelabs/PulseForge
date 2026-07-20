@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-17T23:40:45.831377",
-  "from_date": "2026-06-17",
-  "to_date": "2026-07-17",
+  "last_updated": "2026-07-20T23:44:58.703800",
+  "from_date": "2026-06-20",
+  "to_date": "2026-07-20",
   "transactions": [
     {
       "ticker": "HOOD",
@@ -409,83 +409,6 @@
       "shares": 78201,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Lavet Robert S",
-      "date": "2026-06-18",
-      "filing_date": "2026-06-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 88200,
-      "price": 17.546,
-      "value": 1547557.2
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-06-18",
-      "filing_date": "2026-06-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5207271,
-      "price": 210.4372,
-      "value": 1095803528.8811998
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-06-18",
-      "filing_date": "2026-06-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5772886,
-      "price": 209.6952,
-      "value": 1210546484.3472
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Meltzer Gary",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-22",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 71281,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Lavet Robert S",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-22",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 89388,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Teter Timothy S.",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-23",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 334436,
-      "price": 207.41,
-      "value": 69365370.76
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Kress Colette",
-      "date": "2026-06-17",
-      "filing_date": "2026-06-23",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 840641,
-      "price": 207.41,
-      "value": 174357349.81
     }
   ]
 }
