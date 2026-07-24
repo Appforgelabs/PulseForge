@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-23T23:47:50.038760",
-  "from_date": "2026-06-23",
-  "to_date": "2026-07-23",
+  "last_updated": "2026-07-24T23:53:24.166294",
+  "from_date": "2026-06-24",
+  "to_date": "2026-07-24",
   "transactions": [
     {
       "ticker": "SOFI",
@@ -13,6 +13,116 @@
       "shares": 367728,
       "price": 17.1892,
       "value": 6320950.1376
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Gomez Aidan N.",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 63177,
+      "price": 17.45,
+      "value": 1102438.65
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Gomez Aidan N.",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 63520,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Schwartz Sanford Harold",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 213002,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Krawiec Peter",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 27558,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Krafcik John",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 79393,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 81109,
+      "price": 645.85,
+      "value": 52384247.65
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 6736,
+      "price": 645.85,
+      "value": 4350445.600000001
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1688,
+      "price": 645.85,
+      "value": 1090194.8
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 6736,
+      "price": 645.85,
+      "value": 4350445.600000001
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-07-20",
+      "filing_date": "2026-07-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7127,
+      "price": 645.85,
+      "value": 4602972.95
     },
     {
       "ticker": "HOOD",
@@ -68,72 +178,6 @@
       "shares": 292820,
       "price": 114.3314,
       "value": 33478520.548
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Boone Karen",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 110000,
-      "price": 20,
-      "value": 2200000
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 81925,
-      "price": 602.7466,
-      "value": 49380015.205
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 82099,
-      "price": 601.4428,
-      "value": 49377852.4372
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 82413,
-      "price": 600.3189,
-      "value": 49474081.5057
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6900,
-      "price": 600,
-      "value": 4140000
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1802,
-      "price": 600,
-      "value": 1081200
     },
     {
       "ticker": "PLTR",
