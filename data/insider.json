@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-07-24T23:53:24.166294",
-  "from_date": "2026-06-24",
-  "to_date": "2026-07-24",
+  "last_updated": "2026-07-27T23:53:01.722366",
+  "from_date": "2026-06-27",
+  "to_date": "2026-07-27",
   "transactions": [
+    {
+      "ticker": "PLTR",
+      "name": "Buckley Jeffrey",
+      "date": "2026-07-22",
+      "filing_date": "2026-07-24",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 17124,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "SOFI",
       "name": "Keough Kelli",
@@ -398,17 +409,6 @@
       "shares": 29966,
       "price": 327.33,
       "value": 9808770.78
-    },
-    {
-      "ticker": "JPM",
-      "name": "Rohrbaugh Troy L",
-      "date": "2026-06-24",
-      "filing_date": "2026-06-26",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 90321,
-      "price": 0,
-      "value": 0
     }
   ]
 }
