@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-27T23:53:01.722366",
-  "from_date": "2026-06-27",
-  "to_date": "2026-07-27",
+  "last_updated": "2026-07-28T23:48:36.061649",
+  "from_date": "2026-06-28",
+  "to_date": "2026-07-28",
   "transactions": [
     {
       "ticker": "PLTR",
@@ -136,6 +136,138 @@
       "value": 4602972.95
     },
     {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1095095,
+      "price": 136.79,
+      "value": 149798045.04999998
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1095195,
+      "price": 135.715,
+      "value": 148634389.425
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1096195,
+      "price": 134.5549,
+      "value": 147498408.6055
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Moore Alexander D.",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1099295,
+      "price": 133.7505,
+      "value": 147031255.89749998
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 55945,
+      "price": 116.04,
+      "value": 6491857.800000001
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 56245,
+      "price": 115.2851,
+      "value": 6484210.4495
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 58527,
+      "price": 113.8713,
+      "value": 6664545.5751
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Verma Shiv",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 59327,
+      "price": 112.975,
+      "value": 6702467.824999999
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Coleman Amy",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-15",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 45413,
+      "price": 384.93,
+      "value": 17480826.09
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 7369,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1233687,
+      "price": 556.43,
+      "value": 686460457.41
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-07-15",
+      "filing_date": "2026-07-17",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 1239687,
+      "price": 84.85,
+      "value": 105187441.94999999
+    },
+    {
       "ticker": "HOOD",
       "name": "Tenev Vladimir",
       "date": "2026-07-06",
@@ -143,94 +275,6 @@
       "type": "BUY",
       "code": "C",
       "shares": 48294572,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 59824,
-      "price": 117.2706,
-      "value": 7015596.3744
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 175597,
-      "price": 116.3753,
-      "value": 20435153.5541
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 243643,
-      "price": 115.0297,
-      "value": 28026181.197100002
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 292820,
-      "price": 114.3314,
-      "value": 33478520.548
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-07-02",
-      "filing_date": "2026-07-07",
-      "type": "BUY",
-      "code": "C",
-      "shares": 3663598,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-07-02",
-      "filing_date": "2026-07-07",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 599899,
-      "price": 130,
-      "value": 77986870
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-07-02",
-      "filing_date": "2026-07-07",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 642786,
-      "price": 130,
-      "value": 83562180
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-07-02",
-      "filing_date": "2026-07-07",
-      "type": "BUY",
-      "code": "C",
-      "shares": 677786,
       "price": 0,
       "value": 0
     },

@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-27T23:52:39.720792",
+  "last_updated": "2026-07-28T23:48:13.485120",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 309.22,
-      "change_pct": -1.2171,
+      "price": 307.44,
+      "change_pct": -0.5756,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -12,17 +12,17 @@
     },
     {
       "ticker": "PLTR",
-      "price": 131.53,
-      "change_pct": 7.0046,
+      "price": 123.53,
+      "change_pct": -6.0823,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 231.39,
-      "change_pct": -0.3102,
+      "price": 230.86,
+      "change_pct": -0.2291,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -30,37 +30,37 @@
     },
     {
       "ticker": "HOOD",
-      "price": 95.65,
-      "change_pct": 0.7797,
+      "price": 92.76,
+      "change_pct": -3.0214,
+      "volume": null,
+      "signal": "BEARISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "SOFI",
+      "price": 16.74,
+      "change_pct": -0.8294,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "SOFI",
-      "price": 16.88,
-      "change_pct": 2.5516,
-      "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
       "ticker": "RIVN",
-      "price": 16.48,
-      "change_pct": 4.0404,
+      "price": 16.69,
+      "change_pct": 1.2743,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 4.62,
-      "change_pct": 2.8953,
+      "price": 4.68,
+      "change_pct": 1.2987,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     }
