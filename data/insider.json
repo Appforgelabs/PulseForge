@@ -1,8 +1,140 @@
 {
-  "last_updated": "2026-07-29T23:51:19.137467",
-  "from_date": "2026-06-29",
-  "to_date": "2026-07-29",
+  "last_updated": "2026-07-30T23:51:38.597920",
+  "from_date": "2026-06-30",
+  "to_date": "2026-07-30",
   "transactions": [
+    {
+      "ticker": "JPM",
+      "name": "Friedman Stacey",
+      "date": "2026-07-27",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 40795,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-07-25",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "C",
+      "shares": 27835,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-07-25",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 745,
+      "price": 319.09,
+      "value": 237722.05
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-07-25",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "C",
+      "shares": 765,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-07-25",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 1194,
+      "price": 319.09,
+      "value": 380993.45999999996
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-07-25",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "C",
+      "shares": 1213,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-07-24",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "C",
+      "shares": 46899256,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-07-24",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 300,
+      "price": 97.682,
+      "value": 29304.600000000002
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-07-24",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1800,
+      "price": 96.6033,
+      "value": 173885.94
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-07-24",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3900,
+      "price": 95.4895,
+      "value": 372409.05000000005
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-07-24",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 20971,
+      "price": 94.6953,
+      "value": 1985855.1363000001
+    },
+    {
+      "ticker": "JPM",
+      "name": "Petno Douglas B",
+      "date": "2026-07-24",
+      "filing_date": "2026-07-28",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 223755,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "PLTR",
       "name": "Buckley Jeffrey",
@@ -180,50 +312,6 @@
       "value": 147031255.89749998
     },
     {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 55945,
-      "price": 116.04,
-      "value": 6491857.800000001
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 56245,
-      "price": 115.2851,
-      "value": 6484210.4495
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 58527,
-      "price": 113.8713,
-      "value": 6664545.5751
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 59327,
-      "price": 112.975,
-      "value": 6702467.824999999
-    },
-    {
       "ticker": "MSFT",
       "name": "Coleman Amy",
       "date": "2026-07-15",
@@ -268,17 +356,6 @@
       "value": 105187441.94999999
     },
     {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-07-06",
-      "filing_date": "2026-07-08",
-      "type": "BUY",
-      "code": "C",
-      "shares": 48294572,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "AMZN",
       "name": "Herrington Douglas J",
       "date": "2026-07-01",
@@ -297,61 +374,6 @@
       "type": "BUY",
       "code": "Gift",
       "shares": 25171360,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-06",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 980,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Ferguson Roger W. Jr.",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-06",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 980,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Washington Robin L",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-06",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 980,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-06",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 980,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Walker John Kent",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-01",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 8143,
       "price": 0,
       "value": 0
     },
@@ -442,17 +464,6 @@
       "shares": 208303,
       "price": 327.33,
       "value": 68183820.99
-    },
-    {
-      "ticker": "JPM",
-      "name": "Hobson Mellody L",
-      "date": "2026-06-30",
-      "filing_date": "2026-07-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 29966,
-      "price": 327.33,
-      "value": 9808770.78
     }
   ]
 }
