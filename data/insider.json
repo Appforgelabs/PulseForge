@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-30T23:51:38.597920",
-  "from_date": "2026-06-30",
-  "to_date": "2026-07-30",
+  "last_updated": "2026-07-31T23:51:32.519892",
+  "from_date": "2026-07-01",
+  "to_date": "2026-07-31",
   "transactions": [
     {
       "ticker": "JPM",
@@ -431,39 +431,6 @@
       "shares": 842,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Rometty Virginia M",
-      "date": "2026-06-30",
-      "filing_date": "2026-07-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 15032,
-      "price": 327.33,
-      "value": 4920424.56
-    },
-    {
-      "ticker": "JPM",
-      "name": "Novakovic Phebe N",
-      "date": "2026-06-30",
-      "filing_date": "2026-07-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 13583,
-      "price": 327.33,
-      "value": 4446123.39
-    },
-    {
-      "ticker": "JPM",
-      "name": "Burke Stephen B",
-      "date": "2026-06-30",
-      "filing_date": "2026-07-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 208303,
-      "price": 327.33,
-      "value": 68183820.99
     }
   ]
 }
