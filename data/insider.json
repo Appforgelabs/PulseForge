@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-07-31T23:51:32.519892",
-  "from_date": "2026-07-01",
-  "to_date": "2026-07-31",
+  "last_updated": "2026-08-03T23:57:47.836751",
+  "from_date": "2026-07-04",
+  "to_date": "2026-08-03",
   "transactions": [
+    {
+      "ticker": "GOOGL",
+      "name": "Arnold Frances",
+      "date": "2026-07-30",
+      "filing_date": "2026-07-30",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 18914,
+      "price": 333.39,
+      "value": 6305738.46
+    },
     {
       "ticker": "JPM",
       "name": "Friedman Stacey",
@@ -57,17 +68,6 @@
       "shares": 1194,
       "price": 319.09,
       "value": 380993.45999999996
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-07-25",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "C",
-      "shares": 1213,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "HOOD",
@@ -354,83 +354,6 @@
       "shares": 1239687,
       "price": 84.85,
       "value": 105187441.94999999
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-02",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 484527,
-      "price": 239.77,
-      "value": 116175038.79
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Coxe Tench",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-06",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 25171360,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hoag Jay C",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 842,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Rice Susan E",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 842,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Karbowski Jeffrey William",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 983,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Sweeney Anne M",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 842,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-07-01",
-      "filing_date": "2026-07-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 842,
-      "price": 0,
-      "value": 0
     }
   ]
 }
