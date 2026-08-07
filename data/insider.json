@@ -1,8 +1,206 @@
 {
-  "last_updated": "2026-08-05T23:45:30.070298",
-  "from_date": "2026-07-06",
-  "to_date": "2026-08-05",
+  "last_updated": "2026-08-07T01:39:16.205076",
+  "from_date": "2026-07-08",
+  "to_date": "2026-08-07",
   "transactions": [
+    {
+      "ticker": "MSFT",
+      "name": "Numoto Takeshi",
+      "date": "2026-08-04",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 42677,
+      "price": 496.48,
+      "value": 21188276.96
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hyman David A",
+      "date": "2026-08-04",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 316100,
+      "price": 72.8463,
+      "value": 23026715.43
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Sarandos Theodore A",
+      "date": "2026-08-04",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 178954,
+      "price": 73.3532,
+      "value": 13126848.5528
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 483527,
+      "price": 278.39,
+      "value": 134609081.53
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Bezos Jeffrey P",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 879739004,
+      "price": 286.4083,
+      "value": 251964552579.3332
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 461396,
+      "price": 91.8043,
+      "value": 42358136.8028
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 464296,
+      "price": 90.9415,
+      "value": 42223774.684
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 467696,
+      "price": 90.061,
+      "value": 42121169.456
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 469896,
+      "price": 89.0767,
+      "value": 41856785.0232
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 470196,
+      "price": 87.195,
+      "value": 40998740.22
+    },
+    {
+      "ticker": "META",
+      "name": "Kimmitt Robert M",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2943,
+      "price": 561.56,
+      "value": 1652671.0799999998
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hoag Jay C",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 852,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hyman David A",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 26454,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hyman David A",
+      "date": "2026-08-03",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 15150,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Alford Peggy",
+      "date": "2026-07-31",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2840,
+      "price": 543.56,
+      "value": 1543710.4
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-07-31",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "C",
+      "shares": 100119267,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-07-31",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 1231037,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-07-31",
+      "filing_date": "2026-08-04",
+      "type": "BUY",
+      "code": "C",
+      "shares": 591690,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "GOOGL",
       "name": "Arnold Frances",
@@ -68,61 +266,6 @@
       "shares": 1194,
       "price": 319.09,
       "value": 380993.45999999996
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-07-24",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "C",
-      "shares": 46899256,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-07-24",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 300,
-      "price": 97.682,
-      "value": 29304.600000000002
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-07-24",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1800,
-      "price": 96.6033,
-      "value": 173885.94
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-07-24",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3900,
-      "price": 95.4895,
-      "value": 372409.05000000005
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-07-24",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 20971,
-      "price": 94.6953,
-      "value": 1985855.1363000001
     },
     {
       "ticker": "JPM",
@@ -211,61 +354,6 @@
       "shares": 79393,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 81109,
-      "price": 645.85,
-      "value": 52384247.65
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6736,
-      "price": 645.85,
-      "value": 4350445.600000001
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1688,
-      "price": 645.85,
-      "value": 1090194.8
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6736,
-      "price": 645.85,
-      "value": 4350445.600000001
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 7127,
-      "price": 645.85,
-      "value": 4602972.95
     },
     {
       "ticker": "PLTR",
