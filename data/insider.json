@@ -1,8 +1,107 @@
 {
-  "last_updated": "2026-08-07T23:22:46.536718",
-  "from_date": "2026-07-08",
-  "to_date": "2026-08-07",
+  "last_updated": "2026-08-10T23:23:47.053635",
+  "from_date": "2026-07-11",
+  "to_date": "2026-08-10",
   "transactions": [
+    {
+      "ticker": "NFLX",
+      "name": "Peters Gregory K",
+      "date": "2026-08-06",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 120931,
+      "price": 73.543,
+      "value": 8893628.533000002
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Althoff Judson",
+      "date": "2026-08-05",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 100447,
+      "price": 487.893,
+      "value": 49007388.171
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Hennessy John L.",
+      "date": "2026-08-05",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 3219,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Barton Richard N",
+      "date": "2026-08-05",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 950,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Barton Richard N",
+      "date": "2026-08-05",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 246,
+      "price": 75.1,
+      "value": 18474.6
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Barton Richard N",
+      "date": "2026-08-05",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 2406,
+      "price": 20.107,
+      "value": 48377.441999999995
+    },
+    {
+      "ticker": "META",
+      "name": "Andreessen Marc L",
+      "date": "2026-08-04",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 45,
+      "price": 590.39,
+      "value": 26567.55
+    },
+    {
+      "ticker": "META",
+      "name": "Andreessen Marc L",
+      "date": "2026-08-04",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 89,
+      "price": 589.24,
+      "value": 52442.36
+    },
+    {
+      "ticker": "META",
+      "name": "Andreessen Marc L",
+      "date": "2026-08-04",
+      "filing_date": "2026-08-06",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 176,
+      "price": 588.16,
+      "value": 103516.15999999999
+    },
     {
       "ticker": "MSFT",
       "name": "Numoto Takeshi",
@@ -24,17 +123,6 @@
       "shares": 316100,
       "price": 72.8463,
       "value": 23026715.43
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Sarandos Theodore A",
-      "date": "2026-08-04",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 178954,
-      "price": 73.3532,
-      "value": 13126848.5528
     },
     {
       "ticker": "AMZN",
@@ -125,39 +213,6 @@
       "value": 1652671.0799999998
     },
     {
-      "ticker": "NFLX",
-      "name": "Hoag Jay C",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 852,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hyman David A",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 26454,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hyman David A",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 15150,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "META",
       "name": "Alford Peggy",
       "date": "2026-07-31",
@@ -167,39 +222,6 @@
       "shares": 2840,
       "price": 543.56,
       "value": 1543710.4
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-07-31",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "C",
-      "shares": 100119267,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-07-31",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 1231037,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-07-31",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "C",
-      "shares": 591690,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "GOOGL",
@@ -255,17 +277,6 @@
       "shares": 765,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-07-25",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 1194,
-      "price": 319.09,
-      "value": 380993.45999999996
     },
     {
       "ticker": "JPM",
