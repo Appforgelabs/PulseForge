@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-14T23:10:43.588873",
-  "from_date": "2026-07-15",
-  "to_date": "2026-08-14",
+  "last_updated": "2026-08-17T23:11:43.257211",
+  "from_date": "2026-07-18",
+  "to_date": "2026-08-17",
   "transactions": [
     {
       "ticker": "NFLX",
@@ -365,94 +365,6 @@
       "shares": 79393,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1095095,
-      "price": 136.79,
-      "value": 149798045.04999998
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1095195,
-      "price": 135.715,
-      "value": 148634389.425
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1096195,
-      "price": 134.5549,
-      "value": 147498408.6055
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1099295,
-      "price": 133.7505,
-      "value": 147031255.89749998
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Coleman Amy",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-15",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 45413,
-      "price": 384.93,
-      "value": 17480826.09
-    },
-    {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 7369,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1233687,
-      "price": 556.43,
-      "value": 686460457.41
-    },
-    {
-      "ticker": "AMD",
-      "name": "Papermaster Mark D",
-      "date": "2026-07-15",
-      "filing_date": "2026-07-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 1239687,
-      "price": 84.85,
-      "value": 105187441.94999999
     }
   ]
 }
