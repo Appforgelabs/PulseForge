@@ -1,8 +1,250 @@
 {
-  "last_updated": "2026-08-17T23:11:43.257211",
-  "from_date": "2026-07-18",
-  "to_date": "2026-08-17",
+  "last_updated": "2026-08-18T23:11:16.913124",
+  "from_date": "2026-07-19",
+  "to_date": "2026-08-18",
   "transactions": [
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-08-11",
+      "filing_date": "2026-08-12",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 292786,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-08-11",
+      "filing_date": "2026-08-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 40107,
+      "price": 307.75,
+      "value": 12342929.25
+    },
+    {
+      "ticker": "JPM",
+      "name": "Leopold Robin",
+      "date": "2026-08-11",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 73547,
+      "price": 361.4072,
+      "value": 26580415.3384
+    },
+    {
+      "ticker": "AMD",
+      "name": "Hahn Ava",
+      "date": "2026-08-11",
+      "filing_date": "2026-08-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 17644,
+      "price": 474.75,
+      "value": 8376489.0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-08-10",
+      "filing_date": "2026-08-12",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 587288,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-08-10",
+      "filing_date": "2026-08-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 79885,
+      "price": 600,
+      "value": 47931000
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-08-10",
+      "filing_date": "2026-08-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 6490,
+      "price": 600,
+      "value": 3894000
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-08-10",
+      "filing_date": "2026-08-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1517,
+      "price": 600,
+      "value": 910200
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-08-10",
+      "filing_date": "2026-08-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 6490,
+      "price": 600,
+      "value": 3894000
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-08-10",
+      "filing_date": "2026-08-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5856,
+      "price": 607.14,
+      "value": 3555411.84
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Neumann Spencer Adam",
+      "date": "2026-08-10",
+      "filing_date": "2026-08-10",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 73787,
+      "price": 75.7901,
+      "value": 5592324.1087
+    },
+    {
+      "ticker": "AMD",
+      "name": "Guido Philip",
+      "date": "2026-08-09",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 3886,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Guido Philip",
+      "date": "2026-08-09",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 2643,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Guido Philip",
+      "date": "2026-08-09",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 85823,
+      "price": 483.36,
+      "value": 41483405.28
+    },
+    {
+      "ticker": "AMD",
+      "name": "Guido Philip",
+      "date": "2026-08-09",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 87629,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Sergey Brin",
+      "date": "2026-08-07",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "C",
+      "shares": 357921378,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Sergey Brin",
+      "date": "2026-08-07",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 359159912,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Sergey Brin",
+      "date": "2026-08-07",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 37469,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Sergey Brin",
+      "date": "2026-08-07",
+      "filing_date": "2026-08-11",
+      "type": "BUY",
+      "code": "C",
+      "shares": 710669,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-08-06",
+      "filing_date": "2026-08-10",
+      "type": "BUY",
+      "code": "C",
+      "shares": 3628598,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-08-06",
+      "filing_date": "2026-08-10",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 642786,
+      "price": 157.4435,
+      "value": 101202477.591
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-08-06",
+      "filing_date": "2026-08-10",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 644821,
+      "price": 156.7791,
+      "value": 101094456.0411
+    },
     {
       "ticker": "NFLX",
       "name": "Peters Gregory K",
@@ -70,39 +312,6 @@
       "value": 48377.441999999995
     },
     {
-      "ticker": "META",
-      "name": "Andreessen Marc L",
-      "date": "2026-08-04",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 45,
-      "price": 590.39,
-      "value": 26567.55
-    },
-    {
-      "ticker": "META",
-      "name": "Andreessen Marc L",
-      "date": "2026-08-04",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 89,
-      "price": 589.24,
-      "value": 52442.36
-    },
-    {
-      "ticker": "META",
-      "name": "Andreessen Marc L",
-      "date": "2026-08-04",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 176,
-      "price": 588.16,
-      "value": 103516.15999999999
-    },
-    {
       "ticker": "MSFT",
       "name": "Numoto Takeshi",
       "date": "2026-08-04",
@@ -112,17 +321,6 @@
       "shares": 42677,
       "price": 496.48,
       "value": 21188276.96
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hyman David A",
-      "date": "2026-08-04",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 316100,
-      "price": 72.8463,
-      "value": 23026715.43
     },
     {
       "ticker": "AMZN",
@@ -202,39 +400,6 @@
       "value": 40998740.22
     },
     {
-      "ticker": "META",
-      "name": "Kimmitt Robert M",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2943,
-      "price": 561.56,
-      "value": 1652671.0799999998
-    },
-    {
-      "ticker": "META",
-      "name": "Alford Peggy",
-      "date": "2026-07-31",
-      "filing_date": "2026-08-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2840,
-      "price": 543.56,
-      "value": 1543710.4
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-07-30",
-      "filing_date": "2026-07-30",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 18914,
-      "price": 333.39,
-      "value": 6305738.46
-    },
-    {
       "ticker": "JPM",
       "name": "Friedman Stacey",
       "date": "2026-07-27",
@@ -246,39 +411,6 @@
       "value": 0
     },
     {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-07-25",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "C",
-      "shares": 27835,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-07-25",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 745,
-      "price": 319.09,
-      "value": 237722.05
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-07-25",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "C",
-      "shares": 765,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "JPM",
       "name": "Petno Douglas B",
       "date": "2026-07-24",
@@ -286,17 +418,6 @@
       "type": "BUY",
       "code": "Gift",
       "shares": 223755,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Buckley Jeffrey",
-      "date": "2026-07-22",
-      "filing_date": "2026-07-24",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 17124,
       "price": 0,
       "value": 0
     },
