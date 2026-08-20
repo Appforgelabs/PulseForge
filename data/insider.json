@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-19T23:12:20.828292",
-  "from_date": "2026-07-20",
-  "to_date": "2026-08-19",
+  "last_updated": "2026-08-20T23:14:19.916919",
+  "from_date": "2026-07-21",
+  "to_date": "2026-08-20",
   "transactions": [
     {
       "ticker": "PLTR",
@@ -418,72 +418,6 @@
       "type": "BUY",
       "code": "Gift",
       "shares": 223755,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Keough Kelli",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-21",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 367728,
-      "price": 17.1892,
-      "value": 6320950.1376
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Gomez Aidan N.",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 63177,
-      "price": 17.45,
-      "value": 1102438.65
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Gomez Aidan N.",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 63520,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Schwartz Sanford Harold",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 213002,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Krawiec Peter",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 27558,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Krafcik John",
-      "date": "2026-07-20",
-      "filing_date": "2026-07-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 79393,
       "price": 0,
       "value": 0
     }
