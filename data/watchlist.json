@@ -1,55 +1,55 @@
 {
-  "last_updated": "2026-08-20T23:13:58.636809",
+  "last_updated": "2026-08-21T23:12:13.322848",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 345.13,
-      "change_pct": -1.706,
+      "price": 362.86,
+      "change_pct": 5.1372,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 173.96,
-      "change_pct": -0.7021,
+      "price": 179.94,
+      "change_pct": 3.4376,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 260.11,
-      "change_pct": -2.1554,
-      "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "HOOD",
-      "price": 95.1,
-      "change_pct": -0.6996,
+      "price": 258.63,
+      "change_pct": -0.569,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "SOFI",
-      "price": 17.92,
-      "change_pct": -2.7144,
+      "ticker": "HOOD",
+      "price": 108.13,
+      "change_pct": 13.7014,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "BULLISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "SOFI",
+      "price": 18.91,
+      "change_pct": 5.5246,
+      "volume": null,
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 16.01,
-      "change_pct": 1.78,
+      "price": 16.97,
+      "change_pct": 5.9963,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -57,10 +57,10 @@
     },
     {
       "ticker": "NIO",
-      "price": 4.53,
-      "change_pct": -1.0917,
+      "price": 4.63,
+      "change_pct": 2.2075,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     }
