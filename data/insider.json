@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-21T23:12:32.448573",
-  "from_date": "2026-07-22",
-  "to_date": "2026-08-21",
+  "last_updated": "2026-08-24T23:12:32.555218",
+  "from_date": "2026-07-25",
+  "to_date": "2026-08-24",
   "transactions": [
     {
       "ticker": "PLTR",
@@ -407,17 +407,6 @@
       "type": "BUY",
       "code": "Gift",
       "shares": 40795,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "JPM",
-      "name": "Petno Douglas B",
-      "date": "2026-07-24",
-      "filing_date": "2026-07-28",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 223755,
       "price": 0,
       "value": 0
     }
