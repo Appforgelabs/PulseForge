@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-27T04:07:34.999524",
-  "from_date": "2026-07-28",
-  "to_date": "2026-08-27",
+  "last_updated": "2026-08-28T06:24:59.641999",
+  "from_date": "2026-07-29",
+  "to_date": "2026-08-28",
   "transactions": [
     {
       "ticker": "AMZN",
@@ -13,6 +13,61 @@
       "shares": 41190,
       "price": 259.77,
       "value": 10699926.299999999
+    },
+    {
+      "ticker": "AMD",
+      "name": "Norrod Forrest Eugene",
+      "date": "2026-08-24",
+      "filing_date": "2026-08-26",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 14523,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Norrod Forrest Eugene",
+      "date": "2026-08-24",
+      "filing_date": "2026-08-26",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 373317,
+      "price": 468.14,
+      "value": 174764620.38
+    },
+    {
+      "ticker": "AMD",
+      "name": "Norrod Forrest Eugene",
+      "date": "2026-08-24",
+      "filing_date": "2026-08-26",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 375906,
+      "price": 466.26,
+      "value": 175269931.56
+    },
+    {
+      "ticker": "AMD",
+      "name": "Norrod Forrest Eugene",
+      "date": "2026-08-24",
+      "filing_date": "2026-08-26",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 376506,
+      "price": 465.43,
+      "value": 175237187.58
+    },
+    {
+      "ticker": "AMD",
+      "name": "Norrod Forrest Eugene",
+      "date": "2026-08-24",
+      "filing_date": "2026-08-26",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 377961,
+      "price": 464.27,
+      "value": 175475953.47
     },
     {
       "ticker": "PLTR",
@@ -147,17 +202,6 @@
       "value": 26580415.3384
     },
     {
-      "ticker": "AMD",
-      "name": "Hahn Ava",
-      "date": "2026-08-11",
-      "filing_date": "2026-08-13",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 17644,
-      "price": 474.75,
-      "value": 8376489.0
-    },
-    {
       "ticker": "META",
       "name": "Olivan Javier",
       "date": "2026-08-10",
@@ -222,50 +266,6 @@
       "shares": 73787,
       "price": 75.7901,
       "value": 5592324.1087
-    },
-    {
-      "ticker": "AMD",
-      "name": "Guido Philip",
-      "date": "2026-08-09",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 3886,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Guido Philip",
-      "date": "2026-08-09",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 2643,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Guido Philip",
-      "date": "2026-08-09",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 85823,
-      "price": 483.36,
-      "value": 41483405.28
-    },
-    {
-      "ticker": "AMD",
-      "name": "Guido Philip",
-      "date": "2026-08-09",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 87629,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "GOOGL",
