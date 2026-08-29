@@ -1,8 +1,151 @@
 {
-  "last_updated": "2026-08-28T06:24:59.641999",
-  "from_date": "2026-07-29",
-  "to_date": "2026-08-28",
+  "last_updated": "2026-08-29T03:56:49.268391",
+  "from_date": "2026-07-30",
+  "to_date": "2026-08-29",
   "transactions": [
+    {
+      "ticker": "AMZN",
+      "name": "Bezos Jeffrey P",
+      "date": "2026-08-26",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 879323424,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Bezos Jeffrey P",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 879554061,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 37229,
+      "price": 310.95,
+      "value": 11576357.549999999
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Schindler Philipp",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 925318,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Schindler Philipp",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 74248,
+      "price": 344.59,
+      "value": 25585118.319999997
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Schindler Philipp",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 76263,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 140506,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Ashkenazi Anat",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 58951,
+      "price": 344.59,
+      "value": 20313925.09
+    },
+    {
+      "ticker": "AMD",
+      "name": "Hu Jean X.",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 160979,
+      "price": 477.84,
+      "value": 76922205.36
+    },
+    {
+      "ticker": "AMD",
+      "name": "Hu Jean X.",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 161079,
+      "price": 476.53,
+      "value": 76758975.86999999
+    },
+    {
+      "ticker": "AMD",
+      "name": "Hu Jean X.",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 164179,
+      "price": 475.7,
+      "value": 78099950.3
+    },
+    {
+      "ticker": "AMD",
+      "name": "Hu Jean X.",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 165608,
+      "price": 474.43,
+      "value": 78569403.44
+    },
+    {
+      "ticker": "AMD",
+      "name": "Hu Jean X.",
+      "date": "2026-08-25",
+      "filing_date": "2026-08-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 169439,
+      "price": 473.43,
+      "value": 80217505.77
+    },
     {
       "ticker": "AMZN",
       "name": "Zapolsky David",
@@ -13,61 +156,6 @@
       "shares": 41190,
       "price": 259.77,
       "value": 10699926.299999999
-    },
-    {
-      "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
-      "date": "2026-08-24",
-      "filing_date": "2026-08-26",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 14523,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
-      "date": "2026-08-24",
-      "filing_date": "2026-08-26",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 373317,
-      "price": 468.14,
-      "value": 174764620.38
-    },
-    {
-      "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
-      "date": "2026-08-24",
-      "filing_date": "2026-08-26",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 375906,
-      "price": 466.26,
-      "value": 175269931.56
-    },
-    {
-      "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
-      "date": "2026-08-24",
-      "filing_date": "2026-08-26",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 376506,
-      "price": 465.43,
-      "value": 175237187.58
-    },
-    {
-      "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
-      "date": "2026-08-24",
-      "filing_date": "2026-08-26",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 377961,
-      "price": 464.27,
-      "value": 175475953.47
     },
     {
       "ticker": "PLTR",
@@ -99,28 +187,6 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 8000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-08-21",
-      "filing_date": "2026-08-25",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 34820,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-08-21",
-      "filing_date": "2026-08-25",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 9720,
       "price": 0,
       "value": 0
     },
@@ -268,50 +334,6 @@
       "value": 5592324.1087
     },
     {
-      "ticker": "GOOGL",
-      "name": "Sergey Brin",
-      "date": "2026-08-07",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "C",
-      "shares": 357921378,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Sergey Brin",
-      "date": "2026-08-07",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 359159912,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Sergey Brin",
-      "date": "2026-08-07",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 37469,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Sergey Brin",
-      "date": "2026-08-07",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "C",
-      "shares": 710669,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "NFLX",
       "name": "Peters Gregory K",
       "date": "2026-08-06",
@@ -332,17 +354,6 @@
       "shares": 100447,
       "price": 487.893,
       "value": 49007388.171
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Hennessy John L.",
-      "date": "2026-08-05",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 3219,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "NFLX",

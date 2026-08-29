@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-28T06:24:37.042085",
-  "timestamp": "2026-08-28T06:24:37.042085",
+  "last_updated": "2026-08-29T03:56:31.355170",
+  "timestamp": "2026-08-29T03:56:31.355170",
   "predictions": [
     {
       "name": "Trend Regime",
@@ -14,7 +14,7 @@
       "direction": "BULLISH",
       "confidence": 52,
       "horizon": "1 week",
-      "rationale": "VIX: 14.5 vs 20-day avg: 15.3. Low vol regime \u2014 complacency can persist but watch for spikes"
+      "rationale": "VIX: 14.4 vs 20-day avg: 15.2. Low vol regime \u2014 complacency can persist but watch for spikes"
     },
     {
       "name": "Pulse Momentum",
