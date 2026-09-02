@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-09-01T01:29:47.657016",
-  "from_date": "2026-08-02",
-  "to_date": "2026-09-01",
+  "last_updated": "2026-09-02T00:38:17.821381",
+  "from_date": "2026-08-03",
+  "to_date": "2026-09-02",
   "transactions": [
+    {
+      "ticker": "GOOGL",
+      "name": "Arnold Frances",
+      "date": "2026-08-28",
+      "filing_date": "2026-08-31",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 18995,
+      "price": 337.71,
+      "value": 6414801.449999999
+    },
     {
       "ticker": "AMZN",
       "name": "Bezos Jeffrey P",
@@ -79,17 +90,6 @@
       "shares": 140506,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Ashkenazi Anat",
-      "date": "2026-08-25",
-      "filing_date": "2026-08-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 58951,
-      "price": 344.59,
-      "value": 20313925.09
     },
     {
       "ticker": "AMD",
