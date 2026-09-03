@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-02T00:38:17.821381",
-  "from_date": "2026-08-03",
-  "to_date": "2026-09-02",
+  "last_updated": "2026-09-03T00:47:58.361062",
+  "from_date": "2026-08-04",
+  "to_date": "2026-09-03",
   "transactions": [
     {
       "ticker": "GOOGL",
@@ -398,61 +398,6 @@
       "shares": 42677,
       "price": 496.48,
       "value": 21188276.96
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 461396,
-      "price": 91.8043,
-      "value": 42358136.8028
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 464296,
-      "price": 90.9415,
-      "value": 42223774.684
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 467696,
-      "price": 90.061,
-      "value": 42121169.456
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 469896,
-      "price": 89.0767,
-      "value": 41856785.0232
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-08-03",
-      "filing_date": "2026-08-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 470196,
-      "price": 87.195,
-      "value": 40998740.22
     }
   ]
 }

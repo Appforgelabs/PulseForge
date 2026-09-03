@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-09-02T00:37:56.839177",
+  "last_updated": "2026-09-03T00:47:39.021512",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 356.09,
-      "change_pct": -3.2233,
+      "price": 357.01,
+      "change_pct": 0.2584,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "PLTR",
-      "price": 179.92,
-      "change_pct": -3.466,
+      "price": 169.46,
+      "change_pct": -5.8137,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
@@ -21,44 +21,44 @@
     },
     {
       "ticker": "AMZN",
-      "price": 254.92,
-      "change_pct": -1.867,
-      "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "HOOD",
-      "price": 103.51,
-      "change_pct": -1.2403,
+      "price": 254.98,
+      "change_pct": 0.0235,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "SOFI",
-      "price": 17.05,
-      "change_pct": -4.6421,
+      "ticker": "HOOD",
+      "price": 106.99,
+      "change_pct": 3.362,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "BULLISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "SOFI",
+      "price": 17.84,
+      "change_pct": 4.6334,
+      "volume": null,
+      "signal": "BULLISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 15.535,
-      "change_pct": -3.269,
+      "price": 15.61,
+      "change_pct": 0.4828,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 4.06,
-      "change_pct": -4.0189,
+      "price": 3.86,
+      "change_pct": -4.9261,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
