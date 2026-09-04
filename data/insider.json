@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-03T00:47:58.361062",
-  "from_date": "2026-08-04",
-  "to_date": "2026-09-03",
+  "last_updated": "2026-09-04T00:29:53.186642",
+  "from_date": "2026-08-05",
+  "to_date": "2026-09-04",
   "transactions": [
     {
       "ticker": "GOOGL",
@@ -387,17 +387,6 @@
       "shares": 2406,
       "price": 20.107,
       "value": 48377.441999999995
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Numoto Takeshi",
-      "date": "2026-08-04",
-      "filing_date": "2026-08-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 42677,
-      "price": 496.48,
-      "value": 21188276.96
     }
   ]
 }
