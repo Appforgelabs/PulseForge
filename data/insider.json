@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-04T00:29:53.186642",
-  "from_date": "2026-08-05",
-  "to_date": "2026-09-04",
+  "last_updated": "2026-09-05T00:27:21.604758",
+  "from_date": "2026-08-06",
+  "to_date": "2026-09-05",
   "transactions": [
     {
       "ticker": "GOOGL",
@@ -343,50 +343,6 @@
       "shares": 120931,
       "price": 73.543,
       "value": 8893628.533000002
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Althoff Judson",
-      "date": "2026-08-05",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 100447,
-      "price": 487.893,
-      "value": 49007388.171
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-08-05",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 950,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-08-05",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 246,
-      "price": 75.1,
-      "value": 18474.6
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-08-05",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 2406,
-      "price": 20.107,
-      "value": 48377.441999999995
     }
   ]
 }
