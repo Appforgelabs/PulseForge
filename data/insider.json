@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-05T00:27:21.604758",
-  "from_date": "2026-08-06",
-  "to_date": "2026-09-05",
+  "last_updated": "2026-09-08T00:46:54.277747",
+  "from_date": "2026-08-09",
+  "to_date": "2026-09-08",
   "transactions": [
     {
       "ticker": "GOOGL",
@@ -332,17 +332,6 @@
       "shares": 73787,
       "price": 75.7901,
       "value": 5592324.1087
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Peters Gregory K",
-      "date": "2026-08-06",
-      "filing_date": "2026-08-06",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 120931,
-      "price": 73.543,
-      "value": 8893628.533000002
     }
   ]
 }
