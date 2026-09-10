@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-09T00:48:16.669057",
-  "from_date": "2026-08-10",
-  "to_date": "2026-09-09",
+  "last_updated": "2026-09-10T00:42:07.432778",
+  "from_date": "2026-08-11",
+  "to_date": "2026-09-10",
   "transactions": [
     {
       "ticker": "GOOGL",
@@ -266,72 +266,6 @@
       "shares": 73547,
       "price": 361.4072,
       "value": 26580415.3384
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-08-10",
-      "filing_date": "2026-08-12",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 79885,
-      "price": 600,
-      "value": 47931000
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-08-10",
-      "filing_date": "2026-08-12",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6490,
-      "price": 600,
-      "value": 3894000
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-08-10",
-      "filing_date": "2026-08-12",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1517,
-      "price": 600,
-      "value": 910200
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-08-10",
-      "filing_date": "2026-08-12",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6490,
-      "price": 600,
-      "value": 3894000
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-08-10",
-      "filing_date": "2026-08-12",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5856,
-      "price": 607.14,
-      "value": 3555411.84
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Neumann Spencer Adam",
-      "date": "2026-08-10",
-      "filing_date": "2026-08-10",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 73787,
-      "price": 75.7901,
-      "value": 5592324.1087
     }
   ]
 }
