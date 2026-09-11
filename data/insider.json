@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-10T00:42:07.432778",
-  "from_date": "2026-08-11",
-  "to_date": "2026-09-10",
+  "last_updated": "2026-09-11T00:38:20.366933",
+  "from_date": "2026-08-12",
+  "to_date": "2026-09-11",
   "transactions": [
     {
       "ticker": "GOOGL",
@@ -244,28 +244,6 @@
       "shares": 356442,
       "price": 18.0032,
       "value": 6417096.6144
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-08-11",
-      "filing_date": "2026-08-13",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 40107,
-      "price": 307.75,
-      "value": 12342929.25
-    },
-    {
-      "ticker": "JPM",
-      "name": "Leopold Robin",
-      "date": "2026-08-11",
-      "filing_date": "2026-08-11",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 73547,
-      "price": 361.4072,
-      "value": 26580415.3384
     }
   ]
 }
