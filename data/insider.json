@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-19T00:44:15.117395",
-  "from_date": "2026-08-20",
-  "to_date": "2026-09-19",
+  "last_updated": "2026-09-22T01:20:25.543166",
+  "from_date": "2026-08-23",
+  "to_date": "2026-09-22",
   "transactions": [
     {
       "ticker": "GOOGL",
@@ -156,94 +156,6 @@
       "shares": 41190,
       "price": 259.77,
       "value": 10699926.299999999
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Buckley Jeffrey",
-      "date": "2026-08-21",
-      "filing_date": "2026-08-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 56921,
-      "price": 174.29,
-      "value": 9920761.09
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-08-21",
-      "filing_date": "2026-08-25",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 134477,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Garman Matthew S",
-      "date": "2026-08-21",
-      "filing_date": "2026-08-25",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 8000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Karp Alexander C.",
-      "date": "2026-08-20",
-      "filing_date": "2026-08-24",
-      "type": "BUY",
-      "code": "C",
-      "shares": 52492901,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Karp Alexander C.",
-      "date": "2026-08-20",
-      "filing_date": "2026-08-24",
-      "type": "BUY",
-      "code": "C",
-      "shares": 52582901,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Karp Alexander C.",
-      "date": "2026-08-20",
-      "filing_date": "2026-08-24",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 52985249,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Karp Alexander C.",
-      "date": "2026-08-20",
-      "filing_date": "2026-08-24",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 1852500,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Keough Kelli",
-      "date": "2026-08-20",
-      "filing_date": "2026-08-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 356442,
-      "price": 18.0032,
-      "value": 6417096.6144
     }
   ]
 }
