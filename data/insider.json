@@ -1,8 +1,52 @@
 {
-  "last_updated": "2026-09-25T00:59:42.762311",
-  "from_date": "2026-08-26",
-  "to_date": "2026-09-25",
+  "last_updated": "2026-09-26T01:01:48.987721",
+  "from_date": "2026-08-27",
+  "to_date": "2026-09-26",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-09-22",
+      "filing_date": "2026-09-24",
+      "type": "BUY",
+      "code": "C",
+      "shares": 47794572,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-09-22",
+      "filing_date": "2026-09-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1302,
+      "price": 125.3282,
+      "value": 163177.31639999998
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-09-22",
+      "filing_date": "2026-09-24",
+      "type": "BUY",
+      "code": "C",
+      "shares": 240834,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-09-22",
+      "filing_date": "2026-09-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 44391,
+      "price": 340.06,
+      "value": 15095603.46
+    },
     {
       "ticker": "HOOD",
       "name": "Tenev Vladimir",
@@ -24,17 +68,6 @@
       "shares": 11030,
       "price": 125.5528,
       "value": 1384847.384
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "C",
-      "shares": 259166,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "SOFI",
@@ -222,28 +255,6 @@
       "shares": 1069896,
       "price": 172.2366,
       "value": 184275249.39360002
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 56858,
-      "price": 112.825,
-      "value": 6415003.850000001
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Verma Shiv",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 57058,
-      "price": 112.1811,
-      "value": 6400829.2038
     },
     {
       "ticker": "SOFI",
@@ -609,17 +620,6 @@
       "value": 0
     },
     {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-09-08",
-      "filing_date": "2026-09-10",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 34352,
-      "price": 317.23,
-      "value": 10897484.96
-    },
-    {
       "ticker": "TSLA",
       "name": "Taneja Vaibhav",
       "date": "2026-09-05",
@@ -693,17 +693,6 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 600000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Bezos Jeffrey P",
-      "date": "2026-08-26",
-      "filing_date": "2026-08-27",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 879323424,
       "price": 0,
       "value": 0
     }
