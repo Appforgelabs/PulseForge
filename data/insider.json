@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-09-29T02:21:40.938835",
-  "from_date": "2026-08-30",
-  "to_date": "2026-09-29",
+  "last_updated": "2026-09-30T01:42:57.096524",
+  "from_date": "2026-08-31",
+  "to_date": "2026-09-30",
   "transactions": [
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-09-24",
+      "filing_date": "2026-09-28",
+      "type": "BUY",
+      "code": "C",
+      "shares": 100102127,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-09-24",
+      "filing_date": "2026-09-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1220703,
+      "price": 779.2765,
+      "value": 951265161.3795
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-09-24",
+      "filing_date": "2026-09-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1221179,
+      "price": 778.3993,
+      "value": 950564878.7747
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-09-24",
+      "filing_date": "2026-09-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1223325,
+      "price": 777.6616,
+      "value": 951332876.82
+    },
+    {
+      "ticker": "META",
+      "name": "Zuckerberg Mark",
+      "date": "2026-09-24",
+      "filing_date": "2026-09-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1228135,
+      "price": 776.5624,
+      "value": 953723463.1240001
+    },
     {
       "ticker": "HOOD",
       "name": "Tenev Vladimir",
@@ -123,61 +178,6 @@
       "shares": 2705637,
       "price": 222.1932,
       "value": 601174143.0684
-    },
-    {
-      "ticker": "META",
-      "name": "Cox Christopher K",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 184516,
-      "price": 725.0164,
-      "value": 133777126.0624
-    },
-    {
-      "ticker": "META",
-      "name": "Cox Christopher K",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 204516,
-      "price": 700.4966,
-      "value": 143262762.6456
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 77437,
-      "price": 680.27,
-      "value": 52678067.99
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5998,
-      "price": 680.27,
-      "value": 4080259.46
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1175,
-      "price": 680.27,
-      "value": 799317.25
     },
     {
       "ticker": "NVDA",
