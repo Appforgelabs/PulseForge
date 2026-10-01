@@ -1,8 +1,118 @@
 {
-  "last_updated": "2026-09-30T01:42:57.096524",
-  "from_date": "2026-08-31",
-  "to_date": "2026-09-30",
+  "last_updated": "2026-10-01T01:38:38.839704",
+  "from_date": "2026-09-01",
+  "to_date": "2026-10-01",
   "transactions": [
+    {
+      "ticker": "AAPL",
+      "name": "Ternus John",
+      "date": "2026-09-27",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 120943,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Ternus John",
+      "date": "2026-09-27",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 40315,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Khan Sabih",
+      "date": "2026-09-27",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 47645,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Khan Sabih",
+      "date": "2026-09-27",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 47645,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Parekh Kevan",
+      "date": "2026-09-27",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 47645,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-09-25",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "C",
+      "shares": 28362,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-09-25",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 667,
+      "price": 339.01,
+      "value": 226119.66999999998
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-09-25",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "C",
+      "shares": 687,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-09-25",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 1118,
+      "price": 339.01,
+      "value": 379013.18
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-09-25",
+      "filing_date": "2026-09-29",
+      "type": "BUY",
+      "code": "C",
+      "shares": 1137,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "META",
       "name": "Zuckerberg Mark",
@@ -90,17 +200,6 @@
       "shares": 240834,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-09-22",
-      "filing_date": "2026-09-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 44391,
-      "price": 340.06,
-      "value": 15095603.46
     },
     {
       "ticker": "HOOD",
@@ -345,50 +444,6 @@
       "value": 40998353.79
     },
     {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 180624,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 46790,
-      "price": 331.34,
-      "value": 15503398.6
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 63018,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 32914,
-      "price": 330.19,
-      "value": 10867873.66
-    },
-    {
       "ticker": "AMD",
       "name": "Norrod Forrest Eugene",
       "date": "2026-09-15",
@@ -442,61 +497,6 @@
       "shares": 366567,
       "price": 504,
       "value": 184749768
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-09-14",
-      "filing_date": "2026-09-16",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 941,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-09-14",
-      "filing_date": "2026-09-16",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 1433,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-09-14",
-      "filing_date": "2026-09-16",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 904,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-09-14",
-      "filing_date": "2026-09-16",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 597,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-09-14",
-      "filing_date": "2026-09-16",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 706,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "NIO",
