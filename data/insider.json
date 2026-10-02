@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-01T01:38:38.839704",
-  "from_date": "2026-09-01",
-  "to_date": "2026-10-01",
+  "last_updated": "2026-10-02T01:51:52.300150",
+  "from_date": "2026-09-02",
+  "to_date": "2026-10-02",
   "transactions": [
     {
       "ticker": "AAPL",
@@ -638,61 +638,6 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 28578,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-09-01",
-      "filing_date": "2026-09-03",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 475681,
-      "price": 254.77,
-      "value": 121189248.37
-    },
-    {
-      "ticker": "NIO",
-      "name": "Qin Lihong",
-      "date": "2026-09-01",
-      "filing_date": "2026-09-01",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 900000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NIO",
-      "name": "Qin Lihong",
-      "date": "2026-09-01",
-      "filing_date": "2026-09-01",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 469662,
-      "price": 4.23,
-      "value": 1986670.2600000002
-    },
-    {
-      "ticker": "NIO",
-      "name": "Qin Lihong",
-      "date": "2026-09-01",
-      "filing_date": "2026-09-01",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 619662,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NIO",
-      "name": "Zhou Xin",
-      "date": "2026-09-01",
-      "filing_date": "2026-09-01",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 600000,
       "price": 0,
       "value": 0
     }
