@@ -1,8 +1,96 @@
 {
-  "last_updated": "2026-10-02T01:51:52.300150",
-  "from_date": "2026-09-02",
-  "to_date": "2026-10-02",
+  "last_updated": "2026-10-03T01:30:54.085103",
+  "from_date": "2026-09-03",
+  "to_date": "2026-10-03",
   "transactions": [
+    {
+      "ticker": "JPM",
+      "name": "Rometty Virginia M",
+      "date": "2026-09-30",
+      "filing_date": "2026-10-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 15219,
+      "price": 330.83,
+      "value": 5034901.77
+    },
+    {
+      "ticker": "JPM",
+      "name": "Novakovic Phebe N",
+      "date": "2026-09-30",
+      "filing_date": "2026-10-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 13762,
+      "price": 330.83,
+      "value": 4552882.46
+    },
+    {
+      "ticker": "JPM",
+      "name": "Burke Stephen B",
+      "date": "2026-09-30",
+      "filing_date": "2026-10-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 209167,
+      "price": 330.83,
+      "value": 69198718.61
+    },
+    {
+      "ticker": "JPM",
+      "name": "Hobson Mellody L",
+      "date": "2026-09-30",
+      "filing_date": "2026-10-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 30211,
+      "price": 330.83,
+      "value": 9994705.129999999
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Glazer David A.",
+      "date": "2026-09-29",
+      "filing_date": "2026-10-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 468150,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Taylor Ryan D.",
+      "date": "2026-09-29",
+      "filing_date": "2026-10-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 292667,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Buckley Jeffrey",
+      "date": "2026-09-29",
+      "filing_date": "2026-10-01",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 16714,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-09-29",
+      "filing_date": "2026-10-01",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 41992,
+      "price": 336.18,
+      "value": 14116870.56
+    },
     {
       "ticker": "AAPL",
       "name": "Ternus John",
@@ -39,17 +127,6 @@
     {
       "ticker": "AAPL",
       "name": "Khan Sabih",
-      "date": "2026-09-27",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 47645,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Parekh Kevan",
       "date": "2026-09-27",
       "filing_date": "2026-09-29",
       "type": "BUY",
@@ -321,39 +398,6 @@
       "shares": 1063605,
       "price": 175.1725,
       "value": 186314346.8625
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1065448,
-      "price": 174.2545,
-      "value": 185659108.516
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1067577,
-      "price": 173.0518,
-      "value": 184746121.4886
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1069896,
-      "price": 172.2366,
-      "value": 184275249.39360002
     },
     {
       "ticker": "SOFI",
