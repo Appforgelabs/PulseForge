@@ -1,8 +1,140 @@
 {
-  "last_updated": "2026-10-03T01:30:54.085103",
-  "from_date": "2026-09-03",
-  "to_date": "2026-10-03",
+  "last_updated": "2026-10-06T02:34:18.983520",
+  "from_date": "2026-09-06",
+  "to_date": "2026-10-06",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 2467,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 4636,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Loop Paula",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 2467,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Loop Paula",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 64496,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Treseder Oluwadara Johnson",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 2467,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Callahan Michael John",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1001776,
+      "price": 15,
+      "value": 15026640
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Hoag Jay C",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 921,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Mertz Elinor",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 922,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Rice Susan E",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 921,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Barton Richard N",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 921,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Mather Ann",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 921,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Arnold Frances",
+      "date": "2026-09-30",
+      "filing_date": "2026-10-02",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 19076,
+      "price": 340.45,
+      "value": 6494424.2
+    },
     {
       "ticker": "JPM",
       "name": "Rometty Virginia M",
@@ -180,17 +312,6 @@
       "value": 379013.18
     },
     {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-09-25",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "C",
-      "shares": 1137,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "META",
       "name": "Zuckerberg Mark",
       "date": "2026-09-24",
@@ -244,61 +365,6 @@
       "shares": 1228135,
       "price": 776.5624,
       "value": 953723463.1240001
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-09-22",
-      "filing_date": "2026-09-24",
-      "type": "BUY",
-      "code": "C",
-      "shares": 47794572,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-09-22",
-      "filing_date": "2026-09-24",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1302,
-      "price": 125.3282,
-      "value": 163177.31639999998
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-09-22",
-      "filing_date": "2026-09-24",
-      "type": "BUY",
-      "code": "C",
-      "shares": 240834,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "C",
-      "shares": 48035406,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 11030,
-      "price": 125.5528,
-      "value": 1384847.384
     },
     {
       "ticker": "SOFI",
@@ -576,61 +642,6 @@
       "value": 25066134.698200002
     },
     {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-09-10",
-      "filing_date": "2026-09-10",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 1150,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-09-10",
-      "filing_date": "2026-09-10",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2460,
-      "price": 75.27,
-      "value": 185164.19999999998
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-09-10",
-      "filing_date": "2026-09-10",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 3180,
-      "price": 26.507,
-      "value": 84292.26000000001
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-09-09",
-      "filing_date": "2026-09-10",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 1870,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-09-09",
-      "filing_date": "2026-09-10",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2460,
-      "price": 76.26,
-      "value": 187599.6
-    },
-    {
       "ticker": "TSLA",
       "name": "Taneja Vaibhav",
       "date": "2026-09-08",
@@ -660,28 +671,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 4086,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-09-05",
-      "filing_date": "2026-09-09",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 52305,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-09-05",
-      "filing_date": "2026-09-09",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 28578,
       "price": 0,
       "value": 0
     }
