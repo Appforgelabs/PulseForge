@@ -1,8 +1,85 @@
 {
-  "last_updated": "2026-10-06T02:34:18.983520",
-  "from_date": "2026-09-06",
-  "to_date": "2026-10-06",
+  "last_updated": "2026-10-07T01:52:44.838209",
+  "from_date": "2026-09-07",
+  "to_date": "2026-10-07",
   "transactions": [
+    {
+      "ticker": "AAPL",
+      "name": "Ternus John",
+      "date": "2026-10-02",
+      "filing_date": "2026-10-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 59567,
+      "price": 334.05,
+      "value": 19898356.35
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Ternus John",
+      "date": "2026-10-02",
+      "filing_date": "2026-10-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 63321,
+      "price": 333.34,
+      "value": 21107422.139999997
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Ternus John",
+      "date": "2026-10-02",
+      "filing_date": "2026-10-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 76067,
+      "price": 332.26,
+      "value": 25274021.419999998
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Ternus John",
+      "date": "2026-10-02",
+      "filing_date": "2026-10-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 81415,
+      "price": 331.38,
+      "value": 26979302.7
+    },
+    {
+      "ticker": "AAPL",
+      "name": "O'Brien Deirdre",
+      "date": "2026-10-02",
+      "filing_date": "2026-10-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 136810,
+      "price": 333.91,
+      "value": 45682227.1
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Stat Lauren Elaina Friedman",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 51428,
+      "price": 189.95,
+      "value": 9768748.6
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Herrington Douglas J",
+      "date": "2026-10-01",
+      "filing_date": "2026-10-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 474681,
+      "price": 251.5,
+      "value": 119382271.5
+    },
     {
       "ticker": "HOOD",
       "name": "Bhatt Baiju",
@@ -213,61 +290,6 @@
       "value": 0
     },
     {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-09-29",
-      "filing_date": "2026-10-01",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 41992,
-      "price": 336.18,
-      "value": 14116870.56
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Ternus John",
-      "date": "2026-09-27",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 120943,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Ternus John",
-      "date": "2026-09-27",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 40315,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Khan Sabih",
-      "date": "2026-09-27",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 47645,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Khan Sabih",
-      "date": "2026-09-27",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 47645,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "GOOGL",
       "name": "Saraci Marsida",
       "date": "2026-09-25",
@@ -453,17 +475,6 @@
       "shares": 1063095,
       "price": 176.1055,
       "value": 187216876.5225
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1063605,
-      "price": 175.1725,
-      "value": 186314346.8625
     },
     {
       "ticker": "SOFI",
