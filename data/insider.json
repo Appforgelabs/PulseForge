@@ -1,8 +1,118 @@
 {
-  "last_updated": "2026-10-08T02:20:44.091771",
-  "from_date": "2026-09-08",
-  "to_date": "2026-10-08",
+  "last_updated": "2026-10-09T02:38:13.291338",
+  "from_date": "2026-09-09",
+  "to_date": "2026-10-09",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "C",
+      "shares": 47419572,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 22192,
+      "price": 113.9682,
+      "value": 2529182.2944
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 216089,
+      "price": 113.2356,
+      "value": 24468967.5684
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Tenev Vladimir",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "C",
+      "shares": 375000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 499943,
+      "price": 115.058,
+      "value": 57522441.694000006
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 76621,
+      "price": 728.08,
+      "value": 55786217.68
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5834,
+      "price": 728.08,
+      "value": 4247618.720000001
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 1061,
+      "price": 728.08,
+      "value": 772492.88
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5834,
+      "price": 728.08,
+      "value": 4247618.720000001
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-05",
+      "filing_date": "2026-10-07",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 7878,
+      "price": 728.08,
+      "value": 5735814.24
+    },
     {
       "ticker": "AAPL",
       "name": "Ternus John",
@@ -79,61 +189,6 @@
       "shares": 474681,
       "price": 251.5,
       "value": 119382271.5
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 2467,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 4636,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Loop Paula",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 2467,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Loop Paula",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 64496,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Treseder Oluwadara Johnson",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 2467,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "RIVN",
@@ -332,61 +387,6 @@
       "shares": 1118,
       "price": 339.01,
       "value": 379013.18
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-09-24",
-      "filing_date": "2026-09-28",
-      "type": "BUY",
-      "code": "C",
-      "shares": 100102127,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-09-24",
-      "filing_date": "2026-09-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1220703,
-      "price": 779.2765,
-      "value": 951265161.3795
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-09-24",
-      "filing_date": "2026-09-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1221179,
-      "price": 778.3993,
-      "value": 950564878.7747
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-09-24",
-      "filing_date": "2026-09-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1223325,
-      "price": 777.6616,
-      "value": 951332876.82
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-09-24",
-      "filing_date": "2026-09-28",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1228135,
-      "price": 776.5624,
-      "value": 953723463.1240001
     },
     {
       "ticker": "SOFI",
@@ -651,39 +651,6 @@
       "shares": 71047,
       "price": 352.8106,
       "value": 25066134.698200002
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Taneja Vaibhav",
-      "date": "2026-09-08",
-      "filing_date": "2026-09-09",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 25972,
-      "price": 360.134,
-      "value": 9353400.248
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Mandia Kevin R.",
-      "date": "2026-09-08",
-      "filing_date": "2026-09-09",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 4086,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Smith Brad D",
-      "date": "2026-09-08",
-      "filing_date": "2026-09-09",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 4086,
-      "price": 0,
-      "value": 0
     }
   ]
 }
