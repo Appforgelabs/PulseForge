@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-10-09T02:38:13.291338",
-  "from_date": "2026-09-09",
-  "to_date": "2026-10-09",
+  "last_updated": "2026-10-10T01:58:05.691248",
+  "from_date": "2026-09-10",
+  "to_date": "2026-10-10",
   "transactions": [
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-10-06",
+      "filing_date": "2026-10-08",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 39593,
+      "price": 332.01,
+      "value": 13145271.93
+    },
     {
       "ticker": "HOOD",
       "name": "Tenev Vladimir",
@@ -156,17 +167,6 @@
       "shares": 81415,
       "price": 331.38,
       "value": 26979302.7
-    },
-    {
-      "ticker": "AAPL",
-      "name": "O'Brien Deirdre",
-      "date": "2026-10-02",
-      "filing_date": "2026-10-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 136810,
-      "price": 333.91,
-      "value": 45682227.1
     },
     {
       "ticker": "PLTR",
