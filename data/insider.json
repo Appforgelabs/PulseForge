@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-10-10T01:58:05.691248",
-  "from_date": "2026-09-10",
-  "to_date": "2026-10-10",
+  "last_updated": "2026-10-13T03:15:23.067112",
+  "from_date": "2026-09-13",
+  "to_date": "2026-10-13",
   "transactions": [
+    {
+      "ticker": "NVDA",
+      "name": "Coxe Tench",
+      "date": "2026-10-07",
+      "filing_date": "2026-10-09",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 23671360,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "AAPL",
       "name": "Newstead Jennifer",
@@ -455,17 +466,6 @@
       "value": 213924345.96690002
     },
     {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-09-18",
-      "filing_date": "2026-09-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 980531,
-      "price": 219.7219,
-      "value": 215444134.3289
-    },
-    {
       "ticker": "PLTR",
       "name": "Moore Alexander D.",
       "date": "2026-09-15",
@@ -618,39 +618,6 @@
       "shares": 366567,
       "price": 504,
       "value": 184749768
-    },
-    {
-      "ticker": "NIO",
-      "name": "Lee Denny Ting Bun",
-      "date": "2026-09-12",
-      "filing_date": "2026-09-14",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 492634,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Callahan Michael John",
-      "date": "2026-09-11",
-      "filing_date": "2026-09-16",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1016776,
-      "price": 16.2927,
-      "value": 16566026.3352
-    },
-    {
-      "ticker": "JPM",
-      "name": "Leopold Robin",
-      "date": "2026-09-10",
-      "filing_date": "2026-09-10",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 71047,
-      "price": 352.8106,
-      "value": 25066134.698200002
     }
   ]
 }
