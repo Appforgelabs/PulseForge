@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-10-14T01:27:49.000461",
-  "from_date": "2026-09-14",
-  "to_date": "2026-10-14",
+  "last_updated": "2026-10-15T01:02:25.344203",
+  "from_date": "2026-09-15",
+  "to_date": "2026-10-15",
   "transactions": [
+    {
+      "ticker": "PLTR",
+      "name": "Stat Lauren Elaina Friedman",
+      "date": "2026-10-08",
+      "filing_date": "2026-10-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 46402,
+      "price": 199,
+      "value": 9233998
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Taylor Ryan D.",
+      "date": "2026-10-08",
+      "filing_date": "2026-10-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 274667,
+      "price": 201.15,
+      "value": 55249267.050000004
+    },
     {
       "ticker": "NVDA",
       "name": "Coxe Tench",
@@ -345,17 +367,6 @@
       "value": 0
     },
     {
-      "ticker": "PLTR",
-      "name": "Buckley Jeffrey",
-      "date": "2026-09-29",
-      "filing_date": "2026-10-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 16714,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "GOOGL",
       "name": "Saraci Marsida",
       "date": "2026-09-25",
@@ -464,17 +475,6 @@
       "shares": 970531,
       "price": 220.4199,
       "value": 213924345.96690002
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-09-15",
-      "filing_date": "2026-09-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1063095,
-      "price": 176.1055,
-      "value": 187216876.5225
     },
     {
       "ticker": "SOFI",
