@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-10-16T00:52:18.641409",
-  "from_date": "2026-09-16",
-  "to_date": "2026-10-16",
+  "last_updated": "2026-10-17T00:52:56.449671",
+  "from_date": "2026-09-17",
+  "to_date": "2026-10-17",
   "transactions": [
+    {
+      "ticker": "MSFT",
+      "name": "Coleman Amy",
+      "date": "2026-10-15",
+      "filing_date": "2026-10-15",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 50925,
+      "price": 533.69,
+      "value": 27178163.250000004
+    },
+    {
+      "ticker": "JPM",
+      "name": "Burke Stephen B",
+      "date": "2026-10-14",
+      "filing_date": "2026-10-15",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 179167,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "MSFT",
       "name": "Hood Amy",
@@ -35,6 +57,61 @@
       "shares": 559314,
       "price": 544.8001,
       "value": 304714323.13140005
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-10-13",
+      "filing_date": "2026-10-15",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 37194,
+      "price": 345,
+      "value": 12831930
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-10-13",
+      "filing_date": "2026-10-15",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 572772,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-10-13",
+      "filing_date": "2026-10-15",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 664235,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-10-13",
+      "filing_date": "2026-10-15",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 456294,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-10-13",
+      "filing_date": "2026-10-15",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 457314,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "META",
@@ -235,17 +312,6 @@
       "value": 25274021.419999998
     },
     {
-      "ticker": "AAPL",
-      "name": "Ternus John",
-      "date": "2026-10-02",
-      "filing_date": "2026-10-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 81415,
-      "price": 331.38,
-      "value": 26979302.7
-    },
-    {
       "ticker": "PLTR",
       "name": "Stat Lauren Elaina Friedman",
       "date": "2026-10-01",
@@ -398,50 +464,6 @@
       "shares": 468150,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-09-25",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "C",
-      "shares": 28362,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-09-25",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 667,
-      "price": 339.01,
-      "value": 226119.66999999998
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-09-25",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "C",
-      "shares": 687,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-09-25",
-      "filing_date": "2026-09-29",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 1118,
-      "price": 339.01,
-      "value": 379013.18
     },
     {
       "ticker": "SOFI",
