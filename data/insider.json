@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-17T00:52:56.449671",
-  "from_date": "2026-09-17",
-  "to_date": "2026-10-17",
+  "last_updated": "2026-10-20T01:20:04.541757",
+  "from_date": "2026-09-20",
+  "to_date": "2026-10-20",
   "transactions": [
     {
       "ticker": "MSFT",
@@ -519,17 +519,6 @@
       "shares": 2705637,
       "price": 222.1932,
       "value": 601174143.0684
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Stevens Mark A",
-      "date": "2026-09-18",
-      "filing_date": "2026-09-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 970531,
-      "price": 220.4199,
-      "value": 213924345.96690002
     }
   ]
 }
