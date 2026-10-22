@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-21T01:04:50.631832",
-  "from_date": "2026-09-21",
-  "to_date": "2026-10-21",
+  "last_updated": "2026-10-22T01:03:29.294110",
+  "from_date": "2026-09-22",
+  "to_date": "2026-10-22",
   "transactions": [
     {
       "ticker": "MSFT",
@@ -464,61 +464,6 @@
       "shares": 468150,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Keough Kelli",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 408073,
-      "price": 16.9862,
-      "value": 6931609.5926
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Rishel Jeremy",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 912650,
-      "price": 17.5,
-      "value": 15971375.0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Teter Timothy S.",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2687660,
-      "price": 223.7479,
-      "value": 601358280.9139999
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Teter Timothy S.",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2692159,
-      "price": 223.0489,
-      "value": 600483103.5751001
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Teter Timothy S.",
-      "date": "2026-09-21",
-      "filing_date": "2026-09-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2705637,
-      "price": 222.1932,
-      "value": 601174143.0684
     }
   ]
 }
