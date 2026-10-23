@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-10-22T01:03:29.294110",
-  "from_date": "2026-09-22",
-  "to_date": "2026-10-22",
+  "last_updated": "2026-10-23T01:03:54.050811",
+  "from_date": "2026-09-23",
+  "to_date": "2026-10-23",
   "transactions": [
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-19",
+      "filing_date": "2026-10-21",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 75805,
+      "price": 707.2,
+      "value": 53609296.0
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-19",
+      "filing_date": "2026-10-21",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5670,
+      "price": 707.2,
+      "value": 4009824.0000000005
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-19",
+      "filing_date": "2026-10-21",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 947,
+      "price": 707.2,
+      "value": 669718.4
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-19",
+      "filing_date": "2026-10-21",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5670,
+      "price": 707.2,
+      "value": 4009824.0000000005
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-19",
+      "filing_date": "2026-10-21",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5986,
+      "price": 707.2,
+      "value": 4233299.2
+    },
     {
       "ticker": "MSFT",
       "name": "Coleman Amy",
@@ -112,61 +167,6 @@
       "shares": 457314,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-12",
-      "filing_date": "2026-10-14",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 76213,
-      "price": 728.1,
-      "value": 55490685.300000004
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-12",
-      "filing_date": "2026-10-14",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5752,
-      "price": 728.1,
-      "value": 4188031.2
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-12",
-      "filing_date": "2026-10-14",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1004,
-      "price": 728.1,
-      "value": 731012.4
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-12",
-      "filing_date": "2026-10-14",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5752,
-      "price": 728.1,
-      "value": 4188031.2
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-12",
-      "filing_date": "2026-10-14",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 6932,
-      "price": 728.1,
-      "value": 5047189.2
     },
     {
       "ticker": "PLTR",
