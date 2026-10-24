@@ -1,8 +1,85 @@
 {
-  "last_updated": "2026-10-23T01:03:54.050811",
-  "from_date": "2026-09-23",
-  "to_date": "2026-10-23",
+  "last_updated": "2026-10-24T01:13:09.909204",
+  "from_date": "2026-09-24",
+  "to_date": "2026-10-24",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Keough Kelli",
+      "date": "2026-10-20",
+      "filing_date": "2026-10-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 397870,
+      "price": 14.7226,
+      "value": 5857680.862
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Gomez Aidan N.",
+      "date": "2026-10-20",
+      "filing_date": "2026-10-22",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 63564,
+      "price": 12.34,
+      "value": 784379.76
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Gomez Aidan N.",
+      "date": "2026-10-20",
+      "filing_date": "2026-10-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 63984,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Schwartz Sanford Harold",
+      "date": "2026-10-20",
+      "filing_date": "2026-10-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 214253,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Krawiec Peter",
+      "date": "2026-10-20",
+      "filing_date": "2026-10-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 28486,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Krafcik John",
+      "date": "2026-10-20",
+      "filing_date": "2026-10-22",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 80644,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-10-20",
+      "filing_date": "2026-10-22",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 34795,
+      "price": 339.62,
+      "value": 11817077.9
+    },
     {
       "ticker": "META",
       "name": "Olivan Javier",
@@ -301,17 +378,6 @@
       "value": 21107422.139999997
     },
     {
-      "ticker": "AAPL",
-      "name": "Ternus John",
-      "date": "2026-10-02",
-      "filing_date": "2026-10-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 76067,
-      "price": 332.26,
-      "value": 25274021.419999998
-    },
-    {
       "ticker": "PLTR",
       "name": "Stat Lauren Elaina Friedman",
       "date": "2026-10-01",
@@ -332,17 +398,6 @@
       "shares": 474681,
       "price": 251.5,
       "value": 119382271.5
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Callahan Michael John",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1001776,
-      "price": 15,
-      "value": 15026640
     },
     {
       "ticker": "NFLX",
