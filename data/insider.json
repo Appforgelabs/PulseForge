@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-10-24T01:13:09.909204",
-  "from_date": "2026-09-24",
-  "to_date": "2026-10-24",
+  "last_updated": "2026-10-27T01:40:06.346983",
+  "from_date": "2026-09-27",
+  "to_date": "2026-10-27",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-10-21",
+      "filing_date": "2026-10-23",
+      "type": "BUY",
+      "code": "C",
+      "shares": 46754654,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-10-21",
+      "filing_date": "2026-10-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 23180,
+      "price": 101.7191,
+      "value": 2357848.738
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-10-21",
+      "filing_date": "2026-10-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 34412,
+      "price": 100.3752,
+      "value": 3454111.3824
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-10-21",
+      "filing_date": "2026-10-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 40412,
+      "price": 99.4705,
+      "value": 4019801.846
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-10-21",
+      "filing_date": "2026-10-23",
+      "type": "BUY",
+      "code": "C",
+      "shares": 50912,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "SOFI",
       "name": "Keough Kelli",
@@ -299,61 +354,6 @@
       "shares": 39593,
       "price": 332.01,
       "value": 13145271.93
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-10-05",
-      "filing_date": "2026-10-07",
-      "type": "BUY",
-      "code": "C",
-      "shares": 47419572,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-10-05",
-      "filing_date": "2026-10-07",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 22192,
-      "price": 113.9682,
-      "value": 2529182.2944
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-10-05",
-      "filing_date": "2026-10-07",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 216089,
-      "price": 113.2356,
-      "value": 24468967.5684
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Tenev Vladimir",
-      "date": "2026-10-05",
-      "filing_date": "2026-10-07",
-      "type": "BUY",
-      "code": "C",
-      "shares": 375000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-10-05",
-      "filing_date": "2026-10-07",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 499943,
-      "price": 115.058,
-      "value": 57522441.694000006
     },
     {
       "ticker": "AAPL",
