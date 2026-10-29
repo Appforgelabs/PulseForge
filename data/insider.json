@@ -1,8 +1,118 @@
 {
-  "last_updated": "2026-10-28T01:52:44.503239",
-  "from_date": "2026-09-28",
-  "to_date": "2026-10-28",
+  "last_updated": "2026-10-29T01:59:28.827823",
+  "from_date": "2026-09-29",
+  "to_date": "2026-10-29",
   "transactions": [
+    {
+      "ticker": "NFLX",
+      "name": "Smith Bradford L",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 79690,
+      "price": 65.1376,
+      "value": 5190815.3440000005
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Smith Bradford L",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 83890,
+      "price": 64.61,
+      "value": 5420132.9
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Smith Bradford L",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 85690,
+      "price": 63.549,
+      "value": 5445513.81
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Smith Bradford L",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 97670,
+      "price": 14.692,
+      "value": 1434967.6400000001
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Smith Bradford L",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "Option Exercise",
+      "shares": 93410,
+      "price": 14.265,
+      "value": 1332493.6500000001
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-10-25",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 28851,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-10-25",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 628,
+      "price": 339.01,
+      "value": 212898.28
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-10-25",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "C",
+      "shares": 648,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-10-25",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 1079,
+      "price": 317.28,
+      "value": 342345.12
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Saraci Marsida",
+      "date": "2026-10-25",
+      "filing_date": "2026-10-27",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 854,
+      "price": 317.28,
+      "value": 270957.12
+    },
     {
       "ticker": "HOOD",
       "name": "Bhatt Baiju",
@@ -257,50 +367,6 @@
       "value": 12831930
     },
     {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-10-13",
-      "filing_date": "2026-10-15",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 572772,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-10-13",
-      "filing_date": "2026-10-15",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 664235,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-10-13",
-      "filing_date": "2026-10-15",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 456294,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-10-13",
-      "filing_date": "2026-10-15",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 457314,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "PLTR",
       "name": "Woersching Eric H.",
       "date": "2026-10-09",
@@ -398,72 +464,6 @@
       "shares": 474681,
       "price": 251.5,
       "value": 119382271.5
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hoag Jay C",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 921,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Mertz Elinor",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 922,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Rice Susan E",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 921,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Barton Richard N",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 921,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Mather Ann",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 921,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-09-30",
-      "filing_date": "2026-10-02",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 19076,
-      "price": 340.45,
-      "value": 6494424.2
     },
     {
       "ticker": "JPM",
