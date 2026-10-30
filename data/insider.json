@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-10-29T01:59:28.827823",
-  "from_date": "2026-09-29",
-  "to_date": "2026-10-29",
+  "last_updated": "2026-10-30T02:13:58.597730",
+  "from_date": "2026-09-30",
+  "to_date": "2026-10-30",
   "transactions": [
+    {
+      "ticker": "META",
+      "name": "Alford Peggy",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2450,
+      "price": 640,
+      "value": 1568000
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 75397,
+      "price": 640,
+      "value": 48254080
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5588,
+      "price": 640,
+      "value": 3576320
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 890,
+      "price": 640,
+      "value": 569600
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-10-26",
+      "filing_date": "2026-10-28",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 5588,
+      "price": 640,
+      "value": 3576320
+    },
     {
       "ticker": "NFLX",
       "name": "Smith Bradford L",
@@ -246,61 +301,6 @@
       "value": 11817077.9
     },
     {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-19",
-      "filing_date": "2026-10-21",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 75805,
-      "price": 707.2,
-      "value": 53609296.0
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-19",
-      "filing_date": "2026-10-21",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5670,
-      "price": 707.2,
-      "value": 4009824.0000000005
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-19",
-      "filing_date": "2026-10-21",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 947,
-      "price": 707.2,
-      "value": 669718.4
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-19",
-      "filing_date": "2026-10-21",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5670,
-      "price": 707.2,
-      "value": 4009824.0000000005
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-10-19",
-      "filing_date": "2026-10-21",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5986,
-      "price": 707.2,
-      "value": 4233299.2
-    },
-    {
       "ticker": "MSFT",
       "name": "Coleman Amy",
       "date": "2026-10-15",
@@ -508,17 +508,6 @@
       "shares": 30211,
       "price": 330.83,
       "value": 9994705.129999999
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Glazer David A.",
-      "date": "2026-09-29",
-      "filing_date": "2026-10-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 468150,
-      "price": 0,
-      "value": 0
     }
   ]
 }
