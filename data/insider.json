@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-10-30T02:13:58.597730",
-  "from_date": "2026-09-30",
-  "to_date": "2026-10-30",
+  "last_updated": "2026-10-31T01:54:54.638603",
+  "from_date": "2026-10-01",
+  "to_date": "2026-10-31",
   "transactions": [
+    {
+      "ticker": "NFLX",
+      "name": "Peters Gregory K",
+      "date": "2026-10-28",
+      "filing_date": "2026-10-29",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 119412,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-10-27",
+      "filing_date": "2026-10-29",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 32396,
+      "price": 343.36,
+      "value": 11123490.56
+    },
     {
       "ticker": "META",
       "name": "Alford Peggy",
@@ -101,17 +123,6 @@
       "shares": 97670,
       "price": 14.692,
       "value": 1434967.6400000001
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-10-26",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 93410,
-      "price": 14.265,
-      "value": 1332493.6500000001
     },
     {
       "ticker": "GOOGL",
@@ -433,17 +444,6 @@
       "value": 19898356.35
     },
     {
-      "ticker": "AAPL",
-      "name": "Ternus John",
-      "date": "2026-10-02",
-      "filing_date": "2026-10-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 63321,
-      "price": 333.34,
-      "value": 21107422.139999997
-    },
-    {
       "ticker": "PLTR",
       "name": "Stat Lauren Elaina Friedman",
       "date": "2026-10-01",
@@ -464,50 +464,6 @@
       "shares": 474681,
       "price": 251.5,
       "value": 119382271.5
-    },
-    {
-      "ticker": "JPM",
-      "name": "Rometty Virginia M",
-      "date": "2026-09-30",
-      "filing_date": "2026-10-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 15219,
-      "price": 330.83,
-      "value": 5034901.77
-    },
-    {
-      "ticker": "JPM",
-      "name": "Novakovic Phebe N",
-      "date": "2026-09-30",
-      "filing_date": "2026-10-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 13762,
-      "price": 330.83,
-      "value": 4552882.46
-    },
-    {
-      "ticker": "JPM",
-      "name": "Burke Stephen B",
-      "date": "2026-09-30",
-      "filing_date": "2026-10-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 209167,
-      "price": 330.83,
-      "value": 69198718.61
-    },
-    {
-      "ticker": "JPM",
-      "name": "Hobson Mellody L",
-      "date": "2026-09-30",
-      "filing_date": "2026-10-01",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 30211,
-      "price": 330.83,
-      "value": 9994705.129999999
     }
   ]
 }
