@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-10-31T01:54:54.638603",
-  "from_date": "2026-10-01",
-  "to_date": "2026-10-31",
+  "last_updated": "2026-11-03T03:45:43.047413",
+  "from_date": "2026-10-04",
+  "to_date": "2026-11-03",
   "transactions": [
+    {
+      "ticker": "RIVN",
+      "name": "Mcdonough Claire",
+      "date": "2026-10-30",
+      "filing_date": "2026-10-30",
+      "type": "BUY",
+      "code": "Disposition",
+      "shares": 88886,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Arnold Frances",
+      "date": "2026-10-29",
+      "filing_date": "2026-10-30",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 19157,
+      "price": 284,
+      "value": 5440588
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-10-28",
+      "filing_date": "2026-10-30",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 857616,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Glazer David A.",
+      "date": "2026-10-28",
+      "filing_date": "2026-10-30",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 679358,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Taylor Ryan D.",
+      "date": "2026-10-28",
+      "filing_date": "2026-10-30",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 485875,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "NFLX",
       "name": "Peters Gregory K",
@@ -169,17 +224,6 @@
       "value": 342345.12
     },
     {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-10-25",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 854,
-      "price": 317.28,
-      "value": 270957.12
-    },
-    {
       "ticker": "HOOD",
       "name": "Bhatt Baiju",
       "date": "2026-10-21",
@@ -290,17 +334,6 @@
       "value": 0
     },
     {
-      "ticker": "RIVN",
-      "name": "Krafcik John",
-      "date": "2026-10-20",
-      "filing_date": "2026-10-22",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 80644,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "AAPL",
       "name": "Newstead Jennifer",
       "date": "2026-10-20",
@@ -400,17 +433,6 @@
       "value": 9233998
     },
     {
-      "ticker": "PLTR",
-      "name": "Taylor Ryan D.",
-      "date": "2026-10-08",
-      "filing_date": "2026-10-13",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 274667,
-      "price": 201.15,
-      "value": 55249267.050000004
-    },
-    {
       "ticker": "NVDA",
       "name": "Coxe Tench",
       "date": "2026-10-07",
@@ -431,39 +453,6 @@
       "shares": 39593,
       "price": 332.01,
       "value": 13145271.93
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Ternus John",
-      "date": "2026-10-02",
-      "filing_date": "2026-10-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 59567,
-      "price": 334.05,
-      "value": 19898356.35
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Stat Lauren Elaina Friedman",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 51428,
-      "price": 189.95,
-      "value": 9768748.6
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-10-01",
-      "filing_date": "2026-10-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 474681,
-      "price": 251.5,
-      "value": 119382271.5
     }
   ]
 }
