@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-11-04T02:48:30.161994",
-  "from_date": "2026-10-05",
-  "to_date": "2026-11-04",
+  "last_updated": "2026-11-05T02:56:19.727381",
+  "from_date": "2026-10-06",
+  "to_date": "2026-11-05",
   "transactions": [
+    {
+      "ticker": "NFLX",
+      "name": "Hoag Jay C",
+      "date": "2026-11-02",
+      "filing_date": "2026-11-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1003,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Mertz Elinor",
+      "date": "2026-11-02",
+      "filing_date": "2026-11-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1002,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Masiyiwa Strive",
+      "date": "2026-11-02",
+      "filing_date": "2026-11-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1002,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Dopfner Mathias",
+      "date": "2026-11-02",
+      "filing_date": "2026-11-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1002,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Mather Ann",
+      "date": "2026-11-02",
+      "filing_date": "2026-11-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 1003,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "RIVN",
       "name": "Mcdonough Claire",
@@ -55,17 +110,6 @@
       "type": "BUY",
       "code": "Grant",
       "shares": 485875,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Peters Gregory K",
-      "date": "2026-10-28",
-      "filing_date": "2026-10-29",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 119412,
       "price": 0,
       "value": 0
     },
@@ -134,50 +178,6 @@
       "shares": 5588,
       "price": 640,
       "value": 3576320
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-10-26",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 79690,
-      "price": 65.1376,
-      "value": 5190815.3440000005
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-10-26",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 83890,
-      "price": 64.61,
-      "value": 5420132.9
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-10-26",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 85690,
-      "price": 63.549,
-      "value": 5445513.81
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Smith Bradford L",
-      "date": "2026-10-26",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 97670,
-      "price": 14.692,
-      "value": 1434967.6400000001
     },
     {
       "ticker": "GOOGL",
@@ -343,6 +343,17 @@
       "shares": 34795,
       "price": 339.62,
       "value": 11817077.9
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Hele John C.R.",
+      "date": "2026-10-19",
+      "filing_date": "2026-11-03",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 15880,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "MSFT",
