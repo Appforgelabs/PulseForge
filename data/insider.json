@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-11-06T02:56:28.420807",
-  "from_date": "2026-10-07",
-  "to_date": "2026-11-06",
+  "last_updated": "2026-11-07T02:26:27.668910",
+  "from_date": "2026-10-08",
+  "to_date": "2026-11-07",
   "transactions": [
+    {
+      "ticker": "NFLX",
+      "name": "Sarandos Theodore A",
+      "date": "2026-11-04",
+      "filing_date": "2026-11-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 178954,
+      "price": 66.1998,
+      "value": 11846719.0092
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Neumann Spencer Adam",
+      "date": "2026-11-04",
+      "filing_date": "2026-11-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 73787,
+      "price": 66.1525,
+      "value": 4881194.5175
+    },
     {
       "ticker": "NFLX",
       "name": "Hyman David A",
@@ -15,48 +37,59 @@
       "value": 10721755.0
     },
     {
-      "ticker": "NFLX",
-      "name": "Hyman David A",
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
       "date": "2026-11-03",
-      "filing_date": "2026-11-04",
+      "filing_date": "2026-11-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 489943,
+      "price": 85.2757,
+      "value": 41780232.2851
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Gallagher Daniel Martin Jr",
+      "date": "2026-11-03",
+      "filing_date": "2026-11-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 495298,
+      "price": 84.7825,
+      "value": 41992602.685
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-11-03",
+      "filing_date": "2026-11-05",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 29997,
+      "price": 325.75,
+      "value": 9771522.75
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Sarandos Theodore A",
+      "date": "2026-11-03",
+      "filing_date": "2026-11-05",
       "type": "BUY",
       "code": "Option Exercise",
-      "shares": 23515,
+      "shares": 112144,
       "price": 0,
       "value": 0
     },
     {
       "ticker": "NFLX",
-      "name": "Hyman David A",
+      "name": "Sarandos Theodore A",
       "date": "2026-11-03",
-      "filing_date": "2026-11-04",
+      "filing_date": "2026-11-05",
       "type": "BUY",
       "code": "Option Exercise",
-      "shares": 12120,
+      "shares": 57770,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hyman David A",
-      "date": "2026-11-03",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 171827,
-      "price": 62.34,
-      "value": 10711695.18
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Hyman David A",
-      "date": "2026-11-03",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 173291,
-      "price": 62.34,
-      "value": 10802960.940000001
     },
     {
       "ticker": "PLTR",
@@ -279,28 +312,6 @@
       "value": 342345.12
     },
     {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-10-21",
-      "filing_date": "2026-10-23",
-      "type": "BUY",
-      "code": "C",
-      "shares": 46754654,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bhatt Baiju",
-      "date": "2026-10-21",
-      "filing_date": "2026-10-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 23180,
-      "price": 101.7191,
-      "value": 2357848.738
-    },
-    {
       "ticker": "SOFI",
       "name": "Keough Kelli",
       "date": "2026-10-20",
@@ -453,17 +464,6 @@
       "shares": 3465,
       "price": 205,
       "value": 710325
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Coxe Tench",
-      "date": "2026-10-07",
-      "filing_date": "2026-10-09",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 23671360,
-      "price": 0,
-      "value": 0
     }
   ]
 }
