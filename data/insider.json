@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-10T04:23:44.924663",
-  "from_date": "2026-10-11",
-  "to_date": "2026-11-10",
+  "last_updated": "2026-11-11T02:20:54.467493",
+  "from_date": "2026-10-12",
+  "to_date": "2026-11-11",
   "transactions": [
     {
       "ticker": "NIO",
@@ -55,6 +55,17 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 85804,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Nadella Satya",
+      "date": "2026-11-06",
+      "filing_date": "2026-11-09",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 482059,
       "price": 0,
       "value": 0
     },
