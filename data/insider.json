@@ -1,8 +1,41 @@
 {
-  "last_updated": "2026-11-11T02:20:54.467493",
-  "from_date": "2026-10-12",
-  "to_date": "2026-11-11",
+  "last_updated": "2026-11-12T03:27:56.740579",
+  "from_date": "2026-10-13",
+  "to_date": "2026-11-12",
   "transactions": [
+    {
+      "ticker": "MSFT",
+      "name": "Hood Amy",
+      "date": "2026-11-09",
+      "filing_date": "2026-11-10",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 548091,
+      "price": 544.9467,
+      "value": 298680381.7497
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Hood Amy",
+      "date": "2026-11-09",
+      "filing_date": "2026-11-10",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 549484,
+      "price": 544.2359,
+      "value": 299048919.2756
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Peters Gregory K",
+      "date": "2026-11-09",
+      "filing_date": "2026-11-10",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 119412,
+      "price": 63.6186,
+      "value": 7596824.2632
+    },
     {
       "ticker": "NIO",
       "name": "Wen Yonggang",
@@ -165,17 +198,6 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 112144,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Sarandos Theodore A",
-      "date": "2026-11-03",
-      "filing_date": "2026-11-05",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 57770,
       "price": 0,
       "value": 0
     },
@@ -497,28 +519,6 @@
       "shares": 555396,
       "price": 546.5084,
       "value": 303528579.32640004
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Hood Amy",
-      "date": "2026-10-13",
-      "filing_date": "2026-10-14",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 556387,
-      "price": 545.7722,
-      "value": 303660557.0414
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Hood Amy",
-      "date": "2026-10-13",
-      "filing_date": "2026-10-14",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 559314,
-      "price": 544.8001,
-      "value": 304714323.13140005
     },
     {
       "ticker": "AAPL",
