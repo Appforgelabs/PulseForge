@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-12T03:27:56.740579",
-  "from_date": "2026-10-13",
-  "to_date": "2026-11-12",
+  "last_updated": "2026-11-13T03:00:34.578880",
+  "from_date": "2026-10-14",
+  "to_date": "2026-11-13",
   "transactions": [
     {
       "ticker": "MSFT",
@@ -508,28 +508,6 @@
       "shares": 179167,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Hood Amy",
-      "date": "2026-10-13",
-      "filing_date": "2026-10-14",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 555396,
-      "price": 546.5084,
-      "value": 303528579.32640004
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-10-13",
-      "filing_date": "2026-10-15",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 37194,
-      "price": 345,
-      "value": 12831930
     }
   ]
 }

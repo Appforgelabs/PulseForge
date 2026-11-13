@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-12T03:27:34.933260",
+  "last_updated": "2026-11-13T03:00:08.636700",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 390.84,
-      "change_pct": 2.9122,
+      "price": 397.45,
+      "change_pct": 1.6912,
       "volume": null,
       "signal": "BULLISH",
       "source": "finnhub",
@@ -12,55 +12,55 @@
     },
     {
       "ticker": "PLTR",
-      "price": 172.4,
-      "change_pct": 2.1206,
+      "price": 171.58,
+      "change_pct": -0.4756,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "AMZN",
-      "price": 266.17,
-      "change_pct": -1.7351,
+      "price": 267.44,
+      "change_pct": 0.4771,
+      "volume": null,
+      "signal": "NEUTRAL",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "HOOD",
+      "price": 81.35,
+      "change_pct": -3.8189,
       "volume": null,
       "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "HOOD",
-      "price": 84.58,
-      "change_pct": 3.9961,
-      "volume": null,
-      "signal": "BULLISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
       "ticker": "SOFI",
-      "price": 16.27,
-      "change_pct": -0.6109,
+      "price": 15.63,
+      "change_pct": -3.9336,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 13.54,
-      "change_pct": -1.1679,
+      "price": 12.8,
+      "change_pct": -5.4653,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 3.24,
-      "change_pct": -1.2195,
+      "price": 3.05,
+      "change_pct": -5.8642,
       "volume": null,
-      "signal": "NEUTRAL",
+      "signal": "BEARISH",
       "source": "finnhub",
       "notes": ""
     }
