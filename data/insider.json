@@ -1,8 +1,96 @@
 {
-  "last_updated": "2026-11-13T03:00:34.578880",
-  "from_date": "2026-10-14",
-  "to_date": "2026-11-13",
+  "last_updated": "2026-11-14T02:46:37.583984",
+  "from_date": "2026-10-15",
+  "to_date": "2026-11-14",
   "transactions": [
+    {
+      "ticker": "AMZN",
+      "name": "Gorelick Jamie S",
+      "date": "2026-11-11",
+      "filing_date": "2026-11-12",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 4173,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Numoto Takeshi",
+      "date": "2026-11-10",
+      "filing_date": "2026-11-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 54412,
+      "price": 531,
+      "value": 28892772
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-11-10",
+      "filing_date": "2026-11-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 27598,
+      "price": 351.36,
+      "value": 9696833.280000001
+    },
+    {
+      "ticker": "META",
+      "name": "Anderson Aaron",
+      "date": "2026-11-09",
+      "filing_date": "2026-11-12",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 5207,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Anderson Aaron",
+      "date": "2026-11-09",
+      "filing_date": "2026-11-12",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 5291,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Anderson Aaron",
+      "date": "2026-11-09",
+      "filing_date": "2026-11-12",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 5456,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Anderson Aaron",
+      "date": "2026-11-09",
+      "filing_date": "2026-11-12",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 5621,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Olivan Javier",
+      "date": "2026-11-09",
+      "filing_date": "2026-11-12",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 74581,
+      "price": 631.03,
+      "value": 47062848.43
+    },
     {
       "ticker": "MSFT",
       "name": "Hood Amy",
@@ -112,17 +200,6 @@
       "shares": 23171360,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Zuckerberg Mark",
-      "date": "2026-11-04",
-      "filing_date": "2026-11-06",
-      "type": "BUY",
-      "code": "J",
-      "shares": 97220640,
-      "price": 633.8,
-      "value": 61618441631.99999
     },
     {
       "ticker": "NFLX",
@@ -255,50 +332,6 @@
       "shares": 3000,
       "price": 83.9904,
       "value": 251971.19999999998
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-02",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 74989,
-      "price": 614.15,
-      "value": 46054494.35
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-02",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5506,
-      "price": 614.15,
-      "value": 3381509.9
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-02",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 833,
-      "price": 614.15,
-      "value": 511586.94999999995
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-02",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5506,
-      "price": 614.15,
-      "value": 3381509.9
     },
     {
       "ticker": "RIVN",
@@ -497,17 +530,6 @@
       "shares": 50925,
       "price": 533.69,
       "value": 27178163.250000004
-    },
-    {
-      "ticker": "JPM",
-      "name": "Burke Stephen B",
-      "date": "2026-10-14",
-      "filing_date": "2026-10-15",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 179167,
-      "price": 0,
-      "value": 0
     }
   ]
 }
