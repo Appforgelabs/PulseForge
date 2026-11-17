@@ -1,8 +1,74 @@
 {
-  "last_updated": "2026-11-14T02:46:37.583984",
-  "from_date": "2026-10-15",
-  "to_date": "2026-11-14",
+  "last_updated": "2026-11-17T04:50:27.929266",
+  "from_date": "2026-10-18",
+  "to_date": "2026-11-17",
   "transactions": [
+    {
+      "ticker": "JPM",
+      "name": "Petno Douglas B",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 79159,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Petno Douglas B",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 214181,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "JPM",
+      "name": "Petno Douglas B",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 222883,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-11",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "C",
+      "shares": 3243918,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-11",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 857616,
+      "price": 175.0701,
+      "value": 150142918.8816
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-11",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "C",
+      "shares": 942296,
+      "price": 0,
+      "value": 0
+    },
     {
       "ticker": "AMZN",
       "name": "Gorelick Jamie S",
@@ -13,6 +79,39 @@
       "shares": 4173,
       "price": 0,
       "value": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Denzel Nora",
+      "date": "2026-11-11",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 78173,
+      "price": 564.88,
+      "value": 44158364.24
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-10",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "C",
+      "shares": 3328598,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-10",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 857616,
+      "price": 169.29,
+      "value": 145185812.64
     },
     {
       "ticker": "MSFT",
@@ -35,6 +134,17 @@
       "shares": 27598,
       "price": 351.36,
       "value": 9696833.280000001
+    },
+    {
+      "ticker": "AMD",
+      "name": "Papermaster Mark D",
+      "date": "2026-11-10",
+      "filing_date": "2026-11-13",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 1231795,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "META",
@@ -279,17 +389,6 @@
       "value": 0
     },
     {
-      "ticker": "PLTR",
-      "name": "Stat Lauren Elaina Friedman",
-      "date": "2026-11-02",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 45044,
-      "price": 186.29,
-      "value": 8391246.76
-    },
-    {
       "ticker": "AMZN",
       "name": "Herrington Douglas J",
       "date": "2026-11-02",
@@ -354,39 +453,6 @@
       "shares": 19157,
       "price": 284,
       "value": 5440588
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-10-28",
-      "filing_date": "2026-10-30",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 857616,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Glazer David A.",
-      "date": "2026-10-28",
-      "filing_date": "2026-10-30",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 679358,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Taylor Ryan D.",
-      "date": "2026-10-28",
-      "filing_date": "2026-10-30",
-      "type": "BUY",
-      "code": "Grant",
-      "shares": 485875,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "AAPL",
@@ -519,17 +585,6 @@
       "shares": 15880,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Coleman Amy",
-      "date": "2026-10-15",
-      "filing_date": "2026-10-15",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 50925,
-      "price": 533.69,
-      "value": 27178163.250000004
     }
   ]
 }
