@@ -1,8 +1,96 @@
 {
-  "last_updated": "2026-11-17T04:50:27.929266",
-  "from_date": "2026-10-18",
-  "to_date": "2026-11-17",
+  "last_updated": "2026-11-18T03:55:59.729338",
+  "from_date": "2026-10-19",
+  "to_date": "2026-11-18",
   "transactions": [
+    {
+      "ticker": "MSFT",
+      "name": "Coleman Amy",
+      "date": "2026-11-16",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 50836,
+      "price": 523.88,
+      "value": 26631963.68
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Bezos Jeffrey P",
+      "date": "2026-11-13",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 878551932,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Bezos Jeffrey P",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 878649336,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 500000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 500000,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 164398,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 72772,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Hennessy John L.",
+      "date": "2026-11-12",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2919,
+      "price": 300,
+      "value": 875700
+    },
     {
       "ticker": "JPM",
       "name": "Petno Douglas B",
@@ -134,6 +222,17 @@
       "shares": 27598,
       "price": 351.36,
       "value": 9696833.280000001
+    },
+    {
+      "ticker": "AMD",
+      "name": "Su Lisa T",
+      "date": "2026-11-10",
+      "filing_date": "2026-11-16",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 81499,
+      "price": 0,
+      "value": 0
     },
     {
       "ticker": "AMD",
@@ -444,17 +543,6 @@
       "value": 0
     },
     {
-      "ticker": "GOOGL",
-      "name": "Arnold Frances",
-      "date": "2026-10-29",
-      "filing_date": "2026-10-30",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 19157,
-      "price": 284,
-      "value": 5440588
-    },
-    {
       "ticker": "AAPL",
       "name": "Newstead Jennifer",
       "date": "2026-10-27",
@@ -464,50 +552,6 @@
       "shares": 32396,
       "price": 343.36,
       "value": 11123490.56
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-10-25",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "C",
-      "shares": 28851,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-10-25",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 628,
-      "price": 339.01,
-      "value": 212898.28
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-10-25",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "C",
-      "shares": 648,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Saraci Marsida",
-      "date": "2026-10-25",
-      "filing_date": "2026-10-27",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 1079,
-      "price": 317.28,
-      "value": 342345.12
     },
     {
       "ticker": "SOFI",
