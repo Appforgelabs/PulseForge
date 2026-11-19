@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-18T03:55:32.395066",
+  "last_updated": "2026-11-19T03:53:36.013361",
   "stocks": [
     {
       "ticker": "TSLA",
-      "price": 380.11,
-      "change_pct": 0.0974,
+      "price": 383.72,
+      "change_pct": 0.9497,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
@@ -12,55 +12,55 @@
     },
     {
       "ticker": "PLTR",
-      "price": 156.56,
-      "change_pct": -2.3879,
-      "volume": null,
-      "signal": "BEARISH",
-      "source": "finnhub",
-      "notes": ""
-    },
-    {
-      "ticker": "AMZN",
-      "price": 257.89,
-      "change_pct": 0.0543,
+      "price": 156.67,
+      "change_pct": 0.0703,
       "volume": null,
       "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
-      "ticker": "HOOD",
-      "price": 69.19,
-      "change_pct": -3.9828,
+      "ticker": "AMZN",
+      "price": 267.74,
+      "change_pct": 3.8195,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "BULLISH",
+      "source": "finnhub",
+      "notes": ""
+    },
+    {
+      "ticker": "HOOD",
+      "price": 69.17,
+      "change_pct": -0.0289,
+      "volume": null,
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "SOFI",
-      "price": 14.28,
-      "change_pct": -3.8384,
+      "price": 14.11,
+      "change_pct": -1.1905,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "RIVN",
-      "price": 11.88,
-      "change_pct": -1.8182,
+      "price": 11.8,
+      "change_pct": -0.6734,
       "volume": null,
-      "signal": "BEARISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     },
     {
       "ticker": "NIO",
-      "price": 2.81,
-      "change_pct": 3.3088,
+      "price": 2.77,
+      "change_pct": -1.4235,
       "volume": null,
-      "signal": "BULLISH",
+      "signal": "NEUTRAL",
       "source": "finnhub",
       "notes": ""
     }
