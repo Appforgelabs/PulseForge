@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-11-19T03:53:53.958740",
-  "from_date": "2026-10-20",
-  "to_date": "2026-11-19",
+  "last_updated": "2026-11-20T03:46:42.169137",
+  "from_date": "2026-10-21",
+  "to_date": "2026-11-20",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Schuppenhauer Eric",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-18",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 364197,
+      "price": 14.431,
+      "value": 5255726.907
+    },
+    {
+      "ticker": "SOFI",
+      "name": "Pinto Arun",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-18",
+      "type": "BUY",
+      "code": "Tax Withholding",
+      "shares": 247189,
+      "price": 14.431,
+      "value": 3567184.459
+    },
     {
       "ticker": "AMZN",
       "name": "Herrington Douglas J",
@@ -114,59 +136,92 @@
       "value": 26631963.68
     },
     {
-      "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
+      "ticker": "AAPL",
+      "name": "Levinson Arthur D",
       "date": "2026-11-16",
-      "filing_date": "2026-11-17",
+      "filing_date": "2026-11-18",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 3559576,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Levinson Arthur D",
+      "date": "2026-11-16",
+      "filing_date": "2026-11-18",
       "type": "BUY",
       "code": "Sale",
-      "shares": 343687,
-      "price": 508.2,
-      "value": 174661733.4
+      "shares": 3609576,
+      "price": 353.43,
+      "value": 1275732445.68
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Levinson Arthur D",
+      "date": "2026-11-16",
+      "filing_date": "2026-11-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 3662784,
+      "price": 352.26,
+      "value": 1290252291.84
     },
     {
       "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
+      "name": "Su Lisa T",
       "date": "2026-11-16",
-      "filing_date": "2026-11-17",
+      "filing_date": "2026-11-18",
       "type": "BUY",
       "code": "Sale",
-      "shares": 343767,
-      "price": 507.5,
-      "value": 174461752.5
+      "shares": 2951546,
+      "price": 525.94,
+      "value": 1552336103.2400002
     },
     {
       "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
+      "name": "Su Lisa T",
       "date": "2026-11-16",
-      "filing_date": "2026-11-17",
+      "filing_date": "2026-11-18",
       "type": "BUY",
       "code": "Sale",
-      "shares": 344609,
-      "price": 507,
-      "value": 174716763
+      "shares": 2951626,
+      "price": 524.82,
+      "value": 1549072357.3200002
     },
     {
       "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
+      "name": "Su Lisa T",
       "date": "2026-11-16",
-      "filing_date": "2026-11-17",
+      "filing_date": "2026-11-18",
       "type": "BUY",
       "code": "Sale",
-      "shares": 350583,
-      "price": 505.7,
-      "value": 177289823.1
+      "shares": 2952066,
+      "price": 523.74,
+      "value": 1546115046.84
     },
     {
       "ticker": "AMD",
-      "name": "Norrod Forrest Eugene",
+      "name": "Su Lisa T",
       "date": "2026-11-16",
-      "filing_date": "2026-11-17",
+      "filing_date": "2026-11-18",
       "type": "BUY",
       "code": "Sale",
-      "shares": 351048,
-      "price": 504.41,
-      "value": 177072121.68
+      "shares": 2953106,
+      "price": 522.91,
+      "value": 1544208658.4599998
+    },
+    {
+      "ticker": "AMD",
+      "name": "Su Lisa T",
+      "date": "2026-11-16",
+      "filing_date": "2026-11-18",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2954306,
+      "price": 521.62,
+      "value": 1541025095.72
     },
     {
       "ticker": "AMZN",
@@ -264,28 +319,6 @@
       "type": "BUY",
       "code": "Option Exercise",
       "shares": 226943,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Pinto Arun",
-      "date": "2026-11-14",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 274012,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "SOFI",
-      "name": "Hele John C.R.",
-      "date": "2026-11-14",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 14557,
       "price": 0,
       "value": 0
     },
@@ -673,28 +706,6 @@
       "shares": 3000,
       "price": 83.9904,
       "value": 251971.19999999998
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-10-27",
-      "filing_date": "2026-10-29",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 32396,
-      "price": 343.36,
-      "value": 11123490.56
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-10-20",
-      "filing_date": "2026-10-22",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 34795,
-      "price": 339.62,
-      "value": 11817077.9
     }
   ]
 }
