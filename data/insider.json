@@ -1,8 +1,63 @@
 {
-  "last_updated": "2026-11-20T03:46:42.169137",
-  "from_date": "2026-10-21",
-  "to_date": "2026-11-20",
+  "last_updated": "2026-11-21T03:36:57.993312",
+  "from_date": "2026-10-22",
+  "to_date": "2026-11-21",
   "transactions": [
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "C",
+      "shares": 46685267,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 512,
+      "price": 70.8747,
+      "value": 36287.8464
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 13300,
+      "price": 69.9463,
+      "value": 930285.7899999999
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 19100,
+      "price": 68.7238,
+      "value": 1312624.5799999998
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Bhatt Baiju",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 49487,
+      "price": 67.9875,
+      "value": 3364497.4124999996
+    },
     {
       "ticker": "SOFI",
       "name": "Schuppenhauer Eric",
@@ -24,6 +79,83 @@
       "shares": 247189,
       "price": 14.431,
       "value": 3567184.459
+    },
+    {
+      "ticker": "META",
+      "name": "Li Susan J",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 13186,
+      "price": 625.96,
+      "value": 8253908.5600000005
+    },
+    {
+      "ticker": "META",
+      "name": "Li Susan J",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 13266,
+      "price": 625.2964,
+      "value": 8295182.0424
+    },
+    {
+      "ticker": "META",
+      "name": "Li Susan J",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 13546,
+      "price": 624.1334,
+      "value": 8454511.036400001
+    },
+    {
+      "ticker": "META",
+      "name": "Li Susan J",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 14156,
+      "price": 623.1286,
+      "value": 8821008.4616
+    },
+    {
+      "ticker": "META",
+      "name": "Li Susan J",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 15385,
+      "price": 622.1192,
+      "value": 9571303.891999999
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Newstead Jennifer",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 25200,
+      "price": 352.77,
+      "value": 8889804.0
+    },
+    {
+      "ticker": "AMD",
+      "name": "Hahn Ava",
+      "date": "2026-11-17",
+      "filing_date": "2026-11-19",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 26723,
+      "price": 511,
+      "value": 13655453
     },
     {
       "ticker": "AMZN",
@@ -68,61 +200,6 @@
       "shares": 482052,
       "price": 259.6232,
       "value": 125151882.8064
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 74173,
-      "price": 640.39,
-      "value": 47499647.47
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5342,
-      "price": 640.39,
-      "value": 3420963.38
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 719,
-      "price": 640.39,
-      "value": 460440.41
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 5342,
-      "price": 640.39,
-      "value": 3420963.38
-    },
-    {
-      "ticker": "META",
-      "name": "Olivan Javier",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 10853,
-      "price": 640.39,
-      "value": 6950152.67
     },
     {
       "ticker": "MSFT",
@@ -211,17 +288,6 @@
       "shares": 2953106,
       "price": 522.91,
       "value": 1544208658.4599998
-    },
-    {
-      "ticker": "AMD",
-      "name": "Su Lisa T",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-18",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2954306,
-      "price": 521.62,
-      "value": 1541025095.72
     },
     {
       "ticker": "AMZN",
@@ -631,39 +697,6 @@
       "value": 10721755.0
     },
     {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-11-03",
-      "filing_date": "2026-11-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 489943,
-      "price": 85.2757,
-      "value": 41780232.2851
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Gallagher Daniel Martin Jr",
-      "date": "2026-11-03",
-      "filing_date": "2026-11-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 495298,
-      "price": 84.7825,
-      "value": 41992602.685
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Newstead Jennifer",
-      "date": "2026-11-03",
-      "filing_date": "2026-11-05",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 29997,
-      "price": 325.75,
-      "value": 9771522.75
-    },
-    {
       "ticker": "NFLX",
       "name": "Sarandos Theodore A",
       "date": "2026-11-03",
@@ -673,39 +706,6 @@
       "shares": 112144,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bazzano Dara",
-      "date": "2026-11-02",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 200,
-      "price": 86.2923,
-      "value": 17258.46
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bazzano Dara",
-      "date": "2026-11-02",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2000,
-      "price": 85.155,
-      "value": 170310.0
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Bazzano Dara",
-      "date": "2026-11-02",
-      "filing_date": "2026-11-04",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 3000,
-      "price": 83.9904,
-      "value": 251971.19999999998
     }
   ]
 }
