@@ -1,8 +1,19 @@
 {
-  "last_updated": "2026-11-21T03:36:57.993312",
-  "from_date": "2026-10-22",
-  "to_date": "2026-11-21",
+  "last_updated": "2026-11-24T06:33:51.288577",
+  "from_date": "2026-10-25",
+  "to_date": "2026-11-24",
   "transactions": [
+    {
+      "ticker": "AMZN",
+      "name": "Huttenlocher Daniel P",
+      "date": "2026-11-18",
+      "filing_date": "2026-11-20",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 26930,
+      "price": 259.63,
+      "value": 6991835.899999999
+    },
     {
       "ticker": "HOOD",
       "name": "Bhatt Baiju",
@@ -288,17 +299,6 @@
       "shares": 2953106,
       "price": 522.91,
       "value": 1544208658.4599998
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-11-15",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 38223,
-      "price": 0,
-      "value": 0
     },
     {
       "ticker": "RIVN",
