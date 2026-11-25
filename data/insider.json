@@ -1,8 +1,195 @@
 {
-  "last_updated": "2026-11-24T06:33:51.288577",
-  "from_date": "2026-10-25",
-  "to_date": "2026-11-24",
+  "last_updated": "2026-11-25T05:07:31.586371",
+  "from_date": "2026-10-26",
+  "to_date": "2026-11-25",
   "transactions": [
+    {
+      "ticker": "SOFI",
+      "name": "Keough Kelli",
+      "date": "2026-11-20",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 387358,
+      "price": 12.834,
+      "value": 4971352.572
+    },
+    {
+      "ticker": "NIO",
+      "name": "Lee Denny Ting Bun",
+      "date": "2026-11-20",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 246407,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-20",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 92502,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-20",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 148380,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-20",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 184128,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-20",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 148380,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Shriram Kavitark Ram",
+      "date": "2026-11-20",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Gift",
+      "shares": 476024,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "C",
+      "shares": 2943918,
+      "price": 0,
+      "value": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 857616,
+      "price": 166.7005,
+      "value": 142965016.00800002
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 860275,
+      "price": 165.8477,
+      "value": 142674630.1175
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 878417,
+      "price": 164.9207,
+      "value": 144869146.53190002
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 897467,
+      "price": 163.6374,
+      "value": 146859166.46580002
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Teter Timothy S.",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2657660,
+      "price": 157.4947,
+      "value": 418567364.402
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Teter Timothy S.",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2659070,
+      "price": 156.7099,
+      "value": 416702593.793
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Teter Timothy S.",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2661453,
+      "price": 155.5607,
+      "value": 414017491.6971
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Teter Timothy S.",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2663765,
+      "price": 154.5982,
+      "value": 411813274.223
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Teter Timothy S.",
+      "date": "2026-11-19",
+      "filing_date": "2026-11-23",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 2665224,
+      "price": 153.3654,
+      "value": 408753144.84959996
+    },
     {
       "ticker": "AMZN",
       "name": "Huttenlocher Daniel P",
@@ -378,127 +565,6 @@
       "value": 0
     },
     {
-      "ticker": "SOFI",
-      "name": "Pinto Arun",
-      "date": "2026-11-14",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 226943,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-11-13",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1031095,
-      "price": 171.65,
-      "value": 176987456.75
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-11-13",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1031286,
-      "price": 170.4771,
-      "value": 175810646.55060002
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-11-13",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1032601,
-      "price": 169.7311,
-      "value": 175264503.5911
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-11-13",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1035508,
-      "price": 168.677,
-      "value": 174666382.91599998
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Moore Alexander D.",
-      "date": "2026-11-13",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 1039664,
-      "price": 167.7417,
-      "value": 174395006.7888
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-11-12",
-      "filing_date": "2026-11-16",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 500000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-11-12",
-      "filing_date": "2026-11-16",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 500000,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-11-12",
-      "filing_date": "2026-11-16",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 164398,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Shriram Kavitark Ram",
-      "date": "2026-11-12",
-      "filing_date": "2026-11-16",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 72772,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Hennessy John L.",
-      "date": "2026-11-12",
-      "filing_date": "2026-11-16",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 2919,
-      "price": 300,
-      "value": 875700
-    },
-    {
       "ticker": "JPM",
       "name": "Petno Douglas B",
       "date": "2026-11-12",
@@ -631,17 +697,6 @@
       "value": 0
     },
     {
-      "ticker": "NIO",
-      "name": "Long Annabelle Yu",
-      "date": "2026-11-06",
-      "filing_date": "2026-11-06",
-      "type": "BUY",
-      "code": "Option Exercise",
-      "shares": 85804,
-      "price": 0,
-      "value": 0
-    },
-    {
       "ticker": "MSFT",
       "name": "Nadella Satya",
       "date": "2026-11-06",
@@ -649,17 +704,6 @@
       "type": "BUY",
       "code": "Gift",
       "shares": 482059,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "Coxe Tench",
-      "date": "2026-11-04",
-      "filing_date": "2026-11-06",
-      "type": "BUY",
-      "code": "Gift",
-      "shares": 23171360,
       "price": 0,
       "value": 0
     },
