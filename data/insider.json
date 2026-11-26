@@ -1,8 +1,118 @@
 {
-  "last_updated": "2026-11-25T05:07:31.586371",
-  "from_date": "2026-10-26",
-  "to_date": "2026-11-25",
+  "last_updated": "2026-11-26T04:34:07.760743",
+  "from_date": "2026-10-27",
+  "to_date": "2026-11-26",
   "transactions": [
+    {
+      "ticker": "PLTR",
+      "name": "Buckley Jeffrey",
+      "date": "2026-11-24",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 53443,
+      "price": 158.1,
+      "value": 8449338.299999999
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Zapolsky David",
+      "date": "2026-11-24",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 41190,
+      "price": 252.23,
+      "value": 10389353.7
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-23",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 795261,
+      "price": 160.8975,
+      "value": 127955506.7475
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-23",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 795673,
+      "price": 160.1522,
+      "value": 127428781.43059999
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-23",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 797399,
+      "price": 159.2017,
+      "value": 126947276.3783
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Sankar Shyam",
+      "date": "2026-11-23",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 803587,
+      "price": 158.1873,
+      "value": 127117257.8451
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-11-23",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 21429,
+      "price": 260.68,
+      "value": 5586111.72
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-11-23",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 21693,
+      "price": 260.1289,
+      "value": 5642976.2277
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-11-23",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 22036,
+      "price": 258.7133,
+      "value": 5701006.2788
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Garman Matthew S",
+      "date": "2026-11-23",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Sale",
+      "shares": 22079,
+      "price": 257.4869,
+      "value": 5685053.2650999995
+    },
     {
       "ticker": "SOFI",
       "name": "Keough Kelli",
@@ -13,6 +123,17 @@
       "shares": 387358,
       "price": 12.834,
       "value": 4971352.572
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Venkataratnam Sreela",
+      "date": "2026-11-20",
+      "filing_date": "2026-11-24",
+      "type": "BUY",
+      "code": "Grant",
+      "shares": 544942,
+      "price": 8.7805,
+      "value": 4784863.231
     },
     {
       "ticker": "NIO",
@@ -81,61 +202,6 @@
       "value": 0
     },
     {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-11-19",
-      "filing_date": "2026-11-23",
-      "type": "BUY",
-      "code": "C",
-      "shares": 2943918,
-      "price": 0,
-      "value": 0
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-11-19",
-      "filing_date": "2026-11-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 857616,
-      "price": 166.7005,
-      "value": 142965016.00800002
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-11-19",
-      "filing_date": "2026-11-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 860275,
-      "price": 165.8477,
-      "value": 142674630.1175
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-11-19",
-      "filing_date": "2026-11-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 878417,
-      "price": 164.9207,
-      "value": 144869146.53190002
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Sankar Shyam",
-      "date": "2026-11-19",
-      "filing_date": "2026-11-23",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 897467,
-      "price": 163.6374,
-      "value": 146859166.46580002
-    },
-    {
       "ticker": "NVDA",
       "name": "Teter Timothy S.",
       "date": "2026-11-19",
@@ -189,17 +255,6 @@
       "shares": 2665224,
       "price": 153.3654,
       "value": 408753144.84959996
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Huttenlocher Daniel P",
-      "date": "2026-11-18",
-      "filing_date": "2026-11-20",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 26930,
-      "price": 259.63,
-      "value": 6991835.899999999
     },
     {
       "ticker": "HOOD",
@@ -356,50 +411,6 @@
       "value": 13655453
     },
     {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 479292,
-      "price": 262.5144,
-      "value": 125821051.8048
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 479652,
-      "price": 261.7333,
-      "value": 125540900.8116
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 481372,
-      "price": 260.7859,
-      "value": 125535030.2548
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Herrington Douglas J",
-      "date": "2026-11-16",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Sale",
-      "shares": 482052,
-      "price": 259.6232,
-      "value": 125151882.8064
-    },
-    {
       "ticker": "MSFT",
       "name": "Coleman Amy",
       "date": "2026-11-16",
@@ -530,17 +541,6 @@
       "shares": 3914797,
       "price": 0,
       "value": 0
-    },
-    {
-      "ticker": "RIVN",
-      "name": "Callahan Michael John",
-      "date": "2026-11-15",
-      "filing_date": "2026-11-17",
-      "type": "BUY",
-      "code": "Tax Withholding",
-      "shares": 959694,
-      "price": 12.18,
-      "value": 11689072.92
     },
     {
       "ticker": "SOFI",
